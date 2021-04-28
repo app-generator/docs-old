@@ -2,6 +2,7 @@
 description: Django coreui Description
 ---
 
-# Django CoreUI
+# CoreUI
 
 Content - @todo
+

@@ -2,7 +2,7 @@
 description: Django Dashboards description
 ---
 
-# Django Dashboards Codebase
+# Django Dashboards
 
 Index - @todo
 

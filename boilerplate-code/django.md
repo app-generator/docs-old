@@ -2,7 +2,7 @@
 description: Django description
 ---
 
-# Django Codebase
+# Django Apps
 
 Used by 
 
