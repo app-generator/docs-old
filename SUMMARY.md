@@ -24,4 +24,5 @@
 * [How To](how-to/glossary.md)
 * Programming Languages
     - [Php](programming-languages/php.md)
+    - [Python](programming-languages/python.md)
 
