@@ -38,7 +38,3 @@
 * [Bootstrap Templates](content/bootstrap-template/README.md)
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
 
----
-
-* [test301](test301.md)
-
