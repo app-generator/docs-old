@@ -4,7 +4,7 @@ description: Django description
 
 # Django Apps
 
-Used by
+Used by @todo
 
-* [Datta Able](../products/flask-dashboards/datta-able.md)
+
 
