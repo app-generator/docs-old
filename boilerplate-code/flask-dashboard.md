@@ -2,7 +2,7 @@
 description: Flask Dashboards description
 ---
 
-# Flask Dashboards Codebase
+# Flask Dashboards
 
 Index - @todo
 

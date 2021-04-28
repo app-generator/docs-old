@@ -2,7 +2,7 @@
 description: What is something Description
 ---
 
-# What is something
+# Something
 
 Content @todo
 
