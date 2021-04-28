@@ -4,12 +4,13 @@
 * [Support](appseed/support.md)
 * [App Generator](appseed/app-generator.md)
 
-* Products
-    - [Flask Dashboards](flask-dashboard/index.md)
-    - [Django Dashboards](django-dashboardx/index.md)
-    - [Web Apps](apps/index.md)
-    - [Static Sites](static-site/index.md)
-    - [Jinja Templates](static-site/index.md)
+## Products
+
+* [Flask Dashboards](flask-dashboard/index.md)
+* [Django Dashboards](django-dashboardx/index.md)
+* [Web Apps](apps/index.md)
+* [Static Sites](static-site/index.md)
+* [Jinja Templates](static-site/index.md)
 
 * Boilerplate Code
     - [Django Dashboards Codebase](boilerplate-code/django-dashboard.md)
