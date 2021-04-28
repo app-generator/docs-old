@@ -4,12 +4,12 @@
 * [Support](support.md)
 * [App Generator](app-generator.md)
 
-## Products
+## Categories
 
-* [Flask Dashboards](products/flask-dashboards.md)
-* [Django Dashboards](products/django-dashboards.md)
-* [Web Apps](products/web-apps.md)
-* [Static Sites](products/static-sites.md)
+* [Flask Dashboards](categories/flask-dashboards.md)
+* [Django Dashboards](categories/django-dashboards.md)
+* [Web Apps](categories/web-apps.md)
+* [Static Sites](categories/static-sites.md)
 
 ## Boilerplate Code
 
