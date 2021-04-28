@@ -6,5 +6,5 @@ root: ./
     summary: SUMMARY.md​
 
 redirects:  
-    bootstrap-template/argon-dashboard/: content/bootstrap-template/argon-dashboard.md
+    bootstrap-template/argon-dashboard: /content/bootstrap-template/argon-dashboard
 
