@@ -30,4 +30,6 @@
 * [Frameworks](content/frameworks/README.md)
   * [Django](content/frameworks/django.md)
   * [Flask](content/frameworks/flask.md)
+* [Bootstrap Templates](content/bootstrap-template/README.md)
+  * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
 
