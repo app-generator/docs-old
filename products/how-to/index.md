@@ -2,6 +2,7 @@
 description: Pre-built starters provided by AppSeed grouped by technologies.
 ---
 
-# How To Glossary
+# Glossary
 
 Index - @todo
+
