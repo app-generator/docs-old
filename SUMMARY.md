@@ -22,6 +22,6 @@
 
 * [What IS](what-is/glossary.md)
 * [How To](how-to/glossary.md)
-* [Programming Languages](programming-languages/glossary.md)
+* Programming Languages
     - [Php](programming-languages/php.md)
 
