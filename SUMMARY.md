@@ -26,3 +26,7 @@
 
 * [Glossary](how-to/glossary.md)
 
+## Programming Languages
+
+* [Glossary](programming-languages/glossary.md)
+
