@@ -3,6 +3,7 @@
 * [AppSeed Docs](README.md)
 * [Support](appseed/support.md)
 * [App Generator](appseed/app-generator.md)
+
 ## Products
 * [Flask Dashboards](flask-dashboard/index.md)
 * [Django Dashboards](django-dashboardx/index.md)
