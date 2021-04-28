@@ -1,5 +1,5 @@
 ---
-description: some description
+description: Django Dashboards description
 ---
 
 # Django Dashboards Codebase
