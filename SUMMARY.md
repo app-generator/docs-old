@@ -3,8 +3,13 @@
 * [AppSeed Docs](README.md)
 * [Support](support.md)
 * [App Generator](app-generator.md)
+
 * Products
     - [Flask Dashboards](flask-dashboard/index.md)
+    - [Django Dashboards](django-dashboard/index.md)
+    - [Web Apps](apps/index.md)
+    - [Static Sites](static-site/index.md)
+    - [Jinja Templates](static-site/index.md)
 
 * Boilerplate Code
     - [Django Dashboards Codebase](boilerplate-code/django-dashboard.md)
@@ -12,16 +17,15 @@
     - [Flask Dashboards Codebase](boilerplate-code/flask-dashboard.md)
     - [Flask Codebase](boilerplate-code/flask.md)
 
-## What IS
+* What IS
+    - [Glossary](what-is/index.md)
+    - [Jinja Templating Language](what-is/jinja.md)
 
-* [Jinja Templating Language](what-is/jinja.md)
+* How To
+    - [Glossary](how-to/index.md)
+    - [Install Python](how-to/install-python.md)
 
-## HOW TO
-
-* [Install Python](how-to/install-python.md)
-
-## Programming Languages
-
-* [Python](programming-languages/python.md)
-* [Php](programming-languages/php.md)
+* Programming Languages
+    - [Python](programming-languages/python.md)
+    - [Php](programming-languages/php.md)
 
