@@ -2,7 +2,6 @@
 description: Pre-built starters provided by AppSeed grouped by technologies.
 ---
 
-# Products Flask
+# Flask Dashboards
 
-@todo
-
+Index - @todo

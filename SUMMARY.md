@@ -3,10 +3,10 @@
 * [AppSeed Docs](README.md)
 * [Support](support.md)
 * [App Generator](app-generator.md)
-* [Products](products.md)
-    - [Flask Dashboards](products-flask.md)
+* Products
+    - [Flask Dashboards](flask-dashboard/index.md)
 
-## Boilerplate Code
+* Boilerplate Code
     - [Django Dashboards Codebase](boilerplate-code/django-dashboard.md)
     - [Django Codebase](boilerplate-code/django.md)
     - [Flask Dashboards Codebase](boilerplate-code/flask-dashboard.md)
