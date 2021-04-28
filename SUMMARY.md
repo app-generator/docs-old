@@ -32,4 +32,9 @@
   * [Flask](content/frameworks/flask.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
+* [Design Systems](content/design-system/README.md)
+  * [Material Design](content/design-system/material-design.md)
+  * [Soft UI Design System](content/design-system/soft-ui-design-system.md)
+* [Partners](content/partners/README.md)
+  * [Creative-Tim](content/partners/creative-tim.md)
 
