@@ -4,6 +4,7 @@
 * [Support](support.md)
 * [App Generator](app-generator.md)
 * [Products](products.md)
+    - [Flask Dashboards](products-flask.md)
 
 ## Boilerplate Code
 
