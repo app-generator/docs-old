@@ -7,11 +7,10 @@
     - [Flask Dashboards](products-flask.md)
 
 ## Boilerplate Code
-
-* [Django Dashboards Codebase](boilerplate-code/django-dashboard.md)
-* [Django Codebase](boilerplate-code/django.md)
-* [Flask Dashboards Codebase](boilerplate-code/flask-dashboard.md)
-* [Flask Codebase](boilerplate-code/flask.md)
+    - [Django Dashboards Codebase](boilerplate-code/django-dashboard.md)
+    - [Django Codebase](boilerplate-code/django.md)
+    - [Flask Dashboards Codebase](boilerplate-code/flask-dashboard.md)
+    - [Flask Codebase](boilerplate-code/flask.md)
 
 ## What IS
 
