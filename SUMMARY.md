@@ -1,8 +1,8 @@
 # Table of contents
 
 * [AppSeed Docs](README.md)
-* [Support](support.md)
-* [App Generator](app-generator.md)
+* [Support](appseed/support.md)
+* [App Generator](appseed/app-generator.md)
 
 * Products
     - [Flask Dashboards](flask-dashboard/index.md)
