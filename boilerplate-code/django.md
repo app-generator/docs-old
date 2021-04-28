@@ -6,4 +6,4 @@ description: Django description
 
 Used by 
 
-- [Datta Able](../products/flask-dashboards/datta-able.md) x
+- [Datta Able](../products/flask-dashboards/datta-able.md)
