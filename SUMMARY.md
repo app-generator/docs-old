@@ -18,15 +18,9 @@
 * [Flask Dashboards Codebase](boilerplate-code/flask-dashboard.md)
 * [Flask Codebase](boilerplate-code/flask.md)
 
-## What IS
+## Content
 
-* [Glossary](what-is/glossary.md)
-
-## How To
-
-* [Glossary](how-to/glossary.md)
-
-## Programming Languages
-
-* [Glossary](programming-languages/glossary.md)
+* [What IS](what-is/glossary.md)
+* [How To](how-to/glossary.md)
+* [Programming Languages](programming-languages/glossary.md)
 
