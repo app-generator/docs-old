@@ -1,6 +1,6 @@
 # Table of contents
 
-* [AppSeed Docs](README.md)
+* [Home](README.md)
 * [Support](support.md)
 * [App Generator](app-generator.md)
 

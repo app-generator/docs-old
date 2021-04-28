@@ -2,7 +2,7 @@
 description: Web App Generator - the official documentation.
 ---
 
-# AppSeed Docs
+# Home
 
 ### What is AppSeed  <a id="what-is-appseed"></a>
 
