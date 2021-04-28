@@ -20,8 +20,10 @@
 
 ## Content
 
-* [What IS](what-is/glossary.md)
-* [How To](how-to/glossary.md)
+* What IS
+    - [Something](what-is/something.md)
+* How To
+    - [Shit](how-to/shit.md)
 * Programming Languages
     - [Php](programming-languages/php.md)
     - [Python](programming-languages/python.md)
