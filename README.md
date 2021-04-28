@@ -10,7 +10,7 @@ AppSeed is a platform that uses automation tools to convert flat HTML into simpl
 
 
 
-### What we provide UPD <a id="what-we-provide"></a>
+### What we provide <a id="what-we-provide"></a>
 
 AppSeed is a service built for developers and we provide a simple [web app generator](https://docs.appseed.us/app-generator/), pre-build [boilerplate code](https://docs.appseed.us/boilerplate-code/), and **web apps** prototyped in different languages and architectures.
 
