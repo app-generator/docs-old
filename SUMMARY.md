@@ -10,7 +10,6 @@
 * [Django Dashboards](products/django-dashboards.md)
 * [Web Apps](products/web-apps.md)
 * [Static Sites](products/static-sites.md)
-* [Jinja Templates](products/jinja-templates.md)
 
 ## Boilerplate Code
 
