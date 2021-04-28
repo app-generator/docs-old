@@ -6,5 +6,5 @@ root: ./
     summary: SUMMARY.md​
 
 redirects:  
-    xxx: test301.md
+    bootstrap-template/xxx: test301.md
 
