@@ -21,7 +21,7 @@
 ## Content
 
 * [What IS](content/what-is/README.md)
-  * [Something](content/what-is/something.md)
+  * [Django](content/what-is/django.md)
 * [How To](content/how-to/README.md)
   * [Shit](content/how-to/shit.md)
 * [Programming Languages](content/programming-languages/README.md)

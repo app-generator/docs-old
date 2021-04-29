@@ -4,5 +4,5 @@ description: some description
 
 # What IS
 
-* Link to [something](something.md) 
+* Link to [something](django.md) 
 
