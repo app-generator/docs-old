@@ -23,5 +23,9 @@ The goal of this tool is to generate full-stack apps based on user choices:
 
 
 
+> For more information and [support](support.md), please access the [AppSeed](https://appseed.us) platform.
+
+
+
 
 
