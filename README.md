@@ -21,6 +21,8 @@ Starters are provided in different patterns and technologies under permissive \(
 * [Web Apps](https://appseed.us/django) used for simple presentation projects for [Flask](https://appseed.us/apps/flask-apps) and [Django](https://appseed.us/django) 
 * Full-Stack applications that use [Vue](https://appseed.us/apps/vuejs) and [React](https://appseed.us/apps/react) as frontend engines.  
 
+
+
 ### Support
 
 Support is an important part of our business model. A good product, in order to be useful, should have good support. We are providing support for all our products using two tiers:
