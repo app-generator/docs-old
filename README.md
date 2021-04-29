@@ -31,7 +31,7 @@ Support is an important part of our business model. A good product, in order to 
 
 
 
-### Sample Projects
+### Sample Project
 
 [Datta Able](https://appseed.us/admin-dashboards/django-datta-able), a popular open-source dashboard generated on top of a colorful design from CodedThemes. 
 
