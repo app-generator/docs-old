@@ -6,7 +6,7 @@ description: App Generator - the official documentation.
 
 ### What is [AppSeed](https://appseed.us/)  <a id="what-is-appseed"></a>
 
-[AppSeed](https://appseed.us/) is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim), [CodedThemes](https://appseed.us/agency/codedthemes), [Themesberg](https://appseed.us/agency/themesberg), [WrapPixel](https://appseed.us/agency/wrappixel), [BootstrapDash](https://appseed.us/agency/bootstrapdash), and other well-known [agencies](https://appseed.us/agency).  
+[AppSeed](https://appseed.us/) is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim), [CodedThemes](https://appseed.us/agency/codedthemes), [Themesberg](https://appseed.us/agency/themesberg), and other well-known [agencies](https://appseed.us/agency).  
 
 Such projects can be used in many contexts by developers and designers:  
 
