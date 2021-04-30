@@ -1,3 +1,9 @@
+---
+description: >-
+  CentOS is a Linux distribution that provides a free, community-supported
+  computing platform.
+---
+
 # CentOS
 
 The CentOS Linux distribution is a stable, predictable, manageable, and reproducible platform derived from the sources of Red Hat Enterprise Linux \(RHEL\). CentOS Linux is developed by a small but growing team of core developers. In turn, the core developers are supported by an active user community including system administrators, network administrators, managers, core Linux contributors, and Linux enthusiasts from around the world. 
