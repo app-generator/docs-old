@@ -1,3 +1,7 @@
+---
+description: Reusable software - a short introduction.
+---
+
 # Boilerplate Code
 
 In programming, boilerplate code is a piece of software that can be reused without changing much. The whole idea behind a starter \(sometimes boilerplate code\) is to skip coding that piece of code common to many projects.
