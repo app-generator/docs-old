@@ -37,7 +37,7 @@ Flask is a lightweight WSGI web application framework designed to get started qu
 
 ### Code
 
-* [Crawl Website in Python](python-crawl-website.md) - Read title from a page
+* [Crawl Website in Python](../python-crawl-website.md) - Read title from a page
 
 ### Deployments
 

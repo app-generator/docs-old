@@ -9,13 +9,13 @@ This page explains how to get started with Python and execute simple code using 
 **Resources**
 
 * [Python](https://www.python.org/) - the official website
-* \[Python\]\([https://en.wikipedia.org/wiki/Python\_\(programming\_language](https://en.wikipedia.org/wiki/Python_%28programming_language)\)\) - Wikipedia page
+* [Python](https://en.wikipedia.org/wiki/Python_%28programming_language) - Wikipedia page
 * [Applications for Python](https://www.python.org/about/apps/) 
 * [What can I do with Python](https://www.freecodecamp.org/news/what-can-you-do-with-python-the-3-main-applications-518db9a68a78/)
 
 **What is Python**
 
-Python is an `interpreted` high-level and general-purpose programming language. Interpreted means that the instructions are executed one-by-one at runtime. This pattern is different from compiled languages like C++, where the code is initially `compiled` and later executed in the operating system.
+Python is an `interpreted` high-level and general-purpose programming language. Interpreted means that the instructions are executed one-by-one at runtime. This pattern is different from compiled languages like C++, where the code is initially compiled and later executed in the operating system.
 
 **Reasons to use it**
 
@@ -93,9 +93,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> f.close()
 ```
 
-This code snippet will create a new file in the current working directory and add `some text ...` sentence and close the file.
-
-During this simple tutorial we've learned how to code simple things in Python.
-
-Getting Started with Python - content provided by [AppSeed](https://appseed.us)
+This code snippet will create a new file in the current working directory and add the new text and close the file. 
 
