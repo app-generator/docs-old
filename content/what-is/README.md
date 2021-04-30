@@ -1,8 +1,10 @@
 ---
-description: some description
+description: 'Technical terms used by geeks, programmers, and hackers.'
 ---
 
 # What IS
 
-* Link to [something](django.md) 
+ Something is missing? contact us on [Discord](https://discord.gg/fZC6hup) and suggest a topic. 
+
+@todo.
 
