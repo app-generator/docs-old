@@ -2,36 +2,26 @@
 description: Setup CentOS for Developers
 ---
 
-# Setup [CentOS](/what-is/centos/) for developers
----
+# Setup CentOS for development
 
-[CentOS](/what-is/centos/)  is a Linux distribution that provides a free, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL). In January 2014, CentOS announced the official joining with Red Hat while staying independent from RHEL under a new CentOS governing board.
-
-<br />
+[CentOS](https://github.com/app-generator/docs/tree/a268ebbde6808cc5c9f8fafc0fee2146d93dc220/what-is/centos/README.md) is a Linux distribution that provides a free, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux \(RHEL\). In January 2014, CentOS announced the official joining with Red Hat while staying independent from RHEL under a new CentOS governing board.
 
 ## Install basic development tools
----
 
-The `Development Tools` package group provides the GNU Compiler Collection (GCC), GNU Debugger (GDB), and other related development tools.
+The `Development Tools` package group provides the GNU Compiler Collection \(GCC\), GNU Debugger \(GDB\), and other related development tools.
 
 ```bash
 $ # install Development Tools bundle
 $ sudo yum group install "Development Tools"
-
 ```
 
-<br />
-
 ## Install [Git](https://git-scm.com/)
----
 
 [Git](https://git-scm.com/) is the most popular version control system on Linux. It is easy to use, amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development.
 
 ```bash
 $ sudo yum install git
 ```
-
-<br />
 
 ## Install Python3
 
@@ -48,9 +38,7 @@ $
 sudo yum install python3-devel
 ```
 
-<br />
-
-## Installing [Apache](/what-is/apache/)
+## Installing [Apache](https://github.com/app-generator/docs/tree/a268ebbde6808cc5c9f8fafc0fee2146d93dc220/what-is/apache/README.md)
 
 Apache is available within CentOS’s default software repositories, which means you can install it with the `yum` package manager.
 
@@ -58,11 +46,7 @@ Apache is available within CentOS’s default software repositories, which means
 $ sudo yum install httpd
 ```
 
-<br />
-
 Apache does not automatically start on CentOS once the installation completes. You will need to start the Apache process manually:
-
-<br />
 
 ```bash
 $ # this cmd will start the server
@@ -77,8 +61,6 @@ $
 $ lynx http://localhost
 ```
 
-<br />
-
 ## Installing [Node.js](https://nodejs.org/)
 
 Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
@@ -89,8 +71,6 @@ $
 $ # check the version
 $ node --version
 ```
-
-<br />
 
 ## Installing [Yarn](https://yarnpkg.com/)
 
@@ -103,10 +83,7 @@ $ # check the version
 $ yarn -v
 ```
 
-<br />
-
 ## Installing Container Tools
----
 
 RHEL 8 does not officially support Docker; in this section, we will show how to install the new set of container tools as well as the old lady, docker package. The docker package is replaced by the Container Tools module, which consists of tools such as Podman, Buildah, Skope, and several others.
 
@@ -114,10 +91,7 @@ RHEL 8 does not officially support Docker; in this section, we will show how to 
 $ dnf module install -y container-tools
 ```
 
-<br />
-
 ## Install Docker
----
 
 Now install docker from the official repositories by running the following commands. Here, the yum-utils package provides the yum-config-manager utility.
 
@@ -127,10 +101,7 @@ $ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-
 $ dnf install containerd.io docker-ce docker-ce-cli
 ```
 
-<br />
-
 ## Installation of DNF
----
 
 For packages installation, we can use `dnf` tool instead of the traditional `yum` package manager. DNF is same as Yum that installs, updates and removes packages on RPM bas4ed Linux systems. DNF is introduced for improving the bottlenecks of Yum such as performance, Memory usages, Dependency resolution, speed, and some other factors.
 

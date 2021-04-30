@@ -1,10 +1,10 @@
 ---
-description: Technical terms used by geeks, and programmers.
+description: 'Technical terms used by geeks, and programmers.'
 ---
 
 # What IS
 
-Something is missing? Contact us on [Discord](https://discord.gg/fZC6hup) and suggest a topic. 
+Something is missing? Contact us on [Discord](https://discord.gg/fZC6hup) and suggest a topic.
 
 * A terms
   * [Apache Server](apache.md)

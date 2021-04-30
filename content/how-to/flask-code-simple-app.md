@@ -2,33 +2,25 @@
 description: How To code a simple Flask Application
 ---
 
-# [Flask](https://palletsprojects.com/p/flask/) - Code a simple app
+# Code a simple app In Flask
 
 This page explains how to code a simple [Flask](https://www.palletsprojects.com/p/flask/) application.
 
-<br />
-
 ## Prerequisites
----
 
-- Basic programming knowledge in Python
-- Basic Flask knowledge
-- Comfortable using a terminal
-
-<br />
+* Basic programming knowledge in Python
+* Basic Flask knowledge
+* Comfortable using a terminal
 
 {!info-flask.md!}
 
 ## A minimal app
----
 
-Before using Flask, we need to install it. Open a terminal and type: 
+Before using Flask, we need to install it. Open a terminal and type:
 
 ```bash
 $ pip install Flask
 ```
-
-<br />
 
 Create a new file **hello.py** with the folowing content:
 
@@ -41,8 +33,6 @@ app = Flask(__name__)
 def hello():
     return f'Hello from Flask!'
 ```
-
-<br />
 
 Once the file is saved, let's start the app:
 
@@ -58,6 +48,5 @@ $ # Visit the app in browser: http://127.0.0.1:5000/
 
 By visiting the app in the browser we should see "Hello from Flask" message.
 
-<br />
-
 {!resources-flask.md!}
+

@@ -2,9 +2,9 @@
 description: Getting Started with Flask
 ---
 
-# Install a working [User Profile](https://flask-dashboard-material-pro.appseed.us/user)
+# Install Flask
 
-**User Profile** is a page common to many Admin Dashboards here. 
+**User Profile** is a page common to many Admin Dashboards here.
 
 In this quick tutorial I will use the Material PRO Bootstrap Template so that you can get started quickly and easily, with the ability to reuse this approach and code on other pages that also use WTFORMs, SQLAlchemy Models, and other tools commonly used in the AppSeed.us configuration.
 
@@ -25,9 +25,9 @@ Four files need editing to make this work:
 3. routes.py
 4. forms.py
 
-## #1 page-user.html
+## \#1 page-user.html
 
-Let's begin by editing the /app/home/templates/page-user.html file (or similar - there be a minor name or location variation on your admin dashboard) 
+Let's begin by editing the /app/home/templates/page-user.html file \(or similar - there be a minor name or location variation on your admin dashboard\)
 
 ```bash
 {% extends "base-site.html" %}
@@ -75,7 +75,7 @@ Let's begin by editing the /app/home/templates/page-user.html file (or similar -
                           {% endif %} 
                         </div>
                       </div>
-                      
+
                     </div>
                     <div class="row">
                       <div class="col-md-4">
@@ -210,7 +210,7 @@ Let's begin by editing the /app/home/templates/page-user.html file (or similar -
                         </div>
                       </div>
                     </div>
-                  
+
                     <button type="submit" name="profile" class="btn btn-primary pull-right">Update Profile</button>
                     <div class="clearfix"></div>
                   </form>
@@ -250,9 +250,9 @@ Let's begin by editing the /app/home/templates/page-user.html file (or similar -
 
 Note that I use MySQL and decided to add SQLAchemy dialects, where you probably should not. Using dialects precludes you from hosting your website with providers that don't support the specific database - MySQL in this example.
 
-Exclude the line "from sqlalchemy.dialects.mysql import TIMESTAMP, DATETIME, FLOAT, JSON, TINYINT" if you want to use non-specific databases like the default SQLite (development) and Postgres (production). I left it here so you can see what to do in a situation where dialects make sense for you only.
+Exclude the line "from sqlalchemy.dialects.mysql import TIMESTAMP, DATETIME, FLOAT, JSON, TINYINT" if you want to use non-specific databases like the default SQLite \(development\) and Postgres \(production\). I left it here so you can see what to do in a situation where dialects make sense for you only.
 
-This models.py configuration is used by the SQLAlchecy db.create_all() instruction located in the AppSeed /app/__init__.py script will create an empty User table in the database based on the configuration information you provide in your /config.py file
+This models.py configuration is used by the SQLAlchecy db.create_all\(\) instruction located in the AppSeed /app/\_init_.py script will create an empty User table in the database based on the configuration information you provide in your /config.py file
 
 ```bash
 """
@@ -315,14 +315,16 @@ So far so good ...
 
 ## 3. routes.py
 
-There will be a routes.py located in your app/base directory - and in your app/home directory. 
-a. If you add this new route to app/base/routes.py, only the addition of the app.base.forms UserDetailForm is required 
+There will be a routes.py located in your app/base directory - and in your app/home directory. a. If you add this new route to app/base/routes.py, only the addition of the app.base.forms UserDetailForm is required
+
 ```bash
 from app.base.forms import LoginForm, CreateAccountForm, UserDetailForm
 ```
+
 b. If you want to add this route to app/home/routes.py, ensure that you have added a couple of additional lines that the new route script needs, as follows:
 
-##In /app/home/routes.py
+## In /app/home/routes.py
+
 ```bash
 from flask import json, render_template, redirect, url_for, jsonify, request
 from flask_login import login_required, current_user, login_user, logout_user
@@ -330,26 +332,27 @@ from app import db, login_manager
 from app.home.forms import UserDetailForm  
 from app.base.models import User, Country, Indicator
 ```
-You might not need to import flask_login's login_user, logout_user here, so you can do a little testing and remove them if unneeded. Again, these additions to /app/home/routes.py are only needed if you want to add the new route to the home routes file.
 
-Now you can add the following route to whichever routes.py file you prefer.new add UserDetailForm after the Login and Create_user forms 
+You might not need to import flask\_login's login\_user, logout\_user here, so you can do a little testing and remove them if unneeded. Again, these additions to /app/home/routes.py are only needed if you want to add the new route to the home routes file.
+
+Now you can add the following route to whichever routes.py file you prefer.new add UserDetailForm after the Login and Create\_user forms
 
 ```bash
 @blueprint.route('/profile', methods=['GET', 'POST'])
 @login_required
 def profile():
-    
+
     user_detail_form = UserDetailForm(request.form)
     if 'profile' in request.form:
 
         username  = request.form['username']
-        
+
         #added hidden form oldphoto because the photo utility didn't pass the photo filename
         photo = request.form['photo']
         oldphoto = request.form['oldphoto']
         if photo == "":
             photo = oldphoto
-        
+
         # user = User(**request.form)   # This is the script used by /login and /create_user (register)
         # firstname = request.form['firstname']
 
@@ -374,7 +377,7 @@ def profile():
             'skype_id':request.form['skype_id'],
             'phone':request.form['phone']
         })  # There might be a better way using the **request.form bulk load approach noted above, let us know
-        
+
         db.session.commit()
         return render_template( 'page-user.html', msg='Profile changes made', form=user_detail_form)
 
@@ -385,10 +388,11 @@ def profile():
 
 ## 4. forms.py
 
-This just leaves the forms.py file. Again you can chose to create a new forms.py file in the home directory - or to leave it in the base. If you add your new route above  to map to it at the top of the routes.py file with the line "from app.home.forms import UserDetailForm". I chose this latter option, but you might prefer to add the UserDetailForm in the /app/base directory.
+This just leaves the forms.py file. Again you can chose to create a new forms.py file in the home directory - or to leave it in the base. If you add your new route above to map to it at the top of the routes.py file with the line "from app.home.forms import UserDetailForm". I chose this latter option, but you might prefer to add the UserDetailForm in the /app/base directory.
 
 Here is what the new form looks like:
-```hash
+
+```text
 class UserDetailForm(FlaskForm):
     username = TextField('Username'     , id='username' , validators=[DataRequired()])
     email    = TextField('Email'        , id='email'    , validators=[DataRequired(), Email()])
@@ -412,4 +416,5 @@ class UserDetailForm(FlaskForm):
 
 That's it. Enjoy!
 
-## If you want to include data from other tables - rather than Flask_login's current_user.<?> array, look to the following [tutorial](https://www.codementor.io/@garethdwyer/building-a-crud-application-with-flask-and-sqlalchemy-dm3wv7yu2)
+## If you want to include data from other tables - rather than Flask\_login's current\_user.&lt;?&gt; array, look to the following [tutorial](https://www.codementor.io/@garethdwyer/building-a-crud-application-with-flask-and-sqlalchemy-dm3wv7yu2)
+
