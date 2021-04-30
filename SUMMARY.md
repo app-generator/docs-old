@@ -27,6 +27,7 @@
   * [Boilerplate Code](content/what-is/boilerplate-code.md)
   * [CentOS](content/what-is/centos.md)
   * [Django](content/what-is/django.md)
+  * [Eleventy](content/what-is/eleventy.md)
 * [How To](content/how-to/README.md)
   * [Shit](content/how-to/shit.md)
 * [Programming Languages](content/programming-languages/README.md)
