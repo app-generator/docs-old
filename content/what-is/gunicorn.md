@@ -2,7 +2,7 @@
 description: Short introduction to Gunicorn
 ---
 
-# What is [Gunicorn](https://gunicorn.org/)
+# Gunicorn
 
 [Gunicorn](https://gunicorn.org/) 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy.
 
@@ -10,24 +10,18 @@ Gunicorn is one of many WSGI server implementations, but it's particularly impor
 
 Gunicorn is based on a pre-fork worker model, compared to a worker model architecture. The pre-work worker model means that a master thread spins up workers to handle requests but otherwise does not control how those workers perform the request handling. Each worker is independent of the controller.
 
-<br />
-
 ## Gunicorn Features
----
 
-- Natively supports WSGI, Django, and Paster
-- Automatic worker process management
-- Simple Python configuration
-- Multiple worker configurations
-- Various server hooks for extensibility
-- Compatible with Python 3.x >= 3.4
-
-<br />
+* Natively supports WSGI, Django, and Paster
+* Automatic worker process management
+* Simple Python configuration
+* Multiple worker configurations
+* Various server hooks for extensibility
+* Compatible with Python 3.x &gt;= 3.4
 
 ## Gunicorn Installation
----
 
-> Requirements: Python 3.x >= 3.4
+> Requirements: Python 3.x &gt;= 3.4
 
 To install the latest released version of Gunicorn
 
@@ -41,10 +35,7 @@ From sources
 $ pip install git+https://github.com/benoitc/gunicorn.git
 ```
 
-<br />
-
 ## Basic Setup Sample
----
 
 ```python
 $ pip install gunicorn
@@ -59,11 +50,9 @@ $ cat myapp.py
 $ gunicorn -w 4 myapp:app
 ```
 
-<br />
-
 ## Resources
----
 
-- [Gunicorn](https://gunicorn.org/) - the official website
-- [Gunicorn Docs](http://docs.gunicorn.org/en/stable/) - for the last stable version
-- [Gunicorn](https://www.fullstackpython.com/green-unicorn-gunicorn.html) - blog article published on `Full-Stack Python`
+* [Gunicorn](https://gunicorn.org/) - the official website
+* [Gunicorn Docs](http://docs.gunicorn.org/en/stable/) - for the last stable version
+* [Gunicorn](https://www.fullstackpython.com/green-unicorn-gunicorn.html) - blog article published on `Full-Stack Python`
+

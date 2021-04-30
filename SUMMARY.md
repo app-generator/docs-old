@@ -21,7 +21,6 @@
 ## Content
 
 * [What IS](content/what-is/README.md)
-  * [Argon Design System](content/what-is/argon-design-system.md)
   * [Apache](content/what-is/apache.md)
   * [Bulma Css](content/what-is/bulma-css.md)
   * [Boilerplate Code](content/what-is/boilerplate-code.md)
@@ -54,6 +53,7 @@
   * [Django](content/frameworks/django.md)
   * [Flask](content/frameworks/flask.md)
 * [Design Systems](content/design-system/README.md)
+  * [Argon Design System](content/design-system/argon-design-system.md)
   * [Material Design](content/design-system/material-design.md)
   * [Soft UI Design System](content/design-system/soft-ui-design-system.md)
 * [Partners](content/partners/README.md)
