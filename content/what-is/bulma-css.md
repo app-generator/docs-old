@@ -22,7 +22,7 @@ description: Open source CSS framework based on Flexbox.
 * [BulmaLanding](https://appseed.us/apps/bulma-css/bulmalanding) - one-page project built with Bulma
 * \*\*\*\*[Flask Dashkit PRO](https://appseed.us/admin-dashboards/flask-dashboard-dashkit-pro) - premium starter styled with Bulma Css
 
-Dashkit comes bundled with Bulkit as a dashboard starter kit. It offers some original styles and also a cachy user profile. The design has been thought to give the best possible experience either on mobile and on desktop. Dashkit uses the Bulkit theming system, so you can change all colors in a breeze. Dashkit also uses some of Bulkit components. 
+Dashkit comes bundled with Bulkit as a dashboard starter kit. It offers some original styles and also a catchy user profile. The design has been thought to give the best possible experience either on mobile and on desktop. Dashkit uses the Bulkit theming system, so you can change all colors in a breeze. Dashkit also uses some of Bulkit components. 
 
 * [Bulma CSS Dashkit Flask](https://appseed.us/admin-dashboards/flask-dashboard-dashkit-pro) - Product page
 * [Bulma CSS Dashkit Flask - Demo](https://flask-dashboard-dashkit-pro.appseed.us/) - LIVE App
