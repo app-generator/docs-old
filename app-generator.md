@@ -1,5 +1,5 @@
 ---
-description: Generator - the visual interface.
+description: AppSeed Generator - the visual interface.
 ---
 
 # App Generator
