@@ -292,7 +292,7 @@ The folder that contains all assets provided by the UI Kit is located in the `co
 
 All pages served by the application are located inside this folder.
 
-* `templates/layouts` - the directory with app master pages \(lauouts\)
+* `templates/layouts` - the directory with app master pages \(layouts\)
 * `templates/includes` - the directory with HTML chunks and components
 * `templates/accounts` - store the authentication pages \(login, registration\)
 * `templates/` - all pages defined/served by the app are saved at the root of the `templates` folder
