@@ -88,158 +88,236 @@ Starter uses a simple codebase \(no Blueprints\) with a structure presented bell
 ```text
 < PROJECT ROOT >
    |
-   |-- app/             # The actual APP
-   |-- app/__init__.py  # App Constructor
+   |-- app/                      # Implements app logic
+   |    |-- base/                # Base Blueprint - handles the authentication
+   |    |-- home/                # Home Blueprint - serve UI Kit pages
+   |    |
+   |   __init__.py               # Initialize the app
    |
-   |-- requirements.txt # App dependencies
+   |-- requirements.txt          # Development modules - SQLite storage
+   |-- requirements-mysql.txt    # Production modules  - Mysql DMBS
+   |-- requirements-pqsql.txt    # Production modules  - PostgreSql DMBS
    |
-   |-- run.py           # App Bootstraper (returs the WSGI app)
+   |-- .env                      # Inject Configuration via Environment
+   |-- config.py                 # Set up the app
+   |-- run.py                    # Start the app - WSGI gateway
    |
-   |-- ***********************************
+   |-- ************************************************************************
 ```
 
 ### The bootstrap flow <a id="the-bootstrap-flow"></a>
 
-* `run.py` imports the WSGI Application from `app` directory
-* `app/__init__.py` is called and trigger the following actions:
-  * invoke Flask Framework constructor
-  * Read the configuration from `app/config.py`
-  * Invoke [SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
-  * Invoke LoginManager exposed by [Flask-Login](https://flask-login.readthedocs.io/en/latest/)
+* `run.py` loads the `.env` file
+* Initialize the app using the specified profile: _Debug_ or _Production_
+  * If env.DEBUG is set to _True_ the SQLite storage is used
+  * If env.DEBUG is set to _False_ the specified DB driver is used \(MySql, PostgreSQL\)
+* Call the app factory method `create_app` defined in app/**init**.py
+* Redirect the guest users to Login page
+* Unlock the pages served by _home_ blueprint for authenticated users
+
+> **`.env`** \(saved in the root of the project\)
+
+```text
+# File: `.env`
+
+DEBUG=True              # Enable/Disable the development environment
+
+SECRET_KEY=S3cr3t_Key   # The Key used by Flask to encrypt session information
+
+# Database production settings (If DEBUG=False)
+
+DB_ENGINE=postgresql    # DBMS
+DB_NAME=appseed-flask   # Database Name
+DB_HOST=localhost       # Database Host
+DB_PORT=5432            # Database Port
+DB_USERNAME=appseed     # DB Username
+DB_PASS=pass            # DB Password
+
+```
+
+> **`run.py`** \(simplified version\)
+
+```text
+# File: run.py
+
+DEBUG = config('DEBUG', default=True)
+
+# Create the WSGI app, using the app factory pattern
+app = create_app( app_config )
+
+# Migrate automaticaly the app using Flask Migrate library
+Migrate(app, db)
+```
 
 > **`app/__init__.py`** \(simplified version\)
 
 ```text
-# File: /app/__init__.py
+# File: app/__init__.py
 
-from flask            import Flask        # Import Flask
-from flask_sqlalchemy import SQLAlchemy   # For ORM db access  
-from flask_login      import LoginManager # Used for authentication
+db            = SQLAlchemy()        # Invoke SQLAlchemy
+login_manager = LoginManager()      # Invoke Login Manager
 
-# Directive 1 - Inject Flask magic
-app = Flask(__name__)
+def register_extensions(app):
+    db.init_app(app)                # Inject SQLAlchemy magic
+    login_manager.init_app(app)     # Add Login Manager to the app
 
-# Directive 2 - Load the configuraton from `app/config.py`
-app.config.from_object('app.config.Config')
+# Register app blueprints: `base`, `home`
+def register_blueprints(app):
+    for module_name in ('base', 'home'):
+        module = import_module('app.{}.routes'.format(module_name))
+        app.register_blueprint(module.blueprint)
 
-# Directive 3 - Flask-SqlAlchemy wrapping
-db = SQLAlchemy  (app)
+# Create the tables (automaticaly)
+def configure_database(app):
 
-# Directive 4 - Invoke and init the login manager
-lm = LoginManager( )
-lm.init_app(app)
+    @app.before_first_request
+    def initialize_database():
+        db.create_all()
 
-# Directive 5 - Setup database (create tables)
-@app.before_first_request
-def initialize_database():
-    db.create_all()
-
-# Directive 5 - Start the App
-from app import views, models
-
-# At this point we have a valid WSGI app
+# Create the WSGI app using the factory pattern
+def create_app(config):
+    app = Flask(__name__, static_folder='base/static')
+    app.config.from_object(config)
+    register_extensions(app)
+    register_blueprints(app)
+    configure_database(app)
+    return app
 ```
 
 The **`app/__init__.py`** constructs the app by putting together a short-list of things:
 
-* Invoke Flask
-* Load the configuration from **`config.py`**
-* Invoke the SqlAlchemy ORM to handle the database content
+* Invoke SQLAlchemy
 * Invoke and inject the `Login Manager` into the app
+* Load the configuration from `config.py` file
+* Register the app blueprints
 * Check if the database tables are created
-* Finally, expose the app by importing views \(app routing\) and models \(app tables\)
+* return the WSGI app
 
 ### App Codebase <a id="app-codebase"></a>
 
-The codebase structure is presented below:
+The starter defines two blueprints:
+
+* _Base_ blueprint - handles the authentication \(routes and forms\) and assets management
+* _Home_ blueprint - serve HTM pages for authenticated users
+
+> **App / Base Blueprint** structure
 
 ```text
 < PROJECT ROOT >
    |
    |-- app/
-   |    |-- __init__.py                   # App initializer
-   |    |-- config.py                     # App configuration
-   |    |-- forms.py                      # App Forms
-   |    |-- models.py                     # App Models
-   |    |-- util.py                       # Helpers
-   |    |-- views.py                      # App Routing
-   |    |
-   |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
-   |    |
-   |    |-- templates/
-   |    |    |
-   |    |    |-- includes/                 # Page chunks, components
-   |    |    |    |
-   |    |    |    |-- navigation.html      # Top bar
-   |    |    |    |-- sidebar.html         # Left sidebar
-   |    |    |    |-- scripts.html         # JS scripts common to all pages
-   |    |    |    |-- footer.html          # The common footer
-   |    |    |
-   |    |    |-- layouts/                  # App Layouts (the master pages)
-   |    |    |    |
-   |    |    |    |-- base.html            # Used by common pages like index, UI
-   |    |    |    |-- base-fullscreen.html # Used by auth pages (login, register)
-   |    |    |
-   |    |    |-- accounts/                 # Auth Pages (login, register)
-   |    |    |    |
-   |    |    |    |-- login.html           # Use layout `base-fullscreen.html`
-   |    |    |    |-- register.html        # Use layout `base-fullscreen.html`  
-   |    |    |
-   |    |  index.html                      # The default page
-   |    |  page-404.html                   # Error 404 page (page not found)
-   |    |  page-500.html                   # Error 500 page (server error)
-   |    |    *.html                        # All other pages provided by the UI Kit
+   |    |-- home/                                # Home Blueprint - serve app pages (private area)
+   |    |-- base/                                # Base Blueprint - handles the authentication
+   |         |-- static/
+   |         |    |-- <css, JS, images>          # CSS files, Javascripts files
+   |         |
+   |         |-- templates/                      # Templates used to render pages
+   |              |
+   |              |-- includes/                  #
+   |              |    |-- navigation.html       # Top menu component
+   |              |    |-- sidebar.html          # Sidebar component
+   |              |    |-- footer.html           # App Footer
+   |              |    |-- scripts.html          # Scripts common to all pages
+   |              |
+   |              |-- layouts/                   # Master pages
+   |              |    |-- base-fullscreen.html  # Used by Authentication pages
+   |              |    |-- base.html             # Used by common pages
+   |              |
+   |              |-- accounts/                  # Authentication pages
+   |                   |-- login.html            # Login page
+   |                   |-- register.html         # Registration page
    |
-   |-- requirements.txt
+   |-- requirements.txt                          # Development modules - SQLite storage
+   |-- requirements-mysql.txt                    # Production modules  - Mysql DMBS
+   |-- requirements-pqsql.txt                    # Production modules  - PostgreSql DMBS
    |
-   |-- run.py
+   |-- .env                                      # Inject Configuration via Environment
+   |-- config.py                                 # Set up the app
+   |-- run.py                                    # Start the app - WSGI gateway
+   |
+   |-- ************************************************************************
+```
+
+> **App / Home Blueprint** structure
+
+```text
+< PROJECT ROOT >
+   |
+   |-- app/
+   |    |-- base/                     # Base Blueprint - handles the authentication
+   |    |-- home/                     # Home Blueprint - serve app pages (private area)
+   |         |
+   |         |-- templates/           # UI Kit Pages
+   |              |
+   |              |-- index.html      # Default page
+   |              |-- page-404.html   # Error 404 - mandatory page
+   |              |-- page-500.html   # Error 500 - mandatory page
+   |              |-- page-403.html   # Error 403 - mandatory page
+   |              |-- *.html          # All other HTML pages
+   |
+   |-- requirements.txt               # Development modules - SQLite storage
+   |-- requirements-mysql.txt         # Production modules  - Mysql DMBS
+   |-- requirements-pqsql.txt         # Production modules  - PostgreSql DMBS
+   |
+   |-- .env                           # Inject Configuration via Environment
+   |-- config.py                      # Set up the app
+   |-- run.py                         # Start the app - WSGI gateway
    |
    |-- ************************************************************************
 ```
 
 ### App Configuration <a id="app-configuration"></a>
 
-The configuration file **`app/config.py`** specify a short-list with variables:
+The configuration file **`config.py`** \(in the root of the project\) define a dual configuration controlled via the `.env` file \( `DEBUG` variable\)
 
-* `SECRET_KEY` - Required by Flask for [session management](https://flask.palletsprojects.com/en/1.1.x/quickstart/#sessions)
-* `SQLALCHEMY_DATABASE_URI` - The database URI used to [configure Flask-SqlAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/#configuration)
+> **DebugConfig** - default configuration used for development
 
-This configuration is loaded by **`app/__init__.py`** during the app initialization:
-
-```text
-# File: /app/__init__.py
-
-...
-
-# Directive 2 - Load the configuraton from `app/config.py`
-app.config.from_object('app.config.Config')
-
-...
-
-```
-
-The default database is [SQLite](https://www.sqlite.org/), configured by the `SQLALCHEMY_DATABASE_URI` variable:
+This configuration becomes active if `.env` file has the `DEBUG` file set to _True_
 
 ```text
-# File: /app/config.py
+# Development/Debug configuration
 
-...
+# Set up the App SECRET_KEY
+SECRET_KEY = config('SECRET_KEY', default='S#perS3crEt_007')
 
+# This will create a file in <app> FOLDER
 SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3')
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-...
+```
+
+During the first request, the SQLite database and tables are automatically created in the root in the project.
+
+> _Hint_: to visualize the SQLite database content an external tool should be installed: [DB Browser for SQLite](https://sqlitebrowser.org/) it might be a good choice.
+
+> **ProductionConfig** - production configuration
+
+This configuration becomes active if `.env` file has the `DEBUG` file set to _False_
+
+```text
+# Production configuration
+
+SESSION_COOKIE_HTTPONLY  = True
+REMEMBER_COOKIE_HTTPONLY = True
+REMEMBER_COOKIE_DURATION = 3600
+
+# PostgreSQL database
+SQLALCHEMY_DATABASE_URI = '{}://{}:{}@{}:{}/{}'.format(
+    config( 'DB_ENGINE'   , default='postgresql'    ),
+    config( 'DB_USERNAME' , default='appseed'       ),
+    config( 'DB_PASS'     , default='pass'          ),
+    config( 'DB_HOST'     , default='localhost'     ),
+    config( 'DB_PORT'     , default=5432            ),
+    config( 'DB_NAME'     , default='appseed-flask' )
+)
 
 ```
 
-The database and associated tables, defined in `app/models.py` are automatically created at the first request in the physical file specified in the configuration - default location `app/db.sqlite3`.
-
-> **Hint**: to visualize the SQLite database content an external tool should be installed: [DB Browser for SQLite](https://sqlitebrowser.org/) it might be a good choice.
+In this configuration profile, the database defaults to a PostgreSQL DBMS. Make sure the `.env` has the right credentials to access the database.
 
 ### App Tables <a id="app-tables"></a>
 
-The file **`app/models.py`** defines the table\(s\) used by the application. Being a simple starter, by default the following tabes are defined:
+The file **`app/base/models.py`** \(Base Blueprint\) defines the table\(s\) used by the application. Being a simple starter, by default the following tabes are defined:
 
 * Table \#1 - **User** with fields:
   * Id - Primary key, unique
@@ -249,131 +327,85 @@ The file **`app/models.py`** defines the table\(s\) used by the application. Bei
 
 ### App Forms <a id="app-forms"></a>
 
-The file **`app/forms.py`** defines the table\(s\) used by the application. Being a simple starter, by default the following forms are defined:
+The file **`app/base/forms.py`** \(Base Blueprint\) defines the table\(s\) used by the application. Being a simple starter, by default the following forms are defined:
 
 * Form \#1 - **LoginForm** with fields:
   * username
   * password
 * Form \#2 - **RegisterForm** with fields:
-  * name - The friendly name
   * username - used to authenticate
+  * email - email address
   * password - used to authenticate
-  * email
 
 ### App Routing <a id="app-routing"></a>
 
-The file **`app/views.py`** defines the application routing. Here is the list with defined paths and associated handlers
+The routing rules are defined by _Base_ and _Home_ blueprints as specified below. This is the public zone of the app.
 
-#### Route `/login.html` <a id="route-loginhtml"></a>
+> **Base Blueprint** - routing file `app/base/routes.py`
 
-The route handles the app authentication using a simple flow:
+* `/login` route is resolved by `login()` method
+* `/register` route is resolved by `register()` method
+* `/logout` route calls the `logout_user()` defined in [flask\_login](https://flask-login.readthedocs.io/en/latest/)
 
-* Loads `LoginForm` defined in `app/forms.py`
-* GET request
-  * loads the page `app/tempates/accounts/login.html`
-* POST request
-  * Validate the input data: `username`, `password`
-  * Locate the user in the database
-  * Verify the password against the database version
-  * For success, authenticate the user
-  * For errors, reload the login page and inform the user
+_Registered ERROR handlers_
 
-#### Route `/register.html` <a id="route-registerhtml"></a>
+* 404 Error - Page not found
+* 403 Error - Access Forbidden
+* 500 Error - Internal Error
 
-The route handles the app authentication using a simple flow:
+> **Home Blueprint** - routing file `app/home/routes.py`
 
-* Loads `RegisterForm` defined in `app/forms.py`
-* GET request
-  * loads the page `app/tempates/accounts/register.html`
-* POST request
-  * Validate the input data: `username`, `password`, `email`
-  * Check if `username` or `email` is already registered
-  * Hash the password provided by the user
-  * Save the user in the database
-  * Reload the registration page and inform the user
+This blueprint will serve requested pages from `app/home/templates` directory to authenticated users. The authentication status is checked by `@login_required` decorator.
 
-#### Route `/logout.html` <a id="route-logouthtml"></a>
-
-The route delete the user session and redirect the user to the `login.html`
-
-#### Default Route `/` <a id="default-route"></a>
-
-The route will serve all pages defined in the `app/templates` for the authenticated users using a simple flow:
-
-* Check user is authenticated
-* Redirect to `/login.html` guests users
-* Load the requested page from `app/templates` folder
-* Return Error 404 and associated page if requested page cannot be located
-* Return Error 500 if a critical error occurred during the page load
+* `/<template>` route resolved by `route_template()`.
+  * If a requested page is not found a default 404 page is returned to the user
 
 ### Pages & Assets <a id="pages-assets"></a>
 
-Pages served by the starter are organized using a simple folder structure:
+Pages and all assets defined in the UI Kits are served by the app using both blueprints:
+
+* _Home Blueprint_ manage the static assets - `app/base/static/assets`
+* _Home Blueprint_ store the layout `master pages`, HTML chunks \(footer. header, scripts\) and `login, registration` pages
+* _Base Blueprint_ serve the HTML pages \(index, page-404, etc\) and the rest of the pages defined in the UI kit.
 
 ```text
 < PROJECT ROOT >
    |
    |-- app/
+   |    |-- base/                               # Base Blueprint
+   |    |    |-- static/assets/
+   |    |    |           |-- css/               # UI Kit css
+   |    |    |           |-- JS/                # Javascript files
+   |    |    |           |-- images/            # images used by the app
+   |    |    |           |-- scss/              # SCSS files (if any)
+   |    |    |
+   |    |    |-- templates/                      # Templates used to render pages
+   |    |         |
+   |    |         |-- includes/                  #
+   |    |         |    |-- navigation.html       # Top menu component
+   |    |         |    |-- sidebar.html          # Sidebar component
+   |    |         |    |-- footer.html           # App Footer
+   |    |         |    |-- scripts.html          # Scripts common to all pages
+   |    |         |
+   |    |         |-- layouts/                   # Master pages
+   |    |         |    |-- base-fullscreen.html  # Used by Authentication pages
+   |    |         |    |-- base.html             # Used by common pages
+   |    |         |
+   |    |         |-- accounts/                  # Authentication pages
+   |    |              |-- login.html            # Login page
+   |    |              |-- register.html         # Registration page
    |    |
-   |    |-- static/assets/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
-   |    |
-   |    |-- templates/
-   |    |    |
-   |    |    |-- includes/                 # Page chunks, components
-   |    |    |    |
-   |    |    |    |-- navigation.html      # Top bar
-   |    |    |    |-- sidebar.html         # Left sidebar
-   |    |    |    |-- scripts.html         # JS scripts common to all pages
-   |    |    |    |-- footer.html          # The common footer
-   |    |    |
-   |    |    |-- layouts/                  # App Layouts (the master pages)
-   |    |    |    |
-   |    |    |    |-- base.html            # Used by common pages like index, UI
-   |    |    |    |-- base-fullscreen.html # Used by auth pages (login, register)
-   |    |    |
-   |    |    |-- accounts/                 # Auth Pages (login, register)
-   |    |    |    |
-   |    |    |    |-- login.html           # Use layout `base-fullscreen.html`
-   |    |    |    |-- register.html        # Use layout `base-fullscreen.html`  
-   |    |    |
-   |    |  index.html                      # The default page
-   |    |  page-404.html                   # Error 404 page (page not found)
-   |    |  page-500.html                   # Error 500 page (server error)
-   |    |    *.html                        # All other pages provided by the UI Kit
-   |
+   |    |-- home/                                # Home Blueprint - serve app pages (private area)
+   |         |-- templates/                      # UI Kit Pages
+   |              |
+   |              |-- index.html                 # Default page
+   |              |-- page-404.html              # Error 404 - mandatory page
+   |              |-- page-500.html              # Error 500 - mandatory page
+   |              |-- page-403.html              # Error 403 - mandatory page
+   |              |-- *.html                     # All other HTML pages
    |
    |-- ************************************************************************
 ```
-
-#### Static Assets <a id="static-assets"></a>
-
-The folder contains the assets provided by the UI Kit integrated into the app. AppSeed conversion scripts will modify the original UI kit path to match the structure:
-
-* `static/assets` - the root directory for all files \(JS, images\)
-* `static/assets/css` - CSS files that style the app
-* `static/assets/img` - Images and Icons
-* `static/assets/js` - javascript files provided by the UI Kit
-* `static/assets/scss` - SCSS files, if provided by the UI Kit vendor
-
-#### `Templates` Folder <a id="templates-folder"></a>
-
-All pages served by the application are located inside this folder.
-
-* `templates/layouts` - the directory with app layouts 
-* `templates/includes` - the directory with HTML chunks and components
-* `templates/accounts` - store the authentication pages \(login, registration\)
-* `templates/` - all pages defined/served by the app are saved at the root of the `templates` folder
-
-#### Common pages <a id="common-pages"></a>
-
-This section lists the common pages defined in all Flask applications prototyped on top of this generic starter.
-
-* login.html, rendered with `layouts/base-fullscreen.html`
-* register.html, rendered with `layouts/base-fullscreen.html`
-* index.html, rendered with `layouts/base.html`
-* page-404.html, rendered with `layouts/base.html`
-* page-403.html, rendered with `layouts/base.html`
 
 ### Data Structures <a id="data-structures"></a>
 
@@ -385,31 +417,28 @@ Constructed by [Flask-Login](https://flask-login.readthedocs.io/en/latest/) can 
 
 > **How it works**
 
-`app/views.py` define a callback function required by **Flask-Login** library:
+`app/base/models.py` define the callback functions required by **Flask-Login** library:
 
 ```text
-# File: app/views.py
+# File: app/base/models.py
 
-# *****************************************
-# `lm` is constructed in `app/__init__.py`
-#
-# lm = LoginManager(   ) # flask-loginmanager
-# lm.init_app(app)       # init the login manager
-#
-# *****************************************
-#
-# provide login manager with load_user callback
-@lm.user_loader
-def load_user(user_id):
-    return User.query.get(int(user_id))
+@login_manager.user_loader
+def user_loader(id):
+    return User.query.filter_by(id=id).first()
+
+@login_manager.request_loader
+def request_loader(request):
+    username = request.form.get('username')
+    user = User.query.filter_by(username=username).first()
+    return user if user else None
+
 ```
 
-> **Usage in contoler**
+> **Usage in contoler** \(Sample file\)
 
 ```text
-# File: app/views.py
 
-def index(path):
+def sample_method(path):
 
     # Redirect guests users to login page
     if not current_user.is_authenticated:
@@ -453,4 +482,6 @@ def index(path):
         </ul>
     </div>
 ```
+
+###  <a id="app-codebase-simplified"></a>
 
