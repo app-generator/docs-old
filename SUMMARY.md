@@ -69,7 +69,9 @@
   * [Material Design](content/design-system/material-design.md)
   * [Soft UI Design System](content/design-system/soft-ui-design-system.md)
 * [Partners](content/partners/README.md)
+  * [CodedThemes](content/partners/codedthemes.md)
   * [Creative-Tim](content/partners/creative-tim.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
+  * [Datta Able](content/bootstrap-template/datta-able.md)
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
 
