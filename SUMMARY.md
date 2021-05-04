@@ -74,5 +74,6 @@
 * [Bootstrap Templates](content/bootstrap-template/README.md)
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
   * [Datta Able](content/bootstrap-template/datta-able.md)
+  * [Material Dashboard](content/bootstrap-template/material-dashboard.md)
   * [Volt Dashboard](content/bootstrap-template/volt-dashboard.md)
 
