@@ -14,9 +14,9 @@
 ## PRODUCTS
 
 * [Flask Dashboards](products/flask-dashboards/README.md)
-  * [Datta Able](products/flask-dashboards/datta-able.md)
+  * [Datta Able Flask](products/flask-dashboards/datta-able.md)
 * [Django Dashboards](products/django-dashboards/README.md)
-  * [CoreUI](products/django-dashboards/coreui.md)
+  * [Datta Able Django](products/django-dashboards/datta-able.md)
 
 ## Content
 
