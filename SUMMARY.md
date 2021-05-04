@@ -72,6 +72,7 @@
   * [CodedThemes](content/partners/codedthemes.md)
   * [Creative-Tim](content/partners/creative-tim.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
+  * [Volt Dashboard](content/bootstrap-template/volt-dashboard.md)
   * [Datta Able](content/bootstrap-template/datta-able.md)
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
 
