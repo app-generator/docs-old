@@ -75,6 +75,7 @@
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
   * [Black Dashboard](content/bootstrap-template/black-dashboard.md)
   * [Datta Able](content/bootstrap-template/datta-able.md)
+  * [Light Bootstrap Dashboard](content/bootstrap-template/light-bootstrap-dashboard.md)
   * [Material Dashboard](content/bootstrap-template/material-dashboard.md)
   * [Volt Dashboard](content/bootstrap-template/volt-dashboard.md)
 
