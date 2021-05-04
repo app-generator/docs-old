@@ -33,7 +33,7 @@ Flask is a lightweight WSGI web application framework designed to get started qu
 * [Code a simple app](flask-code-simple-app.md)
 * [How to structure your project](flask-structure-your-project.md)
 
-### Code
+### Scripting
 
 * [Crawl Website in Python](../python-crawl-website.md) - Read title from a page
 
