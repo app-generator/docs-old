@@ -6,8 +6,8 @@ description: Free and open source Bootstrap 5 Admin Template
 
  Volt is a free and open-source **Bootstrap 5** powered admin dashboard with components, pages, and plugins that you can use to create an awesome admin interface. It also comes with a PRO Version with more pages, plugins, and components.
 
-* [Product Page](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) - hosted by [Themesberg](https://appseed.us/agency/themesberg)
-* [Product Docs - Quick Start](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official product documentation
+* [Volt Dashboard](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) - hosted by [Themesberg](https://appseed.us/agency/themesberg)
+* [Volt Dashboard](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official documentation
 
 
 
