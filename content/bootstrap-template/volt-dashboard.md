@@ -9,7 +9,7 @@ description: Free and open source Bootstrap 5 Admin Template
 * [Volt Dashboard](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) - hosted by [Themesberg](https://appseed.us/agency/themesberg)
 * [Volt Dashboard](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official documentation
 
-
+![Bootstrap Template - Volt Dashboard](../../.gitbook/assets/docs-cover-volt-dashboard.jpg)
 
 > Features and Plugins
 
@@ -26,6 +26,4 @@ This product is built using the following widely used technologies:
 **Lightweight Plugins** - There are 3 lightweight and Vanilla JS plugins that come with Volt, namely a date picker, notification, and charts library.
 
 **Tooling** - Sass files and a Gulp commands file that will let you build minified and un-minified project files with the ability to even add certain blocks of code based on your environment.
-
-![Bootstrap Template - Volt Dashboard](../../.gitbook/assets/docs-cover-volt-dashboard.jpg)
 
