@@ -22,5 +22,3 @@ Features of [Creative Tim](https://bit.ly/3fKQZaL):
 
 ![Creative-Tim - Technologies. ](../../.gitbook/assets/creative-tim-tech.png)
 
-
-
