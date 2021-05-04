@@ -73,6 +73,7 @@
   * [Creative-Tim](content/partners/creative-tim.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
+  * [Black Dashboard](content/bootstrap-template/black-dashboard.md)
   * [Datta Able](content/bootstrap-template/datta-able.md)
   * [Material Dashboard](content/bootstrap-template/material-dashboard.md)
   * [Volt Dashboard](content/bootstrap-template/volt-dashboard.md)
