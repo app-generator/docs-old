@@ -27,7 +27,7 @@ Dashkit comes bundled with Bulkit as a dashboard starter kit. It offers some ori
 * [Bulma CSS Dashkit Flask](https://appseed.us/admin-dashboards/flask-dashboard-dashkit-pro) - Product page
 * [Bulma CSS Dashkit Flask - Demo](https://flask-dashboard-dashkit-pro.appseed.us/) - LIVE App
 
-![Dashkit - Styled with Bulma Css](../../.gitbook/assets/image%20%285%29.png)
+![Dashkit - Styled with Bulma Css](../../.gitbook/assets/bulma-css-dashkit.png)
 
 
 

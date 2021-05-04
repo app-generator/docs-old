@@ -11,7 +11,7 @@ description: >-
 * [Creative-Tim](https://bit.ly/3fKQZaL) - official website
 * Products: [React Templates](https://bit.ly/37j8JG3), [Flask](http://bit.ly/2ORcvl0), [Django](https://bit.ly/3aStaNb), [NextJS Starters](https://bit.ly/3noTq5Q) 
 
-![Creative-Tim - Logo.](../../.gitbook/assets/image%20%283%29.png)
+![Creative-Tim - Logo.](../../.gitbook/assets/creative-tim-cover.png)
 
 Features of [Creative Tim](https://bit.ly/3fKQZaL):
 
@@ -20,7 +20,7 @@ Features of [Creative Tim](https://bit.ly/3fKQZaL):
 * With a well-designed, clean, and organized admin dashboard, you can manage and visualize your business data.
 * It provides you with a UI kit, comprised of fully coded components to ease the development process.
 
-![Creative-Tim - Technologies. ](../../.gitbook/assets/image%20%284%29.png)
+![Creative-Tim - Technologies. ](../../.gitbook/assets/creative-tim-tech.png)
 
 
 
