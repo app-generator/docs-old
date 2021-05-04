@@ -6,9 +6,7 @@ description: Learn how to do things in programming
 
 Something is missing? Contact us on [Discord](https://discord.gg/fZC6hup) and suggest a topic.
 
-## Content
-
-## Basic set up
+### Basic set up
 
 * [Setup CentOS for development](setup-centos-for-development.md)
 * [Setup Ubuntu for development](setup-ubuntu-for-development.md)
@@ -17,18 +15,18 @@ Something is missing? Contact us on [Discord](https://discord.gg/fZC6hup) and su
 
 ### Software installation
 
-* [Install Pyhton](install-python.md)
-* [Install Pyhton 3.8 on Ubuntu](install-python38-ubuntu.md)
+* [Install Python](install-python.md)
+* [Install Python 3.8 on Ubuntu](install-python38-ubuntu.md)
 * [Install Flask](install-flask.md)
 
-### [Django](../what-is/django.md)
+### Django
 
 Django is a Python Web framework built with "batteries-included" support for common tasks used in modern web development: database access, authentication, security, routes, forms, templates and much more.
 
 * [Customize Django Admin Interface](django-admin-customization.md)
 * [Django Chart Example](django-chart-example.md)
 
-### [Flask](../what-is/flask.md)
+### Flask
 
 Flask is a lightweight WSGI web application framework designed to get started quickly and easily, with the ability to scale up to complex applications.
 
