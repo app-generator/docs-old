@@ -79,6 +79,7 @@
   * [Azia Dashboard PRO](content/bootstrap-template/azia-dashboard-pro.md)
   * [Atlantis Lite](content/bootstrap-template/atlantis-lite.md)
   * [Argon Dashboard Template](content/bootstrap-template/argon-dashboard.md)
+  * [Argon Dashboard PRO](content/bootstrap-template/argon-dashboard-pro.md)
   * [Black Dashboard Template](content/bootstrap-template/black-dashboard.md)
   * [Black Dashboard PRO](content/bootstrap-template/black-dashboard-pro.md)
   * [Datta Able Template](content/bootstrap-template/datta-able.md)
