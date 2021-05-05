@@ -2,7 +2,7 @@
 description: Open-source Bootstrap Template designed by CodedThemes
 ---
 
-# Datta Able
+# Datta Able Template
 
 **Datta Able** Bootstrap Lite is the most stylized Bootstrap 4 Lite Admin Template, around all other Lite/Free admin templates in the market. It comes with high feature-rich pages and components with fully developer-centric code. Before developing Datta Able our key points were performance and design.
 
