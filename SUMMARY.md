@@ -76,6 +76,7 @@
   * [Themesberg](content/partners/themesberg.md)
   * [WrapPixel](content/partners/wrappixel.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
+  * [Atlantis Lite](content/bootstrap-template/atlantis-lite.md)
   * [Argon Dashboard Template](content/bootstrap-template/argon-dashboard.md)
   * [Black Dashboard Template](content/bootstrap-template/black-dashboard.md)
   * [Datta Able Template](content/bootstrap-template/datta-able.md)
