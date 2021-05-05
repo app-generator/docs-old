@@ -74,6 +74,7 @@
   * [CodedThemes](content/partners/codedthemes.md)
   * [CoreUI](content/partners/coreui.md)
   * [Themesberg](content/partners/themesberg.md)
+  * [WrapPixel](content/partners/wrappixel.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
   * [Argon Dashboard](content/bootstrap-template/argon-dashboard.md)
   * [Black Dashboard](content/bootstrap-template/black-dashboard.md)
