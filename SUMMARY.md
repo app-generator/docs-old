@@ -69,6 +69,7 @@
   * [Material Design](content/design-system/material-design.md)
   * [Soft UI Design System](content/design-system/soft-ui-design-system.md)
 * [Partners](content/partners/README.md)
+  * [Themesberg](content/partners/themesberg.md)
   * [CodedThemes](content/partners/codedthemes.md)
   * [Creative-Tim](content/partners/creative-tim.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
