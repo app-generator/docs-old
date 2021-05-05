@@ -80,6 +80,7 @@
   * [Argon Dashboard Template](content/bootstrap-template/argon-dashboard.md)
   * [Black Dashboard Template](content/bootstrap-template/black-dashboard.md)
   * [Datta Able Template](content/bootstrap-template/datta-able.md)
+  * [Datta Able PRO](content/bootstrap-template/datta-able-pro.md)
   * [Light Bootstrap Template](content/bootstrap-template/light-bootstrap-dashboard.md)
   * [Material Dashboard Template](content/bootstrap-template/material-dashboard.md)
   * [Pixel Lite Template](content/bootstrap-template/pixel-lite-template.md)
