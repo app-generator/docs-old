@@ -11,7 +11,7 @@ description: >-
 * [Creative-Tim](https://bit.ly/3fKQZaL) - official website
 * Products: [React Templates](https://bit.ly/37j8JG3), [Flask](http://bit.ly/2ORcvl0), [Django](https://bit.ly/3aStaNb), [NextJS Starters](https://bit.ly/3noTq5Q) 
 
-![Creative-Tim - Logo.](../../.gitbook/assets/creative-tim-cover.png)
+![AppSeed Partner - Creative-Tim.](../../.gitbook/assets/creative-tim-cover.png)
 
 Features of [Creative Tim](https://bit.ly/3fKQZaL):
 
