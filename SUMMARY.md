@@ -81,5 +81,6 @@
   * [Datta Able Template](content/bootstrap-template/datta-able.md)
   * [Light Bootstrap Template](content/bootstrap-template/light-bootstrap-dashboard.md)
   * [Material Dashboard Template](content/bootstrap-template/material-dashboard.md)
+  * [Pixel Lite Template](content/bootstrap-template/pixel-lite-template.md)
   * [Volt Dashboard Template](content/bootstrap-template/volt-dashboard.md)
 
