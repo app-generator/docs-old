@@ -14,7 +14,8 @@
 ## PRODUCTS
 
 * [Flask Dashboards](products/flask-dashboards/README.md)
-  * [Material Dashboard Flask](products/flask-dashboards/material-dashboard-flask.md)
+  * [Argon Dashboard Flask](products/flask-dashboards/argon-dashboard.md)
+  * [Material Dashboard Flask](products/flask-dashboards/material-dashboard.md)
   * [Black Dashboard Flask](products/flask-dashboards/black-dashboard.md)
   * [Datta Able Flask](products/flask-dashboards/datta-able.md)
 * [Django Dashboards](products/django-dashboards/README.md)
