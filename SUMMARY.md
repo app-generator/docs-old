@@ -14,6 +14,7 @@
 ## PRODUCTS
 
 * [Flask Dashboards](products/flask-dashboards/README.md)
+  * [AdminLTE Flask](products/flask-dashboards/adminlte.md)
   * [Azia Dashboard Flask](products/flask-dashboards/azia-dashboard.md)
   * [Argon Dashboard Flask](products/flask-dashboards/argon-dashboard.md)
   * [Black Dashboard Flask](products/flask-dashboards/black-dashboard.md)
