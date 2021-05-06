@@ -27,6 +27,7 @@
   * [Azia Dashboard Django](products/django-dashboards/azia-dashboard.md)
   * [Black Dashboard Django](products/django-dashboards/black-dashboard.md)
   * [Datta Able Django](products/django-dashboards/datta-able.md)
+  * [Volt Django](products/django-dashboards/volt.md)
 
 ## Content
 
