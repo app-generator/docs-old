@@ -17,6 +17,7 @@
   * [Argon Dashboard Flask](products/flask-dashboards/argon-dashboard.md)
   * [Black Dashboard Flask](products/flask-dashboards/black-dashboard.md)
   * [Datta Able Flask](products/flask-dashboards/datta-able.md)
+  * [Gradient Able Flask](products/flask-dashboards/gradient-able.md)
   * [Material Dashboard Flask](products/flask-dashboards/material-dashboard.md)
 * [Django Dashboards](products/django-dashboards/README.md)
   * [Black Dashboard Django](products/django-dashboards/black-dashboard.md)
