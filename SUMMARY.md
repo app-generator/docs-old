@@ -27,6 +27,7 @@
   * [AdminLTE Django](products/django-dashboards/adminlte.md)
   * [Azia Dashboard Django](products/django-dashboards/azia-dashboard.md)
   * [Argon Dashboard Django](products/django-dashboards/argon-dashboard.md)
+  * [Atlantis Dark Django](products/django-dashboards/atlantis-dark.md)
   * [Black Dashboard Django](products/django-dashboards/black-dashboard.md)
   * [Datta Able Django](products/django-dashboards/datta-able.md)
   * [Material Dashboard Django](products/django-dashboards/material-dashboard.md)
