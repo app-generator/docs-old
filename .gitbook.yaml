@@ -6,5 +6,7 @@ root: ./
     summary: SUMMARY.md​
 
 redirects:  
-    bootstrap-template/argon-dashboard: content/bootstrap-template/argon-dashboard.md
+    bootstrap-template/argon-dashboard:      content/bootstrap-template/argon-dashboard.md
+    admin-dashboards/flask-dashboard-black:  products/flask-dashboards/black-dashboard
+    admin-dashboards/django-dashboard-black: products/django-dashboards/black-dashboard
 
