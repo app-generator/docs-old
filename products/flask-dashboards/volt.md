@@ -22,7 +22,7 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 
 * [Volt Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-volt) - product page
 * [Volt Dashboard Flask](https://github.com/app-generator/flask-dashboard-volt) - source code 
-* [Volt Dashboard Flask](https://flask-volt-dashboard.appseed-srv1.com/) - LIVE Demo
+* [Volt Dashboard Flask](https://flask-volt-dashboard.appseed-srv1.com/) - LIVE Deployment
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
 
