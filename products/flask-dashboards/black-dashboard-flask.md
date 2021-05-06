@@ -39,7 +39,7 @@ description: Open-source Flask starter coded on top Black Dashboard design (free
 **Black Dashboard** is a beautiful Bootstrap 4 Admin Dashboard with a huge number of components built to fit together and look amazing. Black Dashboard comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
 
 * [Black Dashboard](../../content/bootstrap-template/black-dashboard.md) - more information provided by AppSeed
-* [Black Dashboard](https://www.creative-tim.com/product/black-dashboard?AFFILIATE=128200) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
+* [Black Dashboard](https://bit.ly/2L0W6Z7) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Black Dashboard - Free Dashboard template.](../../.gitbook/assets/docs-black-dashboard-screen.jpg)
 
