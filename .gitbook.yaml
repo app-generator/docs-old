@@ -25,12 +25,13 @@ redirects:
 
     bootstrap-template/argon-dashboard/:            content/bootstrap-template/argon-dashboard.md
 
+    admin-dashboards/flask-dashboard-argon/:        products/flask-dashboards/argon-dashboard.md
     admin-dashboards/flask-dashboard-black/:        products/flask-dashboards/black-dashboard.md
-
     admin-dashboards/flask-dashboard-dattaable/:    products/flask-dashboards/datta-able.md
     admin-dashboards/flask-dashboard-adminlte/:     products/flask-dashboards/adminlte.md
     admin-dashboards/flask-dashboard-volt/:         products/flask-dashboards/volt.md
 
+    admin-dashboards/django-dashboard-argon/:       products/django-dashboards/argon-dashboard.md
     admin-dashboards/django-dashboard-black/:       products/django-dashboards/black-dashboard.md
     admin-dashboards/django-dashboard-dattaable/:   products/django-dashboards/datta-able.md
     admin-dashboards/django-dashboard-adminlte/:    products/django-dashboards/adminlte.md
