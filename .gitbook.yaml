@@ -12,7 +12,9 @@ redirects:
 
     admin-dashboards/flask-dashboard-dattaable:     products/flask-dashboards/datta-able.md
     admin-dashboards/flask-dashboard-dattaable/:    products/flask-dashboards/datta-able.md
+    admin-dashboards/flask-dashboard-adminlte/:     products/flask-dashboards/adminlte.md
     
     admin-dashboards/django-dashboard-black:        products/django-dashboards/black-dashboard.md
     admin-dashboards/django-dashboard-dattaable:    products/django-dashboards/datta-able.md
     admin-dashboards/django-dashboard-dattaable/:   products/django-dashboards/datta-able.md
+    admin-dashboards/django-dashboard-adminlte/:    products/django-dashboards/adminlte.md
