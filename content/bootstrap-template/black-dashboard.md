@@ -12,8 +12,8 @@ description: Free Bootstrap 4 Admin Dashboard with Dark Design
 
 > Used By
 
-* [Flask Black Dashboard](../../products/flask-dashboards/black-dashboard-flask.md) - open-source seed project
-* Django Black Dashboard - open-source seed project
+* [Flask Black Dashboard](../../products/flask-dashboards/black-dashboard.md) - open-source seed project
+* [Django Black Dashboard](../../products/django-dashboards/black-dashboard.md) - open-source seed project
 
 **Black Dashboard** features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
 
