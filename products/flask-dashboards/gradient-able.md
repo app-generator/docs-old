@@ -11,7 +11,7 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: Gradient Able \(free version\) 
+* UI Kit: **Gradient Able** \(free version\) 
 * DBMS: SQLite, PostgreSQL \(production\)
 * DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
 * Modular design with **Blueprints**
