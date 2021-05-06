@@ -6,7 +6,7 @@ description: >-
 
 # Azia Dashboard Flask
 
- **Azia Dashboard** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. The pre-built pages of the templates are intuitive and very well-designed. For newcomers, **Flask** is a lightweight web application framework written in Python that can be easily extended to become an API, a simple one-page project, or complex eCommerce solutions.
+**Azia Dashboard** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. The pre-built pages of the templates are intuitive and very well-designed. For newcomers, **Flask** is a lightweight web application framework written in Python that can be easily extended to become an API, a simple one-page project, or complex eCommerce solutions.
 
 > Features
 
