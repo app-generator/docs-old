@@ -17,6 +17,7 @@
   * [AdminLTE Flask](products/flask-dashboards/adminlte.md)
   * [Azia Dashboard Flask](products/flask-dashboards/azia-dashboard.md)
   * [Argon Dashboard Flask](products/flask-dashboards/argon-dashboard.md)
+  * [Atlantis Dark Flask](products/flask-dashboards/atlantis-dark.md)
   * [Black Dashboard Flask](products/flask-dashboards/black-dashboard.md)
   * [Datta Able Flask](products/flask-dashboards/datta-able.md)
   * [Gradient Able Flask](products/flask-dashboards/gradient-able.md)
