@@ -28,6 +28,7 @@
   * [Argon Dashboard Django](products/django-dashboards/argon-dashboard.md)
   * [Black Dashboard Django](products/django-dashboards/black-dashboard.md)
   * [Datta Able Django](products/django-dashboards/datta-able.md)
+  * [Material Dashboard Django](products/django-dashboards/material-dashboard.md)
   * [Volt Django](products/django-dashboards/volt.md)
 
 ## Content
