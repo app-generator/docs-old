@@ -6,15 +6,30 @@ root: ./
     summary: SUMMARY.md​
 
 redirects:  
-    bootstrap-template/argon-dashboard:          content/bootstrap-template/argon-dashboard.md
 
-    admin-dashboards/flask-dashboard-black:      products/flask-dashboards/black-dashboard.md
+    how-to/django-admin-customization/:             content/how-to/django-admin-customization.md 
+    how-to/django-chart-example/:                   content/how-to/django-chart-example.md
+    how-to/django-deploy-on-heroku/:                content/how-to/django-deploy-on-heroku.md
+    how-to/flask-apache-centos-virtualenv-minimal-configuration/:  content/how-to/flask-apache-centos-virtualenv-minimal-configuration.md
+    how-to/flask-code-simple-app/:                  content/how-to/flask-code-simple-app.md
+    how-to/flask-deploy-on-heroku/:                 content/how-to/flask-deploy-on-heroku.md
+    how-to/flask-structure-your-project/:           content/how-to/flask-structure-your-project.md
+    how-to/getting-started-with-python/:            content/how-to/getting-started-with-python.md
+    how-to/install-flask/:                          content/how-to/install-flask.md
+    how-to/install-python/:                         content/how-to/install-python.md
+    how-to/install-python38-ubuntu/:                content/how-to/install-python38-ubuntu.md
+    how-to/python-crawl-website/:                   content/how-to/python-crawl-website.md
+    how-to/setup-centos-for-development/:           content/how-to/setup-centos-for-development.md
+    how-to/setup-ubuntu-for-development/:           content/how-to/setup-ubuntu-for-development.md
+    how-to/setup-windows-for-development/:          content/how-to/setup-windows-for-development.md
 
-    admin-dashboards/flask-dashboard-dattaable:     products/flask-dashboards/datta-able.md
+    bootstrap-template/argon-dashboard/:            content/bootstrap-template/argon-dashboard.md
+
+    admin-dashboards/flask-dashboard-black/:        products/flask-dashboards/black-dashboard.md
+
     admin-dashboards/flask-dashboard-dattaable/:    products/flask-dashboards/datta-able.md
     admin-dashboards/flask-dashboard-adminlte/:     products/flask-dashboards/adminlte.md
     
-    admin-dashboards/django-dashboard-black:        products/django-dashboards/black-dashboard.md
-    admin-dashboards/django-dashboard-dattaable:    products/django-dashboards/datta-able.md
+    admin-dashboards/django-dashboard-black/:       products/django-dashboards/black-dashboard.md
     admin-dashboards/django-dashboard-dattaable/:   products/django-dashboards/datta-able.md
     admin-dashboards/django-dashboard-adminlte/:    products/django-dashboards/adminlte.md
