@@ -9,7 +9,7 @@ One of the best open-source admin dashboard & control panel theme. Built on top 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **AdminLTE**
+* UI Kit: **AdminLTE** crafted by ColorLib
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
