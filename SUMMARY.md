@@ -21,6 +21,7 @@
   * [Gradient Able Flask](products/flask-dashboards/gradient-able.md)
   * [Material Dashboard Flask](products/flask-dashboards/material-dashboard.md)
 * [Django Dashboards](products/django-dashboards/README.md)
+  * [AdminLTE Django](products/django-dashboards/adminlte.md)
   * [Azia Dashboard Django](products/django-dashboards/azia-dashboard.md)
   * [Black Dashboard Django](products/django-dashboards/black-dashboard.md)
   * [Datta Able Django](products/django-dashboards/datta-able.md)
