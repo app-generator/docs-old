@@ -1,6 +1,6 @@
 # [AppSeed Docs](https://docs.appseed.us)
 
-> Note: Docs migrated from [MkDocs](https://docs-old.appseed.us) to [Gitbook](https://docs.appseed.us): [master branch](https://github.com/app-generator/docs/tree/master). 
+> Note: **Docs migrated** from [MkDocs](https://docs-old.appseed.us) (deprecated) **to [Gitbook](https://docs.appseed.us)**.
 
 <br />
 
