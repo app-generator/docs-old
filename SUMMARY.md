@@ -71,6 +71,8 @@
   * [Code a simple app In Flask](content/how-to/flask-code-simple-app.md)
   * [How to structure a Flask project](content/how-to/flask-structure-your-project.md)
   * [Flask Deploy on Apache](content/how-to/flask-apache-centos-virtualenv-minimal-configuration.md)
+* [Tutorials](content/tutorials/README.md)
+  * [Flask - Code a simple App](content/tutorials/flask-code-simple-web-app.md)
 * [Programming Languages](content/programming-languages/README.md)
   * [Php](content/programming-languages/php.md)
   * [Python](content/programming-languages/python.md)
