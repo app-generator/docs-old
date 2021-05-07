@@ -12,7 +12,7 @@ Such projects can be used in many contexts by developers and designers:
 
 * Start a new project and code specific features on top of the existing codebase
 * Extract and integrate the UI files into a legacy project
-* Beginners can use the codebase for learning purposes     \_\_ 
+* Beginners can use the codebase for learning purposes 
 
 Starters are provided in different patterns and technologies under permissive \(MIT, LGPL\) or commercial licenses:
 
