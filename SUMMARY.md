@@ -24,7 +24,7 @@
   * [Gradient Able Flask](products/flask-dashboards/gradient-able.md)
   * [Material Dashboard Flask](products/flask-dashboards/material-dashboard.md)
   * [MaterialPro Lite Flask](products/flask-dashboards/materialpro-lite.md)
-  * [MaterialPro Flask](products/flask-dashboards/materialpro.md)
+  * [MaterialPro Flask](products/flask-dashboards/materialpro-wpx.md)
   * [Volt Flask](products/flask-dashboards/volt.md)
 * [Django Dashboards](products/django-dashboards/README.md)
   * [AdminLTE Django](products/django-dashboards/adminlte.md)
@@ -35,7 +35,7 @@
   * [Datta Able Django](products/django-dashboards/datta-able.md)
   * [Datta Able PRO Django](products/django-dashboards/datta-able-pro.md)
   * [Material Dashboard Django](products/django-dashboards/material-dashboard.md)
-  * [MaterialPro Lite Django](products/django-dashboards/materialpro-lite-django.md)
+  * [MaterialPro Lite Django](products/django-dashboards/materialpro-lite.md)
   * [MaterialPro Django](products/django-dashboards/materialpro-wpx.md)
   * [Volt Django](products/django-dashboards/volt.md)
 
