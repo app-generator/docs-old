@@ -49,5 +49,7 @@ Support is an important part of our business model. A good product, in order to 
 * Browse [AppSeed](https://appseed.us/) and find a starter for your next project
 * Access the [support](https://appseed.us/support) page in case you need help 
 
+<br />
+
 ---
 [AppSeed Docs](https://docs.appseed.us) - The official index 
