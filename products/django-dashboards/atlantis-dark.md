@@ -43,7 +43,3 @@ Atlantis Dark Lite admin dashboard has 2 layouts, many plugins, and UI component
 
 ![Atlantis Lite - Dark Layout Dashboard.](../../.gitbook/assets/atlantis-lite-cover.png)
 
-
-
-
-
