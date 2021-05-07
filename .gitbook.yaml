@@ -7,6 +7,7 @@ root: ./
 
 redirects:  
 
+    how-to/:                                             content/how-to/README.md 
     how-to/django-admin-customization/:                  content/how-to/django-admin-customization.md 
     how-to/django-chart-example/:                        content/how-to/django-chart-example.md
     how-to/django-deploy-on-heroku/:                     content/how-to/django-deploy-on-heroku.md
@@ -23,6 +24,31 @@ redirects:
     how-to/setup-ubuntu-for-development/:                content/how-to/setup-ubuntu-for-development.md
     how-to/setup-windows-for-development/:               content/how-to/setup-windows-for-development.md
 
+    what-is/:                                            content/what-is/README.md 
+    what-is/boilerplate-code/:                           content/what-is/boilerplate-code.md 
+    what-is/bulma-css/:                                  content/what-is/bulma-css.md 
+    what-is/centos/:                                     content/what-is/centos.md 
+    what-is/django/:                                     content/what-is/django.md 
+    what-is/eleventy/:                                   content/what-is/eleventy.md 
+    what-is/flask/:                                      content/what-is/flask.md 
+    what-is/gunicorn/:                                   content/what-is/gunicorn.md 
+    what-is/heroku/:                                     content/what-is/heroku.md 
+    what-is/jamstack/:                                   content/what-is/jamstack.md 
+    what-is/jinja/:                                      content/what-is/jinja.md 
+    what-is/nginx/:                                      content/what-is/nginx.md 
+    what-is/n-tier-architecture/:                        content/what-is/n-tier-architecture.md 
+    what-is/panini/:                                     content/what-is/panini.md 
+    what-is/pipenv/:                                     content/what-is/pipenv.md 
+    what-is/python/:                                     content/what-is/python.md 
+    what-is/single-tier-architecture/:                   content/what-is/single-tier-architecture.md 
+    what-is/static-site/:                                content/what-is/static-site.md 
+    what-is/svelte-js/:                                  content/what-is/svelte-js.md 
+    what-is/two-tier-architecture/:                      content/what-is/two-tier-architecture.md 
+    what-is/ubuntu/:                                     content/what-is/ubuntu.md 
+    what-is/uwsgi/:                                      content/what-is/uwsgi.md 
+    what-is/wsgi/:                                       content/what-is/wsgi.md 
+
+    tutorials/:                                          content/tutorials/README.md
     tutorials/flask-understand-flask-code-simple-app/:   content/tutorials/flask-code-simple-web-app.md
 
     bootstrap-template/argon-dashboard/:                 content/bootstrap-template/argon-dashboard.md
