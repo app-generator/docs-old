@@ -20,6 +20,7 @@
   * [Atlantis Dark Flask](products/flask-dashboards/atlantis-dark.md)
   * [Black Dashboard Flask](products/flask-dashboards/black-dashboard.md)
   * [Datta Able Flask](products/flask-dashboards/datta-able.md)
+  * [Datta Able PRO Flask](products/flask-dashboards/datta-able-pro.md)
   * [Gradient Able Flask](products/flask-dashboards/gradient-able.md)
   * [Material Dashboard Flask](products/flask-dashboards/material-dashboard.md)
   * [Volt Flask](products/flask-dashboards/volt.md)
@@ -30,6 +31,7 @@
   * [Atlantis Dark Django](products/django-dashboards/atlantis-dark.md)
   * [Black Dashboard Django](products/django-dashboards/black-dashboard.md)
   * [Datta Able Django](products/django-dashboards/datta-able.md)
+  * [Datta Able PRO Django](products/django-dashboards/datta-able-pro.md)
   * [Material Dashboard Django](products/django-dashboards/material-dashboard.md)
   * [Volt Django](products/django-dashboards/volt.md)
 
