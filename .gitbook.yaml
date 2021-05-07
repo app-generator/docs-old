@@ -53,6 +53,19 @@ redirects:
 
     bootstrap-template/:                                 content/bootstrap-template/README.md
     bootstrap-template/argon-dashboard/:                 content/bootstrap-template/argon-dashboard.md
+    bootstrap-template/argon-dashboard-pro/:             content/bootstrap-template/argon-dashboard-pro.md
+    bootstrap-template/atlantis-lite/:                   content/bootstrap-template/atlantis-lite.md
+    bootstrap-template/azia-dashboard-pro/:              content/bootstrap-template/azia-dashboard-pro.md
+    bootstrap-template/black-dashboard/:                 content/bootstrap-template/black-dashboard.md
+    bootstrap-template/black-dashboard-pro/:             content/bootstrap-template/black-dashboard-pro.md
+    bootstrap-template/datta-able/:                      content/bootstrap-template/datta-able.md
+    bootstrap-template/datta-able-pro/:                  content/bootstrap-template/datta-able-pro.md
+    bootstrap-template/light-bootstrap-dashboard/:       content/bootstrap-template/light-bootstrap-dashboard.md
+    bootstrap-template/material-dashboard/:              content/bootstrap-template/material-dashboard.md
+    bootstrap-template/pixel-lite-template/:             content/bootstrap-template/pixel-lite-template.md
+    bootstrap-template/pixel-pro/:                       content/bootstrap-template/pixel-pro.md
+    bootstrap-template/tabler/:                          content/bootstrap-template/tabler.md
+    bootstrap-template/volt-dashboard/:                  content/bootstrap-template/volt-dashboard.md
 
     admin-dashboards/flask-dashboard-atlantis-dark/:     products/flask-dashboards/atlantis-dark.md
     admin-dashboards/flask-dashboard-argon/:             products/flask-dashboards/argon-dashboard.md
