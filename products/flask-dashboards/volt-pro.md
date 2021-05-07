@@ -11,7 +11,7 @@ Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components,
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [Volt PRO Dashboard](../../content/bootstrap-template/volt-dashboard-pro.md) \(free version\) 
+* UI Kit: [Volt PRO Dashboard](../../content/bootstrap-template/volt-dashboard-pro.md) \(premium version\) 
 * DBMS: SQLite, PostgreSQL \(production\)
 * DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
 * Modular design with **Blueprints**
