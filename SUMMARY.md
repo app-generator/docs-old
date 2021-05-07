@@ -105,6 +105,7 @@
 * [Bootstrap Templates](content/bootstrap-template/README.md)
   * [Azia Dashboard PRO](content/bootstrap-template/azia-dashboard-pro.md)
   * [Atlantis Lite Template](content/bootstrap-template/atlantis-lite.md)
+  * [Atlantis PRO Template](content/bootstrap-template/atlantis-pro.md)
   * [Argon Dashboard Template](content/bootstrap-template/argon-dashboard.md)
   * [Argon Dashboard PRO](content/bootstrap-template/argon-dashboard-pro.md)
   * [Black Dashboard Template](content/bootstrap-template/black-dashboard.md)
