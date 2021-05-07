@@ -2,7 +2,7 @@
 description: Premium Bootstrap 5 template crafted by Themesberg.
 ---
 
-# Volt Pro Template
+# Volt Dashboard Pro Template
 
 Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components, 20 example pages, and 10 fully customized plugins written in Vanilla Javascript.
 
