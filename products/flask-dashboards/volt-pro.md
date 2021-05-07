@@ -21,7 +21,7 @@ Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components,
 > Links
 
 * [Volt PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro) - product page
-* [Volt PRO Flask](https://github.com/app-generator/flask-dashboard-volt-pro) - source code 
+* [Volt PRO Flask](https://github.com/app-generator/flask-dashboard-volt-pro) - public repository used for tracking issues 
 * [Volt PRO Flask](https://flask-volt-pro.appseed-srv1.com/) - LIVE Deployment
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
