@@ -42,7 +42,7 @@ Atlantis PRO has 9 layouts, 26 plugins and many UI components to help developers
 
 * [Atlantis Dark PRO](../../content/bootstrap-template/atlantis-pro.md) - information provided by AppSeed
 
-![](../../.gitbook/assets/docs-atlantis-pro-screen.jpg)
+![Atlantis Dark - Premium Bootstrap template.](../../.gitbook/assets/docs-atlantis-pro-screen.jpg)
 
  
 
