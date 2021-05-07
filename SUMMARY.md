@@ -105,6 +105,7 @@
   * [Argon Dashboard PRO](content/bootstrap-template/argon-dashboard-pro.md)
   * [Black Dashboard Template](content/bootstrap-template/black-dashboard.md)
   * [Black Dashboard PRO](content/bootstrap-template/black-dashboard-pro.md)
+  * [CoreUI Template](content/bootstrap-template/coreui.md)
   * [Datta Able Template](content/bootstrap-template/datta-able.md)
   * [Datta Able PRO](content/bootstrap-template/datta-able-pro.md)
   * [Light Bootstrap Template](content/bootstrap-template/light-bootstrap-dashboard.md)
