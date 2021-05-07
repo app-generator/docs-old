@@ -1,8 +1,8 @@
 ---
-description: Free and Premium Bootstrap 4 Templates
+description: Free and Premium Bootstrap 4 Templates - Indian-based agency.
 ---
 
-# WrapPixel
+# WrapPixel Agency
 
 An Indian-based company that provides modern UI Kits and templates for Bootstrap, Angular, and Vue:
 

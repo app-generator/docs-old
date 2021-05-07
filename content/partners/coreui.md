@@ -4,7 +4,7 @@ description: >-
   apps.
 ---
 
-# CoreUI
+# CoreUI Agency
 
 CoreUI \(agency\) provides a modern material-based dashboard template quite popular in the ope-source ecosystem: CoreUI Dashboard template.
 

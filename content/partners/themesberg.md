@@ -2,7 +2,7 @@
 description: 'Free and Premium Bootstrap themes, templates, admin dashboards.'
 ---
 
-# Themesberg
+# Themesberg Agency
 
 Themesberg is a young Romanian-based company that provides free and premium Bootstrap and React templates. 
 

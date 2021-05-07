@@ -2,7 +2,7 @@
 description: Indian-based web agency.
 ---
 
-# CodedThemes
+# CodedThemes Agency
 
 [CodedThemes](https://codedthemes.com/?ref=appseed) is a well-known agency that provides templates, UI Kits, and other freebies and products used by many developers across the globe.
 

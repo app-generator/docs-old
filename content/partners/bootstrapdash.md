@@ -2,7 +2,7 @@
 description: Indian-based web agency
 ---
 
-# BootstrapDash
+# BootstrapDash Agency
 
 Develop applications faster with free and premium templates built using Bootstrap, Angular, Vue.js, React and Laravel.
 
