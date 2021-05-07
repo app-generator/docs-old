@@ -105,6 +105,7 @@
   * [Datta Able PRO](content/bootstrap-template/datta-able-pro.md)
   * [Light Bootstrap Template](content/bootstrap-template/light-bootstrap-dashboard.md)
   * [Material Dashboard Template](content/bootstrap-template/material-dashboard.md)
+  * [MaterialPro Lite](content/bootstrap-template/materialpro-lite.md)
   * [MaterialPro Wpx](content/bootstrap-template/materialpro-wpx.md)
   * [Pixel Lite Template](content/bootstrap-template/pixel-lite-template.md)
   * [Pixel PRO](content/bootstrap-template/pixel-pro.md)
