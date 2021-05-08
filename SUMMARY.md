@@ -101,7 +101,6 @@
   * [Flask](content/frameworks/flask.md)
 * [Design Systems](content/design-system/README.md)
   * [Argon Design System](content/design-system/argon-design-system.md)
-  * [Material Design](content/design-system/material-design.md)
   * [Soft UI Design System](content/design-system/soft-ui-design-system.md)
 * [Partners](content/partners/README.md)
   * [BootstrapDash Agency](content/partners/bootstrapdash.md)
