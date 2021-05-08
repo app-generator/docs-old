@@ -131,4 +131,6 @@
   * [Volt Dashboard Template](content/bootstrap-template/volt-dashboard.md)
   * [Volt Dashboard Pro Template](content/bootstrap-template/volt-dashboard-pro.md)
   * [Tabler Template](content/bootstrap-template/tabler.md)
+* [React Templates](content/react-template/README.md)
+  * [Berry React Dashboard](content/react-template/berry-react-dashboard.md)
 
