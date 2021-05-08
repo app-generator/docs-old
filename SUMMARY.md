@@ -17,6 +17,7 @@
   * [AdminLTE Flask](products/flask-dashboards/adminlte.md)
   * [Azia Dashboard Flask](products/flask-dashboards/azia-dashboard.md)
   * [Argon Dashboard Flask](products/flask-dashboards/argon-dashboard.md)
+  * [Argon PRO Flask](products/flask-dashboards/argon-dashboard-pro.md)
   * [Atlantis Dark Flask](products/flask-dashboards/atlantis-dark.md)
   * [Atlantis Dark PRO Flask](products/flask-dashboards/atlantis-dark-pro.md)
   * [Black Dashboard Flask](products/flask-dashboards/black-dashboard.md)
