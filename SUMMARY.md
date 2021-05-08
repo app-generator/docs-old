@@ -21,6 +21,7 @@
   * [Atlantis Dark Flask](products/flask-dashboards/atlantis-dark.md)
   * [Atlantis Dark PRO Flask](products/flask-dashboards/atlantis-dark-pro.md)
   * [Black Dashboard Flask](products/flask-dashboards/black-dashboard.md)
+  * [Black PRO Flask](products/flask-dashboards/black-dashboard-pro.md)
   * [CoreUI Flask](products/flask-dashboards/coreui.md)
   * [Datta Able Flask](products/flask-dashboards/datta-able.md)
   * [Datta Able PRO Flask](products/flask-dashboards/datta-able-pro.md)
