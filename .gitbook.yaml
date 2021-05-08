@@ -72,10 +72,12 @@ redirects:
     admin-dashboards/flask-dashboard-argon/:                 products/flask-dashboards/argon-dashboard.md
     admin-dashboards/flask-dashboard-argon-pro/:             products/flask-dashboards/argon-dashboard-pro.md
     admin-dashboards/flask-dashboard-black/:                 products/flask-dashboards/black-dashboard.md
+    admin-dashboards/flask-dashboard-black-pro/:             products/flask-dashboards/black-dashboard-pro.md
     admin-dashboards/flask-dashboard-dattaable/:             products/flask-dashboards/datta-able.md
     admin-dashboards/flask-dashboard-dattaable-pro/:         products/flask-dashboards/datta-able-pro.md
     admin-dashboards/flask-dashboard-adminlte/:              products/flask-dashboards/adminlte.md
     admin-dashboards/flask-dashboard-material/:              products/flask-dashboards/material-dashboard.md
+    admin-dashboards/flask-dashboard-material-pro/:          products/flask-dashboards/material-dashboard-pro.md
     admin-dashboards/flask-material-dashboard-wpx-pro/:      products/flask-dashboards/materialpro-wpx.md 
     admin-dashboards/flask-dashboard-volt/:                  products/flask-dashboards/volt.md
     admin-dashboards/flask-dashboard-volt-pro/:              products/flask-dashboards/volt-pro.md
@@ -86,10 +88,12 @@ redirects:
     admin-dashboards/django-dashboard-argon/:                products/django-dashboards/argon-dashboard.md
     admin-dashboards/django-dashboard-argon-pro/:            products/django-dashboards/argon-dashboard-pro.md
     admin-dashboards/django-dashboard-black/:                products/django-dashboards/black-dashboard.md
+    admin-dashboards/django-dashboard-black-pro/:            products/django-dashboards/black-dashboard-pro.md
     admin-dashboards/django-dashboard-dattaable/:            products/django-dashboards/datta-able.md
     admin-dashboards/django-dashboard-dattaable-pro/:        products/django-dashboards/datta-able-pro.md
     admin-dashboards/django-dashboard-adminlte/:             products/django-dashboards/adminlte.md
     admin-dashboards/django-dashboard-material/:             products/django-dashboards/material-dashboard.md
+    admin-dashboards/django-dashboard-material-pro/:         products/django-dashboards/material-dashboard-pro.md
     admin-dashboards/django-material-dashboard-wpx-pro/:     products/django-dashboards/materialpro-wpx.md 
     admin-dashboards/django-dashboard-volt/:                 products/django-dashboards/volt.md
     admin-dashboards/django-dashboard-volt-pro/:             products/django-dashboards/volt-pro.md
