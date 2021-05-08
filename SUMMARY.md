@@ -39,6 +39,7 @@
   * [Atlantis Dark Django](products/django-dashboards/atlantis-dark.md)
   * [Atlantis Dark PRO Django](products/django-dashboards/atlantis-dark-pro.md)
   * [Black Dashboard Django](products/django-dashboards/black-dashboard.md)
+  * [Black PRO Django](products/django-dashboards/black-dashboard-pro.md)
   * [CoreUI Django](products/django-dashboards/coreui.md)
   * [Datta Able Django](products/django-dashboards/datta-able.md)
   * [Datta Able PRO Django](products/django-dashboards/datta-able-pro.md)
