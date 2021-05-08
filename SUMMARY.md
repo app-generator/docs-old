@@ -45,6 +45,7 @@
   * [Datta Able Django](products/django-dashboards/datta-able.md)
   * [Datta Able PRO Django](products/django-dashboards/datta-able-pro.md)
   * [Material Dashboard Django](products/django-dashboards/material-dashboard.md)
+  * [Material PRO Django](products/django-dashboards/material-dashboard-pro.md)
   * [MaterialPro Lite Django](products/django-dashboards/materialpro-lite.md)
   * [MaterialPro Django](products/django-dashboards/materialpro-wpx.md)
   * [Volt Django](products/django-dashboards/volt.md)
