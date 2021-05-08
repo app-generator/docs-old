@@ -43,5 +43,3 @@ Material Dashboard PRO makes use of light, surface, and movement. The general la
 
 ![Material Dashboard PRO - Premium Bootstrap Template.](../../.gitbook/assets/docs-cover-material-pro.jpg)
 
-
-
