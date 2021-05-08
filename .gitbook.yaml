@@ -70,6 +70,7 @@ redirects:
     admin-dashboards/flask-dashboard-atlantis-dark/:         products/flask-dashboards/atlantis-dark.md
     admin-dashboards/flask-dashboard-atlantis-dark-pro/:     products/flask-dashboards/atlantis-dark-pro.md
     admin-dashboards/flask-dashboard-argon/:                 products/flask-dashboards/argon-dashboard.md
+    admin-dashboards/flask-dashboard-argon-pro/:             products/flask-dashboards/argon-dashboard-pro.md
     admin-dashboards/flask-dashboard-black/:                 products/flask-dashboards/black-dashboard.md
     admin-dashboards/flask-dashboard-dattaable/:             products/flask-dashboards/datta-able.md
     admin-dashboards/flask-dashboard-dattaable-pro/:         products/flask-dashboards/datta-able-pro.md
@@ -83,6 +84,7 @@ redirects:
     admin-dashboards/django-dashboard-atlantis-dark/:        products/django-dashboards/atlantis-dark.md
     admin-dashboards/django-dashboard-atlantis-dark-pro/:    products/django-dashboards/atlantis-dark-pro.md
     admin-dashboards/django-dashboard-argon/:                products/django-dashboards/argon-dashboard.md
+    admin-dashboards/django-dashboard-argon-pro/:            products/django-dashboards/argon-dashboard-pro.md
     admin-dashboards/django-dashboard-black/:                products/django-dashboards/black-dashboard.md
     admin-dashboards/django-dashboard-dattaable/:            products/django-dashboards/datta-able.md
     admin-dashboards/django-dashboard-dattaable-pro/:        products/django-dashboards/datta-able-pro.md
