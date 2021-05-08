@@ -27,6 +27,7 @@
   * [Datta Able PRO Flask](products/flask-dashboards/datta-able-pro.md)
   * [Gradient Able Flask](products/flask-dashboards/gradient-able.md)
   * [Material Dashboard Flask](products/flask-dashboards/material-dashboard.md)
+  * [Material PRO Flask](products/flask-dashboards/material-dashboard-pro.md)
   * [MaterialPro Lite Flask](products/flask-dashboards/materialpro-lite.md)
   * [MaterialPro Flask](products/flask-dashboards/materialpro-wpx.md)
   * [Volt Flask](products/flask-dashboards/volt.md)
