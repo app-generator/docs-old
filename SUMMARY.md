@@ -127,6 +127,7 @@
   * [MaterialPro Wpx](content/bootstrap-template/materialpro-wpx.md)
   * [Pixel Lite Template](content/bootstrap-template/pixel-lite-template.md)
   * [Pixel PRO](content/bootstrap-template/pixel-pro.md)
+  * [Star Admin Template](content/bootstrap-template/star-admin.md)
   * [Volt Dashboard Template](content/bootstrap-template/volt-dashboard.md)
   * [Volt Dashboard Pro Template](content/bootstrap-template/volt-dashboard-pro.md)
   * [Tabler Template](content/bootstrap-template/tabler.md)
