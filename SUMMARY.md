@@ -30,6 +30,7 @@
   * [Material PRO Flask](products/flask-dashboards/material-dashboard-pro.md)
   * [MaterialPro Lite Flask](products/flask-dashboards/materialpro-lite.md)
   * [MaterialPro Flask](products/flask-dashboards/materialpro-wpx.md)
+  * [Star Admin Flask](products/flask-dashboards/star-admin.md)
   * [Volt Flask](products/flask-dashboards/volt.md)
   * [Volt PRO Flask](products/flask-dashboards/volt-pro.md)
 * [Django Dashboards](products/django-dashboards/README.md)
