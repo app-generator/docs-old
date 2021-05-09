@@ -20,7 +20,7 @@ description: >-
 
 * [Star Admin Django](https://appseed.us/admin-dashboards/django-star-admin) - product page
 * [Star Admin Django](https://github.com/app-generator/django-star-admin) - source code 
-* [Star Admin Django](https://appseed.us/admin-dashboards/django-dashboard-staradmin-pro) - LIVE Demo
+* [Star Admin Django](https://django-star-admin.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
 
