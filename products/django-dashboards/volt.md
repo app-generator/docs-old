@@ -11,7 +11,7 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **Volt Dashboard** \(free version\)
+* UI Kit: [Volt Dashboard](../../content/bootstrap-template/volt-dashboard.md) ****\(free version\)
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
