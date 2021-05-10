@@ -53,6 +53,11 @@
   * [Volt Django](products/django-dashboards/volt.md)
   * [Volt PRO Django](products/django-dashboards/volt-pro.md)
 
+## Free Samples <a id="samples"></a>
+
+* [Django](samples/django/README.md)
+  * [Django User Profile](samples/django/edit-user-profile.md)
+
 ## Content
 
 * [What IS](content/what-is/README.md)
