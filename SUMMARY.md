@@ -57,6 +57,7 @@
 
 * [Django](samples/django/README.md)
   * [Django User Profile](samples/django/edit-user-profile.md)
+  * [Django Sales Charts](samples/django/django-sales-charts.md)
 
 ## Content
 
