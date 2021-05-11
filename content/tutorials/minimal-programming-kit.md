@@ -6,7 +6,7 @@ description: >-
 
 # Minimal Programming Kit
 
-This page aims to help beginners to set up their PC for programming. All recommended tools are free, stable, and widely used even by experienced programmers and designers. At the end, we will build a popular open-source project using the downloaded tools. 
+This page aims to help beginners to set up their PC for programming. All recommended tools are free, stable, and widely used even by experienced programmers and designers. In the end, we will build a popular open-source project using the downloaded tools. 
 
 > The Short-list
 
@@ -75,7 +75,7 @@ Git is a **free and open-source** distributed version control system designed to
 * [GIT](https://git-scm.com/) - official website
 * [GIT](https://git-scm.com/downloads) - download page
 
-To check the installtion,  feel free to open a terminal and type  `git --version`:
+To check the installation,  feel free to open a terminal and type  `git --version`:
 
 ```text
 git --version
