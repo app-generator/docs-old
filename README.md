@@ -36,6 +36,7 @@ Support is an important part of our business model. A good product, in order to 
 ### **Latest Content**
 
 * New Tutorial: [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
+* New React Template: [CoreUI](content/react-template/coreui-react.md) \(free version\)
 * Flask Dashboards: [Datta Able](products/flask-dashboards/datta-able.md), [Material Dashboard](products/flask-dashboards/material-dashboard.md), [Volt Bootstrap 5](products/flask-dashboards/volt.md)
 * Django Starters: [Material Dashboard](products/django-dashboards/material-dashboard.md), [Star Admin](products/django-dashboards/star-admin.md)
 * Free Samples: [Django User Profile](samples/django/edit-user-profile.md), [Django Sales Chart](samples/django/django-sales-charts.md)
