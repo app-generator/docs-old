@@ -142,6 +142,7 @@
   * [Tabler Template](content/bootstrap-template/tabler.md)
 * [React Templates](content/react-template/README.md)
   * [Berry React Dashboard](content/react-template/berry-react-dashboard.md)
+  * [CoreUI React](content/react-template/coreui-react.md)
 * [Vue Templates](content/vue-template/README.md)
   * [Vuetify Material Dashboard](content/vue-template/vuetify-material-dashboard.md)
 
