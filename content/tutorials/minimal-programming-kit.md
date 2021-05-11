@@ -118,5 +118,8 @@ If all goes well, we shoould see Material Kit starter running in the browser:
 
 ![Programming Kit - Sample Project.](../../.gitbook/assets/programming-kit-build-sample-materialkit.jpg)
 
-    
+**Links & Resources**
+
+* Free [React Dashboards](https://dev.to/sm0ke/react-dashboards-open-source-apps-1c7j) - a curated list published on Dev.to
+* [Open-source Dashboards](https://appseed.us/admin-dashboards/open-source) provided by AppSeed **** 
 
