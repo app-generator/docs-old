@@ -100,6 +100,7 @@
   * [How to structure a Flask project](content/how-to/flask-structure-your-project.md)
   * [Flask Deploy on Apache](content/how-to/flask-apache-centos-virtualenv-minimal-configuration.md)
 * [Tutorials](content/tutorials/README.md)
+  * [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
   * [Flask - Code a simple App](content/tutorials/flask-code-simple-web-app.md)
 * [Programming Languages](content/programming-languages/README.md)
   * [Php](content/programming-languages/php.md)
