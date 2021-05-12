@@ -35,6 +35,8 @@ Support is an important part of our business model. A good product, in order to 
 
 ### **Latest Content**
 
+* New Bootstrap Template: [Soft UI Dashboard](content/bootstrap-template/soft-ui-dashboard.md)
+* New Flask Product: [Flask Soft UI Dashboard](products/flask-dashboards/soft-ui-dashboard.md)
 * New Tutorial: [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
 * New React Template: [CoreUI](content/react-template/coreui-react.md) \(free version\)
 * Flask Dashboards: [Datta Able](products/flask-dashboards/datta-able.md), [Material Dashboard](products/flask-dashboards/material-dashboard.md), [Volt Bootstrap 5](products/flask-dashboards/volt.md)
