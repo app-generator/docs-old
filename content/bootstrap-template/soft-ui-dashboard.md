@@ -10,6 +10,7 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 * [Soft UI Dashboard](https://bit.ly/2Q1uIfK) - product page
 * [Soft UI Dashboard](https://bit.ly/3dLM7CE) -  LIVE Demo
+* [Soft UI Dashboard](https://bit.ly/2Qa0szQ) - Product Documentation
 
 **UI Kit Features** - Soft UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, alerts, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and classes.
 
