@@ -43,3 +43,5 @@ Soft UI Dashboard is built with over 70 frontend individual elements, like butto
 * [Soft UI Dashboard](../../content/bootstrap-template/soft-ui-dashboard.md) - more information provided by AppSeed
 * [Soft UI Dashboard](https://bit.ly/2Q1uIfK) - product page hosted by **Creative-Tim**
 
+![Soft UI Dashboard - Billing Page.](../../.gitbook/assets/soft-ui-dashboard-page-billing.jpg)
+

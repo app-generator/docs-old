@@ -50,5 +50,5 @@ $ gulp open-app
 
 If all goes well, Soft UI Dashboard should be visible in the browser. 
 
-![Soft UI Dashboard - Billing Page.](../../.gitbook/assets/soft-ui-dashboard-page-billing.jpg)
+![Soft UI Dashboard - Billing Page.](../../.gitbook/assets/soft-ui-dashboard-page-billing%20%281%29.jpg)
 
