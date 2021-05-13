@@ -120,6 +120,7 @@
   * [Themesberg Agency](content/partners/themesberg.md)
   * [WrapPixel Agency](content/partners/wrappixel.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
+  * [AdminKit](content/bootstrap-template/adminkit.md)
   * [Azia Dashboard PRO](content/bootstrap-template/azia-dashboard-pro.md)
   * [Atlantis Lite Template](content/bootstrap-template/atlantis-lite.md)
   * [Atlantis PRO Template](content/bootstrap-template/atlantis-pro.md)
