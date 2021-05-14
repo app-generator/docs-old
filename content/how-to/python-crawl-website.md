@@ -13,7 +13,9 @@ This page explains how to use Python and extract \(title\) information from a LI
 * `Beautiful Soup` - a library used to parse HTML and extract information with ease
 * 10minutes to understand and type the commands 
 
-## Let's start writing code.
+
+
+### Let's start writing code.
 
 **Check Python is installed**
 
@@ -62,15 +64,15 @@ At this point, the `page` should be injected and used via `BeautifulSoup4`.
 
 This simple tutorial should provoke curious minds to search other Python `hot topics` and try to code more useful things. We will provide a short-list with suggestions:
 
-* List all images of an web page
+* List all images of a web page
 * List the inner links \(to other pages, the same domain\)
 * List the outer links \(external websites\)
 
-## \(More\) Resources
+
+
+#### Links & Resources
 
 * [Python](https://www.python.org/) - the official website
 * [Python Cheatsheet](https://www.pythoncheatsheet.org/) - this site should make you curious
-* Join [AppSeed](https://appseed.us) - For support and `production-ready` starters
-
-Python Crawl Website - content provided by [AppSeed](https://appseed.us)
+* Join [AppSeed](https://appseed.us) - For support and `production-ready` starters 
 

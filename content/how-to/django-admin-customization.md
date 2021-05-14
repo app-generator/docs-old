@@ -2,7 +2,7 @@
 description: How To customize Django Admin Interface
 ---
 
-# Customize Django Admin Interface
+# Django Customize Admin UI
 
 This page explains how to override Django admin and import a custom template to it. Along with the tutorial, we provide a working sample coded on top of Black Dashboard design \(free version\) designed by Creative-Tim.
 
@@ -124,7 +124,9 @@ vi templates/404.html
 
 Once we save the file, Django will use it when a 404 error case occur when users interacts with our application.
 
-## A complete example
+
+
+### A complete example
 
 This section explains the process of integrating Black Dashboard design \(free version\) to style the default admin section for Django.
 
@@ -315,7 +317,9 @@ admin_black/
 
 This way you can override the Django admin template and import your own template.
 
-### Links & Resource
+
+
+#### Links & Resource
 
 * Page editor and `Django Admin Black` author - [**Iman Karimi**](https://www.linkedin.com/in/iman-karimi/)
 * [Django Black Dashboard](https://appseed.us/admin-dashboards/django-dashboard-black) - free Django product that uses the same UI Kit

@@ -2,24 +2,28 @@
 description: Setup Windows for Developers
 ---
 
-# Setup Windows for development
+# Setup Windows for coding
 
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact \(Windows CE\). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
 
-## Install basic development tools
+### 
+
+### Install basic development tools
 
 This guide is written for Windows 10 version but can be used as a starting point for older versions of Windows.
 
-## [Visual Studio Code](https://code.visualstudio.com/)
 
-Visual Studio Code is a lightweight but powerful source code editor that runs on your desktop and is available for Windows, MacOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages \(such as C++, C\#, Java, Python, PHP, Go\) and runtimes \(such as .NET and Unity\).
 
-**Links**:
+### [Visual Studio Code](https://code.visualstudio.com/)
+
+Visual Studio Code is a lightweight but powerful source code editor that runs on your desktop and is available for Windows, MacOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages \(such as C++, C\#, Java, Python, PHP, Go\) and runtimes \(such as .NET and Unity\). 
 
 * [Visual Studio Code](https://code.visualstudio.com/) - the official page
 * [Visual Studio Code](https://code.visualstudio.com/docs) - documentation
 
-## Install [Python](https://www.python.org)
+### 
+
+### Install [Python](https://www.python.org)
 
 It is highly unlikely that your Windows system shipped with Python already installed. Fortunately, installing does not involve much more than downloading the Python installer from the python.org website and running it. Let’s take a look at how to install Python3 on Windows:
 
@@ -36,7 +40,9 @@ $ python --version
 Python 3.7.2
 ```
 
-## Install [Git](https://git-scm.com/downloads)
+### 
+
+### Install [Git](https://git-scm.com/downloads)
 
 To install Git on Windows you will need to download the installer from the [Git](https://git-scm.com/downloads) website:
 
@@ -58,7 +64,9 @@ For more information about Git please access:
 * [How to Install Git on Linux, Mac or Windows](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
 * [Getting Started with Git](https://www.linode.com/docs/development/version-control/how-to-configure-git/)
 
-## Install [Node.js](https://nodejs.org/en/)
+### 
+
+### Install [Node.js](https://nodejs.org/en/)
 
 Node.js is a run-time environment that includes everything you need to execute a program written in JavaScript. It’s used for running scripts on the server to render content before it is delivered to a web browser. NPM stands for Node Package Manager, which is an application and repository for developing and sharing JavaScript code.
 
@@ -66,7 +74,7 @@ Node.js is a run-time environment that includes everything you need to execute a
 
 In a web browser, navigate to [https://nodejs.org/en/download/](https://nodejs.org/en/download/). Click the Windows Installer button to download the latest default version. At the time this article was written, version 10.16.0-x64 was the latest version. The Node.js installer includes the NPM package manager.
 
-![NodeJs Installer.](https://phoenixnap.com/kb/wp-content/uploads/2019/06/donwload-nodejs-installer-windows-1.png)
+![NodeJs - Donwload Page.](../../.gitbook/assets/programming-kit-nodejs.jpg)
 
 Execute the installer, and choosing the default options should be enough to have a successfull installation:
 
@@ -74,4 +82,6 @@ Execute the installer, and choosing the default options should be enough to have
 $ node -v
 $ npm -v
 ```
+
+
 

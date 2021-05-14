@@ -4,16 +4,16 @@ description: Getting Started with Python
 
 # Getting Started with Python
 
-This page explains how to get started with Python and execute simple code using this programming language.
-
-**Resources**
+This page explains how to get started with Python and execute simple code using this programming language - Resources:
 
 * [Python](https://www.python.org/) - the official website
 * [Python](https://en.wikipedia.org/wiki/Python_%28programming_language) - Wikipedia page
-* [Applications for Python](https://www.python.org/about/apps/) 
-* [What can I do with Python](https://www.freecodecamp.org/news/what-can-you-do-with-python-the-3-main-applications-518db9a68a78/)
+* [Applications for Python](https://www.python.org/about/apps/) - blog artcile 
+* [What can I do with Python](https://www.freecodecamp.org/news/what-can-you-do-with-python-the-3-main-applications-518db9a68a78/) - blog article 
 
-**What is Python**
+
+
+### **What is Python**
 
 Python is an `interpreted` high-level and general-purpose programming language. Interpreted means that the instructions are executed one-by-one at runtime. This pattern is different from compiled languages like C++, where the code is initially compiled and later executed in the operating system.
 

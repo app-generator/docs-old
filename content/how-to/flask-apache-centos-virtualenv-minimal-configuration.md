@@ -8,7 +8,9 @@ This page explains how to deploy a simple [Flask](https://www.palletsprojects.co
 
 > Note: this setup was tested on CentOS but can be easily adapted to be executed on other platforms.
 
-## Dependencies
+
+
+### Dependencies
 
 * [Apache](https://httpd.apache.org/) / httpd \(on CentOS\) server
 * [mod\_wsgi](https://modwsgi.readthedocs.io/)
@@ -16,9 +18,11 @@ This page explains how to deploy a simple [Flask](https://www.palletsprojects.co
 * [Python3](https://www.python.org/)
 * [Virtualenv](https://virtualenv.pypa.io/)
 
-## Prepare the environment
 
-### Install [Apache](https://httpd.apache.org/) server
+
+### Prepare the environment
+
+> Install [Apache](https://httpd.apache.org/) server
 
 ```bash
 $ sudo yum install httpd
@@ -27,7 +31,7 @@ $ # by default the server is down.
 $ sudo systemctl start httpd
 ```
 
-### Install [mod\_wsgi](https://modwsgi.readthedocs.io/)
+> Install [mod\_wsgi](https://modwsgi.readthedocs.io/)
 
 ```bash
 $ sudo yum install mod_wsgi
@@ -36,14 +40,14 @@ $ # restart apache
 $ sudo systemctl restart httpd
 ```
 
-### Test if the `mod_wsgi` module is loaded
+> Test if the `mod_wsgi` module is loaded
 
 ```bash
 $ sudo httpd -M | grep wsgi
 wsgi_module (shared) # <-- the OK response
 ```
 
-### Install [Virtualenv](https://virtualenv.pypa.io/)
+> Install [Virtualenv](https://virtualenv.pypa.io/)
 
 Virtual environments will sandbox the app to run isolated from the global server environment
 
@@ -51,7 +55,9 @@ Virtual environments will sandbox the app to run isolated from the global server
 $ sudo pip install virtualenv
 ```
 
-## Code the [Flask](https://www.palletsprojects.com/p/flask/) App
+### 
+
+### Code the [Flask](https://www.palletsprojects.com/p/flask/) App
 
 We will use a simple [Flask](https://www.palletsprojects.com/p/flask/) application that serves a simple `Hello World` message for all routes. As mentioned before, this setup is executed on CentOs. The steps are:
 
@@ -98,7 +104,9 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=port, debug=True)
 ```
 
-## Test the Flask App
+### 
+
+### Test the Flask App
 
 We have the test application, now let's start it to see something on the screen. First, we need to create and activate the virtual environment.
 
@@ -123,7 +131,9 @@ $ flask run # start the app
 $ # our app is running on port 5000
 ```
 
-## Apache Configuration
+### 
+
+### Apache Configuration
 
 To execute a Flask application under the Apache HTTP server we need to bridge our application to the Apache engine using the mod\_wsgi module. For this we need to create a new file `wsgi.py` inside our project folder:
 
@@ -182,7 +192,7 @@ $ lynx localhost # lynx
 
 ![Flask App deployed on Apache](https://raw.githubusercontent.com/app-generator/static/master/docs/flask-apache-centos-running-app.jpg)
 
-## Links
+### Links
 
 * [How To Serve Flask Applications](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-centos-7)
 * [Minimal Apache configuration for Flask](https://www.codementor.io/abhishake/minimal-apache-configuration-for-deploying-a-flask-app-ubuntu-18-04-phu50a7ft)

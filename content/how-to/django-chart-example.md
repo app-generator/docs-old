@@ -4,13 +4,13 @@ description: How To showcase information in Django
 
 # Django Chart Example
 
-To display data on a chart, you must extract data from your model or anywhere else and send it to the JS function as JSON. For example, I did this through the following method:
+To display data on a chart, you must extract data from your model or anywhere else and send it to the JS function as JSON. For example, I did this through the following work flow:
 
-## Let's Start
 
-### Make a Model
 
-* I want to show my product sales report on the Chart. To do this, I created a model with the following structure in `models.py`:
+> **Step \#1 -** Make a Model
+
+I want to show my product sales report on the Chart. To do this, I created a model with the following structure in `models.py`:
 
 ```python
 from django.db import models
@@ -27,15 +27,17 @@ class Sale(models.Model):
         verbose_name_plural = 'sales'
 ```
 
-### Import Data
 
-* I used [`django-import-export`](https://django-import-export.readthedocs.io/en/latest/installation.html) package to add data through csv, xls, and etc.
 
-### Extract Data
+**Import Data**
 
-* In this part, I want to display the annual sales information for each product in the chart \(By how much of each product has been sold each year\).
+I used [`django-import-export`](https://django-import-export.readthedocs.io/en/latest/installation.html) package to add data through csv, xls, and etc.
 
-  So the structure of data is as follows:
+
+
+**Extract Data**
+
+In this part, I want to display the annual sales information for each product in the chart \(By how much of each product has been sold each year\) - the structure of data is as follows:
 
 ```python
 # Example
@@ -76,11 +78,11 @@ class Sale(models.Model):
         return data, labels
 ```
 
-> Pay attention to comments, please
 
-### Create View
 
-* In `view.py`, we just need to call this function and create the structure needed for the chart. As follows:
+> **Step \#2 -**  Create View
+
+In `view.py`, we just need to call this function and create the structure needed for the chart. As follows:
 
 ```python
 import json
@@ -120,11 +122,13 @@ def index(request):
     return render(request, 'YOUR_TEMPLATE', context)
 ```
 
-> This is the structure of our chart, And it must be in JSON to be displayed in JS function.
+This is the structure of our chart, And it must be in JSON to be displayed in JS function.
 
-### Show in Template
+### 
 
-* In your template, just call your chart and send the data to JS Function. For example:
+> **Step \#3** - Show in Template
+
+In your template, just call your chart and send the data to JS Function. For example:
 
 ```markup
 {% load static %}
@@ -151,9 +155,7 @@ def index(request):
 </script>
 ```
 
-> In this example, I used `Morris.Bar` Chart to display the information.
+In this example, I used `Morris.Bar` Chart to display the information.
 
-## Author
 
-* This part was written by [**Iman Karimi**](https://www.linkedin.com/in/iman-karimi/).
 
