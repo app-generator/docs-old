@@ -34,6 +34,7 @@
   * [Flask Material PRO](products/flask-dashboards/material-dashboard-pro.md)
   * [Flask MaterialPro Lite](products/flask-dashboards/materialpro-lite.md)
   * [Flask MaterialPro](products/flask-dashboards/materialpro-wpx.md)
+  * [Flask Material Admin](products/flask-dashboards/material-admin.md)
   * [Flask Star Admin](products/flask-dashboards/star-admin.md)
   * [Flask Soft Dashboard](products/flask-dashboards/soft-ui-dashboard.md)
   * [Flask Volt](products/flask-dashboards/volt.md)
