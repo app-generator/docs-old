@@ -38,6 +38,7 @@
   * [Flask Material Admin](products/flask-dashboards/material-admin.md)
   * [Flask Star Admin](products/flask-dashboards/star-admin.md)
   * [Flask Soft Dashboard](products/flask-dashboards/soft-ui-dashboard.md)
+  * [Flask Sleek Admin](products/flask-dashboards/sleek-admin.md)
   * [Flask Volt](products/flask-dashboards/volt.md)
   * [Flask Volt PRO](products/flask-dashboards/volt-pro.md)
   * [Flask Tabler](products/flask-dashboards/tabler.md)
