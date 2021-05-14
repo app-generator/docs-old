@@ -147,11 +147,11 @@ Visit `http://localhost:5005` in your browser. The app should be up & running.
 
 
 
-#### [Heroku](https://www.heroku.com/)
+#### [Heroku](https://www.heroku.com/) Deployment
 
 Steps to deploy on **Heroku**
 
-* [Create a FREE account](https://signup.heroku.com/) on Heroku platform
+* [Create a FREE account](https://signup.heroku.com/) on the Heroku platform
 * [Install the Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) that match your OS: Mac, Unix or Windows
 * Open a terminal window and authenticate via `heroku login` command
 * Clone the sources and push the project for LIVE deployment
