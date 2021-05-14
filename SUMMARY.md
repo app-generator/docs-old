@@ -13,6 +13,8 @@
 
 ## PRODUCTS
 
+* [Flask Apps](products/flask-apps/README.md)
+  * [Flask Material Kit](products/flask-apps/flask-material-kit.md)
 * [Flask Dashboards](products/flask-dashboards/README.md)
   * [AdminLTE Flask](products/flask-dashboards/adminlte.md)
   * [Azia Dashboard Flask](products/flask-dashboards/azia-dashboard.md)
@@ -134,6 +136,7 @@
   * [Light Bootstrap Template](content/bootstrap-template/light-bootstrap-dashboard.md)
   * [Material Dashboard Template](content/bootstrap-template/material-dashboard.md)
   * [Material Dashboard PRO](content/bootstrap-template/material-dashboard-pro.md)
+  * [Material UI Kit](content/bootstrap-template/material-ui-kit.md)
   * [MaterialPro Lite](content/bootstrap-template/materialpro-lite.md)
   * [MaterialPro Wpx](content/bootstrap-template/materialpro-wpx.md)
   * [Pixel Lite Template](content/bootstrap-template/pixel-lite-template.md)
