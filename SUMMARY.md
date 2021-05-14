@@ -6,10 +6,11 @@
 
 ## Boilerplate Code
 
-* [Django Dashboards](boilerplate-code/django-dashboard.md)
-* [Django Apps](boilerplate-code/django.md)
-* [Flask Dashboards](boilerplate-code/flask-dashboard.md)
-* [Flask Apps](boilerplate-code/flask.md)
+* [Boilerplate Django Dashboards](boilerplate-code/django-dashboard.md)
+* [Boilerplate Django Apps](boilerplate-code/django.md)
+* [Boilerplate Flask Dashboards](boilerplate-code/flask-dashboard.md)
+* [Boilerplate Flask Apps](boilerplate-code/flask.md)
+* [Boilerplate Jinja](boilerplate-code/boilerplate-jinja.md)
 
 ## PRODUCTS
 
@@ -59,7 +60,8 @@
   * [Django Volt](products/django-dashboards/volt.md)
   * [Django Volt PRO](products/django-dashboards/volt-pro.md)
   * [Django Tabler](products/django-dashboards/tabler.md)
-* [Jinja Templates](products/jinja-templates.md)
+* [Jinja Templates](products/jinja-templates/README.md)
+  * [Jinja Datta Able PRO](products/jinja-templates/datta-able-pro.md)
 
 ## Free Samples <a id="samples"></a>
 
