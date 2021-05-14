@@ -111,3 +111,4 @@ redirects:
 
 
     jinja-template/:                                         products/jinja-templates/README.md
+    jinja-template/jinja-datta-able-pro/:                    products/jinja-templates/datta-able-pro.md 
