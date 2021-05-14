@@ -63,8 +63,9 @@
   * [Django Tabler](products/django-dashboards/tabler.md)
 * [Jinja Templates](products/jinja-templates/README.md)
   * [Jinja AdminLTE](products/jinja-templates/adminlte.md)
-  * [Atlantis Lite](products/jinja-templates/atlantis-lite.md)
+  * [Jinja Atlantis Lite](products/jinja-templates/atlantis-lite.md)
   * [Jinja Datta Able PRO](products/jinja-templates/datta-able-pro.md)
+  * [Material Dashboard](products/jinja-templates/material-dashboard.md)
 
 ## Free Samples <a id="samples"></a>
 
