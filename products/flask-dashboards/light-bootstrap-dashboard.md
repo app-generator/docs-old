@@ -11,7 +11,7 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: Light Bootstrap Dashboard \(free version\) 
+* UI Kit: **Light Bootstrap Dashboard** \(free version\) 
 * DBMS: SQLite, PostgreSQL \(production\)
 * DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
 * Modular design with **Blueprints**
@@ -20,9 +20,9 @@ description: >-
 
 > Links
 
-* Light Bootstrap Dashboard Flask - product page
-* Light Bootstrap Dashboard Flask - source code 
-* Light Bootstrap Dashboard Flask - LIVE Demo
+* [Light Bootstrap Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-light-bootstrap) - product page
+* [Light Bootstrap Dashboard Flask](https://github.com/app-generator/flask-dashboard-light-bootstrap) - source code 
+* [Light Bootstrap Dashboard Flask](https://flask-dashboard-light.appseed.us/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
 
