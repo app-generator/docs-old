@@ -59,6 +59,7 @@
   * [Django Volt](products/django-dashboards/volt.md)
   * [Django Volt PRO](products/django-dashboards/volt-pro.md)
   * [Django Tabler](products/django-dashboards/tabler.md)
+* [Jinja Templates](products/jinja-templates.md)
 
 ## Free Samples <a id="samples"></a>
 
