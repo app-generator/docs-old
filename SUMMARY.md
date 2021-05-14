@@ -105,6 +105,7 @@
   * [Getting Started with Python](content/how-to/getting-started-with-python.md)
   * [Django Customize Admin UI](content/how-to/django-admin-customization.md)
   * [Django Chart Example](content/how-to/django-chart-example.md)
+  * [Django Deploy on HEROKU](content/how-to/django-deploy-on-heroku.md)
   * [Install Flask](content/how-to/install-flask.md)
   * [Code a simple app In Flask](content/how-to/flask-code-simple-app.md)
   * [Structure a Flask project](content/how-to/flask-structure-your-project.md)
