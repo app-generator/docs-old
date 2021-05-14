@@ -98,3 +98,5 @@ redirects:
     admin-dashboards/django-dashboard-volt/:                 products/django-dashboards/volt.md
     admin-dashboards/django-dashboard-volt-pro/:             products/django-dashboards/volt-pro.md
     admin-dashboards/django-dashboard-coreui/:               products/django-dashboards/coreui.md
+
+    apps/flask-apps/flask-material-kit/:                     products/flask-apps/material-kit.md

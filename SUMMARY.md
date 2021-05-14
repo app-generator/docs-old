@@ -14,7 +14,7 @@
 ## PRODUCTS
 
 * [Flask Apps](products/flask-apps/README.md)
-  * [Flask Material Kit](products/flask-apps/flask-material-kit.md)
+  * [Flask Material Kit](products/flask-apps/material-kit.md)
 * [Flask Dashboards](products/flask-dashboards/README.md)
   * [AdminLTE Flask](products/flask-dashboards/adminlte.md)
   * [Azia Dashboard Flask](products/flask-dashboards/azia-dashboard.md)
