@@ -51,6 +51,9 @@ redirects:
     tutorials/:                                              content/tutorials/README.md
     tutorials/flask-understand-flask-code-simple-app/:       content/tutorials/flask-code-simple-web-app.md
 
+    ui-kits/:                                                content/bootstrap-template/
+    ui-kits/datta-able/:                                     content/bootstrap-template/datta-able.md
+
     bootstrap-template/:                                     content/bootstrap-template/README.md
     bootstrap-template/argon-dashboard/:                     content/bootstrap-template/argon-dashboard.md
     bootstrap-template/argon-dashboard-pro/:                 content/bootstrap-template/argon-dashboard-pro.md
