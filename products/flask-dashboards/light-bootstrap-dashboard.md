@@ -6,7 +6,7 @@ description: >-
 
 # Flask Light Bootstrap
 
-**Light Bootstrap Dashboard** is a Bootstrap 4 admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 4 and it is fully responsive. It can be used to create admin panels, project management systems, web applications backend, CMS, or CRM. 
+**Light Bootstrap Dashboard** is a Bootstrap 4 admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 4 and it is fully responsive. It can be used to create admin panels, project management systems, web applications backend, CMS, or CRM.
 
 > Features
 
@@ -38,7 +38,7 @@ description: >-
 
 ### Light Bootstrap UI Kit
 
-**Light Bootstrap Dashboard** contains multiple handpicked and optimized plugins. Everything is designed to fit with one another.  It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs.
+**Light Bootstrap Dashboard** contains multiple handpicked and optimized plugins. Everything is designed to fit with one another. It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs.
 
 * [Light Bootstrap Dashboard](../../content/bootstrap-template/light-bootstrap-dashboard.md) - more information provided by AppSeed
 * [Light Bootstrap Dashboard](https://bit.ly/2ZEXOU3) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
