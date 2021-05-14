@@ -115,6 +115,7 @@ redirects:
     jinja-template/jinja-datta-able-pro/:                    products/jinja-templates/datta-able-pro.md
     jinja-template/jinja-template-adminlte-dashboard/:       products/jinja-templates/adminlte.md
     jinja-template/jinja-template-atlantis-lite/:            products/jinja-templates/atlantis-lite.md
-    jinja-template/jinja-template-material-dashboard/:       products/jinja-templates/material-dashboard.md 
+    jinja-template/jinja-template-material-dashboard/:       products/jinja-templates/material-dashboard.md
+    jinja-template/jinja-template-paper-dashboard/:          products/jinja-templates/paper-dashboard.md
 
     admin-dashboards/:                                       boilerplate-code/django-dashboard.md
