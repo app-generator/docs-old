@@ -50,6 +50,7 @@
   * [Django CoreUI](products/django-dashboards/coreui.md)
   * [Django Datta Able](products/django-dashboards/datta-able.md)
   * [Django Datta Able PRO](products/django-dashboards/datta-able-pro.md)
+  * [Django Light Bootstrap](products/django-dashboards/light-bootstrap-dashboard.md)
   * [Django Material Dashboard](products/django-dashboards/material-dashboard.md)
   * [Django Material PRO](products/django-dashboards/material-dashboard-pro.md)
   * [Django MaterialPro Lite](products/django-dashboards/materialpro-lite.md)
