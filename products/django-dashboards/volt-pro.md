@@ -4,7 +4,7 @@ description: >-
   (Premium version).
 ---
 
-# Volt PRO Django
+# Django Volt PRO
 
 Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components, 20 example pages, and 10 fully customized plugins written in Vanilla Javascript. There are more than 800 premium Bootstrap 5 components included with the admin dashboard, some of which are buttons, forms, alerts, date pickers, range sliders, and many more.  
 

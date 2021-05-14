@@ -4,7 +4,7 @@ description: >-
   (PRO version).
 ---
 
-# Datta Able PRO Django
+# Django Datta Able PRO
 
 **Datta Able** is the most stylish Bootstrap 4 Admin Template compare to all other Bootstrap admin templates that come with high feature-rich pages and components with fully developer-centric code.
 

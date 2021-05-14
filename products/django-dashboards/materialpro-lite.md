@@ -4,7 +4,7 @@ description: >-
   (Lite version).
 ---
 
-# MaterialPro Lite Django
+# Django MaterialPro Lite
 
 WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspired by Google Material design principles integrated with the essential Bootstrap components and UI elements.  
 

@@ -4,7 +4,7 @@ description: >-
   design
 ---
 
-# Atlantis Dark PRO Django
+# Django Atlantis Dark PRO
 
 Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to manage and visualize data about your business. Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.  
 

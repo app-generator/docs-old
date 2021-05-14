@@ -4,7 +4,7 @@ description: >-
   (free version).
 ---
 
-# Gradient Able Flask
+# Flask Gradient Able
 
 [Gradient Able](https://appseed.us/admin-dashboards/flask-gradient-able) Bootstrap 4 Free/Lite Admin Template is a complete solution for your dashboard creation. **Gradient Able** stands out from the crowd with an elegant look that combines soft gradient colors with well-suited typography and great cards and graphics. 
 

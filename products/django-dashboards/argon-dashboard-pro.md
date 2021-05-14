@@ -4,7 +4,7 @@ description: >-
   design (PRO version).
 ---
 
-# Argon PRO Django
+# Django Argon PRO
 
 **Argon Dashboard** is built with over 200 individual components, giving you the freedom of choosing and combining. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done. 
 

@@ -2,7 +2,7 @@
 description: Open-source Flask starter coded on top CoreUI design (free version).
 ---
 
-# CoreUI Flask
+# Flask CoreUI
 
 **CoreUI** is an Open Source Bootstrap Admin Template. But CoreUI is not just another Admin Template. It goes way beyond hitherto admin templates thanks to transparent code and file structure. And if that's not enough, let’s just add that CoreUI consists bunch of unique features and over 1000 high-quality icons. 
 

@@ -4,7 +4,7 @@ description: >-
   (Premium version).
 ---
 
-# MaterialPro Django
+# Django MaterialPro
 
 WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material design template that comes packed with new, fresh, and attractive designs and ready-to-use components. 
 

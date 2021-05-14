@@ -4,7 +4,7 @@ description: >-
   version).
 ---
 
-# Azia Dashboard Django
+# Django Azia Dashboard
 
 **Azia Dashboard** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. The pre-built pages of the templates are intuitive and very well-designed. 
 

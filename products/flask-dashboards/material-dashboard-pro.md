@@ -4,7 +4,7 @@ description: >-
   design (PRO version).
 ---
 
-# Material PRO Flask
+# Flask Material PRO
 
 **Material Dashboard PRO** is a Premium Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. It is based on the popular Bootstrap 4 framework and comes packed with multiple third-party plugins. All components are built to fit perfectly with each other while aligning with the material concepts. 
 

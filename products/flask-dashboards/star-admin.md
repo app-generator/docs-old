@@ -4,7 +4,7 @@ description: >-
   version).
 ---
 
-# Star Admin Flask
+# Flask Star Admin
 
 **Star Admin** is a free responsive admin template built with Bootstrap 4. The template has a colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template. 
 

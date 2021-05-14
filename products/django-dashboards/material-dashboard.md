@@ -4,7 +4,7 @@ description: >-
   (free version).
 ---
 
-# Material Dashboard Django
+# Django Material Dashboard
 
 **Material Dashboard** is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers \(blue, green, orange, red and purple\) and an option to have a background image on the sidebar. 
 

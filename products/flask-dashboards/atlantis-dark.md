@@ -4,7 +4,7 @@ description: >-
   (free version).
 ---
 
-# Atlantis Dark Flask
+# Flask Atlantis Dark
 
 **Atlantis Dark Lite** is a free bootstrap 4 admin dashboard that is beautifully and elegantly designed to display various metrics, numbers, or data visualization. 
 
