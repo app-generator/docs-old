@@ -51,7 +51,7 @@ redirects:
     tutorials/:                                              content/tutorials/README.md
     tutorials/flask-understand-flask-code-simple-app/:       content/tutorials/flask-code-simple-web-app.md
 
-    ui-kits/:                                                content/bootstrap-template/
+    ui-kits/:                                                content/bootstrap-template/README.md
     ui-kits/datta-able/:                                     content/bootstrap-template/datta-able.md
     ui-kits/adminlte/:                                       content/bootstrap-template/adminlte.md
 
@@ -108,3 +108,6 @@ redirects:
     admin-dashboards/django-dashboard-light/:                products/django-dashboards/light-bootstrap-dashboard.md
 
     apps/flask-apps/flask-material-kit/:                     products/flask-apps/material-kit.md
+
+
+    jinja-template/:                                         products/jinja-templates/README.md
