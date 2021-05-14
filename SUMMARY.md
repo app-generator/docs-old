@@ -66,6 +66,7 @@
   * [Jinja Atlantis Lite](products/jinja-templates/atlantis-lite.md)
   * [Jinja Datta Able PRO](products/jinja-templates/datta-able-pro.md)
   * [Material Dashboard](products/jinja-templates/material-dashboard.md)
+  * [Paper Dashboard](products/jinja-templates/paper-dashboard.md)
 
 ## Free Samples <a id="samples"></a>
 
