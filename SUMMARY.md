@@ -28,6 +28,7 @@
   * [Flask Datta Able](products/flask-dashboards/datta-able.md)
   * [Flask Datta Able PRO](products/flask-dashboards/datta-able-pro.md)
   * [Flask Gradient Able](products/flask-dashboards/gradient-able.md)
+  * [Flask Light Bootstrap](products/flask-dashboards/light-bootstrap-dashboard.md)
   * [Flask Material Dashboard](products/flask-dashboards/material-dashboard.md)
   * [Flask Material PRO](products/flask-dashboards/material-dashboard-pro.md)
   * [Flask MaterialPro Lite](products/flask-dashboards/materialpro-lite.md)
