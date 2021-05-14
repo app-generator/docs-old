@@ -108,6 +108,7 @@ redirects:
     admin-dashboards/django-dashboard-coreui/:               products/django-dashboards/coreui.md
     admin-dashboards/django-dashboard-tabler/:               products/django-dashboards/tabler.md
     admin-dashboards/django-dashboard-light/:                products/django-dashboards/light-bootstrap-dashboard.md
+    admin-dashboards/django-dashboard-light-blue/:           products/django-dashboards/light-blue.md
 
     apps/flask-apps/flask-material-kit/:                     products/flask-apps/material-kit.md
 
