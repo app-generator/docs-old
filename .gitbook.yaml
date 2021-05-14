@@ -13,8 +13,7 @@ redirects:
     how-to/django-deploy-on-heroku/:                     content/how-to/django-deploy-on-heroku.md
     how-to/flask-apache-centos-virtualenv-minimal-configuration/:  content/how-to/flask-apache-centos-virtualenv-minimal-configuration.md
     how-to/flask-code-simple-app/:                       content/how-to/flask-code-simple-app.md
-    how-to/flask-deploy-on-heroku/:                      content/how-to/flask-deploy-on-heroku.md
-    xxx:                                                 content/how-to/flask-deploy-on-heroku.md
+    how-to/flask-deploy-on-heroku/:                      content/how-to/flask-deploy-on-heroku.md 
     how-to/flask-structure-your-project/:                content/how-to/flask-structure-your-project.md
     how-to/getting-started-with-python/:                 content/how-to/getting-started-with-python.md
     how-to/install-flask/:                               content/how-to/install-flask.md
