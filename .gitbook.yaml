@@ -53,6 +53,7 @@ redirects:
 
     ui-kits/:                                                content/bootstrap-template/
     ui-kits/datta-able/:                                     content/bootstrap-template/datta-able.md
+    ui-kits/adminlte/:                                       content/bootstrap-template/adminlte.md
 
     bootstrap-template/:                                     content/bootstrap-template/README.md
     bootstrap-template/argon-dashboard/:                     content/bootstrap-template/argon-dashboard.md
