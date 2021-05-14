@@ -16,7 +16,7 @@ description: >-
 
 > Links
 
-* [Jinja AdminLTE](https://github.com/app-generator/jinja-adminlte) - product page
+* [Jinja AdminLTE](https://github.com/app-generator/jinja-adminlte) - source code
 * [Jinja AdminLTE](https://adminlte-jinja.appseed-srv1.com/) - LIVE deployment
 
 
