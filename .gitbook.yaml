@@ -83,6 +83,7 @@ redirects:
     admin-dashboards/flask-dashboard-volt-pro/:              products/flask-dashboards/volt-pro.md
     admin-dashboards/flask-dashboard-coreui/:                products/flask-dashboards/coreui.md
     admin-dashboards/flask-dashboard-tabler/:                products/flask-dashboards/tabler.md
+    admin-dashboards/flask-dashboard-light/:                 products/flask-dashboards/light-bootstrap-dashboard.md
 
     admin-dashboards/django-dashboard-atlantis-dark/:        products/django-dashboards/atlantis-dark.md
     admin-dashboards/django-dashboard-atlantis-dark-pro/:    products/django-dashboards/atlantis-dark-pro.md
@@ -100,5 +101,6 @@ redirects:
     admin-dashboards/django-dashboard-volt-pro/:             products/django-dashboards/volt-pro.md
     admin-dashboards/django-dashboard-coreui/:               products/django-dashboards/coreui.md
     admin-dashboards/django-dashboard-tabler/:               products/django-dashboards/tabler.md
+    admin-dashboards/django-dashboard-light/:                products/django-dashboards/light-bootstrap-dashboard.md
 
     apps/flask-apps/flask-material-kit/:                     products/flask-apps/material-kit.md
