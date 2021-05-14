@@ -61,6 +61,7 @@
   * [Django Volt PRO](products/django-dashboards/volt-pro.md)
   * [Django Tabler](products/django-dashboards/tabler.md)
 * [Jinja Templates](products/jinja-templates/README.md)
+  * [Jinja AdminLTE](products/jinja-templates/adminlte.md)
   * [Jinja Datta Able PRO](products/jinja-templates/datta-able-pro.md)
 
 ## Free Samples <a id="samples"></a>
