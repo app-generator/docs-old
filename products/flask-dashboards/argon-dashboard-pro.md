@@ -27,21 +27,29 @@ description: >-
 
 
 
+### What is Flask
+
+**Flask** is a lightweight [WSGI](https://github.com/app-generator/docs/tree/2d3c04f4ed5d5acb419403f9daf8099709339734/what-is/wsgi/README.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
+
+
+
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
+* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
+* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
 
-### [Argon PRO](../../content/bootstrap-template/argon-dashboard-pro.md) - UI Kit
+### Argon PRO - UI Kit
 
 Argon is a completely new product built on our newest re-built from scratch framework structure that is meant to make our products more intuitive, more adaptive, and needless to say, so much easier to customize. Let Argon amaze you with its cool features and build tools and get your project to a whole new level.
 
 * [Argon PRO](../../content/bootstrap-template/argon-dashboard-pro.md) - information provided by AppSeed 
-* [Argon Dashboard PRO](https://bit.ly/39D2BLX) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
+* [Argon PRO](https://bit.ly/39D2BLX) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Argon Dashboard - Premium Bootstrap Template](../../.gitbook/assets/docs-cover-argon-pro.jpg)
 

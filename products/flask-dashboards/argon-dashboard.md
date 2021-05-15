@@ -44,7 +44,7 @@ description: >-
 
 
 
-### [Argon Dashboard](../../content/bootstrap-template/argon-dashboard.md) - UI Kit
+### Argon Dashboard - UI Kit
 
 **Argon Dashboard** is built with over 100 individual components, giving you the freedom of choosing and combining. Using this free dashboard template you might save a lot of time going from prototyping to full-functional code because all elements are implemented. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
 
