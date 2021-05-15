@@ -17,6 +17,7 @@
 * [Flask Apps](products/flask-apps/README.md)
   * [Flask Material Kit](products/flask-apps/material-kit.md)
 * [Flask Dashboards](products/flask-dashboards/README.md)
+  * [Flask Adminator](products/flask-dashboards/flask-adminator.md)
   * [Flask AdminLTE](products/flask-dashboards/adminlte.md)
   * [Flask Azia Dashboard](products/flask-dashboards/azia-dashboard.md)
   * [Flask Argon Dashboard](products/flask-dashboards/argon-dashboard.md)
