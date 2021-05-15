@@ -19,7 +19,9 @@ description: Short introduction to Python
 * Desktop apps and software development
 * Processing big data and performing mathematical computations
 
-## [Install Python](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/how-to/install-python/README.md)
+
+
+### [Install Python](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/how-to/install-python/README.md)
 
 The **Python** can be downloaded from the [official website](https://www.python.org/). Choose the installer for your operating system, download, and click a few times. By typing python --version in a terminal window, you should see something like this:
 
@@ -28,7 +30,9 @@ $ python --version
 Python 3.7.2
 ```
 
-## Coding in Python
+### 
+
+### Coding in Python
 
 To start using Python we need to open a terminal, type `python` and we should be see the python console waiting for input.
 
@@ -74,7 +78,9 @@ TypeError: can only concatenate str (not "int") to str
 'text 1'
 ```
 
-## Install libraries
+### 
+
+### Install libraries
 
 Python is an open-source software actively supported by a huge ecosystem where programmers expose their work to be reused by others. Flask and Django are just a few examples. The full-index with available packages can be found on [PyPI - Python Package Index](https://pypi.org/).
 
@@ -100,17 +106,19 @@ Once the libraries are installed succesfully, we can write code in the Python co
 <title>Google</title>
 ```
 
-## [Python Web Frameworks](https://hackr.io/blog/python-frameworks)
+### 
 
-* [Flask](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) - Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 template and Werkzeug WSGI toolkit.
+### [Python Web Frameworks](https://hackr.io/blog/python-frameworks)
+
+* [Flask](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) - Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 library and Werkzeug WSGI toolkit.
 * [Django](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) - Full-stack framework Django is one of the most beloved web development frameworks for developing Python applications.
 * [FastAPI](https://fastapi.tiangolo.com/) - a high performance, easy to learn, ready for production framework
 
-## Resources
+
+
+### Resources
 
 * [Flask Dashboards](http://appseed.us/admin-dashboards/flask) - provided by AppSeed
 * [Django Dashboards](http://appseed.us/admin-dashboards/django) - a curated list
 * Join [AppSeed](https://appseed.us) - For support and `production-ready` starters 
-
-What is Python - content provided by [AppSeed](https://appseed.us)
 
