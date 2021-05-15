@@ -168,6 +168,7 @@
   * [Pixel PRO](content/bootstrap-template/pixel-pro.md)
   * [Star Admin Template](content/bootstrap-template/star-admin.md)
   * [Soft UI Dashboard](content/bootstrap-template/soft-ui-dashboard.md)
+  * [Shards Dashboard](content/bootstrap-template/shards-dashboard.md)
   * [Volt Dashboard Template](content/bootstrap-template/volt-dashboard.md)
   * [Volt Dashboard Pro Template](content/bootstrap-template/volt-dashboard-pro.md)
   * [Tabler Template](content/bootstrap-template/tabler.md)
