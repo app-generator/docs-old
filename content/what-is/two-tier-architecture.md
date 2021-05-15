@@ -8,15 +8,18 @@ A **two-tier architecture** is a software architecture in which a presentation l
 
 ![Two Tier architecture](https://raw.githubusercontent.com/app-generator/static/master/docs/two-tier-architecture.jpg)
 
-## Sample Apps
+### 
+
+### Sample Apps
 
 * [Material Kit](https://appseed.us/apps/react/express/material-kit-creative-tim) coded in **React** and **Express**, where React implements the presentation layer, and the application login is coded in Express, the popular Node.js Framework.
 * [Argon Design](https://appseed.us/apps/vuejs/laravel/argon-design-system-creative-tim) coded in **Vue.js** and **Laravel**.
-* [BulmaPlay](https://appseed.us/apps/flask-apps/bulmaplay-flask-and-bulma-css) - presentation layer coded in jQuery and the server side implemented in Flask
-* [Flask Solid State](https://appseed.us/apps/flask-apps/flask-solid-state) - open-source application coded on top of [Solid State](https://html5up.net/solid-state) design in jQuery and Flask
+* [BulmaPlay](https://appseed.us/apps/flask-apps/bulmaplay-flask-and-bulma-css) - presentation layer coded in jQuery and the server-side implemented in Flask
 
-## Related Resources
 
-* Wikipedia [Multitier Architecture](https://en.wikipedia.org/wiki/Multitier_architecture)
-* Techopedia [One-Tier Architecture](https://www.techopedia.com/definition/17374/one-tier-architecture) 
+
+### Resources
+
+* Wikipedia [Multitier Architecture](https://en.wikipedia.org/wiki/Multitier_architecture) - blog article 
+* Techopedia [One-Tier Architecture](https://www.techopedia.com/definition/17374/one-tier-architecture) - blog article 
 
