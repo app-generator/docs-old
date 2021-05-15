@@ -4,17 +4,21 @@ description: Short introduction to Nginx
 
 # Nginx
 
-Nginx \(pronounced "engine X", /ˌɛndʒɪnˈɛks/ EN-jin-EKS\) \(stylized as NGINX or nginx or NginX\) is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. Nginx is free and open-source software, released under the terms of a BSD-like license. A large fraction of web servers use **NGINX** often as a load balancer.
+Nginx \(pronounced "engine X", /ˌɛndʒɪnˈɛks/ EN-jin-EKS\) \(stylized as NGINX or NginX\) is a web server that can also be used as a reverse proxy, load balancer, mail proxy, and HTTP cache. Nginx is free and open-source software, released under the terms of a BSD-like license. A large fraction of web servers uses **NGINX** often as a load balancer.
 
-## Features
 
-* Nginx can be deployed to serve dynamic HTTP content on the network using FastCGI, SCGI handlers for scripts, WSGI application servers or Phusion Passenger modules, and it can serve as a software load balancer.
+
+### Features
+
+* Nginx can be deployed to serve dynamic HTTP content on the network using FastCGI, SCGI handlers for scripts, WSGI application servers, or Phusion Passenger modules, and it can serve as a software load balancer.
 * Nginx uses an asynchronous event-driven approach, rather than threads, to handle requests. Nginx's modular event-driven architecture can provide more predictable performance under high loads.
 * Nginx default configuration file is `nginx.conf`
 
-## Links
+### 
+
+### Links
 
 * [Nginx](https://www.nginx.com/) - the official website
 * [Nginx](https://en.wikipedia.org/wiki/Nginx) - the Wikipedia page
-* [Apache HTTP Server](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/apache/README.md) - the well-known Apache web server
+* [Apache HTTP Server](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/apache/README.md) - the well-known Apache webserver
 
