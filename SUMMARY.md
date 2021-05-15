@@ -155,6 +155,7 @@
   * [Datta Able Template](content/bootstrap-template/datta-able.md)
   * [Datta Able PRO Template](content/bootstrap-template/datta-able-pro.md)
   * [Light Bootstrap Template](content/bootstrap-template/light-bootstrap-dashboard.md)
+  * [Light Bootstrap PRO](content/bootstrap-template/light-bootstrap-pro.md)
   * [Material Dashboard Template](content/bootstrap-template/material-dashboard.md)
   * [Material Dashboard PRO](content/bootstrap-template/material-dashboard-pro.md)
   * [Material UI Kit](content/bootstrap-template/material-ui-kit.md)
