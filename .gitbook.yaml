@@ -111,8 +111,9 @@ redirects:
     admin-dashboards/django-dashboard-light/:                products/django-dashboards/light-bootstrap-dashboard.md
     admin-dashboards/django-dashboard-light-blue/:           products/django-dashboards/light-blue.md
 
+    apps/flask-apps:                                         products/flask-apps/README.md
+    apps/flask-apps/:                                        products/flask-apps/README.md
     apps/flask-apps/flask-material-kit/:                     products/flask-apps/material-kit.md
-
 
     jinja-template/:                                         products/jinja-templates/README.md
     jinja-template/jinja-datta-able-pro/:                    products/jinja-templates/datta-able-pro.md
@@ -121,4 +122,5 @@ redirects:
     jinja-template/jinja-template-material-dashboard/:       products/jinja-templates/material-dashboard.md
     jinja-template/jinja-template-paper-dashboard/:          products/jinja-templates/paper-dashboard.md
 
+    admin-dashboards:                                        boilerplate-code/django-dashboard.md
     admin-dashboards/:                                       boilerplate-code/django-dashboard.md
