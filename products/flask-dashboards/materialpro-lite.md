@@ -27,16 +27,24 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 
 
 
+### What is Flask
+
+**Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
+
+
+
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
+* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
+* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
 
-### [MaterialPro Lite](../../content/bootstrap-template/materialpro-lite.md) - UI Kit
+### MaterialPro Lite UI Kit
 
 Material Pro Bootstrap is simplicity personified, the elegant user interface makes developing apps and websites a breeze. There are a host of options to tweak the layout as per your choice and create a fluid user interface that's exceptionally easy to use. Since it is designed as per Material principles, you can be assured that the template is lightning fast to load, cross-browser compatible, and renders well on screens of all sizes. 
 

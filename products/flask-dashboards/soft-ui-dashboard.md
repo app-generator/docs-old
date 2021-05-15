@@ -23,20 +23,26 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 * [Flask Soft UI Dashboard](https://flask-soft-ui-dashboard.appseed-srv1.com/) - LIVE demo
 * [Flask Soft UI Dashboard](https://github.com/app-generator/flask-soft-ui-dashboard) - Source Code
 
-![Soft UI Dashboard - Flask Starter.](../../.gitbook/assets/soft-ui-dashboard-page-dashboard.jpg)
+### 
+
+### What is Flask
+
+**Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
 
 
 
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
+* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
+* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
 
-### Soft UI Dashboard - UI Kit
+### Soft Dashboard UI Kit
 
 Soft UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, alerts, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and classes.
 
