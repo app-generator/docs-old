@@ -139,6 +139,7 @@
   * [Themesberg Agency](content/partners/themesberg.md)
   * [WrapPixel Agency](content/partners/wrappixel.md)
 * [Bootstrap Templates](content/bootstrap-template/README.md)
+  * [Adminator](content/bootstrap-template/adminator.md)
   * [AdminKit](content/bootstrap-template/adminkit.md)
   * [AdminLTE](content/bootstrap-template/adminlte.md)
   * [Azia Dashboard PRO](content/bootstrap-template/azia-dashboard-pro.md)
