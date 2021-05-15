@@ -11,7 +11,7 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [Volt Dashboard](../../content/bootstrap-template/volt-dashboard.md) \(free version\) 
+* UI Kit: Volt Dashboard \(free version\) 
 * DBMS: SQLite, PostgreSQL \(production\)
 * DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
 * Modular design with **Blueprints**
@@ -25,18 +25,26 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 * [Volt Dashboard Flask](https://flask-volt-dashboard.appseed-srv1.com/) - LIVE Deployment
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
+### 
+
+### What is Flask
+
+**Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
+
 
 
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
+* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
+* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
 
-### Volt Dashboard - UI Kit
+### Volt Dashboard UI Kit
 
 **100+ Components, 11 Sample pages** - There are more than 100 free Bootstrap 5 components included some of them being buttons, alerts, modals, date pickers, all nicely documented via the official components docs. Volt brings 11 example pages including an overview, sign in, sign up, transactions page, and many more.
 
@@ -46,6 +54,4 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 * [Volt Dashboard](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official documentation 
 
 ![Volt Dashboard - Free Bootstrap Template.](../../.gitbook/assets/volt-dashboard-cover.png)
-
-
 
