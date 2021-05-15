@@ -40,7 +40,7 @@ description: >-
 * [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
 * [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
 * [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
-* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this Flask application
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
 
