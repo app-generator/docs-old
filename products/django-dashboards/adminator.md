@@ -36,7 +36,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 ### How to use the App
 
 * [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
-* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this Django app in the local environment
+* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
 * [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
 * [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
 
