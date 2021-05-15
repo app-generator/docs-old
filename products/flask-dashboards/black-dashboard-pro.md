@@ -44,9 +44,9 @@ description: >-
 
 
 
-### [**Black Dashboard PRO**](../../content/bootstrap-template/black-dashboard-pro.md) - UI Kit
+### **Black Dashboard PRO** UI Kit
 
-**Black Dashboard PRO** features over 200 individual components, like buttons, inputs, cards, tabs, navigations etc., giving you the freedom of choosing and combining. You will save a lot of time going from prototyping to full-functional code because all elements are implemented. We wanted the design process to be seamless, so switching from image to the real page is very easy to do.
+**Black Dashboard PRO** features over 200 individual components, like buttons, inputs, cards, tabs, navigations giving you the freedom of choosing and combining. You will save a lot of time going from prototyping to full-functional code because all elements are implemented. We wanted the design process to be seamless, so switching from image to the real page is very easy to do.
 
 * [Black Dashboard PRO](../../content/bootstrap-template/black-dashboard-pro.md) - more information provided by AppSeed 
 * [Black Dashboard](https://bit.ly/2L0W6Z7) \(free version\) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
