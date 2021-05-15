@@ -16,7 +16,9 @@ Svelte provides a different approach to building web apps than some of the other
 * Svelte is Small - when a Svelte app is compiled, the resulting bundle size is tiny compared to most other popular frameworks.
 * Svelte is Compiled - the reason Svelte apps are so tiny is because Svelte, in addition to being a framework, is also a compiler.
 
-## How does [Svelte](https://svelte.dev/) work?
+
+
+### How does [Svelte](https://svelte.dev/) work?
 
 Being a compiler, Svelte can extend HTML, CSS, and JavaScript, generating optimal JavaScript code without any runtime overhead. To achieve this, Svelte extends vanilla web technologies in the following ways:
 
@@ -26,7 +28,9 @@ Being a compiler, Svelte can extend HTML, CSS, and JavaScript, generating optima
 
 The compiler only intervenes in very specific situations and only in the context of Svelte components. Extensions to the JavaScript language are minimal and carefully picked in order to not break JavaScript syntax nor alienate developers. In fact, you will be mostly working with vanilla JavaScript.
 
-## Simple [Svelte](https://svelte.dev/) App
+
+
+### Simple [Svelte](https://svelte.dev/) App
 
 The easiest way to create a starter app template is to just download the starter template application. You can do that by visiting `sveltejs/template` on GitHub or you can avoid having to download and unzip it and just use `degit`.
 
@@ -39,18 +43,21 @@ $ npm install
 $ npm run dev
 ```
 
-## Svelte Starter - [Notus Admin Template](https://www.creative-tim.com/product/notus-svelte?AFFILIATE=128200)
+### 
 
-Notus Admin Template is an open-source product provided by Creative-Tim on top of Svelte and Tailwind CSS. It features multiple HTML and Svelte elements and it comes with dynamic components for Svelte. It is based on Tailwind Starter Kit by Creative Tim, and it is build with both presentation pages, and pages for an admin dashboard.
+### Svelte Starter [Notus](https://www.creative-tim.com/product/notus-svelte?AFFILIATE=128200)
 
-* [Svelte Admin Template - Notus](https://www.creative-tim.com/product/notus-svelte?AFFILIATE=128200) - product page
-* [Svelte Admin Template - Notus Demo](https://demos.creative-tim.com/notus-svelte/?AFFILIATE=128200)
+Notus Admin Template is an open-source product provided by Creative-Tim on top of Svelte and Tailwind CSS. It features multiple HTML and Svelte elements and it comes with dynamic components for Svelte. It is based on Tailwind Starter Kit by Creative Tim, and it is built with both presentation pages, and pages for an admin dashboard.
 
-![Svelte Admin Template - Notus, open-source admin dashboard coded in Tailwind and Svelte.](https://raw.githubusercontent.com/ui-themes/svelte-admin-template-notus/master/media/svelte-admin-template-notus-screen-product.jpg)
+* [Svelte Template  Notus](https://www.creative-tim.com/product/notus-svelte?AFFILIATE=128200) - product page
+* [Svelte Template  Notus](https://demos.creative-tim.com/notus-svelte/?AFFILIATE=128200) - LIVE Demo
 
-## Links
+![Svelte JS - Notus, open-source Svelte starter.](https://raw.githubusercontent.com/ui-themes/svelte-admin-template-notus/master/media/svelte-admin-template-notus-screen-product.jpg)
 
-* [Svelte JS](https://svelte.dev/) - the official website
-* [Getting started with Svelte](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started)
-* [Get started with Svelte](https://svelte.dev/blog/the-easiest-way-to-get-started) - official tutorial
+#### 
+
+#### Resource
+
+* [Svelte JS](https://svelte.dev/) - official website
+* [Getting started with Svelte](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started) - tutorial provided by Mozilla 
 
