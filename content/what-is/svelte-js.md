@@ -6,11 +6,13 @@ description: Short introduction to Svelte
 
 This is a short introduction to [Svelte](https://svelte.dev/) a JS Framework that provides a new approach to code user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
 
-Rather than putting a `<script src='svelte.js'>` tag on the page, or bringing it into your app with import or require, Svelte is a compiler that works behind the scenes to turn your component files into beautifully optimised JavaScript.
+Rather than putting a `<script src='svelte.js'>` tag on the page, or bringing it into your app with import or require, Svelte is a compiler that works behind the scenes to turn your component files into beautifully optimized JavaScript.
 
-Svelte provides a different approach to building web apps than some of the other frameworks covered in this module. While frameworks like React and Vue do the bulk of their work in the user's browser while the app is running, Svelte shifts that work into a compile step that happens only when you build your app, producing highly-optimized vanilla JavaScript.
+Svelte provides a different approach to building web apps than some of the other frameworks covered in this module. While frameworks like React and Vue do the bulk of their work in the user's browser while the app is running, Svelte shifts that work into a compile step that happens only when you build your app, producing highly optimized vanilla JavaScript.
 
-**A few advantages of using** [**Svelte**](https://svelte.dev/)
+
+
+### **Advantages of using** [**Svelte**](https://svelte.dev/)
 
 * Svelte is Fast - the execution time is fast because Svelte surgically updates only the parts of the DOM that change. In contrast to React, Vue.js, and other Virtual DOM frameworks, Svelte doesn’t use a virtual DOM.
 * Svelte is Small - when a Svelte app is compiled, the resulting bundle size is tiny compared to most other popular frameworks.
