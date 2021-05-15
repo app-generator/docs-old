@@ -44,7 +44,7 @@ description: Open-source Flask starter coded on top Black Dashboard design (free
 
 ### **Black Dashboard** UI Kit 
 
- **Black Dashboard** features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
+Using this modern, dark-themed design you will save a lot of time going from prototyping to full-functional code because all elements are implemented. **Black Dashboard** features over 16 individual components, giving you the freedom of choosing and combining. 
 
 * [Black Dashboard](../../content/bootstrap-template/black-dashboard.md) - more information provided by AppSeed
 * [Black Dashboard](https://bit.ly/2L0W6Z7) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
