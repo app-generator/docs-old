@@ -18,9 +18,9 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 
 > Links
 
-* Shards Django - product page
-* Shards Django - source code
-* Shards Django - LIVE Demo
+* [Shards Django](https://appseed.us/admin-dashboards/django-dashboard-shards) - product page
+* [Shards Django](https://github.com/app-generator/django-dashboard-shards) - source code
+* [Shards Django](https://django-dashboard-shards.appseed.us/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
 
