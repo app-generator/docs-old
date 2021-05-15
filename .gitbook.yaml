@@ -111,6 +111,7 @@ redirects:
     admin-dashboards/django-dashboard-tabler/:               products/django-dashboards/tabler.md
     admin-dashboards/django-dashboard-light/:                products/django-dashboards/light-bootstrap-dashboard.md
     admin-dashboards/django-dashboard-light-blue/:           products/django-dashboards/light-blue.md
+    admin-dashboards/django-dashboard-shards/:               products/django-dashboards/shards-dashboard.md
 
     apps/flask-apps:                                         products/flask-apps/README.md
     apps/flask-apps/:                                        products/flask-apps/README.md
