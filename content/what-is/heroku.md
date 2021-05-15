@@ -15,11 +15,15 @@ To use effectively HEROKU we need to install the CLI, the command line interface
 * Open a terminal window and authenticate via HEROKU login command:
   * Type in terminal `heroku login`. This will open a new browser window where the LOGIN action must be confirmed
 
-**HEROKU - Sign Up page**
+\*\*\*\*
+
+> **HEROKU -** Sign Up page
 
 ![HEROKU - Sign Up page](https://raw.githubusercontent.com/app-generator/static/master/docs/heroku-sign-up-page.jpg)
 
-**HEROKU - Instal CLI**
+\*\*\*\*
+
+> **HEROKU -** Instal CLI
 
 ![HEROKU - Instal CLI](https://raw.githubusercontent.com/app-generator/static/master/docs/heroku-install-cli.jpg)
 
@@ -31,17 +35,19 @@ $ heroku/7.42.13 win32-x64 node-v12.16.2
 $ # The sample output returned by HEROKU CLI on a Windows PC
 ```
 
-## HEROKU Sample Deployment
+### 
+
+### HEROKU Sample Deployment
 
 We can see HEROKU in action by using two samples FREE apps provided by AppSeed - [Flask Black Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-black). This popular **Flask** starter is provided with all assets required by HEROKU to be deployed in seconds. The relevant files:
 
-**\#1** [runtime.txt](https://github.com/app-generator/flask-black-dashboard/blob/master/runtime.txt) — specify the Python version to be used
+> **Step \#1** - Edit [runtime.txt](https://github.com/app-generator/flask-black-dashboard/blob/master/runtime.txt) and specify the Python version to be used
 
 ```bash
 python-3.6.10
 ```
 
-**\#2** [Procfile](https://github.com/app-generator/flask-black-dashboard/blob/master/Procfile) — the HEROKU app bootstrapper
+> **Step \#2** - Edit [Procfile](https://github.com/app-generator/flask-black-dashboard/blob/master/Procfile), the HEROKU app bootstrapper
 
 ```bash
 web: gunicorn run:app --log-file=-
@@ -71,20 +77,20 @@ gunicorn          # <--- The magic line
 
 With all configuration in place, we can start the deployment by typing a few lines in the terminal.
 
-**\#1** Clone the source code
+> **Step - \#3** Clone the source code of target project
 
 ```bash
 $ git clone https://github.com/app-generator/flask-black-dashboard.git
 $ cd flask-black-dashboard
 ```
 
-**\#2** HEROKU Login - this will trigger a new borwser window
+> **Step - \#4** HEROKU Login - this will trigger a new browser window
 
 ```bash
 $ heroku login
 ```
 
-**\#3** Create the app in HEROKU world
+> **Step - \#5** Create the app in HEROKU platform
 
 ```bash
 $ # Create the app with a random name
@@ -94,13 +100,13 @@ $ # Create app using a name
 $ heroku create you-name-here
 ```
 
-**\#4** Compile the app in HEROKU environment. This step might take a while.
+> **Step - \#5** Compile the app in the HEROKU environment
 
 ```bash
 $ git push heroku master
 ```
 
-**\#5** Open the app in the browser
+> **Step - \#6** Open the app in the browser
 
 ```bash
 $ heroku open
@@ -110,13 +116,17 @@ At this point, the sample app should be visible in the browser.
 
 ![Flask Dashboard - Black Design, free starter coded in Flask by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-black-dashboard/master/media/flask-black-dashboard-screen.png)
 
-## HEROKU troubleshooting
+### 
+
+### HEROKU troubleshooting
 
 * First, make sure HEROKU CLI is accessible in the terminal. To check this type `heroku -v` in the terminal.
 * Make sure the commands are typed inside source code directory
 * `heroku create` used with an argument - Make sure that name is available in the HEROKU namespace.
 
-## HEROKU-ready apps
+
+
+### HEROKU-ready apps
 
 Starters provided by AppSeed are deployment-ready by default for many popular platforms - Docker, HEROKU and Gunicorn/Nginx.
 

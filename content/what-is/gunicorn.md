@@ -10,7 +10,9 @@ Gunicorn is one of many WSGI server implementations, but it's particularly impor
 
 Gunicorn is based on a pre-fork worker model, compared to a worker model architecture. The pre-work worker model means that a master thread spins up workers to handle requests but otherwise does not control how those workers perform the request handling. Each worker is independent of the controller.
 
-## Gunicorn Features
+
+
+### Gunicorn Features
 
 * Natively supports WSGI, Django, and Paster
 * Automatic worker process management
@@ -19,7 +21,9 @@ Gunicorn is based on a pre-fork worker model, compared to a worker model archite
 * Various server hooks for extensibility
 * Compatible with Python 3.x &gt;= 3.4
 
-## Gunicorn Installation
+
+
+### Gunicorn Installation
 
 > Requirements: Python 3.x &gt;= 3.4
 
@@ -35,7 +39,9 @@ From sources
 $ pip install git+https://github.com/benoitc/gunicorn.git
 ```
 
-## Basic Setup Sample
+### 
+
+### Basic Setup Sample
 
 ```python
 $ pip install gunicorn
@@ -50,7 +56,9 @@ $ cat myapp.py
 $ gunicorn -w 4 myapp:app
 ```
 
-## Resources
+### 
+
+### Resources
 
 * [Gunicorn](https://gunicorn.org/) - the official website
 * [Gunicorn Docs](http://docs.gunicorn.org/en/stable/) - for the last stable version

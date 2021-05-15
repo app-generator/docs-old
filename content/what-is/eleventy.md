@@ -10,7 +10,9 @@ Unlike other JavaScript web frameworks like Gatsby or NuxtJS, 11ty doesn’t com
 
 Eleventy uses independent template engines. We don’t want to hold your content hostage. If you decide to use something else later, having your content decoupled in this way will make migration easier. Eleventy works with multiple template languages. You can pick one or use them all together in a single project: `html`, `Markdown`, `Liquid`, `Mustache`.
 
-## Eleventy - Reasons to use it
+
+
+### Eleventy - Reasons to use it
 
 Eleventy is a static site generator created for three main reasons \(according to the creator, Zach Leaterman\)
 
@@ -40,7 +42,9 @@ All you need to do is to execute `eleventy` and all files from the current direc
 
 JavaScript gives you access to npm, a massive ecosystem with many modules and libraries built by open-source enthusiasts. While Eleventy uses JavaScript in node.js to transform templates into content, importantly \(by default\) it does not recommend nor force your HTML to include any Eleventy-specific client-side JavaScript.
 
-## [Install Eleventy](https://www.11ty.io/docs/getting-started/#step-2-install-eleventy)
+
+
+### [Install Eleventy](https://www.11ty.io/docs/getting-started/#step-2-install-eleventy)
 
 Ready to start? You're one line away:
 

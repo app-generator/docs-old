@@ -6,9 +6,11 @@ description: Short introduction to Flask
 
 **Flask** is a lightweight [WSGI](https://github.com/app-generator/docs/tree/2d3c04f4ed5d5acb419403f9daf8099709339734/what-is/wsgi/README.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
-Compared to his older brother [Django](https://www.djangoproject.com/), Flask provides a lightweight codebase and more freedom to the developer. This might be a good thing because you have more freedom in terms of app design and structure but in the same time, this freedom might inject problems when your application becomes complex.
+Compared to his older brother [Django](https://www.djangoproject.com/), Flask provides a lightweight codebase and more freedom to the developer. This might be a good thing because you have more freedom in terms of app design and structure but at the same time, this freedom might inject problems when your application becomes complex.
 
-## Set up PC for [Flask](https://palletsprojects.com/p/flask/)
+
+
+### Set up PC for [Flask](https://palletsprojects.com/p/flask/)
 
 Being a Python framework, Flask requires Python to run and expose his magic. Flask is compatible with Python2, Python3 \(the recommended version\).
 
@@ -55,7 +57,9 @@ If you still have issues set up your workstation for Python, feel free to join t
 * [Python 3 Installation & Setup Guide](https://realpython.com/installing-python/) - hosted by RealPython
 * [How to install Python](https://realpython.com/installing-python/) - a complete guide for many OS: Fedora, MacOS, Ubuntu
 
-## Install [Flask](https://palletsprojects.com/p/flask/)
+
+
+### Install [Flask](https://palletsprojects.com/p/flask/)
 
 To install Flask, we can use `PIP`, the official Python package manager:
 
@@ -69,9 +73,11 @@ During Flask installation, other modules will be installed under-the-hood:
 * [Jinja](https://palletsprojects.com/p/jinja/) is a template language that renders the pages your application serves.
 * [MarkupSafe](https://palletsprojects.com/p/markupsafe/) comes with Jinja. It escapes untrusted input when rendering templates to avoid injection attacks.
 * [ItsDangerous](https://palletsprojects.com/p/itsdangerous/) securely signs data to ensure its integrity. This is used to protect Flask’s session cookie.
-* [Click](https://palletsprojects.com/p/click/) is a framework for writing command line applications. It provides the flask command and allows adding custom management commands.
+* [Click](https://palletsprojects.com/p/click/) is a framework for writing command-line applications. It provides the flask command and allows adding custom management commands.
 
-## [Flask](https://palletsprojects.com/p/flask/) - A minimal Application
+
+
+### [Flask](https://palletsprojects.com/p/flask/) - A minimal Application
 
 To code a super simple app with Flask we need to create a new file `hello.py` and write a few lines of code:
 
@@ -118,7 +124,9 @@ With this minimal example in mind, we can extend this app with more features. A 
 * add static assets to use a Bootstrap style, for instance
 * implement an authentication system 
 
-## [Flask](https://palletsprojects.com/p/flask/) Dashboard Sample
+
+
+### [Flask](https://palletsprojects.com/p/flask/) Dashboard Sample
 
 [Flask Dashboard - Black](https://appseed.us/admin-dashboards/flask-dashboard-black) is a simple, open-source Flask starter coded with basic modules, database and deployment scripts for Docker, HEROKU and Gunicorn.
 

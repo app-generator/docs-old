@@ -6,7 +6,7 @@ description: Short introduction to JAMstack
 
 Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup
 
-## JAMstack - Short Introduction
+### JAMstack - Short Introduction
 
 Apps built in Jamstack architecture met the following criteria:
 
@@ -14,7 +14,9 @@ Apps built in Jamstack architecture met the following criteria:
 * **APIs**, all server-side processes or database actions are abstracted into reusable APIs, accessed over HTTPS with JavaScript
 * **Markup**, templated markup should be prebuilt at deploy time, usually using a site generator for content sites, or a build tool for web apps
 
-## Why using a JAMstack app?
+
+
+### Why using a JAMstack app?
 
 The major advantages met by the JAMstack pattern are:
 
@@ -22,7 +24,9 @@ The major advantages met by the JAMstack pattern are:
 * Security - a static app with less API endpoints reduce allot the risk of being hacked
 * Better developer experience - using a JAMstack app a developer needs only a simple editor and a console to create and deploy an app
 
-## Sample JAMstack App
+
+
+### Sample JAMstack App
 
 For instance, let's build a sample JAMstack app by getting the source code from [Github](https://github.com/search?q=jamstack+fractal). Let's pick up the first result, open the [README](https://github.com/app-generator/jamstack-fractal/blob/master/README.md) file and follow the intructions provided:
 
@@ -36,12 +40,14 @@ $ yarn start # start the app for development
 $ yarn build # build for production
 ```
 
-If all goes well, the app can be visited on [http://localhost:8000](http://localhost:8000) As we can see, building an app in JAMstack architecture is quite an easy job.
+If all goes well, the app can be visited on [http://localhost:8000](http://localhost:8000) As we can see, building an app in JAMstack architecture is quite an easy job. 
 
-## Related Resources
+
+
+### Related Resources
 
 * [JAMstack](https://jamstack.org/) - the website 
-* [WTF is JAMstack](https://jamstack.wtf/) - an well known resource fpr JAMstack developers 
+* [WTF is JAMstack](https://jamstack.wtf/) - an well-known resource fpr JAMstack developers 
 * A Curated List of [Apps coded in JAMstack](https://blog.appseed.us/what-is-jamstack/)
 * [Apps built in JAMstack](https://appseed.us/apps/jamstack) - index provided by AppSeed
 * Open-Source [JAMstack Apps](https://github.com/app-generator/jamstack) published on [Github](https://github.com/search?q=jamstack)

@@ -14,6 +14,8 @@ The CentOS Linux distribution is a stable, predictable, manageable, and reproduc
 
 CentOS is a Linux distribution that provides a free, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux \(RHEL\). In January 2014, CentOS announced the official joining with Red Hat while staying independent from RHEL under a new CentOS governing board.
 
+
+
 ### **What is** [**RHEL**](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux)\*\*\*\* <a id="what-is-rhel"></a>
 
 Red Hat Enterprise Linux is a Linux distribution developed by Red Hat for the commercial market. Red Hat Enterprise Linux is released in server versions for x86-64, Power ISA, ARM64, and IBM Z, and a desktop version for x86-64. All of Red Hat's official support and training, together with the Red Hat Certification Program, focuses on the Red Hat Enterprise Linux platform. Red Hat Enterprise Linux is often abbreviated to RHEL.
