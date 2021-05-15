@@ -4,7 +4,7 @@ description: Free Bootstrap admin dashboard provided by DesignRevision
 
 # Shards Dashboard
 
-A high-quality & free Bootstrap admin dashboard template pack that comes with lots of templates and components. Based on Bootstrap 4, Shards Dashboard Lite is fully responsive and capable to adapt its layout to any viewport size.
+A high-quality & free Bootstrap admin dashboard template pack that comes with lots of templates and components. Based on Bootstrap 4, **Shards Dashboard Lite** is fully responsive and capable to adapt its layout to any viewport size.
 
 * [Shards Dashboard Lite](https://designrevision.com/downloads/shards-dashboard-lite/) - product page
 * [Shards Dashboard Lite](https://designrevision.com/demo/shards-dashboard-lite/) - LIVE deployment
