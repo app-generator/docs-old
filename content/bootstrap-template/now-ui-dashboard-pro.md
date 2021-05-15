@@ -9,7 +9,7 @@ description: Premium Bootstrap Dashboard  designed by Invision and crafted by Cr
 * [Now UI Dashboard PRO](https://bit.ly/2RXrJWU) - product page
 * [Now UI Dashboard PRO](https://bit.ly/2RT4pcI) - LIVE Demo
 
-Now UI Dashboard PRO comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful. 
+Now UI Dashboard PRO provides all plugins that you might need inside a project and the documentation on how to get started. 
 
 ![Now UI Dashboard - Charts Page.](../../.gitbook/assets/now-ui-dashboard-pro-charts.jpg)
 
