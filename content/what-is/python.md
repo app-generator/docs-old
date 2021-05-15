@@ -2,7 +2,7 @@
 description: Short introduction to Python
 ---
 
-# Python
+# What IS Python
 
 [Python](https://www.python.org/) is a general-purpose coding language—which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. Python is interpreted, easy to learn surrounded by a huge ecosystem, actively supported and used in many industries and domains - Resources:
 

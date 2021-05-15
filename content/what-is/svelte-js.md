@@ -2,7 +2,7 @@
 description: Short introduction to Svelte
 ---
 
-# Svelte
+# What IS Svelte
 
 This is a short introduction to [Svelte](https://svelte.dev/) a JS Framework that provides a new approach to code user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
 

@@ -1,10 +1,12 @@
 ---
-description: Short introduction to WSGI
+description: >-
+  Short introduction to WSGI interface implemented by well-known libraries like
+  Flask and Django.
 ---
 
-# WSGI
+# What IS WSGI
 
-WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request. WSGI is a Python standard described in detail in [PEP 3333](https://www.python.org/dev/peps/pep-3333/).
+**WSGI** is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request. WSGI is a Python standard described in detail in [PEP 3333](https://www.python.org/dev/peps/pep-3333/).
 
 
 
@@ -13,6 +15,8 @@ WSGI is the Web Server Gateway Interface. It is a specification that describes h
 In a single sentence, _WSGI is just an interface specification by which the server and application communicate._ This interface used by many popular frameworks like [Flask](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) and [Django](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/django/README.md) is defined in the [PEP 3333](https://www.python.org/dev/peps/pep-3333) specification for both parties: server and WSGI application.
 
 Python 2.5 and later comes with a WSGI server which will be used in this tutorial. In 2.4 and earlier it can be installed.
+
+
 
 ### WSGI Frameworks
 
@@ -25,9 +29,9 @@ A short-list with web frameworks with native WSGI support:
 
 
 
-### Links & Resources
+### WSGI Resources
 
-* [WSGI](https://wsgi.readthedocs.io/en/latest/)
+* [WSGI](https://wsgi.readthedocs.io/en/latest/) - official documentation
 * [An introduction to WSGI](http://ivory.idyll.org/articles/wsgi-intro/what-is-wsgi.html) by Titus Brown
-* [Frameworks that run on WSGI](https://wsgi.readthedocs.io/en/latest/frameworks.html) 
+* [Frameworks that run on WSGI](https://wsgi.readthedocs.io/en/latest/frameworks.html) - a curated list 
 

@@ -2,7 +2,7 @@
 description: Short introduction to Panini
 ---
 
-# Panini
+# What IS Panini
 
 A super simple flat file generator for use with Gulp. It compiles a series of HTML pages using a common layout. These pages can also include HTML partials, external Handlebars helpers, or external data as JSON or YAML.
 

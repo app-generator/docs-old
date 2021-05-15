@@ -2,7 +2,7 @@
 description: Short introduction to Pipenv
 ---
 
-# Pipenv
+# What IS Pipenv
 
 **Pipenv** is a dependency manager for Python projects similar to Npm/Yarn for Node that provides more features than his older brother `pip`. Pipenv aims to help users manage environments, dependencies, and imported packages on the command line. While PIP alone is often sufficient for personal use, Pipenv is recommended for collaborative projects as it’s a higher-level tool that simplifies dependency management for common use cases.
 

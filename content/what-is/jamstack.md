@@ -2,7 +2,7 @@
 description: Short introduction to JAMstack
 ---
 
-# JAMStack
+# What IS JAMStack
 
 Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup
 

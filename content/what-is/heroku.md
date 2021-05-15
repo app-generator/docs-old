@@ -2,7 +2,7 @@
 description: Short introduction to HEROKU
 ---
 
-# Heroku
+# What IS Heroku
 
 HEROKU is a popular Platform-as-a-Service provider \(PaaS\) which makes it easy for developers to deploy apps in different technologies and frameworks using a short learning curve. The platform support all major languages like Python, Ruby, Java, PHP, and popular frameworks: Flask, Django, Express.
 

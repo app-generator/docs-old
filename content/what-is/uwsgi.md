@@ -1,8 +1,8 @@
 ---
-description: Short introduction to uWSGI
+description: Short introduction to uWSGI server and architecture
 ---
 
-# uWsgi
+# What IS uWsgi
 
 The **uWSGI** project aims at developing a full stack for building hosting services. Application servers \(for various programming languages and protocols\), proxies, process managers, and monitors are all implemented using a common API and a common configuration style. Thanks to its pluggable architecture it can be extended to support more platforms and languages.
 

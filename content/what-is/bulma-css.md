@@ -2,7 +2,7 @@
 description: Open source CSS framework based on Flexbox.
 ---
 
-# Bulma Css
+# What IS Bulma
 
 A [CSS framework](https://en.wikipedia.org/wiki/CSS_framework) is a software framework that is meant to allow for easier, more standards-compliant web design using the Cascading Style Sheets language. Basically, a CSS Framework helps developers to craft much faster their apps. Well, Bulma is not an exception to this rule.
 

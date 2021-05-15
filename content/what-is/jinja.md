@@ -2,7 +2,7 @@
 description: Short introduction to Jinja
 ---
 
-# Jinja
+# What IS Jinja
 
 [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is a modern and designer-friendly templating language for Python, modeled after Django’s templates. It is fast, widely used, and secure with the optional sandboxed template execution environment. Jinja is basically an engine used to generate HTML or XML returned to the user via an HTTP response.
 

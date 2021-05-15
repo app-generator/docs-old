@@ -2,7 +2,7 @@
 description: Short introduction to Static Sites
 ---
 
-# Static Site
+# What IS Static Site
 
 A static website contains Web pages with fixed content. Each page is coded in HTML and displays the same information to every visitor.  
 The term "static" does not mean that your site has no dynamic capabilities. It simply means that that your site consists of a set of "pre-built" files \(namely HTML, Js, and CSS files\) that are directly served on request.
