@@ -8,7 +8,7 @@ HEROKU is a popular Platform-as-a-Service provider \(PaaS\) which makes it easy 
 
 To use effectively HEROKU we need to install the CLI, the command line interface that helps us to interact with the deployment platform.
 
-## How to start
+### How to start
 
 * Create a FREE account on [HEROKU](https://signup.heroku.com/) platform
 * Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) that match your OS: Mac, Unix, or Windows
