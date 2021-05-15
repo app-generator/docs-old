@@ -39,11 +39,11 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### [**Black Dashboard**](https://appseed.gitbook.io/docs/content/bootstrap-template/black-dashboard) - UI Kit <a id="black-dashboard-ui-kit"></a>
+### **Black Dashboard** UI Kit <a id="black-dashboard-ui-kit"></a>
 
 **Black Dashboard** features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
 
-* ​[Black Dashboard](https://appseed.gitbook.io/docs/content/bootstrap-template/black-dashboard) - more information provided by AppSeed
+* ​[Black Dashboard](https://appseed.gitbook.io/docs/content/bootstrap-template/black-dashboard) - information provided by AppSeed
 * ​[Black Dashboard](https://bit.ly/2L0W6Z7) - product page hosted by [Creative-Tim](https://appseed.gitbook.io/docs/content/partners/creative-tim)​
 
 ![Black Dashboard - Free Dashboard template.](../../.gitbook/assets/docs-black-dashboard-screen.jpg)
