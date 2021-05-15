@@ -43,7 +43,7 @@
   * [Flask Volt PRO](products/flask-dashboards/volt-pro.md)
   * [Flask Tabler](products/flask-dashboards/tabler.md)
 * [Django Dashboards](products/django-dashboards/README.md)
-  * [Django Adminator](products/django-dashboards/django-adminator.md)
+  * [Django Adminator](products/django-dashboards/adminator.md)
   * [Django AdminLTE](products/django-dashboards/adminlte.md)
   * [Django Azia Dashboard](products/django-dashboards/azia-dashboard.md)
   * [Django Argon Dashboard](products/django-dashboards/argon-dashboard.md)

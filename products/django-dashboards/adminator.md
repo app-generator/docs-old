@@ -18,9 +18,9 @@ description: >-
 
 > Links
 
-* Adminator Django - product page
-* Adminator Django - source code
-* Adminator Django - LIVE Demo
+* [Adminator Django](https://appseed.us/admin-dashboards/django-dashboard-adminator) - product page
+* [Adminator Django](https://github.com/app-generator/django-dashboard-adminator) - source code
+* [Adminator Django](https://django-adminator.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
 
@@ -29,7 +29,7 @@ description: >-
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
 
-> Read more about Django Framework
+> Read more about [Django Framework](../../content/what-is/django.md)
 
 
 
@@ -46,5 +46,8 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 **Adminator** is a popular open-source template for admin dashboards and control panels. It is a responsive HTML template that is based on the Bootstrap CSS framework. For newcomers, [Adminator](https://appseed.us/admin-dashboards/django-dashboard-adminator) is provided by ColorLib, a well-known company involved in many ope-source products. **Adminator** has a modern UI and comes with a _state-of-the-art_ tooling chain to compile the HTML files.
 
+* [Adminator](../../content/bootstrap-template/adminator.md) - more information provided by AppSeed
+* [Adminator](https://github.com/puikinsh/Adminator-admin-dashboard) - source code \(HTML version\)
 
+![Adminator - Open-source Bootstrap Template.](../../.gitbook/assets/adminator-bootstrap-template.jpg)
 
