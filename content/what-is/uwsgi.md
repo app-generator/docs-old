@@ -4,17 +4,21 @@ description: Short introduction to uWSGI
 
 # uWsgi
 
-The uWSGI project aims at developing a full stack for building hosting services. Application servers \(for various programming languages and protocols\), proxies, process managers and monitors are all implemented using a common api and a common configuration style.
+The **uWSGI** project aims at developing a full stack for building hosting services. Application servers \(for various programming languages and protocols\), proxies, process managers, and monitors are all implemented using a common API and a common configuration style. Thanks to its pluggable architecture it can be extended to support more platforms and languages.
 
-Thanks to its pluggable architecture it can be extended to support more platforms and languages.
+* [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) - official documentation
 
-## uWSGI Components
+
+
+### uWSGI Components
 
 * The Core \(implements configuration, processes management, sockets creation, monitoring, logging, shared memory areas, ipc, cluster membership\)
 * Request plugins \(implement application server interfaces for various languages and platforms: WSGI, PSGI, Rack, Lua WSAPI, CGI, PHP, Go …\)
 * Gateways \(implement load balancers, proxies and routers\)
 
-## Quickstart for Python
+
+
+### Quickstart for Python
 
 This quickstart will show you how to deploy simple WSGI applications and common web frameworks. In order to start using uWSGI we need the `build-essential python-dev` tooling.
 
@@ -30,7 +34,9 @@ $ apt-get install build-essential python-dev
 $ yum install build-essential python-dev
 ```
 
-## Install uWSGI
+### 
+
+### Install uWSGI
 
 > Before installing uWSGI module, make sure the workstation has the Python development installed.
 
@@ -60,7 +66,9 @@ $ pip install uwsgi
 $ curl http://uwsgi.it/install | bash -s default /tmp/uwsgi
 ```
 
-## Simple uWSGI application
+### 
+
+### Simple uWSGI app
 
 Let’s start with a simple “Hello World” example:
 
@@ -88,7 +96,9 @@ $ uwsgi --http :9090 --wsgi-file hitme.py --master --processes 4 --threads 2 --s
 
 By visiting port `9090` in the browser, we should see `Hello World` message served by uWSGI.
 
-## Resources
+### 
+
+### uWSGI Resources
 
 * [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) - the official website
 * [What is the point of uWSGI?](https://stackoverflow.com/questions/38601440/what-is-the-point-of-uwsgi)
