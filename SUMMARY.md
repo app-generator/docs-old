@@ -161,6 +161,7 @@
   * [Material UI Kit](content/bootstrap-template/material-ui-kit.md)
   * [MaterialPro Lite](content/bootstrap-template/materialpro-lite.md)
   * [MaterialPro Wpx](content/bootstrap-template/materialpro-wpx.md)
+  * [Now UI Dashboard](content/bootstrap-template/now-ui-dashboard.md)
   * [Paper Dashboard](content/bootstrap-template/paper-dashboard.md)
   * [Paper Dashboard PRO](content/bootstrap-template/paper-dashboard-pro.md)
   * [Pixel Lite Template](content/bootstrap-template/pixel-lite-template.md)
