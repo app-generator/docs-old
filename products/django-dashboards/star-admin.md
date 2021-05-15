@@ -25,16 +25,24 @@ description: >-
 
 
 
+### What is Django
+
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+> Read more about [Django Framework](../../content/what-is/django.md)
+
+
+
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
+* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
+* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
 
 
 
-### [Star Admin](../../content/bootstrap-template/star-admin.md) - UI Kit 
+### Star Admin - UI Kit 
 
 Star Admin is packed with all the features that fit your needs but not cramped with components you would not even use. It is an excellent fit to build admin panels, e-commerce systems, project management systems, CMS or CRM.
 

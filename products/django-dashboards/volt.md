@@ -23,14 +23,22 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 * [Volt Dashboard Django](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
+### 
+
+### What is Django
+
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+> Read more about [Django Framework](../../content/what-is/django.md)
+
 
 
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
+* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
+* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
 
 
 
@@ -40,8 +48,8 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 
 **Tooling** - Sass files and a Gulp commands file that will let you build minified and un-minified project files with the ability to even add certain blocks of code based on your environment.
 
-* [Volt Dashboard](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) - product page hosted by Themesberg
-* [Volt Dashboard](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official documentation 
+* [Volt Dashboard](../../content/bootstrap-template/volt-dashboard.md) - information provided by AppSeed
+* [Volt Dashboard](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) - product page hosted by Themesberg 
 
 ![Volt Dashboard - Free Bootstrap Template.](../../.gitbook/assets/volt-dashboard-cover.png)
 

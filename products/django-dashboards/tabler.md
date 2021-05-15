@@ -16,19 +16,26 @@ Tabler is a UI kit that speeds up the development process and makes it easier th
 
 > Links
 
-* Tabler Django - product page
-* Tabler Dashboard Django - source code
-* Tabler Dashboard Django - LIVE Demo
+* [Tabler Django](https://appseed.us/admin-dashboards/django-dashboard-tabler) - product page
+* [Tabler Django](https://github.com/app-generator/django-dashboard-tabler) - source code
+* [Tabler Django](https://django-dashboard-tabler.appseed.us/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+
+### 
+
+### What is Django
+
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+> Read more about [Django Framework](../../content/what-is/django.md)
 
 
 
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
+* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
+* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
 
 
 
