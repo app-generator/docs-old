@@ -27,21 +27,29 @@ Light Blue Dashboard is a world-first transparent admin template built with Boot
 
 
 
+### What is Flask
+
+**Flask** is a lightweight [WSGI](https://github.com/app-generator/docs/tree/2d3c04f4ed5d5acb419403f9daf8099709339734/what-is/wsgi/README.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
+
+
+
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
+* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
+* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
 
-### Light Blue - UI Kit
+### Light Blue UI Kit
 
 **Light Blue Dashboard** is built on top of Bootstrap 4 and it is fully responsive. You can use Light Blue to build any type of web application like SAAS, CMS, CRM data analytics software, project management systems, etc.
 
-* [Light Blue Dashboard](https://github.com/flatlogic/light-blue-dashboard) - source code
-* [Light Blue Dashboard](https://flatlogic.github.io/light-blue-dashboard/) - LIVE demo
+* [Light Blue Dashboard](../../content/bootstrap-template/light-bootstrap-dashboard.md) - more information provided by AppSeed
+* [Light Blue Dashboard](https://github.com/flatlogic/light-blue-dashboard) - source code published on Github 
 
 ![Light Blue Dashboard - Free Bootstrap Template.](../../.gitbook/assets/light-blue-dashboard.jpg)
 

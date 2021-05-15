@@ -23,23 +23,31 @@ description: Open-source Flask starter coded on top CoreUI design (free version)
 * [CoreUI Flask](https://flask-coreui.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
+### 
+
+### What is Flask
+
+**Flask** is a lightweight [WSGI](https://github.com/app-generator/docs/tree/2d3c04f4ed5d5acb419403f9daf8099709339734/what-is/wsgi/README.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
+
 
 
 ### How to use the App
 
-* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation
-* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start the app in the local environment
-* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the files are organized
-* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure the application
+* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
+* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
+* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
 
-### [CoreUI](../../content/bootstrap-template/coreui.md) - UI Kit
+### CoreUI UI Kit
 
 CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer the ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. 
 
-* [CoreUI](https://bit.ly/2VTDaxg) - product page
-* [CoreUI](https://github.com/coreui/coreui-free-bootstrap-admin-template) - source code published on Github
+* [CoreUI](../../content/bootstrap-template/coreui.md) - more information provided by AppSeed
+* [CoreUI](https://bit.ly/2VTDaxg) - product page hosted on CoreUI.io 
 
 ![CoreUI - Open-source Bootstrap Template.](../../.gitbook/assets/docs-coreui-screen.jpg)
 
