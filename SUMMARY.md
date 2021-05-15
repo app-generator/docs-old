@@ -64,6 +64,7 @@
   * [Django MaterialPro Lite](products/django-dashboards/materialpro-lite.md)
   * [Django MaterialPro](products/django-dashboards/materialpro-wpx.md)
   * [Django Star Admin](products/django-dashboards/star-admin.md)
+  * [Django Shards Dashboard](products/django-dashboards/shards-dashboard.md)
   * [Django Volt](products/django-dashboards/volt.md)
   * [Django Volt PRO](products/django-dashboards/volt-pro.md)
   * [Django Tabler](products/django-dashboards/tabler.md)
