@@ -91,6 +91,7 @@ redirects:
     admin-dashboards/flask-dashboard-material-admin/:        products/flask-dashboards/material-admin.md
     admin-dashboards/flask-dashboard-light-blue/:            products/flask-dashboards/light-blue.md
     admin-dashboards/flask-dashboard-sleek/:                 products/flask-dashboards/sleek-admin.md
+    admin-dashboards/flask-dashboard-shards/:                products/flask-dashboards/shards-dashboard.md
 
     admin-dashboards/django-dashboard-atlantis-dark/:        products/django-dashboards/atlantis-dark.md
     admin-dashboards/django-dashboard-atlantis-dark-pro/:    products/django-dashboards/atlantis-dark-pro.md
