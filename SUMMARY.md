@@ -177,6 +177,7 @@
   * [Tabler Template](content/bootstrap-template/tabler.md)
 * [Bulma CSS Templates](content/bulma-css-templates/README.md)
   * [Dashkit PRO](content/bulma-css-templates/dashkit-pro.md)
+  * [Dashkit PRO v3](content/bulma-css-templates/dashkit-pro-v3.md)
 * [React Templates](content/react-template/README.md)
   * [Berry React Dashboard](content/react-template/berry-react-dashboard.md)
   * [CoreUI React](content/react-template/coreui-react.md)
