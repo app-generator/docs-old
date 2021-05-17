@@ -175,6 +175,8 @@
   * [Volt Dashboard Template](content/bootstrap-template/volt-dashboard.md)
   * [Volt Dashboard Pro Template](content/bootstrap-template/volt-dashboard-pro.md)
   * [Tabler Template](content/bootstrap-template/tabler.md)
+* [Bulma CSS Templates](content/bulma-css-templates/README.md)
+  * [Dashkit PRO](content/bulma-css-templates/dashkit-pro.md)
 * [React Templates](content/react-template/README.md)
   * [Berry React Dashboard](content/react-template/berry-react-dashboard.md)
   * [CoreUI React](content/react-template/coreui-react.md)
