@@ -72,6 +72,7 @@
   * [Jinja AdminLTE](products/jinja-templates/adminlte.md)
   * [Jinja Atlantis Lite](products/jinja-templates/atlantis-lite.md)
   * [Jinja Datta Able PRO](products/jinja-templates/datta-able-pro.md)
+  * [Jinja Dashkit v3](products/jinja-templates/dashkit-v3.md)
   * [Jinja Material Dashboard](products/jinja-templates/material-dashboard.md)
   * [Jinja Paper Dashboard](products/jinja-templates/paper-dashboard.md)
 
