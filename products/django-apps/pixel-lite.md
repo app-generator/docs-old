@@ -10,9 +10,9 @@ Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help 
 
 > Links
 
-* Django Pixel Lite - product page
-* Django Pixel Lite - source code 
-* Django Pixel Lite - LIVE Demo
+* [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
+* [Django Pixel Lite](https://github.com/app-generator/django-pixel-bootstrap-uikit) - source code 
+* [Django Pixel Lite](https://django-pixel-lite.appseed-srv1.com/) - LIVE Demo
 
 > [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
