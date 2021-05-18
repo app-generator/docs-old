@@ -113,6 +113,10 @@ redirects:
     admin-dashboards/django-dashboard-light-blue/:           products/django-dashboards/light-blue.md
     admin-dashboards/django-dashboard-shards/:               products/django-dashboards/shards-dashboard.md
 
+    django:                                                  products/django-apps/README.md
+    django/:                                                 products/django-apps/README.md
+    django/django-pixel-bootstrap-uikit/:                    products/django-apps/pixel-lite.md
+
     apps/flask-apps:                                         products/flask-apps/README.md
     apps/flask-apps/:                                        products/flask-apps/README.md
     apps/flask-apps/flask-material-kit/:                     products/flask-apps/material-kit.md
@@ -123,6 +127,7 @@ redirects:
     jinja-template/jinja-template-atlantis-lite/:            products/jinja-templates/atlantis-lite.md
     jinja-template/jinja-template-material-dashboard/:       products/jinja-templates/material-dashboard.md
     jinja-template/jinja-template-paper-dashboard/:          products/jinja-templates/paper-dashboard.md
+    jinja-template/jinja-template-light-bootstrap/:          products/jinja-templates/light-bootstrap-dashboard.md
 
     admin-dashboards:                                        boilerplate-code/django-dashboard.md
     admin-dashboards/:                                       boilerplate-code/django-dashboard.md
