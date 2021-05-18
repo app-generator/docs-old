@@ -18,8 +18,9 @@ description: >-
 
 * [Flask Material Kit](https://appseed.us/apps/flask-apps/flask-material-kit) - product page
 * [Flask Material Kit](https://github.com/app-generator/flask-material-kit) - source code 
-* [Flask Material Kit](https://flask-material-kit.appseed.us/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Flask Material Kit](https://flask-material-kit.appseed.us/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 
