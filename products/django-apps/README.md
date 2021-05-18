@@ -10,8 +10,8 @@ All products listed on this page are generated on top of a simple [Django Codeba
 
 > Products
 
-* Django Boilerplate Code - the reference code used for all Flask Apps
-* Django Pixel Lite - open-source product
+* [Django Boilerplate Code](../../boilerplate-code/django-dashboard.md) - the reference code used for all Flask Apps
+* [Django Pixel Lite](pixel-lite.md) - open-source product
 
 
 
