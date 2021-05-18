@@ -22,8 +22,9 @@ description: >-
 
 * [Material Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-design) - product page
 * [Material Dashboard Flask](https://github.com/app-generator/flask-material-dashboard) - source code 
-* [Material Dashboard Flask](https://flask-material-dashboard.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Material Dashboard Flask](https://flask-material-dashboard.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

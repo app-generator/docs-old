@@ -19,8 +19,9 @@ description: >-
 > Links
 
 * [Azia Dashboard Django](https://github.com/app-generator/django-dashboard-azia) - source code
-* [Azia Dashboard Django](https://django-dashboard-azia.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Azia Dashboard Django](https://django-dashboard-azia.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

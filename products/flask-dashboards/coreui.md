@@ -21,7 +21,8 @@ description: Open-source Flask starter coded on top CoreUI design (free version)
 * [CoreUI Flask](https://appseed.us/admin-dashboards/flask-dashboard-coreui) - product page
 * [CoreUI Flask](https://github.com/app-generator/flask-dashboard-coreui) - source code
 * [CoreUI Flask](https://flask-coreui.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

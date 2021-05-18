@@ -22,8 +22,9 @@ description: >-
 
 * [Sleek Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-sleek) - product page
 * [Sleek Admin Flask](https://github.com/app-generator/flask-dashboard-sleek) - source code 
-* [Sleek Admin Flask](https://flask-dashboard-sleek.appseed.us/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Sleek Admin Flask](https://flask-dashboard-sleek.appseed.us/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

@@ -18,8 +18,9 @@ One of the best open-source admin dashboard & control panel theme. Built on top 
 
 * [AdminLTE Django](https://appseed.us/admin-dashboards/django-dashboard-adminlte) - product page
 * [AdminLTE Django](https://github.com/app-generator/django-dashboard-adminlte) - source code
-* [AdminLTE Django](https://adminlte-django.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [AdminLTE Django](https://adminlte-django.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

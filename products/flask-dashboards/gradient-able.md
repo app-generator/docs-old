@@ -22,8 +22,9 @@ description: >-
 
 * [Gradient Able Flask](https://appseed.us/admin-dashboards/flask-gradient-able) - product page
 * [Gradient Able Flask](https://github.com/app-generator/flask-gradient-able) - source code
-* [Gradient Able Flask](https://flask-gradient-able.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Gradient Able Flask](https://flask-gradient-able.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

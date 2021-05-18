@@ -20,8 +20,9 @@ description: >-
 
 * [Argon Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-argon) - product page
 * [Argon Dashboard Django](https://github.com/app-generator/django-dashboard-argon) - source code
-* [Argon Dashboard Django](https://django-argon-dashboard.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Argon Dashboard Django](https://django-argon-dashboard.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

@@ -20,8 +20,9 @@ description: >-
 
 * [Django Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue) - product page
 * [Django Light Blue](https://github.com/app-generator/django-dashboard-light-blue) - source code 
-* [Django Light Blue](https://django-dashboard-light-blue.appseed.us/)  - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Django Light Blue](https://django-dashboard-light-blue.appseed.us/)  - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

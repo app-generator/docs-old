@@ -17,8 +17,10 @@ description: Open-source Django Starter coded on top Black Dashboard design (fre
 > Links
 
 * [Black Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-black) - product page
-* [Black Dashboard Django](https://django-black-dashboard.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Black Dashboard Django](https://github.com/app-generator/django-dashboard-black) - source code
+* [Black Dashboard Django](https://django-black-dashboard.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

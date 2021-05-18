@@ -22,8 +22,9 @@ description: >-
 
 * [Star Admin Flask](https://appseed.us/admin-dashboards/flask-star-admin) - product page
 * [Star Admin Flask](https://github.com/app-generator/flask-star-admin) - source code 
-* [Star Admin Flask](https://flask-star-admin.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Star Admin Flask](https://flask-star-admin.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

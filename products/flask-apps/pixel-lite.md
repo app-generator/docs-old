@@ -24,6 +24,14 @@ Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help 
 
 
 
+### What is Flask
+
+**Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
+
+
+
 ### How to use the App
 
 * [Set up the environment](../../boilerplate-code/flask.md#environment) - prepare your workstation

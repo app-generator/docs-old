@@ -20,8 +20,9 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 
 * [Volt Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
 * [Volt Dashboard Django](https://github.com/app-generator/django-dashboard-volt) - source code
-* [Volt Dashboard Django](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Volt Dashboard Django](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

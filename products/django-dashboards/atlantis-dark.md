@@ -20,8 +20,9 @@ description: >-
 
 * [Atlantis Dark Django](https://appseed.us/admin-dashboards/django-dashboard-atlantis-dark) - product page
 * [Atlantis Dark Django](https://github.com/app-generator/django-dashboard-atlantis-dark) - source code 
-* [Atlantis Dark Django](https://django-atlantis-dark.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Atlantis Dark Django](https://django-atlantis-dark.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 

@@ -20,8 +20,9 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 
 * [MaterialPro Lite Django](https://appseed.us/admin-dashboards/django-dashboard-material-lite) - product page
 * [MaterialPro Lite Django](https://github.com/app-generator/django-dashboard-material-lite) - source code 
-* [MaterialPro Lite Django](https://django-dashboard-material-lite.appseed.us/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [MaterialPro Lite Django](https://django-dashboard-material-lite.appseed.us/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

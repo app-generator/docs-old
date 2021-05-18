@@ -20,8 +20,9 @@ description: >-
 
 * [Adminator Django](https://appseed.us/admin-dashboards/django-dashboard-adminator) - product page
 * [Adminator Django](https://github.com/app-generator/django-dashboard-adminator) - source code
-* [Adminator Django](https://django-adminator.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Adminator Django](https://django-adminator.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 
