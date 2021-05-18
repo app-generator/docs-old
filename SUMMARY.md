@@ -16,6 +16,7 @@
 
 * [Flask Apps](products/flask-apps/README.md)
   * [Flask Material Kit](products/flask-apps/material-kit.md)
+  * [Flask Pixel Lite](products/flask-apps/pixel-lite.md)
 * [Flask Dashboards](products/flask-dashboards/README.md)
   * [Flask Adminator](products/flask-dashboards/adminator.md)
   * [Flask AdminLTE](products/flask-dashboards/adminlte.md)
@@ -44,6 +45,7 @@
   * [Flask Volt](products/flask-dashboards/volt.md)
   * [Flask Volt PRO](products/flask-dashboards/volt-pro.md)
   * [Flask Tabler](products/flask-dashboards/tabler.md)
+* [Django Apps](products/django-apps.md)
 * [Django Dashboards](products/django-dashboards/README.md)
   * [Django Adminator](products/django-dashboards/adminator.md)
   * [Django AdminLTE](products/django-dashboards/adminlte.md)
