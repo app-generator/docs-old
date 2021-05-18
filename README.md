@@ -41,7 +41,7 @@ Support is an important part of our business model. A good product, in order to 
   * [How to set up Ubuntu for coding](content/how-to/setup-ubuntu-for-development.md)
   * [How to Install Python](content/how-to/install-python.md)
   * [Showcase charts in Django](samples/django/django-sales-charts.md)  
-* Ask for support in [Discord](https://discord.gg/fZC6hup) - registered [AppSeed](https://appseed.us/) users.
+* Ask for support in [Discord](https://discord.gg/fZC6hup) - for registered [AppSeed](https://appseed.us/) users.
 
 
 
