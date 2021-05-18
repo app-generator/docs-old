@@ -80,6 +80,7 @@
   * [Jinja Material Dashboard](products/jinja-templates/material-dashboard.md)
   * [Jinja Paper Dashboard](products/jinja-templates/paper-dashboard.md)
   * [Jinja Pixel Lite](products/jinja-templates/pixel-lite.md)
+  * [Jinja Pixel PRO](products/jinja-templates/pixel-pro.md)
 
 ## Free Samples <a id="samples"></a>
 
