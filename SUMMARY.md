@@ -78,6 +78,7 @@
   * [Jinja Dashkit v3](products/jinja-templates/dashkit-v3.md)
   * [Jinja Material Dashboard](products/jinja-templates/material-dashboard.md)
   * [Jinja Paper Dashboard](products/jinja-templates/paper-dashboard.md)
+  * [Jinja Pixel Lite](products/jinja-templates/jinja-pixel-lite.md)
 
 ## Free Samples <a id="samples"></a>
 

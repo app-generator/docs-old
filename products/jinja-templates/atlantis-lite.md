@@ -10,15 +10,25 @@ description: >-
 
 > Features:
 
-* Codebase: [Flask Framework](https://github.com/app-generator/boilerplate-code-jinja) 
-* Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
+* Codebase: [Jinja Starter](../../boilerplate-code/boilerplate-jinja.md)  
+* Render Engine: Flask / **Jinja2**
 * Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
 
 > Links
 
 * [Jinja Atlantis Lite](https://appseed.us/jinja-template/jinja-template-atlantis-dark) - product page
 * [Jinja Atlantis Lite](https://jinja-atlantis-dark.appseed-srv1.com/) - LIVE Deployment
-* [Jinja Atlantis Lite](https://github.com/app-generator/jinja-atlantis-dark) - Source code
+* [Jinja Atlantis Lite](https://github.com/app-generator/jinja-atlantis-dark) - Source code 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+
+
+
+### What is Jinja
+
+[Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is a modern and designer-friendly templating language for Python, modeled after Django’s templates. It is fast, widely used, and secure with the optional sandboxed template execution environment. Jinja is basically an engine used to generate HTML or XML returned to the user via an HTTP response. 
+
+> Read more about [Jinja Template Language](../../content/what-is/jinja.md)
 
 
 
