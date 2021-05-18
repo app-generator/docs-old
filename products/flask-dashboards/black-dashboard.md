@@ -20,8 +20,9 @@ description: Open-source Flask starter coded on top Black Dashboard design (free
 
 * [Black Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-black) - product page
 * [Black Dashboard Flask](https://github.com/app-generator/flask-black-dashboard) - source code 
-* [Black Dashboard Flask](https://flask-black-dashboard.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Black Dashboard Flask](https://flask-black-dashboard.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ### 
 
