@@ -16,8 +16,9 @@ Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help 
 
 > Links
 
-* [Jinja Paper Dashboard](https://github.com/app-generator/jinja-paper-dashboard) - source code
-* [Jinja Paper Dashboard](https://jinja-paper-dashboard-pro.appseed-srv1.com/) - LIVE deployment 
+* [Jinja Pixel Lite](https://appseed.us/jinja-template/jinja-template-pixel-uikit) - product page
+* [Jinja Pixel Lite](https://github.com/app-generator/jinja-pixel-lite) - source code
+* [Jinja Pixel Lite](https://jinja-pixel-lite.appseed-srv1.com/) - LIVE deployment 
 
 > [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
