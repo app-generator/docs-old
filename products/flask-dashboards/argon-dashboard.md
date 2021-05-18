@@ -22,8 +22,9 @@ description: >-
 
 * [Argon Dashboard Flask](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - product page
 * [Argon Dashboard Flask](https://github.com/app-generator/flask-boilerplate-dashboard-argon) - source code 
-* [Argon Dashboard Flask](https://flask-argon-dashboard.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Argon Dashboard Flask](https://flask-argon-dashboard.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

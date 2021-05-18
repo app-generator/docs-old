@@ -22,8 +22,9 @@ description: >-
 
 * [Atlantis Dark Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark) - product page
 * [Atlantis Dark Flask](https://github.com/app-generator/flask-dashboard-atlantis-dark) - source code 
-* [Atlantis Dark Flask](https://flask-atlantis-dark.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Atlantis Dark Flask](https://flask-atlantis-dark.appseed-srv1.com/) - LIVE Demo 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 
