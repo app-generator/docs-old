@@ -19,7 +19,7 @@ Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help 
 * [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - product page
 * [Flask Pixel Lite](https://github.com/app-generator/flask-pixel-bootstrap-uikit) - source code 
 * [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 
