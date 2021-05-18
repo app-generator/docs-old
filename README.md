@@ -27,25 +27,25 @@ Starters are provided in different patterns and technologies under permissive \(
 
 Support is an important part of our business model. A good product, in order to be useful, should have good support. We are providing support for all our products using two tiers:
 
-* **Free Support** via Github \(issues tracker\)
-* **Email Support** &lt;_support @ appseed.us&gt;_ with a maximum 12h response time
-* **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup) - High Priority for commercial products 
+* **Free** Support via Github \(issues tracker\) - 24h response time
+* **Fast** [**Support**](https://appseed.us/support) -  for registered [AppSeed](https://appseed.us/) users.
+  * **Email Support** &lt;_support @ appseed.us&gt;_  - 6h \(or less\) response time
+  * **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup) - with high priority for commercial products 
 
 
 
-### **Latest Content**
+### AppSeed for Beginners
 
-* New Bootstrap Template: [Soft UI Dashboard](content/bootstrap-template/soft-ui-dashboard.md)
-* New Flask Product: [Flask Soft UI Dashboard](products/flask-dashboards/soft-ui-dashboard.md)
-* New Tutorial: [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
-* New React Template: [CoreUI](content/react-template/coreui-react.md) \(free version\)
-* Flask Dashboards: [Datta Able](products/flask-dashboards/datta-able.md), [Material Dashboard](products/flask-dashboards/material-dashboard.md), [Volt Bootstrap 5](products/flask-dashboards/volt.md)
-* Django Starters: [Material Dashboard](products/django-dashboards/material-dashboard.md), [Star Admin](products/django-dashboards/star-admin.md)
-* Free Samples: [Django User Profile](samples/django/edit-user-profile.md), [Django Sales Chart](samples/django/django-sales-charts.md)
-
+* This [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md) includes a few essential libraries and tools
+* Tutorials and Free Samples published on Github, actively supported by our team:
+  * [How to set up Ubuntu for coding](content/how-to/setup-ubuntu-for-development.md)
+  * [How to Install Python](content/how-to/install-python.md)
+  * [Showcase charts in Django](samples/django/django-sales-charts.md)  
+* Ask for support in [Discord](https://discord.gg/fZC6hup) - registered [AppSeed](https://appseed.us/) users.
 
 
-### Free Sample - [Argon Django](https://appseed.us/admin-dashboards/django-dashboard-argon)
+
+### Popular Free Sample - [Argon Django](https://appseed.us/admin-dashboards/django-dashboard-argon)
 
 Argon Dashboard is a modern and distinct Bootstrap Dashboard designed by [Creative-Tim](content/partners/creative-tim.md). This free sample is provided with many useful features like authentication, modular codebase, and deployment scripts. For more information, please access: 
 

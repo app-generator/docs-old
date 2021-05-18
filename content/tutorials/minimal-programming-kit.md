@@ -10,10 +10,14 @@ This page aims to help beginners to set up their PC for programming. All recomme
 
 > The Short-list
 
-* A modern editor - [VSCode](https://code.visualstudio.com/)
+* A modern editor - [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 * [Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools
+* [Yarn](https://yarnpkg.com/) - a popular package manager for NodeJS 
 * [Python](https://www.python.org/) - a modern script language used for many types of projects 
 * [GIT](https://git-scm.com/) - a command-line tool used to download sources from [Github](https://github.com/)
+* [Gulp](https://gulpjs.com/) - a toolkit to automate repetitive tasks 
+
+
 
 > Note: For support regarding this tutorial please access the [AppSeed](https://appseed.us) platform or join the community on [Discord](https://discord.gg/fZC6hup).
 
