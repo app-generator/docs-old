@@ -18,8 +18,11 @@ description: >-
 
 * [Jinja Boilerplate Code](https://github.com/app-generator/boilerplate-code-jinja) - Source code \(published on Github\)
 * [Jinja Boilerplate Code](https://boilerplate-code-jinja.appseed-srv1.com/) - LIVE demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
-* Sample [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
+* Sample [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed 
+
+> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+
+
 
 ![Jinja - Official Logo.](../.gitbook/assets/jinja-banner.jpg)
 
