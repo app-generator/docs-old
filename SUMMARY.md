@@ -76,9 +76,10 @@
   * [Jinja Atlantis Lite](products/jinja-templates/atlantis-lite.md)
   * [Jinja Datta Able PRO](products/jinja-templates/datta-able-pro.md)
   * [Jinja Dashkit v3](products/jinja-templates/dashkit-v3.md)
+  * [Jinja Light Bootstrap](products/jinja-templates/light-bootstrap-dashboard.md)
   * [Jinja Material Dashboard](products/jinja-templates/material-dashboard.md)
   * [Jinja Paper Dashboard](products/jinja-templates/paper-dashboard.md)
-  * [Jinja Pixel Lite](products/jinja-templates/jinja-pixel-lite.md)
+  * [Jinja Pixel Lite](products/jinja-templates/pixel-lite.md)
 
 ## Free Samples <a id="samples"></a>
 
