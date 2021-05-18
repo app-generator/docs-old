@@ -13,8 +13,10 @@ description: A curated index with all Jinja Templates provided by AppSeed
 
 * [Jinja AdminLTE](adminlte.md) - the iconic [AdminLTE](../../content/bootstrap-template/adminlte.md) dashboard now available in Jinja 
 * [Jinja Atlantis Lite](atlantis-lite.md) - open-source Bootstrap design
+* [Jinja Datta Able PRO](datta-able-pro.md) - premium Bootstrap dashboard 
 * [Jinja Material Dashboard](material-dashboard.md) - design crafted by Creative-Tim
 * [Jinja Paper Dashboard](paper-dashboard.md) - lightweight Bootstrap design
+* [Jinja Dashkit](dashkit-v3.md) \(legacy version\) - premium dashboard styled with Bulma
 
 **Jinja** is basically an engine used to generate HTML or XML returned to the user via an HTTP response. For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated \(or rendered into HTML\) are replaced with actual values.
 
