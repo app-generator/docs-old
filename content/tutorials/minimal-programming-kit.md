@@ -12,7 +12,7 @@ This page aims to help beginners to set up their PC for programming. All recomme
 
 * A modern editor - [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 * [Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools
-* [Yarn](https://yarnpkg.com/) - a popular package manager for NodeJS 
+* [Yarn](https://yarnpkg.com/) - a popular package manager for NodeJS \(better than [NPM](https://www.npmjs.com/)\)
 * [Python](https://www.python.org/) - a modern script language used for many types of projects 
 * [GIT](https://git-scm.com/) - a command-line tool used to download sources from [Github](https://github.com/)
 * [Gulp](https://gulpjs.com/) - a toolkit to automate repetitive tasks 
@@ -32,6 +32,23 @@ We need this software to visualize and edit the sources, execute our projects an
 
 ![Programming Kit - VSCode editor.](../../.gitbook/assets/programming-kit-vscode.jpg)
 
+
+
+### Atom
+
+A popular open-source text editor for developers with a modern UI, deeply customizable and fast. 
+
+**Customization -**  It's easy to customize and style Atom. Tweak the look and feel of your UI with CSS/Less, and add major features with HTML and JavaScript.
+
+**Themeable** -  Atom comes pre-installed with four UI and eight syntax [themes](https://atom.io/themes) in both dark and light colors.
+
+**Github-ready** - The GitHub package is already bundled with Atom - Create new branches, stage and commit, push and pull, resolve merge conflicts, view pull requests, and more—all from within your editor.
+
+* [Atom](https://atom.io/) - official website
+* [Atom](https://github.com/atom/atom) - Github repository   
+
+![Programming Kit - Atom editor.](../../.gitbook/assets/atom-code-editor.jpg)
+
 ### 
 
 ### NodeJS
@@ -50,6 +67,33 @@ To get started with Node please access the official website and download a versi
 ![Programming Kit - NodeJS.](../../.gitbook/assets/programming-kit-nodejs.jpg)
 
 ### 
+
+### Yarn
+
+Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.
+
+In other words, Yarn is a replacer for `NPM` commands as shown below:
+
+```text
+$ npm install
+// OR
+$ yarn
+```
+
+> Execution task
+
+```text
+$ npm run start
+// OR 
+$ yarn start
+```
+
+Yarn uses an optimized workflow for fetching packages by using a local package \(when available\).  For more information please access the project HOMEpage:
+
+* [Yarn](https://yarnpkg.com/) - official website
+* [NPM vs Yarn](https://www.geeksforgeeks.org/difference-between-npm-and-yarn/) - a comprehensive comparison 
+
+
 
 ### Python 
 
