@@ -16,8 +16,8 @@ description: >-
 
 > Links
 
-* Jinja Now UI Dashboard - source code
-* Jinja Now UI Dashboard - LIVE deployment 
+* [Jinja Now UI Dashboard](https://github.com/app-generator/jinja-now-ui-dashboard) - source code
+* [Jinja Now UI Dashboard](https://jinja-now-ui-dashboard.appseed-srv1.com/) - LIVE deployment 
 
 > [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
