@@ -13,7 +13,7 @@ AppSeed, in particular, uses HTML parsing for two things:
 * Page structure detection
 * Component extraction 
 
-For newcomers, **AppSeed** uses automation tools to convert lifeless UI Kits into simple starters generated in many frameworks and patterns. For instance, this open-source design - **Pixel Lite** provided by Themesberg has been _translated_ to Flask and Django using HTML parsing as the first phase of the translation process. 
+For newcomers, **AppSeed** uses automation tools to convert lifeless UI Kits into simple starters generated in many frameworks and patterns. For instance, this open-source design - [**Pixel Lite**](../bootstrap-template/pixel-lite-template.md) provided by Themesberg has been _translated_ to [Flask](../../products/flask-apps/pixel-lite.md) and [Django](../../products/django-apps/pixel-lite.md) using **HTML parsing** as the first phase of the translation process. 
 
 > Required libraries and tools
 
@@ -129,4 +129,10 @@ The component is fully extracted and parsable:
 > The rendered version:
 
 ![HTML Parser - Extracted Component.](../../.gitbook/assets/html-parser-target-component.jpg)
+
+### Resources
+
+* [Use XPath in Beautiful Soup](https://stackoverflow.com/questions/11465555/can-we-use-xpath-with-beautifulsoup) - related article published on StackOverflow
+* [Web Scraping](https://docs.python-guide.org/scenarios/scrape/) - the right way \(with sample\)
+* [How to get the content from Lxml object](https://stackoverflow.com/questions/5395948/incredibly-basic-lxml-questions-getting-html-string-content-of-lxml-etree-elem) - StackOverflow article
 
