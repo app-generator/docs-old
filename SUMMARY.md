@@ -136,6 +136,7 @@
 * [Tutorials](content/tutorials/README.md)
   * [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
   * [Flask - Code a simple App](content/tutorials/flask-code-simple-web-app.md)
+  * [Parse HTML Components](content/tutorials/parse-html-components.md)
 * [Programming Languages](content/programming-languages/README.md)
   * [Php](content/programming-languages/php.md)
   * [Python](content/programming-languages/python.md)
