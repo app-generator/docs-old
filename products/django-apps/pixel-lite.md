@@ -1,6 +1,6 @@
 # Django Pixel Lite
 
-Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs. The **Django codebase** is provided with database, ORM, authentication, and deployment scripts.  
+Pixel is a free, fully responsive, and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs. The **Django codebase** is provided with database, ORM, authentication, and deployment scripts.  
 
 > Features
 
