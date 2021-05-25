@@ -42,7 +42,7 @@ description: >-
 
 ### SB Admin UI
 
-**SB Admin** 2 is a free, open-source, Bootstrap 4 based admin theme perfect for quickly creating dashboards and web applications. It's modern design style with subtle shadows and a card-based layout could be described as flat material and is inspired by the principles of material design along with a simple, attractive color system.
+**SB Admin** is a free, open-source, Bootstrap 4 based admin theme perfect for quickly creating dashboards and web applications. It's modern design style with subtle shadows and a card-based layout could be described as flat material and is inspired by the principles of material design along with a simple, attractive color system.
 
 * [SB Admin](https://startbootstrap.com/template/sb-admin) - product page
 * [SB Admin](https://github.com/startbootstrap/startbootstrap-sb-admin) - source code \(Github\)
