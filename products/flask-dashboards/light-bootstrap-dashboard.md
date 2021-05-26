@@ -22,7 +22,7 @@ description: >-
 
 * [Light Bootstrap Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-light-bootstrap) - product page
 * [Light Bootstrap Dashboard Flask](https://github.com/app-generator/flask-dashboard-light-bootstrap) - source code 
-* [Light Bootstrap Dashboard Flask](https://flask-dashboard-light.appseed.us/) - LIVE Demo 
+* [Light Bootstrap Dashboard Flask](https://flask-light-bootstrap.appseed-srv1.com/) - LIVE Demo 
 
 > [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
