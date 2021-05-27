@@ -20,7 +20,7 @@ description: >-
 
 * [Light Bootstrap Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-light) - product page
 * [Light Bootstrap Dashboard Django](https://github.com/app-generator/django-dashboard-light-bootstrap) - source code
-* [Light Bootstrap Dashboard Django](https://django-dashboard-light-bootstrap.appseed.us/) - LIVE Demo 
+* [Light Bootstrap Dashboard Django](https://django-light-bootstrap.appseed-srv1.com/) - LIVE Demo 
 
 > [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
