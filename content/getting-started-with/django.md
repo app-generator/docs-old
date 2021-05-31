@@ -1,8 +1,8 @@
 ---
-description: A comprehensive guide to Django basics.
+description: 'A simple and comprehensive guide to Django, a widely used web framework.'
 ---
 
-# Django
+# Getting Started with Django
 
 This page aims to help beginners getting started with Django, a popular web framework written in Python. 
 

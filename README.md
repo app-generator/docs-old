@@ -37,10 +37,11 @@ Support is an important part of our business model. A good product, in order to 
 ### AppSeed for Beginners
 
 * This [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md) includes a few essential libraries and tools
+* [Getting started with Django](content/getting-started-with/django.md) - a popular Python-based web framework 
 * Tutorials and Free Samples published on Github, actively supported by our team:
   * [How to set up Ubuntu for coding](content/how-to/setup-ubuntu-for-development.md)
   * [How to Install Python](content/how-to/install-python.md)
-  * [**How to Install Django**](content/tutorials/django-how-to-install.md)\*\*\*\*
+  * [How to Install Django](content/tutorials/django-how-to-install.md)
   * [Showcase charts in Django](samples/django/django-sales-charts.md)  
 * Ask for support in [Discord](https://discord.gg/fZC6hup) - for registered [AppSeed](https://appseed.us/) users.
 

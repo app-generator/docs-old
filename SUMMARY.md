@@ -122,7 +122,7 @@
   * [Single-Tier Architecture](content/what-is/single-tier-architecture.md)
   * [N-Tier Architecture](content/what-is/n-tier-architecture.md)
 * [Getting Started](content/getting-started-with/README.md)
-  * [Django](content/getting-started-with/django.md)
+  * [Getting Started with Django](content/getting-started-with/django.md)
 * [How To](content/how-to/README.md)
   * [Crawl Website in Python](content/how-to/python-crawl-website.md)
   * [Setup CentOS for coding](content/how-to/setup-centos-for-development.md)
