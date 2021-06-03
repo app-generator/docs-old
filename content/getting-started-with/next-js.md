@@ -144,6 +144,34 @@ If all goes well, we should see the project running in the browser on port `3000
 
 ![Next JS - Material Kit Components.](../../.gitbook/assets/next-js-material-kit-components.jpg)
 
+### Special Pages
+
+Being a flexible framework, NextJS allows us to define special page handlers used globally across the project:
+
+> Custom "Document"  used to augment your application's `<html>` and `<body>` tags.
+
+ To override the default `Document`, and define properties like `lang` we need to create the file `./pages/_document.js`
+
+> `App.js` allows us to wrap ALL pages in a special wrapper and use a persistent layout across all pages.
+
+Using this special page, we can achieve with ease a few useful things: 
+
+* Layout persistence between page changes
+* Use a global CSS 
+* Preserve the app state when navigating app pages
+
+> Custom error pages - 404/500 Error Handlers
+
+Next JS provides a 404 error page by default but in the same time allows us to overwrite it via   `pages/404.js` file. The same thing we can do to handle with a custom page the 500 Error case. 
+
+For more information regarding the Next JS customization, please access: 
+
+* Next JS - [Custom document](https://nextjs.org/docs/advanced-features/custom-document) section
+* Next JS - [Custom Error Pages](https://nextjs.org/docs/advanced-features/custom-error-page)
+* Next JS - [Custom App](https://nextjs.org/docs/advanced-features/custom-app)
+
+### 
+
 ### Resources
 
 * [Next JS Handbook](https://www.freecodecamp.org/news/the-next-js-handbook/) - a comprehensive tutorial \| **Freecodecamp** 
