@@ -22,6 +22,7 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 * [Flask Soft UI Dashboard](https://flask-soft-ui-dashboard.appseed-srv1.com/) - LIVE demo
 * [Flask Soft UI Dashboard](https://github.com/app-generator/flask-soft-ui-dashboard) - Source Code
+* [Flask Soft UI Dashboard](https://www.youtube.com/watch?v=omtEiaajf0k) - yTube presentation
 
 > [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
