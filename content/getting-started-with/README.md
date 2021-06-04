@@ -10,8 +10,7 @@ A curated list with `getting started` tutorials for beginners. The content is si
 
 ### Content
 
+* [Getting started with Flask](flask.md) - code a simple web app in a few minutes
 * [Getting started with Django](django.md) - a popular Python-based web framework
-* [Getting started with Next JS](next-js.md) - learn how to code a simple, one-page project   
-
- 
+* [Getting started with Next JS](next-js.md) - learn how to code a simple, one-page project
 
