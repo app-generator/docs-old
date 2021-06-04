@@ -123,6 +123,7 @@
   * [N-Tier Architecture](content/what-is/n-tier-architecture.md)
 * [Getting Started](content/getting-started-with/README.md)
   * [Getting Started with Django](content/getting-started-with/django.md)
+  * [Getting Started with Flask](content/getting-started-with/flask.md)
   * [Getting Started with Next JS](content/getting-started-with/next-js.md)
 * [How To](content/how-to/README.md)
   * [Crawl Website in Python](content/how-to/python-crawl-website.md)

@@ -38,6 +38,7 @@ Support is an important part of our business model. A good product, in order to 
 
 * This [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md) includes a few essential libraries and tools
 * [Getting started with Django](content/getting-started-with/django.md) - a popular Python-based web framework
+* [Getting started with Flask](content/getting-started-with/flask.md) - code a simple web app in a few minutes
 * [Getting started with Next JS](content/getting-started-with/next-js.md) - learn how to code a simple, one-page project   
 * Tutorials and Free Samples published on Github, actively supported by our team:
   * [How to set up Ubuntu for coding](content/how-to/setup-ubuntu-for-development.md)

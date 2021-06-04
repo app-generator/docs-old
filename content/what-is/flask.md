@@ -4,7 +4,7 @@ description: Short introduction to Flask
 
 # What IS Flask
 
-**Flask** is a lightweight [WSGI](https://github.com/app-generator/docs/tree/2d3c04f4ed5d5acb419403f9daf8099709339734/what-is/wsgi/README.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+**Flask** is a lightweight **WSGI** web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 Compared to his older brother [Django](https://www.djangoproject.com/), Flask provides a lightweight codebase and more freedom to the developer. This might be a good thing because you have more freedom in terms of app design and structure but at the same time, this freedom might inject problems when your application becomes complex.
 
