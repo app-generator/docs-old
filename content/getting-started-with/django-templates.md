@@ -4,9 +4,9 @@ description: A comprehensive introduction to Django Template System for beginner
 
 # Django Templates
 
-This page explains in deep the template engine used by Django to serve dynamic pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive [open-source](https://github.com/django/django) community. Github stats: 2k contributors, Used by **675k** Users, ~**58k** Stars. For more information, feel free to access the official website or the short introduction provided by AppSeed:
+This page explains in deep the template engine used by Django to serve dynamic pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive **open-source** community. Github stats: 2k contributors, Used by **675k** Users, ~**58k** Stars. For more information, feel free to access the official website or the short introduction provided by AppSeed:
 
-* [Django](https://www.djangoproject.com/) - official website
+* [Django Templates](https://github.com/app-generator/django-templates) - the open-source sample related to this page 
 * [What is Django](../what-is/django.md) - a comprehensive introduction to Django
 
 ![Django Framework - Cover Image.](../../.gitbook/assets/django-framework-cover-xs.png)
@@ -77,11 +77,119 @@ TEMPLATES = [
 ]
 ```
 
+To enhance this default configuration with a template folder, we need to create the directory somewhere inside the project and update the configuration to inform Django about it. 
 
+> For simplicity,  the`templates` folder will be created in the root of the project
 
+```text
+$ mkdir templates
+```
 
+> Updated configuration
 
+```python
+TEMPLATES_DIR = os.path.join(BASE_DIR, "templates") # <-- new
 
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [TEMPLATES_DIR],   # <-- new
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
+
+From this point, we should be able to load the files defined in the `templates` directory. 
+
+### Django Templates Language
+
+Once the basic configuration is done, we can move forward and see how this template language can help us to build faster web projects. Here is a short list with features offered by the Django template system: 
+
+* Inject variables, Lists, classes into templates
+* Filters to transform the information directly in the template
+* Comments are also supported 
+* Conditionals \(test variable presence or value\) `{% if %}...{% endif %}`
+* Loops \(iterate on lists\) - `{% for x in y %}...{% endfor %}` 
+* Imports \(components reuse\) `{% include "header.html" %}`
+* Inheritance \(extend page templates\) `{% extends "base.html" %}`
+* Block Declaration `{% block content %}...{% endblock %}`
+
+Let's iterate on each feature and check out the sample code:
+
+> **Variables and lists**
+
+Django template system knows how to render simple variables, class attributes, and even accessing the items of a list by index. 
+
+```python
+{{ my_data }}          <-- simple variable
+{{ address.street }}   <-- address is a class
+{{ my_list.1 }}        <-- access list items by index    
+```
+
+> **Filters** - simple helpers useful to transform the information directly in the template
+
+Here is a short-list with popular helpers: `upper`, `default value`, string `truncation`
+
+```python
+{{ name|upper }}             <-- Uppercase the name
+{{ discount|default:"0" }}   <-- If discount is not provided, value 0 is used
+{{ title|truncatechars:25 }} <-- Truncate the variable to the desired lenght
+```
+
+ Another useful feature might be to use more than one filter over a variable:
+
+```python
+{{ name|lower|capfirst }} <-- name is lowecased 
+                          <-- Capitalize first letter      
+```
+
+> **Comments** in Django templates
+
+Django template system will ignore everything between `{% comment %}` and `{% endcomment %}`
+
+```python
+{% comment %} 
+
+Here can be a long story    <-- Ignored by Django
+
+{% endcomment %}
+```
+
+> **Conditionals** - useful to test a variable presence or value
+
+```python
+{% if discount %}
+
+    <span>Special Price {{ discount }}
+
+{% else %}
+
+        <span>Regular Price {{ price }}
+
+{% endif %}    
+```
+
+> Loops - how to iterate on lists
+
+```python
+<ul>
+    {% for i in list %}
+        <li>{{ i }}</li>
+    {% endfor %}
+</ul>
+```
+
+ 
+
+### 
 
 ### Resources
 
