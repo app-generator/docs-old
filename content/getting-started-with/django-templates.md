@@ -1,5 +1,5 @@
 ---
-description: A comprehensive introduction to Django Template System
+description: A comprehensive introduction to Django Template System for beginners.
 ---
 
 # Django Templates
