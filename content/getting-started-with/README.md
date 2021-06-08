@@ -12,5 +12,6 @@ A curated list with `getting started` tutorials for beginners. The content is si
 
 * [Getting started with Flask](flask.md) - code a simple web app in a few minutes
 * [Getting started with Django](django.md) - a popular Python-based web framework
+* Getting started with [Django Templates](django-templates.md) - short introduction for beginners 
 * [Getting started with Next JS](next-js.md) - learn how to code a simple, one-page project
 
