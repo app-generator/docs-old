@@ -4,7 +4,7 @@ description: A comprehensive introduction to Django Template System for beginner
 
 # Django Templates
 
-This page is a comprehensive introduction to **Django Template** system, a modern and designer-friendly language for **Python** used to generate dynamic HTML pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive **open-source** community - Github stats: 2k contributors, Used by **675k** Users, ~**58k** Stars. 
+This page is a comprehensive introduction to [**Django Template**](https://dev.to/sm0ke/django-templates-short-introduction-and-free-samples-2878) system, a modern and designer-friendly language for **Python** used to generate dynamic HTML pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive **open-source** community - Github stats: 2k contributors, Used by **675k** Users, ~**58k** Stars. 
 
 ![Django Framework - Cover Image.](../../.gitbook/assets/django-framework-cover-xs.png)
 
@@ -250,8 +250,7 @@ All the above concepts can be seen in action by accessing a simple Django seed p
 
 ### Resources
 
-* [Django’s Templates](https://djangobook.com/mdj2-django-templates/) **-** a ****free chapter from `The Django Book` ****
+* [Django Templates](https://djangobook.com/mdj2-django-templates/) **-** a ****free chapter from `The Django Book` ****
 * [Django Templates](https://www.geeksforgeeks.org/django-templates/) - a really nice article provided by GeeksForGeeks platform
-
-
+* [Django Templates](https://bit.ly/3aStaNb) - provided by Creative-Tim and AppSeed 
 
