@@ -8,7 +8,7 @@ This page explains in deep the template engine used by Django to serve dynamic p
 
 ![Django Framework - Cover Image.](../../.gitbook/assets/django-framework-cover-xs.png)
 
-Before you can start using Django Template System, you must first install some software on our workstation: Python, and of course, Django. 
+Before start using Django Template System, we need to install Python, the language used to code Django, and of course, the Django framework.  
 
 > Install Python
 
@@ -38,7 +38,7 @@ Once Python and Django are installed, we can move forward in developing a Django
 $ django-admin startproject django_templates
 ```
 
-This command will automatically create a `django_templates` folder in the current directory, and all the necessary files for a basic, but fully functioning **Django** website with an SQLite database. Being a `batteries-included` framework, Django scaffolds the project with usable authentication and administration modules out-of-the-box. To use ann these default features a migration should be executed to create the necessary tables. 
+This command will automatically create a `django_templates` folder in the current directory, and all the necessary files for a basic, but fully functioning **Django** website with an SQLite database. Being a `batteries-included` framework, Django scaffolds the project with working authentication and administration modules out-of-the-box. To use any of these default features a migration should be executed to create the necessary tables. 
 
 ```text
 $ python manage.py migrate
@@ -111,8 +111,7 @@ From this point, we should be able to load the files defined in the `templates` 
 Once the basic configuration is done, we can move forward and see how this template language can help us to build faster web projects. Here is a short list with features offered by the Django template system: 
 
 * Inject variables, Lists, classes into templates
-* Filters to transform the information directly in the template
-* Comments are also supported 
+* Filters to transform the information directly in the template in many ways 
 * Conditionals \(test variable presence or value\) `{% if %}...{% endif %}`
 * Loops \(iterate on lists\) - `{% for x in y %}...{% endfor %}` 
 * Imports \(components reuse\) `{% include "header.html" %}`
@@ -169,12 +168,12 @@ Here can be a long story    <-- Ignored by Django
 
 {% else %}
 
-        <span>Regular Price {{ price }}
+    <span>Regular Price {{ price }}
 
 {% endif %}    
 ```
 
-> Loops - how to iterate on lists
+> **Loops** - how to iterate on lists
 
 ```python
 <ul>
