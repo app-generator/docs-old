@@ -183,7 +183,59 @@ Here can be a long story    <-- Ignored by Django
 </ul>
 ```
 
- 
+> Imports - components reuse
+
+This feature is useful when we code large projects where parts of the UI are common to many pages, like the footer, top navigation, ..etc.   
+
+```markup
+<h1>Django Templates</h1>
+<p>
+    This is just a simple file served from the "templates" directory.
+</p>
+
+{% include "includes/footer.html" %} <-- Import directive
+```
+
+> **Template Inheritance** - allows to `extend` template with specific information
+
+Template inheritance empowers the developer to build a base template that contains the common elements of your site and defines blocks that child templates can override like `page title`, highlight the active menu and other things specific to the current page.
+
+**Base Template** Sample - saved as `base.html` in the templates directory
+
+```python
+<html>
+  <head>
+    <title>My Django {% block title %}{% endblock %} </title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>This is from the base template</h2>
+      <br>
+      { block content }{ endblock }
+      <br>
+    </div>
+  </body>
+</html>
+```
+
+**Child template** - that `extends` the base template
+
+```python
+{ extends "base.html" }
+
+{ block title } MySample { endblock }
+
+{ block content }
+  Cool content here
+{ endblock }
+```
+
+When Django loads `child.html`, the `{ extends }` block informs the engine to merge the `base.html` template with the content provided by `child.html`. 
+
+* `{ block title }` becomes **MySample**
+* `{ block content }` becomes **Cool content here**
+
+### 
 
 ### Django Template Sample
 
