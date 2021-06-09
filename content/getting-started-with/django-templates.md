@@ -4,10 +4,7 @@ description: A comprehensive introduction to Django Template System for beginner
 
 # Django Templates
 
-This page explains in deep the template engine used by Django to serve dynamic pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive **open-source** community. Github stats: 2k contributors, Used by **675k** Users, ~**58k** Stars. For more information, feel free to access the official website or the short introduction provided by AppSeed:
-
-* [Django Templates](https://github.com/app-generator/django-templates) - the open-source sample related to this page 
-* [What is Django](../what-is/django.md) - a comprehensive introduction to Django
+This page explains in deep the template engine used by Django to serve dynamic pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive **open-source** community - Github stats: 2k contributors, Used by **675k** Users, ~**58k** Stars. 
 
 ![Django Framework - Cover Image.](../../.gitbook/assets/django-framework-cover-xs.png)
 
