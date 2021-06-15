@@ -95,7 +95,7 @@ At this point we should see the default Django page in the browser:
 $ python manage.py startapp sample
 ```
 
-####  
+#### 
 
 #### **Add a simple route** 
 
