@@ -17,6 +17,8 @@ description: A curated index with all Jinja Templates provided by AppSeed
 * [Jinja Material Dashboard](material-dashboard.md) - design crafted by Creative-Tim
 * [Jinja Paper Dashboard](paper-dashboard.md) - lightweight Bootstrap design
 * [Jinja Dashkit](dashkit-v3.md) \(legacy version\) - premium dashboard styled with Bulma
+* [Jinja Volt Bootstrap 5](volt-bootstrap-5.md) - a nice dashboard template designed by [Themesberg](../../content/partners/themesberg.md)
+* [Jinja Volt Dashboard PRO](volt-dashboard-pro.md) - premium dashboard template 
 
 **Jinja** is basically an engine used to generate HTML or XML returned to the user via an HTTP response. For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated \(or rendered into HTML\) are replaced with actual values.
 
