@@ -88,6 +88,7 @@
   * [Jinja Pixel Lite](products/jinja-templates/pixel-lite.md)
   * [Jinja Pixel PRO](products/jinja-templates/pixel-pro.md)
   * [Jinja SB Admin](products/jinja-templates/sb-admin.md)
+  * [Jinja Volt Bootstrap 5](products/jinja-templates/volt-bootstrap-5.md)
 
 ## Free Samples <a id="samples"></a>
 
