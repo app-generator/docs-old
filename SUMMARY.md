@@ -96,6 +96,7 @@
 * [Django Samples](samples/django/README.md)
   * [Django User Profile](samples/django/edit-user-profile.md)
   * [Django Sales Charts](samples/django/django-sales-charts.md)
+  * [Django Routing Sample](samples/django/django-routing.md)
 
 ## Content
 
