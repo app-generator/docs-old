@@ -128,6 +128,7 @@ redirects:
     jinja-template/jinja-template-material-dashboard/:       products/jinja-templates/material-dashboard.md
     jinja-template/jinja-template-paper-dashboard/:          products/jinja-templates/paper-dashboard.md
     jinja-template/jinja-template-light-bootstrap/:          products/jinja-templates/light-bootstrap-dashboard.md
+    jinja-template/jinja-template-volt-pro/:                 products/jinja-templates/volt-dashboard-pro.md
 
     admin-dashboards:                                        boilerplate-code/django-dashboard.md
     admin-dashboards/:                                       boilerplate-code/django-dashboard.md
