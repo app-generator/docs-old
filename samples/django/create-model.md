@@ -15,14 +15,6 @@ This page explains **how to create and USE a model in Django**. All commands use
 
 
 
-### What is Django
-
-Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
-
-> Read more about [Django Framework](../../content/what-is/django.md) - quick introduction
-
-
-
 ### How to code this sample
 
 This sample can be coded from scratch by following the steps below.  
