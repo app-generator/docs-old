@@ -37,7 +37,8 @@ Support is an important part of our business model. A good product, in order to 
 ### AppSeed for Beginners
 
 * This [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md) includes a few essential libraries and tools
-* Learn to use [Django Routing System](samples/django/django-routing.md) - a practical example 
+* Learn to use [Django Routing System](samples/django/django-routing.md) - a practical example
+* [Create a Model in Django](samples/django/create-model.md) - learn Django by coding 
 * [Getting started with Django](content/getting-started-with/django.md) - a popular Python-based web framework
 * [Getting started](content/getting-started-with/) with [Django Templates](content/getting-started-with/django-templates.md)
 * [Getting started with Flask](content/getting-started-with/flask.md) - code a simple web app in a few minutes
