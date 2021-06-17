@@ -148,6 +148,7 @@
   * [Flask Deploy on HEROKU](content/how-to/flask-deploy-on-heroku.md)
 * [Tutorials](content/tutorials/README.md)
   * [Django - How to Install](content/tutorials/django-how-to-install.md)
+  * [Django For Beginners](content/tutorials/django-for-beginners.md)
   * [Flask - Code a simple App](content/tutorials/flask-code-simple-web-app.md)
   * [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
   * [Parse HTML Components](content/tutorials/parse-html-components.md)
