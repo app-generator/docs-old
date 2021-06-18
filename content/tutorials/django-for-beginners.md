@@ -142,5 +142,175 @@ urlpatterns = [
 ]
 ```
 
+After saving all changes we should no longer see the Django default page \(the one with the green rocket\):  
 
+![Django For Beginners - The first page.](../../.gitbook/assets/image%20%289%29.png)
+
+### Create New Model
+
+Even simple applications require minimal storage for persistent data. Django provides _out-of-the-box_ an SQLite database, just to help us start fast. During this section, we will create and interact with a new table \(model\). 
+
+> Visualize the default SQL settings - `config/settings.py`
+
+```python
+# File: config/settings.py (partial content)
+...
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+... 
+```
+
+ The `ENGINE` specify the technology used to manage the database. In our case is a lightweight \(yet powerful\) SQLite engine. `NAME` informs Django where to save the database on the filesystem. 
+
+> **Define a new model** `Books` in `sample` application. The below changes should be added to `sample/models.py`:
+
+```python
+# File: sample/models.py
+
+from django.db import models                       
+
+class Book(models.Model):                                 # <- NEW
+    title            = models.CharField(max_length=100)   # <- NEW 
+    author           = models.CharField(max_length=100)   # <- NEW
+    publication_date = models.DateField()                 # <- NEW 
+```
+
+**Tip** - for a quick check over the latest changes we can run `check` subcommand.
+
+```text
+$ python manage.py check
+System check identified no issues (0 silenced).  
+```
+
+> **Generate the SQL code** \(`migrate` the database\).
+
+```text
+$ python manage.py makemigrations  # generate the SQL code
+Migrations for 'sample':
+  sample\migrations\0001_initial.py
+    - Create model Book 
+```
+
+> **Apply changes on the database**
+
+```text
+$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sample, sessions
+Running migrations:
+  Applying sample.0001_initial... OK 
+```
+
+> **Use the model via CLI**
+
+Once the model is created we can use it via the Django shell:
+
+```python
+$ python manage.py shell
+>>> 
+>>> from sample.models import Book     # import the Book model in our context
+>>> from django.utils import timezone  # used to provide the value for publication_date
+>>>
+>>> book1 = Book(title='The Adventures of Tom Sawyer', author='Mark Twain', publication_date=timezone.now() )
+>>> book1.save()                       # save the new book
+
+```
+
+> **List all items \(books\)** \(using the CLI\)
+
+```python
+$ python manage.py shell
+>>> 
+>>> from sample.models import Book
+>>> Book.objects.all()
+<QuerySet [<Book: Book object (1)>]>
+```
+
+We can see our new book returned by the query. Let's improve the information that describes the object.
+
+> **Django Model** - add text representation of an object
+
+To achieve this goal, we should define the `__str__()` method for the `Book` model
+
+```python
+# File: sample/models.py
+
+from django.db import models                       
+
+class Book(models.Model): 
+    title            = models.CharField(max_length=100) 
+    author           = models.CharField(max_length=100)
+    publication_date = models.DateField() 
+
+    def __str__(self):       # <- NEW
+        return self.title    # <- NEW
+
+```
+
+Let's restart the Django console and check the results:
+
+```python
+$ python manage.py shell
+>>> 
+>>> from sample.models import Book
+>>> Book.objects.all()
+<QuerySet [<Book: The Adventures of Tom Sawyer>]>
+
+```
+
+### 
+
+### Using Admin Section
+
+**Django** comes by default with a usable admin dashboard that allows us to manage all app models and users with ease.  In order to access the module, a `superuser` should be created using the Django CLI:
+
+> Create Django Superuser
+
+```python
+$ python manage.py createsuperuser
+sername (leave blank to use 'test'): admin
+Email address: test@appseed.us
+Password: ********
+Password (again): ********
+Superuser created successfully. 
+```
+
+![Django Admin - Default View.](../../.gitbook/assets/django-admin-default-view.jpg)
+
+CRUD \(create, read, update, delete\) actions are provided for all default models \(users, groups\) shipped by Django. To register the new models, `Books` in our case, we need just a few lines of code. 
+
+> Register `Book` model to be visible in the `admin` section
+
+```python
+# File: sample/admin.py
+
+from django.contrib import admin
+
+from .models import Book        # <- NEW
+
+admin.site.register(Book)       # <- NEW 
+```
+
+  After this small change in our code, we should see `Books` model listed in the admin page:
+
+![Django Admin - Register Books Model. ](../../.gitbook/assets/image%20%285%29.png)
+
+> Django Admin - Edit Book Items
+
+![Django Admin - Edit Book Item.](../../.gitbook/assets/image%20%286%29.png)
+
+
+
+> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed.
+
+
+
+### Resources
+
+* Read more about [Django](https://www.djangoproject.com/) \(official docs\)
+* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django) 
 
