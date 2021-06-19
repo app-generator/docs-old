@@ -11,7 +11,7 @@ This page explains the `request` object provided by Django as the default argume
 * [How to install Django](django-how-to-install.md) - simple, tested steps to install Django
 * [Django for beginners](django-for-beginners.md) - a comprehensive tutorial that covers the basics
 
-Let's create a Django project and a code our first view where the `request` object is exposed:
+Let's create a Django project and code our first view where the `request` object is exposed:
 
 > Create and activate a virtual environment
 
