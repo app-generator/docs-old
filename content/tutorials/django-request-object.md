@@ -38,7 +38,7 @@ The above command will install the latest stable version of Django.
 
 ### Build a Django Project <a id="build-a-django-project"></a>
 
-A new project can be generated with ease in Django by using _django-admin_ that provides a collection of settings for the database, Django, and security layer.
+A new project can be generated with ease in Django by using _**django-admin**_ that provides a collection of settings for the database, Django, and security layer.
 
 > Create the project folder
 
@@ -47,7 +47,7 @@ $ mkdir my-django-project
 $ cd my-django-project
 ```
 
- Inside the directory, we will generate the core of our project using _django-admin tool :_
+ Inside the directory, we will generate the core of our project using _**django-admin** tool :_
 
 ```text
 $ django-admin startproject config .
@@ -131,15 +131,15 @@ def hello(request):                      # <-- NEW
 
 ### Request Object Properties
 
-The `request` object in Django comes with a few intresting properties: 
+The `request` object in Django comes with a few interesting properties: 
 
 | Item / Helper | Sample Value | Short Information |
 | :--- | :--- | :--- |
-| REMOTE\_ADDR | 12.245.68.71 | IP of the client |
-| HTTP\_USER\_AGENT | Mozilla/5.0 | User Browser Information |
-| request.path | /admin/ | The URL without domain |
-| request.is\_secure\(\) | True / False | True if request was made over HTTPS |
-| request.method | POST / GET | The Request Method  |
+| **REMOTE\_ADDR** | 12.245.68.71 | IP of the client |
+| **HTTP\_USER\_AGENT** | Mozilla/5.0 | User Browser Information |
+| **request.path** | /admin/ | The URL without domain |
+| **request.is\_secure\(\)** | True / False | True if the request was made over HTTPS |
+| **request.method** | POST / GET | The Request Method  |
 
 > How to check the request type in view.
 
@@ -158,18 +158,18 @@ def hello(request):
         return HttpResponse("Received a POST request")
 ```
 
-For newcomers, `GET` is used to pull information from the server without altering anything. Search is a good example of a `GET` request when we try to locate an information on Google or Wikipedia. 
+For newcomers, `GET` is used to pull information from the server without altering anything. Search is a good example of a `GET` request when we try to locate information on Google or Wikipedia. 
 
 `POST` is used to update the information on the server like change the title for a book or register a new item in our service.
 
 Another difference between `GET` and `POST` is the location of the submitted information. 
 
 * GET submits data in URL: `http://myservice.com?search=all_book`
-* POST submits data in request body \(not visible in the URL\)
+* POST submits data in the request body \(not visible in the URL\)
 
 > List all request headers
 
-This subsection constains a code sample that print all headers and request objects provided by Django:
+This subsection contains a code sample that prints all headers and request objects provided by Django:
 
 ```python
 def headers(request): 
