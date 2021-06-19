@@ -164,7 +164,7 @@ For newcomers, `GET` is used to pull information from the server without alterin
 
 Another difference between `GET` and `POST` is the location of the submitted information. 
 
-* GET submits data in URL: `http://myservice.com?search=all_book`
+* GET submits data in URL: `http://myservice.com?search=all_books`
 * POST submits data in the request body \(not visible in the URL\)
 
 > List all request headers
