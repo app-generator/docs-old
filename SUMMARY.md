@@ -149,6 +149,7 @@
 * [Tutorials](content/tutorials/README.md)
   * [Django - How to Install](content/tutorials/django-how-to-install.md)
   * [Django For Beginners](content/tutorials/django-for-beginners.md)
+  * [Django Request Object](content/tutorials/django-request-object.md)
   * [Flask - Code a simple App](content/tutorials/flask-code-simple-web-app.md)
   * [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
   * [Parse HTML Components](content/tutorials/parse-html-components.md)

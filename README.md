@@ -38,7 +38,7 @@ Support is an important part of our business model. A good product, in order to 
 
 * This [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md) includes a few essential libraries and tools
 * [Django for Beginners](content/tutorials/django-for-beginners.md) - a nice tutorial that covers the basics
-* [Getting started](content/getting-started-with/) with [Django Templates](content/getting-started-with/django-templates.md)
+* [Django Request Object](content/tutorials/django-request-object.md) - learn how to manage a request parameters with ease
 * [Getting started with Flask](content/getting-started-with/flask.md) - code a simple web app in a few minutes
 * [Getting started with Next JS](content/getting-started-with/next-js.md) - learn how to code a simple, one-page project   
 * Tutorials and Free Samples published on Github, actively supported by our team:
