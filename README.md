@@ -40,6 +40,7 @@ Support is an important part of our business model. A good product, in order to 
 * [Django for Beginners](content/tutorials/django-for-beginners.md) - a nice tutorial that covers the basics
 * [Django Forms](content/tutorials/django-forms.md) - explains how to define and use forms in Django
 * [Django Request Object](content/tutorials/django-request-object.md) - learn how to manage request parameters with ease
+* [Django Authentication System](content/tutorials/django-authentication-system.md) - learn how to create users with ease
 * [Getting started with Flask](content/getting-started-with/flask.md) - code a simple web app in a few minutes
 * [Getting started with Next JS](content/getting-started-with/next-js.md) - learn how to code a simple, one-page project   
 * Tutorials and Free Samples published on Github, actively supported by our team:
