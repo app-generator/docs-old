@@ -1,10 +1,8 @@
 ---
-description: >-
-  A simple tutorial for beginners - learn how to use Django authentication
-  system.
+description: Learn how to manage users in Django with ease - tutorial for beginners.
 ---
 
-# Django Authentication System
+# Django Auth System
 
 Being a "batteries-included" framework, Django comes with a powerful authentication/authorization system that we can use and extend in our projects with ease. For those that start from nothing, feel free to access the resources mentioned below and come back here once the content is understood: 
 

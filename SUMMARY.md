@@ -151,7 +151,7 @@
   * [Django For Beginners](content/tutorials/django-for-beginners.md)
   * [Django Request Object](content/tutorials/django-request-object.md)
   * [Django Forms](content/tutorials/django-forms.md)
-  * [Django Authentication System](content/tutorials/django-authentication-system.md)
+  * [Django Auth System](content/tutorials/django-authentication-system.md)
   * [Flask - Code a simple App](content/tutorials/flask-code-simple-web-app.md)
   * [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md)
   * [Parse HTML Components](content/tutorials/parse-html-components.md)
