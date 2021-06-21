@@ -210,7 +210,7 @@ def register_user(request):
 </form>
 ```
 
-> The register mechanism
+> The user registration mechanism
 
 * The User sees the registration page
 * The User inputs all fields 
