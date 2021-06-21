@@ -256,6 +256,55 @@ def register_user(request):
 
 
 
+### Authenticated User
+
+Django hooks the authenticated in the `request` object and we can check if a request is done by an authenticated user or not by calling a helper. The same check is available in views.
+
+> Check user is authenticated in controller - `is_authenticated` \(boolean\) property
+
+```python
+def testme(path):
+
+    # Redirect guests users to login page
+    if request.user.is_authenticated:
+        return HttpResponse("User authenticated")
+    else:
+        return HttpResponse("Access forbidden - please authenticate")
+```
+
+> Check user is authenticated in views
+
+```markup
+    <!-- The Usage of <current_user> object -->
+    {% if request.user.is_authenticated %}
+
+        <!-- Html chunk rendered for authenticated users-->
+
+    {% else %}
+
+        <!-- Html chunk rendered for guests users-->
+
+    {% endif %}
+```
+
+
+
+### Logout Users
+
+The `logout` helper is provided by `Django.contrib.auth` middleware package: 
+
+```python
+# Logout action sample
+from Django.contrib.auth import logout 
+ 
+def my_logout_view(request): 
+    logout(request)
+```
+
+If the user is authenticated all session information will be deleted. If the user is not authenticated, the `logout` helper will run without returning errors or exceptions.  
+
+
+
 > Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed.
 
 
