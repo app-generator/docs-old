@@ -14,6 +14,8 @@
 
 ## PRODUCTS
 
+* [React](products/react/README.md)
+  * [React Node JS Berry](products/react/node-js-berry-dashboard.md)
 * [Flask Apps](products/flask-apps/README.md)
   * [Flask Material Kit](products/flask-apps/material-kit.md)
   * [Flask Pixel Lite](products/flask-apps/pixel-lite.md)
@@ -141,6 +143,7 @@
   * [Django Customize Admin UI](content/how-to/django-admin-customization.md)
   * [Django Chart Example](content/how-to/django-chart-example.md)
   * [Django Deploy on HEROKU](content/how-to/django-deploy-on-heroku.md)
+  * [Django - Add Debug Toolbar](content/how-to/django-add-debug-toolbar.md)
   * [Install Flask](content/how-to/install-flask.md)
   * [Code a simple app In Flask](content/how-to/flask-code-simple-app.md)
   * [Structure a Flask project](content/how-to/flask-structure-your-project.md)
