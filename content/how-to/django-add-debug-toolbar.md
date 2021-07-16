@@ -4,7 +4,9 @@ description: Steps to add Debug Toolbar to a Django project
 
 # Django - Add Debug Toolbar
 
-This page explains how to add [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/index.html) to an existing Django project. 
+This page explains how to add [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/index.html) to an existing Django project. For newcomers, the **Django Debug Toolbar** is a configurable set of panels that bumps various information about the current request/response when clicked.
+
+### How to install
 
 > **Step \#1** - Add `django-debug-toolbar` to project dependencies or install via PIP
 
@@ -107,4 +109,12 @@ $ python manage.py runserver
 At this point, the Debug Toolbar should be visible on the right side for all pages. 
 
 ![Django Debug Toolbar - Soft UI Dashboard.](../../.gitbook/assets/soft-ui-dashboard-django-toolbar.jpg)
+
+### Resources
+
+* [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - official docs
+* [Django Debug Toolbar](https://pypi.org/project/django-debug-toolbar/) - PyPi page
+* Troubleshooting
+  * [Django Debug Toolbar not showing up](https://stackoverflow.com/questions/10517765/django-debug-toolbar-not-showing-up) - StackOverflow article
+  * [Cannot get django-debug-toolbar to appear](https://stackoverflow.com/questions/28984239/cannot-get-django-debug-toolbar-to-appear/48873389) -  StackOverflow article 
 
