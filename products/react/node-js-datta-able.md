@@ -1,17 +1,17 @@
 ---
 description: >-
-  Open-source Full Stack seed project built in React and Node JS on top of Berry
-  Dashboard
+  Open-source Full Stack seed project built in React and Node JS on top of Datta
+  Able Dashboard
 ---
 
-# React Node JS Berry
+# React Node JS Datta Able
 
-Open-source full-stack seed project coded in **React** and **Node JS** on top of a modern **Material UI** design from **CodedThemes**. The React / NodeJS codebase is already configured with a Mongo database, API, and authentication flow.
+Open-source full-stack seed project coded in **React** and **Node JS** on top of a modern design from **CodedThemes**. The React / NodeJS codebase is already configured with a Mongo database, API, and authentication flow.
 
-* [React Node JS Berry](https://appseed.us/product/react-node-js-berry-dashboard) - product page
-* [React Node JS Berry](https://react-node-js-berry-dashboard.appseed-srv1.com/) - LIVE Demo
+* [React Node JS Datta Able](https://appseed.us/product/react-node-js-datta-able) - product page
+* [React Node JS Datta Able](https://github.com/app-generator/react-datta-able-dashboard) - source code
 
-![React Node JS - Berry Dashboard.](../../.gitbook/assets/react-node-js-berry-dashboard.png)
+![React Node JS - Datta Able \(free version\).](../../.gitbook/assets/react-datta-able-cover.jpg)
 
 ### Product features
 
@@ -24,8 +24,8 @@ To use the product, a decent version of **Node JS** \(&gt;= 12.x\) is required, 
 > **Step \#1** - Clone the project
 
 ```bash
-$ git clone https://github.com/app-generator/react-berry-admin-template.git
-$ cd react-berry-admin-template 
+$ git clone https://github.com/app-generator/react-datta-able-dashboard.git
+$ cd react-datta-able-dashboard 
 ```
 
 > **Step \#2** - Install dependencies via NPM or yarn
@@ -100,11 +100,11 @@ The API server will start using the `PORT` specified in `.env` file, default val
 
 From this point, the React Product should be able to authenticate and register new users. 
 
-![React Node JS Berry - Login Page.](../../.gitbook/assets/react-dashboard-berry-login.jpg)
+![React Node JS Datta Able - Login Page.](../../.gitbook/assets/react-datta-able-login.jpg)
 
-### Resources
+### Resources 
 
-* [React Node JS Berry](https://appseed.us/product/react-node-js-berry-dashboard) - product page
-* [React Node JS Berry](https://github.com/app-generator/react-berry-admin-template) - source code
+* [React Node JS Datta Able](https://appseed.us/product/react-node-js-datta-able) - product page
+* [React Node JS Datta Able](https://github.com/app-generator/react-datta-able-dashboard) - source code
 * Free [Support](https://appseed.us/support) via eMail and **Discord** \(for registered users\) 
 
