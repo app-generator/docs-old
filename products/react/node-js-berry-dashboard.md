@@ -10,6 +10,7 @@ Open-source full-stack seed project coded in **React** and **Node JS** on top of
 
 * [React Node JS Berry](https://appseed.us/product/react-node-js-berry-dashboard) - product page
 * [React Node JS Berry](https://react-node-js-berry-dashboard.appseed-srv1.com/) - LIVE Demo
+* [React Node JS Berry](https://github.com/app-generator/react-berry-admin-template) - source code
 
 ![React Node JS - Berry Dashboard.](../../.gitbook/assets/react-node-js-berry-dashboard.png)
 
