@@ -36,10 +36,11 @@ Support is an important part of our business model. A good product, in order to 
 
 ### Latest Products
 
-* [React Node JS Datta Able](products/react/node-js-datta-able.md) - Open-source full-stack product 
 * [React Node JS Berry](products/react/node-js-berry-dashboard.md) - Open-source full-stack product
+* [React Node JS Datta Able](products/react/node-js-datta-able.md) - Open-source full-stack product 
+* [React Node JS Datta PRO](products/react/node-js-datta-able-pro.md) - Premium seed project
 
-![React Node JS Datta - Full-stack Product.](.gitbook/assets/react-datta-able-cover.jpg)
+![React Node JS - Datta Able PRO.](.gitbook/assets/react-node-js-datta-able-pro-screen-xs.jpg)
 
 ### AppSeed for Beginners
 
