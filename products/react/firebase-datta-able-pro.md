@@ -1,18 +1,19 @@
 ---
 description: >-
-  Open-source Full Stack seed project built in React and Firebase on top of
-  Datta Able Dashboard
+  Full Stack seed project built in React and Firebase on top of Datta Able
+  Dashboard (premium version)
 ---
 
-# React Firebase Datta Able
+# React Firebase Datta PRO
 
-Open-source full-stack seed project coded in **React** and **Firebase** on top of a modern design from **CodedThemes**. The React / Firebase codebase is already configured with social login \(Google\)
+Full-stack seed project coded in **React** and **Firebase** on top of a modern design from **CodedThemes: Datta Able PRO**. The React / Firebase codebase is already configured with social login \(Google\).
 
-* [React Firebase Datta Able](https://appseed.us/product/react-firebase-datta-able) - product page
-* [React Firebase Datta Able](https://react-firebase-datta-able.appseed-srv1.com/) - LIVE demo
-* [React Firebase Datta Able](https://github.com/app-generator/react-firebase-datta-able) - Source Code
+* [React Firebase Datta PRO](https://appseed.us/product/react-firebase-datta-able-pro) - product page
+* [React Firebase Datta PRO](https://react-firebase-datta-able-pro.appseed-srv1.com/) - LIVE demo
 
-![React Firebase  - Datta Able \(free version\)](../../.gitbook/assets/react-firebase-datta-app-view.jpg)
+![React Firebase - Datta Able PRO. ](../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs.jpg)
+
+
 
 ### Product features
 
@@ -22,11 +23,11 @@ The product expects a configured **Firebase backend** that exposes the required 
 
 To use the product, a decent version of **Node JS** \(&gt;= 12.x\) is required, and **GIT** command-line tool to clone/download the project from the public repository.
 
-> **Step \#1** - Clone the project
+> **Step \#1** - Clone the project \(private repository\). To get access you need an active LICENSE.
 
 ```bash
-$ git clone https://github.com/app-generator/react-firebase-datta-able.git
-$ cd react-firebase-datta-able
+$ git clone https://github.com/app-generator/priv-react-firebase-datta-able-pro.git
+$ cd priv-react-firebase-datta-able-pro
 ```
 
 > **Step \#2** - Install dependencies via NPM or yarn
@@ -62,8 +63,10 @@ $ npm run start
 $ yarn start 
 ```
 
-All above settings are provided by the Firebase platform. For more information, feel free to access [Firebase official](https://firebase.google.com/docs) help:
+All above settings are provided by the **Firebase** platform. For more information, feel free to access [Firebase official](https://firebase.google.com/docs) help:
 
 * [Firebase Fundamentals](https://firebase.google.com/docs/guides) - Learn how to get started fast
 * [Manage Projects in Firebase](https://firebase.google.com/docs/projects/learn-more) - the basics 
+
+
 
