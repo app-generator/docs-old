@@ -11,7 +11,7 @@ Open-source full-stack seed project coded in **React** and **Firebase** on top o
 * [React Firebase Datta Able](https://appseed.us/product/react-firebase-datta-able) - product page
 * [React Firebase Datta Able](https://react-firebase-datta-able.appseed-srv1.com/) - LIVE demo
 
-![React Firebase  - Datta Able \(free version\)](../../.gitbook/assets/react-firebase-datta-able.jpg)
+![React Firebase  - Datta Able \(free version\)](../../.gitbook/assets/react-firebase-datta-app-view.jpg)
 
 ### Product features
 
