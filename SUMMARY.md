@@ -18,6 +18,7 @@
   * [React Node JS Berry](products/react/node-js-berry-dashboard.md)
   * [React Node JS Datta Able](products/react/node-js-datta-able.md)
   * [React Node JS Datta PRO](products/react/node-js-datta-able-pro.md)
+  * [React Firebase Datta Able](products/react/firebase-datta-able.md)
 * [Flask Apps](products/flask-apps/README.md)
   * [Flask Material Kit](products/flask-apps/material-kit.md)
   * [Flask Pixel Lite](products/flask-apps/pixel-lite.md)
