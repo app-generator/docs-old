@@ -42,5 +42,3 @@ This sample explains how to extend an existing Django API Starter and add anothe
 * CRUD
 * All transactions 
 
-
-
