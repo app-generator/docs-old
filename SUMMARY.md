@@ -6,6 +6,8 @@
 
 ## Boilerplate Code
 
+* [API Unified Definition](boilerplate-code/api-unified-definition.md)
+* [API Server Django](boilerplate-code/api-server-django.md)
 * [Boilerplate Django Dashboards](boilerplate-code/django-dashboard.md)
 * [Boilerplate Django Apps](boilerplate-code/django.md)
 * [Boilerplate Flask Dashboards](boilerplate-code/flask-dashboard.md)
@@ -104,6 +106,7 @@
   * [Django User Profile](samples/django/edit-user-profile.md)
   * [Django Sales Charts](samples/django/django-sales-charts.md)
   * [Django Routing Sample](samples/django/django-routing.md)
+  * [Django API Server](samples/django/api-server-sample.md)
 
 ## Content
 
