@@ -12,14 +12,24 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
   * [React Berry Dashboard](https://github.com/app-generator/react-berry-admin-template) - open-source sample
   * [React Datta Dashboard](https://github.com/app-generator/react-datta-able-dashboard) - open-source sample
 
+> API Methods - for full description please access [API Unified Definition](api-unified-definition.md)
+
+* USERS API:
+  * `/api/users/register`: create a new user
+  * `/api/users/login`: authenticate an existing user
+  * `/api/users/logout`: delete the associated JWT token
+  * `/api/users/checkSession`: check an existing JWT Token for validity
+  * `/api/users/edit` - edit the information associated with a registered user 
+
 ![Django API Server - Open-source Product.](../.gitbook/assets/api-cover-django-xs.jpg)
 
 ### Requirements
 
-* Django==3.2.5
-* djangorestframework==3.12.4
-* PyJWT==2.1.0
-* django-cors-headers==3.7.0
+* **Python3** \(Python2 is not supported\) 
+* **Django**==3.2.5
+* **djangorestframework**==3.12.4
+* **PyJWT**==2.1.0
+* **django-cors-headers**==3.7.0 
 
 
 
@@ -52,10 +62,11 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-The API server will start using the default port `8000`.  
+The API server will start using the default port `8000`.
 
 
-### [Docker](https://www.docker.com/) execution
+
+### **Docker execution**
 
 > **Step \#1** - Get the code
 

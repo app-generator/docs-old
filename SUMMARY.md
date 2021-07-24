@@ -8,6 +8,7 @@
 
 * [API Unified Definition](boilerplate-code/api-unified-definition.md)
 * [API Server Django](boilerplate-code/api-server-django.md)
+* [API Server Flask](boilerplate-code/api-server-flask.md)
 * [Boilerplate Django Dashboards](boilerplate-code/django-dashboard.md)
 * [Boilerplate Django Apps](boilerplate-code/django.md)
 * [Boilerplate Flask Dashboards](boilerplate-code/flask-dashboard.md)
