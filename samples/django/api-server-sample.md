@@ -6,7 +6,7 @@ description: Open-source Django API server that explains how to extend an existi
 
 This sample explains how to extend an existing Django API Starter and add another model managed via a new API node. 
 
-* [Django API Server](../../boilerplate-code/api-server-django.md) - original project
+* [Django API Server](../../boilerplate-code/api-server/django.md) - original project
 * [Django API Server Sample](https://github.com/app-generator/api-server-django-sample) - the source code with new enhancements 
 
 ![Django API Server - Cover Image.](../../.gitbook/assets/api-cover-django-xs.jpg)
