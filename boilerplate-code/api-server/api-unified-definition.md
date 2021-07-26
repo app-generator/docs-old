@@ -12,10 +12,10 @@ This page describes the **unified definition** used by all API servers provided 
 
 > API Servers aligned to use it:
 
-* [API Server Django](https://github.com/app-generator/api-server-django) - free product
-* [API Server Flask](https://github.com/app-generator/api-server-flask) - free product
+* [API Server Django](django.md) - free product
+* [API Server Flask](flask.md) - free product
 * [API Server FastAPI](https://github.com/app-generator/api-unified-definition#) - free product / **Work in progress**
-* [API Server Node JS](https://github.com/app-generator/api-server-nodejs) - free product
+* [API Server Node JS](node-js.md) - free product
 * [API Server Node JS PRO](https://github.com/app-generator/api-server-nodejs) - commercial product
 
 > UI Products aligned to use it:
