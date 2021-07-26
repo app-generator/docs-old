@@ -16,7 +16,7 @@ This page describes the **unified definition** used by all API servers provided 
 * [API Server Flask](flask.md) - free product
 * [API Server FastAPI](https://github.com/app-generator/api-unified-definition#) - free product / **Work in progress**
 * [API Server Node JS](node-js.md) - free product
-* [API Server Node JS PRO](https://github.com/app-generator/api-server-nodejs) - commercial product
+* [API Server Node JS PRO](https://github.com/app-generator/api-server-nodejs-pro) - commercial product
 
 > UI Products aligned to use it:
 
