@@ -25,6 +25,7 @@
   * [React Node JS Datta PRO](products/react/node-js-datta-able-pro.md)
   * [React Firebase Datta Able](products/react/firebase-datta-able.md)
   * [React Firebase Datta PRO](products/react/firebase-datta-able-pro.md)
+  * [Django React Datta Able](products/react/django-datta-able.md)
 * [Flask Apps](products/flask-apps/README.md)
   * [Flask Material Kit](products/flask-apps/material-kit.md)
   * [Flask Pixel Lite](products/flask-apps/pixel-lite.md)
