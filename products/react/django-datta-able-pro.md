@@ -8,8 +8,8 @@ description: >-
 
 Open-source full-stack seed project coded in [**React** and **Django**](https://appseed.us/product/django-react-datta-able) on top of a modern design from **CodedThemes**. The **React** / **Django** codebase is already configured with an SQLite database, API, and JWT token-based authentication flow.
 
-* Django React Datta PRO - product page
-* Django React Datta PRO - LIVE demo
+* [Django React Datta PRO](https://appseed.us/product/django-react-datta-able-pro) - product page
+* [Django React Datta PRO](https://django-react-datta-able-pro.appseed-srv1.com/) - LIVE demo
 
 ![Django React - datta Able PRO.](../../.gitbook/assets/django-react-datta-pro-xs.jpg)
 
