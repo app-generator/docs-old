@@ -10,6 +10,7 @@ Open-source full-stack seed project coded in [**React** and **Django**](https://
 
 * [Django React Datta Able](https://appseed.us/product/django-react-datta-able) - product page
 * [Django React Datta Able](https://django-react-datta-able.appseed-srv1.com/) - LIVE demo
+* [Django React Datta PRO](django-datta-able-pro.md) - the premium version
 
 ![Django React Datta Able - Fullstack Product.](../../.gitbook/assets/django-react-datta-able-xs.jpg)
 
