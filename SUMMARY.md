@@ -19,6 +19,8 @@
 
 ## PRODUCTS
 
+* [Eleventy 11ty](products/eleventy-11ty.md)
+* [Soft UI Design](products/soft-ui-design.md)
 * [React](products/react/README.md)
   * [React Node JS Berry](products/react/node-js-berry-dashboard.md)
   * [React Node JS Datta Able](products/react/node-js-datta-able.md)
