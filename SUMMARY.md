@@ -19,8 +19,6 @@
 
 ## PRODUCTS
 
-* [Eleventy 11ty](products/eleventy-11ty.md)
-* [Soft UI Design](products/soft-ui-design.md)
 * [React](products/react/README.md)
   * [React Node JS Berry](products/react/node-js-berry-dashboard.md)
   * [React Node JS Datta Able](products/react/node-js-datta-able.md)
@@ -89,6 +87,8 @@
   * [Django Volt](products/django-dashboards/volt.md)
   * [Django Volt PRO](products/django-dashboards/volt-pro.md)
   * [Django Tabler](products/django-dashboards/tabler.md)
+* [Eleventy 11ty](products/eleventy-11ty/README.md)
+  * [Soft UI Design](products/eleventy-11ty/soft-ui-design.md)
 * [Jinja Templates](products/jinja-templates/README.md)
   * [Jinja Argon Dashboard](products/jinja-templates/argon-dashboard.md)
   * [Jinja AdminLTE](products/jinja-templates/adminlte.md)
