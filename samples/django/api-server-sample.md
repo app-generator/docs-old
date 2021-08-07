@@ -20,40 +20,27 @@ PROJECT ROOT
 │   ├── authentication            # Implements authentication app logic (register, login, session) logic
 │   │   ├── apps.py
 │   │   ├── backends.py           # Handles the active session authentication
-│   │   ├── __init__.py
 │   │   ├── migrations
-│   │   │   ├── 0001_initial.py   
-│   │   │   └── __init__.py
-│   │   ├── models
-│   │   │   ├── active_session.py # Active session model
-│   │   │   └── __init__.py
 │   │   ├── serializers
-│   │   │   ├── __init__.py
 │   │   │   ├── login.py          # Handles the proccess of login for an user
 │   │   │   └── register.py       # Handle the creation of a new user
 │   │   ├── tests.py              # Test for login, registration and session
 │   │   └── viewsets       
 │   │       ├── active_session.py # Handles session check
-│   │       ├── __init__.py
 │   │       ├── login.py          # Handles login
 │   │       ├── logout.py         # Handles logout
 │   │       └── register.py       # Handles registration
-│   ├── fixtures                   # Package containg the project fixtures
-│   │   ├── __init__.py
-│   │   └── user.py
+|   |
+│   ├── fixtures                  # Package containg the project fixtures
 │   ├── __init__.py
 │   ├── routers.py                # Define api routes
 │   └── user                      # Implements user app logic
 │       ├── apps.py
 │       ├── __init__.py
 │       ├── migrations
-│       │   ├── 0001_initial.py
-│       │   └── __init__.py
-│       ├── models.py            
 │       ├── serializers.py       # Handle the serialization of user object
-│       ├── tests.py             
 │       └── viewsets.py          # Handles  the modification of an user
-├── CHANGELOG.md
+|
 ├── core                         # Implements app logic      
 │   ├── asgi.py
 │   ├── __init__.py
@@ -61,13 +48,11 @@ PROJECT ROOT
 │   ├── test_runner.py           # Custom  test runner
 │   ├── urls.py    
 │   └── wsgi.py
+|
 ├── docker-compose.yml
 ├── Dockerfile
 ├── .env                         # Inject Configuration via Environment
-├── LICENSE.md
 ├── manage.py                    # Starts the app
-├── package.json
-├── README.md
 └── requirements.txt             # Contains development packages
 ```
 
@@ -317,7 +302,7 @@ The [ViewSet](https://www.django-rest-framework.org/api-guide/viewsets/#viewset)
 * partial\_update
 * destroy
 
-And to make sure the names of the URLS match what we need, we'll be using [actions](https://www.django-rest-framework.org/api-guide/viewsets/#marking-extra-actions-for-routing). 
+And to make sure the names of the URLs match what we need, we'll be using [actions](https://www.django-rest-framework.org/api-guide/viewsets/#marking-extra-actions-for-routing). 
 
 First of all, create a file name `viewsets` in the `transactions` directory. 
 
@@ -357,7 +342,7 @@ class TransactionViewSet(viewsets.ModelViewSet):
         return Transaction.objects.all()
 ```
 
-Great. Now, let's make sure DRF will exactly match the URLS we want. First of all, we have to block the default routes. 
+Great. Now, let's make sure DRF will exactly match the URLs we want. First of all, we have to block the default routes. 
 
 ```python
 class TransactionViewSet(viewsets.ModelViewSet):
