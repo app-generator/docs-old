@@ -120,6 +120,16 @@ Content-Type: application/json
 
 > **Login** - `api/users/login`
 
+```text
+cd api && django-admin startapp transactions
+```
+
+Once it's done, rewrite the `apps.py` file with the following content. 
+
+```text
+
+```
+
 ```javascript
 POST /api/users/login
 Content-Type: application/json
@@ -212,7 +222,7 @@ curl --request POST \
 
 > Add a new model - transactions
 
-Creating a new model here requires three steps : 
+To add a model for `transaction` in the project, let's create a new application in the `api` directory. 
 
 * Creating the app using `django-admin` command in the `api` directory.
 * Then modify the name and the label of the app in `apps.py`
