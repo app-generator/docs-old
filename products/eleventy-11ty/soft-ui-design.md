@@ -93,7 +93,7 @@ This project uses includes a Blog system that uses Prismic CMS. You'll need a fr
 
 ![](../../.gitbook/assets/netlify-env-setup-2.png)
 
-### Set up a Netlify build hook and a Prismic webhook to trigger it
+### Set up a Netlify build hook and a Prismic webhook to trigger Netlify Build
 
 We need to set up a webhook so that when you save a Prismic document, this triggers a Netlify build.
 
