@@ -6,7 +6,7 @@ description: >-
 
 # React Material Dashboard
 
-**React Material Dashboard**, a premium design crafted by **Creative-Tim** now configured with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django \(FASTapi coming soon\).  For newcomers, React Material Dashboard is a popular dashboard template that makes use of light, surface, and movement. 
+Full-stack version of **React Material Dashboard**, a premium design crafted by **Creative-Tim** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django \(FASTapi coming soon\).  For newcomers, **React Material Dashboard** is a popular dashboard template that makes use of light, surface, and movement. 
 
 * [Full-stack React Material Dashboard](https://appseed.us/full-stack/react-material-dashboard) - product page
 * [Full-stack React Material Dashboard](https://fullstack-react-material-dashboard.appseed-srv1.com/) - LIVE Demo
@@ -144,6 +144,15 @@ const axios = Axios.create({
 ```
 
 
+
+### React Material UI 
+
+_Official Product Information_ **- Material Dashboard PRO** React is a Premium Material-UI@4.1.0 Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an _easy-to-use_ and beautiful set of components. Material Dashboard PRO React was built over the popular Material-UI framework - _UI designed by **Creative-Tim**_: 
+
+* [Material Dashboard React](https://bit.ly/36LDZyo) - open-source version \(React template version\)
+* [Material Dashboard React](https://bit.ly/3o8InNN) - premium version \(React template version\)
+
+![React Material Dashboard - Template Version.](../../.gitbook/assets/react-material-dashboard-ct.jpg)
 
 ### Support & Resources
 
