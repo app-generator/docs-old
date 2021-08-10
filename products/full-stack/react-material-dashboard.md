@@ -8,7 +8,7 @@ description: >-
 
 **React Material Dashboard**, a premium design crafted by **Creative-Tim** now configured with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django \(FASTapi coming soon\).  For newcomers, React Material Dashboard is a popular dashboard template that makes use of light, surface, and movement. 
 
-* Full-stack React Material Dashboard - product page
+* [Full-stack React Material Dashboard](https://appseed.us/full-stack/react-material-dashboard) - product page
 * [Full-stack React Material Dashboard](https://fullstack-react-material-dashboard.appseed-srv1.com/) - LIVE Demo
 
 ![React Material Dashboard - Full-stack Version](../../.gitbook/assets/react-material-dashboard-screen.png)
