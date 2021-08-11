@@ -1,7 +1,7 @@
 ---
 description: >-
-  Premium React Dashboard designed by Creative-Tim, coded as full-stack product
-  by AppSeed
+  Premium React Dashboard designed by Creative-Tim, coded as a full-stack
+  product by AppSeed
 ---
 
 # React Material Dashboard
