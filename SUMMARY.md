@@ -25,7 +25,7 @@
   * [React Node JS Berry](products/react/node-js-berry-dashboard.md)
   * [React Node JS Datta Able](products/react/node-js-datta-able.md)
   * [React Node JS Datta PRO](products/react/node-js-datta-able-pro.md)
-  * [React Node Material Kit PRO](products/react/react-node-material-kit-pro.md)
+  * [React Node Material Kit PRO](products/react/node-js-material-kit-pro.md)
   * [React Firebase Datta Able](products/react/firebase-datta-able.md)
   * [React Firebase Datta PRO](products/react/firebase-datta-able-pro.md)
   * [Django React Datta Able](products/react/django-datta-able.md)
