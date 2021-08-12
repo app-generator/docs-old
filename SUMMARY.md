@@ -21,7 +21,7 @@
 
 * [Full-stack](products/full-stack/README.md)
   * [Full-Stack React Material](products/full-stack/react-material-dashboard.md)
-  * [Full-Stack React Datta Able](products/full-stack/full-stack-react-datta-able.md)
+  * [Full-Stack React Datta Able](products/full-stack/react-datta-able.md)
 * [React](products/react/README.md)
   * [React Node JS Berry](products/react/node-js-berry-dashboard.md)
   * [React Node JS Datta Able](products/react/node-js-datta-able.md)
