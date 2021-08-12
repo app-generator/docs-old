@@ -1,17 +1,19 @@
 ---
 description: >-
-  Premium React Dashboard designed by Creative-Tim, coded as a full-stack
-  product by AppSeed
+  Premium React Dashboard designed by CodedThemes, coded as a full-stack product
+  by AppSeed
 ---
 
-# Full-Stack React Material
+# Full-Stack React Datta Able
 
-Full-stack version of **React Material Dashboard**, a premium design crafted by **Creative-Tim** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django \(FASTapi coming soon\).  For newcomers, **React Material Dashboard** is a popular dashboard template that makes use of light, surface, and movement. 
+Full-stack version of **Datta Able PRO**, a premium design crafted by **CodedThemes** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django \(FASTapi coming soon\).  
 
-* [Full-stack React Material Dashboard](https://appseed.us/full-stack/react-material-dashboard) - product page
-* [Full-stack React Material Dashboard](https://fullstack-react-material-dashboard.appseed-srv1.com/) - LIVE Demo
+* Full-stack React Datta Able - product page
+* Full-stack React Datta Able - LIVE Demo
 
-![React Material Dashboard - Full-stack Version](../../.gitbook/assets/react-material-dashboard-screen.png)
+![React Datta Able - Full-stack Version](../../.gitbook/assets/react-node-js-datta-able-pro-screen-xs%20%281%29.jpg)
+
+
 
 ### Product Dependencies
 
@@ -24,7 +26,7 @@ To successfully compile and use the product, please make sure your workstation h
 
 ### Product Features
 
-The product aims to help developers skip over the basics and start faster a new full-stack product already enhanced with authentication, a pixel-perfect UI powered by production-ready backends. The fact that makes this full-stack product unique is the JSON-API compliance over multiple servers: 
+The product aims to help developers skip over the basics and start faster a new full-stack product already enhanced with authentication, a pixel-perfect UI powered by production-ready backends. The fact that makes this full-stack product unique is the **JSON-API** compliance over multiple servers: 
 
 * \*\*\*\*[Node JS API](../../boilerplate-code/api-server/node-js.md): Typescript, Flexible persistence \(SQLite, Mongo\), TypeORM, Validation
 * [Django API](../../boilerplate-code/api-server/django.md): JWT Authentication over DRF, SQLite, Docker 
@@ -35,7 +37,9 @@ By default, the UI redirects the guest users to the login page. Once the user is
 
 > Implemented JWT Authentication Flow: Login, Logout, Register.
 
-![Full-Stack React Material Dashboard - Login](../../.gitbook/assets/fullstack-react-material-dashboard-login-xs.jpg)
+![Full-Stack React Datta Able - Login. ](../../.gitbook/assets/django-react-datta-able-login-xs%20%281%29.jpg)
+
+
 
 ### **How to use the product**
 
@@ -47,7 +51,7 @@ Full-stack React Material Dashboard is built using a two-tier architecture where
 * Authenticate and access the private pages
 * Add your magic on top of the existing codebase. 
 
-### 
+
 
 ### Start the backend server
 
@@ -104,8 +108,8 @@ The **React Material Dashboard** being a commercial product, a license is requir
 **Step \#1** - Clone the project
 
 ```text
-$ git clone https://github.com/app-generator/priv-react-material-dashboard-pro.git
-$ cd priv-react-material-dashboard-pro
+$ git clone https://github.com/app-generator/priv-react-datta-able-dashboard-pro.git
+$ cd priv-react-datta-able-dashboard-pro 
 ```
 
 **Step \#2** - Install dependencies via NPM or yarn
@@ -128,36 +132,20 @@ $ yarn start
 
 ### Backend Integration
 
-> The backend API server address is saved in `src/config/constant.js`.
+> The backend API server address is saved in `src/config.js`.
 
 ```text
-export const API_SERVER = "http://localhost:5000/api/";
-```
-
-> Frontend api has been created at `src/api/auth.js`.
-
-```text
-const axios = Axios.create({
-    baseURL: `${baseURL}/api`,
-    headers: { "Content-Type": "application/json" },
-});
+const config = {
+    ...
+    API_SERVER: 'http://localhost:5000/api/'  // <-- The magic line
+}; 
 ```
 
 
 
-### React Material UI 
+### **React Datta Able** - UI 
 
-_Official Product Information_ **- Material Dashboard PRO** React is a Premium Material-UI@4.1.0 Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an _easy-to-use_ and beautiful set of components. Material Dashboard PRO React was built over the popular Material-UI framework - _UI designed by **Creative-Tim**_: 
+_Official Product Information_ **-**  Datta Able React is the **most stylized** React **Admin Template**, around all other admin templates **in the market**. It comes with high feature-rich pages and components with **fully developer-**centric code. 
 
-* [Material Dashboard React](https://bit.ly/36LDZyo) - open-source version \(React template version\)
-* [Material Dashboard React](https://bit.ly/3o8InNN) - premium version \(React template version\)
-
-![React Material Dashboard - Template Version.](../../.gitbook/assets/react-material-dashboard-ct.jpg)
-
-### Support & Resources
-
-* For assistance access the [support](https://appseed.us/support) page
-* Join [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE assistance for registered users  
-* [React Apps](https://appseed.us/apps/react) - free and commercial products
-* [React Bundle](https://appseed.us/bundles/campaign)  - a discounted multi-product bundle 
+![Full-Stack React Datta Able - Charts Page.](../../.gitbook/assets/django-react-datta-able-widgets-xs.jpg)
 
