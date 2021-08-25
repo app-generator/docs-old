@@ -8,8 +8,8 @@ description: >-
 
 Full-stack version of **Berry Dashboard PRO**, a premium design crafted by **CodedThemes** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django \(FASTapi coming soon\).  
 
-* Full-stack React Berry Dashboard - product page
-* Full-stack React Berry Dashboard - LIVE Demo
+* [Full-stack React Berry Dashboard](https://appseed.us/full-stack/react-berry-dashboard) - product page
+* [Full-stack React Berry Dashboard](https://fullstack-react-berry-dashboard.appseed-srv1.com/) - LIVE Demo
 * [UI Docs](https://codedthemes.gitbook.io/berry/) - provided by CodedThemes
 
 ![Berry React Dashboard - Full-Stack Product ](../../.gitbook/assets/fullstack-berry-dashboard-charts-xs.jpg)
