@@ -39,8 +39,9 @@ Support is an important part of our business model. A good product, in order to 
 * [React Node JS Berry](products/react/node-js-berry-dashboard.md) - Open-source full-stack product
 * [React Node JS Datta Able](products/react/node-js-datta-able.md) - Open-source full-stack product 
 * [React Node JS Datta PRO](products/react/node-js-datta-able-pro.md) - Premium seed project
+* [Full-Stack Berry PRO](products/full-stack/react-berry-dashboard.md) - premium Material-UI design powered by multiple API Backends 
 
-![React Node JS - Datta Able PRO.](.gitbook/assets/react-node-js-datta-able-pro-screen-xs.jpg)
+![Berry Dashboard - Premium Full-stack Starter](.gitbook/assets/fullstack-berry-dashboard-charts-xs.jpg)
 
 ### AppSeed for Beginners
 
