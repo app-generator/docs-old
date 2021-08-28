@@ -138,6 +138,7 @@
   * [What IS Panini](content/what-is/panini.md)
   * [What IS Pipenv](content/what-is/pipenv.md)
   * [What IS Python](content/what-is/python.md)
+  * [What IS React](content/what-is/react.md)
   * [What IS Static Site](content/what-is/static-site.md)
   * [What IS Svelte](content/what-is/svelte-js.md)
   * [What IS Ubuntu](content/what-is/ubuntu.md)

@@ -41,6 +41,7 @@ Something is missing? Contact us on [Discord](https://discord.gg/fZC6hup) and su
   * [Panini SSG](panini.md)
   * [Pipenv](pipenv.md)
 * R terms
+  * \*\*\*\*[**React**](react.md)\*\*\*\*
 * S terms
   * [Svelte JS](svelte-js.md)
   * [Static Site](static-site.md)
