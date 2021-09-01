@@ -62,7 +62,7 @@ The installation process is different on different systems but this phase should
 
 ### Install the Python Driver
 
-To successfully access the Mysql Engine, Django needs a driver \(aka a connector\) to successfully translate the Python queries to pure SQL instructions. 
+To successfully access the Mysql Engine, Django needs a driver \(aka a connector\) to translate the Python queries to pure SQL instructions. 
 
 ```bash
 $ pip install mysqlclient
