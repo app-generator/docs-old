@@ -83,7 +83,7 @@ $ pip install mysqlclient
 
 ### Create the MySql Database
 
-During the initial setup, Django creates the project tables but cannot create the database. To have a usable project we need the credentials used later by the Django project. The database can be created visually using a database tool \(like [MySQL Workbench](https://www.mysql.com/products/workbench/)\) or in the terminal:
+During the initial setup, Django creates the project tables but cannot create the database. To have a usable project we need the **database** credentials used later by the Django project. The database can be created visually using a database tool \(like [MySQL Workbench](https://www.mysql.com/products/workbench/)\) or in the terminal:
 
 ```bash
 CREATE DATABASE mytestdb;
