@@ -95,7 +95,7 @@ CREATE DATABASE mytestdb;
 $ CREATE USER 'test'@'localhost' IDENTIFIED BY 'Secret_1234';
 ```
 
-> Grant all privilegies to the newly created user
+> Grant all privileges to the newly created user
 
 ```bash
 GRANT ALL PRIVILEGES ON `mytestdb` . * TO 'test'@'localhost';
