@@ -164,6 +164,7 @@
   * [Django Chart Example](content/how-to/django-chart-example.md)
   * [Django Deploy on HEROKU](content/how-to/django-deploy-on-heroku.md)
   * [Django - Add Debug Toolbar](content/how-to/django-add-debug-toolbar.md)
+  * [Django MySql Database](content/how-to/use-mysql-with-django.md)
   * [Install Flask](content/how-to/install-flask.md)
   * [Code a simple app In Flask](content/how-to/flask-code-simple-app.md)
   * [Structure a Flask project](content/how-to/flask-structure-your-project.md)
