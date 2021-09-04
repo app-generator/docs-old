@@ -94,5 +94,5 @@ The API server will start using the default port `5000`.
 
 With backend and frontend up & running, we can start using the product, register. and authenticate. The React UI will reveal the private pages once the users are authenticated. 
 
-![Django React Datta Able.](../../.gitbook/assets/django-react-datta-able-login-xs.jpg)
+![Django React Datta Able.](../../.gitbook/assets/django-react-datta-able-login-xs%20%281%29.jpg)
 
