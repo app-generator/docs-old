@@ -132,3 +132,7 @@ redirects:
 
     admin-dashboards:                                        boilerplate-code/django-dashboard.md
     admin-dashboards/:                                       boilerplate-code/django-dashboard.md
+
+    /apps/react:                                             products/react
+    /apps/react/:                                            products/react
+    
