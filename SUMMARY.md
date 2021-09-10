@@ -171,6 +171,7 @@
   * [Django Data Tables](content/how-to/django-data-tables.md)
   * [Django Simple Charts](content/how-to/django-simple-charts.md)
   * [Django Social Login](content/how-to/django-social-login.md)
+  * [Django Stripe Payments](content/how-to/django-stripe-payments.md)
   * [Django HEROKU Deployment](content/how-to/django-deploy-on-heroku.md)
   * [Django AWS Deployment](content/how-to/django-aws-deployment.md)
   * [Django Google Cloud Deploy](content/how-to/django-google-cloud-deploy.md)
