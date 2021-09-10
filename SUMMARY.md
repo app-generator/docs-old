@@ -170,6 +170,7 @@
   * [Django Extend User Model](content/how-to/django-extend-user-model.md)
   * [Django Integrate DRF Library](content/how-to/django-integrate-drf-library.md)
   * [Django Data Tables](content/how-to/django-data-tables.md)
+  * [Django Simple Charts](content/how-to/django-simple-charts.md)
   * [Install Flask](content/how-to/install-flask.md)
   * [Code a simple app In Flask](content/how-to/flask-code-simple-app.md)
   * [Structure a Flask project](content/how-to/flask-structure-your-project.md)
