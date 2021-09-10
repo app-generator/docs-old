@@ -167,6 +167,7 @@
   * [Django MySql Database](content/how-to/use-mysql-with-django.md)
   * [Django Dockerizing App](content/how-to/django-dockerizing-app.md)
   * [Django Reset Password](content/how-to/django-reset-password.md)
+  * [Django Extend User Model](content/how-to/django-extend-user-model.md)
   * [Install Flask](content/how-to/install-flask.md)
   * [Code a simple app In Flask](content/how-to/flask-code-simple-app.md)
   * [Structure a Flask project](content/how-to/flask-structure-your-project.md)
