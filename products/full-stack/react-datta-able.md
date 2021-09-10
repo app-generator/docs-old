@@ -11,7 +11,7 @@ Full-stack version of **Datta Able PRO**, a premium design crafted by **CodedThe
 * [Full-stack React Datta Able](https://appseed.us/full-stack/react-datta-able) - product page
 * [Full-stack React Datta Able](https://fullstack-react-datta-able.appseed-srv1.com/) - LIVE Demo
 
-![React Datta Able - Full-stack Version](../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs.jpg)
+![React Datta Able - Full-stack Version](../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs%20%282%29.jpg)
 
 
 
