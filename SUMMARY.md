@@ -181,6 +181,7 @@
   * [Structure a Flask project](content/how-to/flask-structure-your-project.md)
   * [Flask Deploy on Apache](content/how-to/flask-apache-centos-virtualenv-minimal-configuration.md)
   * [Flask Deploy on HEROKU](content/how-to/flask-deploy-on-heroku.md)
+  * [Flask Dockerizing App](content/how-to/flask-dockerizing-app.md)
 * [Tutorials](content/tutorials/README.md)
   * [Django - How to Install](content/tutorials/django-how-to-install.md)
   * [Django For Beginners](content/tutorials/django-for-beginners.md)
