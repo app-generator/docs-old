@@ -39,5 +39,5 @@ Flask is a lightweight WSGI web application framework designed to get started qu
 
 ### Deployments
 
-* [Flask Deploy on Apache](flask-apache-centos-virtualenv-minimal-configuration.md)
+* [Flask Deploy on Apache](flask-apache-deployment.md)
 
