@@ -175,7 +175,7 @@
   * [Django HEROKU Deployment](content/how-to/django-deploy-on-heroku.md)
   * [Django AWS Deployment](content/how-to/django-aws-deployment.md)
   * [Django Google Cloud Deploy](content/how-to/django-google-cloud-deploy.md)
-  * [Django Azzure Deployment](content/how-to/django-azzure-deployment.md)
+  * [Django Azure Deployment](content/how-to/django-azure-deployment.md)
   * [Install Flask](content/how-to/install-flask.md)
   * [Code a simple app In Flask](content/how-to/flask-code-simple-app.md)
   * [Structure a Flask project](content/how-to/flask-structure-your-project.md)
