@@ -36,6 +36,7 @@ Support is an important part of our business model. A good product, in order to 
 
 ### Latest Products
 
+* [Django Template Volt](boilerplate-code/django-templates/volt-dashboard.md) - open-source admin template styled with Bootstrap5
 * [React Node JS Berry](products/react/node-js-berry-dashboard.md) - Open-source full-stack product
 * [React Node JS Datta Able](products/react/node-js-datta-able.md) - Open-source full-stack product 
 * [React Node JS Datta PRO](products/react/node-js-datta-able-pro.md) - Premium seed project
