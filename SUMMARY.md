@@ -16,6 +16,8 @@
 * [Boilerplate Flask Dashboards](boilerplate-code/flask-dashboard.md)
 * [Boilerplate Flask Apps](boilerplate-code/flask.md)
 * [Boilerplate Jinja](boilerplate-code/boilerplate-jinja.md)
+* [Django Templates](boilerplate-code/django-templates/README.md)
+  * [Django Template Volt](boilerplate-code/django-templates/volt-dashboard.md)
 
 ## PRODUCTS
 
