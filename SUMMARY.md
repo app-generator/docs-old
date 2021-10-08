@@ -195,6 +195,7 @@
   * [Flask AWS Deployment](content/how-to/flask-aws-deployment.md)
   * [Flask Google Cloud Deploy](content/how-to/flask-google-cloud-deploy.md)
   * [Flask Azure Deployment](content/how-to/flask-azure-deployment.md)
+  * [How to Implement JWT Authentication in React](content/how-to/react-implement-jwt-authentication-system.md)
 * [Tutorials](content/tutorials/README.md)
   * [Django - How to Install](content/tutorials/django-how-to-install.md)
   * [Django For Beginners](content/tutorials/django-for-beginners.md)
