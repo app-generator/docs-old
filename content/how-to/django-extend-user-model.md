@@ -9,7 +9,10 @@ Django provides a User model you can use for authentication or authorization.
 
 But what if you need more fields? Such as address, phone number, city ...etc. In that case, you can just extend the user model, here the `AbstractUser` class.
 
-```
+```python
+from django.db import models
+from django.contrib.auth.models import AbstractUser, BaseUserManager 
+
 class CustomUser(AbstractUser):
     """
     The User model has already:
