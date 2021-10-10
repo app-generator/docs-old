@@ -7,6 +7,6 @@ This page explains how to extend the default User Model in Django and associate 
 
 Django provides a User model you can use for authentication or authorization. 
 
-But what if you need more 
+But what if you need more fields? Such as address, phone number, age ...etc. In that case, you can just extend the user model with a OneToOne relationship.
 
   
