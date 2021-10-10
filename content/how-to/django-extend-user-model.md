@@ -11,7 +11,7 @@ But what if you need more fields? Such as address, phone number, city ...etc. In
 
 ```python
 from django.db import models
-from django.contrib.auth.models import AbstractUser, BaseUserManager 
+from django.contrib.auth.models import AbstractUser 
 
 class CustomUser(AbstractUser):
     """
@@ -33,6 +33,6 @@ class CustomUser(AbstractUser):
 
 ```
 
-
+Once it's done, you'll need to add a manager. The manager will tell Django how to create a 
 
   
