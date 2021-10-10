@@ -35,6 +35,3 @@ class CustomUser(AbstractUser):
 
 Once it's done, you'll need to add a manager. The manager will tell Django how to create a new user or a super user. 
 
-```
-// Some code
-```
