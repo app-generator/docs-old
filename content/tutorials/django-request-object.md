@@ -15,7 +15,7 @@ Let's create a Django project and code our first view where the `request` object
 
 > Create and activate a virtual environment
 
-```text
+```
 $ # Linux-based systems
 $ virtualenv env
 $ source env/bin/activate  
@@ -23,33 +23,33 @@ $ source env/bin/activate
 
 For Windows-based systems, the syntax is slightly different:
 
-```text
+```
 $ virtualenv env
 $ .\env\Scripts\activate
 ```
 
 > Install Django - using PIP
 
-```text
+```
 $ pip install django
 ```
 
 The above command will install the latest stable version of Django.
 
-### Build a Django Project <a id="build-a-django-project"></a>
+### Build a Django Project <a href="build-a-django-project" id="build-a-django-project"></a>
 
 A new project can be generated with ease in Django by using _**django-admin**_ that provides a collection of settings for the database, Django, and security layer.
 
 > Create the project folder
 
-```text
+```
 $ mkdir my-django-project
 $ cd my-django-project
 ```
 
  Inside the directory, we will generate the core of our project using _**django-admin** tool :_
 
-```text
+```
 $ django-admin startproject config .
 ```
 
@@ -57,14 +57,14 @@ $ django-admin startproject config .
 
 > Create the database and the app tables
 
-```text
+```
 $ python manage.py makemigrations # generate SQL
 $ python manage.py migrate        # Apply changes on database   
 ```
 
 > Start the application
 
-```text
+```
 $ python manage.py runserver 
 $
 $ # Access the web app in browser: http://127.0.0.1:8000/
@@ -80,7 +80,7 @@ At this point we should see the default Django page in the browser:
 
 In the previous section, we've generated the core of the project that handles the configuration and now we will create the first Django application to serve a simple page to the users. 
 
-```text
+```
 $ python manage.py startapp app
 ```
 
@@ -133,17 +133,17 @@ def hello(request):                      # <-- NEW
 
 The `request` object in Django comes with a few interesting properties: 
 
-| Item / Helper | Sample Value | Short Information |
-| :--- | :--- | :--- |
-| **REMOTE\_ADDR** | 12.245.68.71 | IP of the client |
-| **HTTP\_USER\_AGENT** | Mozilla/5.0 | User Browser Information |
-| **request.path** | /admin/ | The URL without domain |
-| **request.is\_secure\(\)** | True / False | True if the request was made over HTTPS |
-| **request.method** | POST / GET | The Request Method  |
+| Item / Helper           | Sample Value | Short Information                       |
+| ----------------------- | ------------ | --------------------------------------- |
+| **REMOTE_ADDR**         | 12.245.68.71 | IP of the client                        |
+| **HTTP_USER_AGENT**     | Mozilla/5.0  | User Browser Information                |
+| **request.path**        | /admin/      | The URL without domain                  |
+| **request.is_secure()** | True / False | True if the request was made over HTTPS |
+| **request.method**      | POST / GET   | The Request Method                      |
 
 > How to check the request type in view.
 
-A widely user code chunk is when we test the type of the request and manage the submitted data on `POST` \(when we send information to the server, login action for instance\):
+A widely user code chunk is when we test the type of the request and manage the submitted data on `POST` (when we send information to the server, login action for instance):
 
 ```python
 from django.shortcuts import render
@@ -165,7 +165,7 @@ For newcomers, `GET` is used to pull information from the server without alterin
 Another difference between `GET` and `POST` is the location of the submitted information. 
 
 * GET submits data in URL: `http://myservice.com?search=all_books`
-* POST submits data in the request body \(not visible in the URL\)
+* POST submits data in the request body (not visible in the URL)
 
 > List all request headers
 
@@ -202,7 +202,7 @@ def parse_get(request):
     var3 = request.GET.get('var_3', 1) # Soft Read with Default value     
 ```
 
-> For **POST,** the process is identical. ****
+> For **POST, **the process is identical.** **
 
 ```python
 def parse_post(request):
@@ -216,12 +216,11 @@ def parse_post(request):
 
 
 
-> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed.
+> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed. 
 
 
 
 ### Resources 
 
-* Read more about [Django](https://www.djangoproject.com/) \(official docs\)
-* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django) 
-
+* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Start fast a new project using _development-ready _[Django Starters](https://appseed.us/admin-dashboards/django) 

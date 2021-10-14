@@ -19,7 +19,7 @@ Designed for those who like bold elements and beautiful websites, Soft UI Dashbo
 
 This Premium **Bootstrap 5** Dashboard is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done. 
 
- **Example Pages** - If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
+ **Example Pages **- If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
 
 ![Soft UI Dashboard PRO - Charts Page.](../../.gitbook/assets/soft-ui-dashboard-pro-charts.jpg)
 
@@ -31,4 +31,3 @@ Soft UI Dashboard PRO comes with an open-source version released under the MIT L
 
 * [Soft UI Dashboard](https://bit.ly/2Q1uIfK) - official product page
 * [Soft UI Dashboard](soft-ui-dashboard.md) - more information provided by AppSeed 
-

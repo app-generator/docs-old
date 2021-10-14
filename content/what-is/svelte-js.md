@@ -4,7 +4,7 @@ description: Short introduction to Svelte
 
 # What IS Svelte
 
-This is a short introduction to [Svelte](https://svelte.dev/) a JS Framework that provides a new approach to code user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
+This is a short introduction to [Svelte](https://svelte.dev) a JS Framework that provides a new approach to code user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
 
 Rather than putting a `<script src='svelte.js'>` tag on the page, or bringing it into your app with import or require, Svelte is a compiler that works behind the scenes to turn your component files into beautifully optimized JavaScript.
 
@@ -12,7 +12,7 @@ Svelte provides a different approach to building web apps than some of the other
 
 
 
-### **Advantages of using** [**Svelte**](https://svelte.dev/)
+### **Advantages of using **[**Svelte**](https://svelte.dev)
 
 * Svelte is Fast - the execution time is fast because Svelte surgically updates only the parts of the DOM that change. In contrast to React, Vue.js, and other Virtual DOM frameworks, Svelte doesn’t use a virtual DOM.
 * Svelte is Small - when a Svelte app is compiled, the resulting bundle size is tiny compared to most other popular frameworks.
@@ -20,7 +20,7 @@ Svelte provides a different approach to building web apps than some of the other
 
 
 
-### How does [Svelte](https://svelte.dev/) work?
+### How does [Svelte](https://svelte.dev) work?
 
 Being a compiler, Svelte can extend HTML, CSS, and JavaScript, generating optimal JavaScript code without any runtime overhead. To achieve this, Svelte extends vanilla web technologies in the following ways:
 
@@ -32,7 +32,7 @@ The compiler only intervenes in very specific situations and only in the context
 
 
 
-### Simple [Svelte](https://svelte.dev/) App
+### Simple [Svelte](https://svelte.dev) App
 
 The easiest way to create a starter app template is to just download the starter template application. You can do that by visiting `sveltejs/template` on GitHub or you can avoid having to download and unzip it and just use `degit`.
 
@@ -45,7 +45,7 @@ $ npm install
 $ npm run dev
 ```
 
-### 
+###
 
 ### Svelte Starter [Notus](https://www.creative-tim.com/product/notus-svelte?AFFILIATE=128200)
 
@@ -56,10 +56,9 @@ Notus Admin Template is an open-source product provided by Creative-Tim on top o
 
 ![Svelte JS - Notus, open-source Svelte starter.](https://raw.githubusercontent.com/ui-themes/svelte-admin-template-notus/master/media/svelte-admin-template-notus-screen-product.jpg)
 
-#### 
+####
 
 #### Resource
 
-* [Svelte JS](https://svelte.dev/) - official website
+* [Svelte JS](https://svelte.dev) - official website
 * [Getting started with Svelte](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started) - tutorial provided by Mozilla 
-

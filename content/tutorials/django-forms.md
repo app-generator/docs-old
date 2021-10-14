@@ -42,7 +42,7 @@ def index(request):
     return HttpResponse("Hello Django - Forms")
 ```
 
-> Define the routing for our new app - `forms/urls.py`
+> Define the routing for our new app - `forms/urls.py`  
 
 ```python
 from django.urls import path, re_path
@@ -170,7 +170,7 @@ def index(request):
 
 If all fields are provided, on submit, we should see the `Form is valid` message.  
 
-> Update the form with a new field `ID` \(numeric type\):
+> Update the form with a new field `ID` (numeric type):
 
 ```python
 from django import forms 
@@ -189,12 +189,11 @@ class HelloForm(forms.Form):
 
 
 
-> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed.
+> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed. 
 
 
 
 ### Resources 
 
-* Read more about [Django](https://www.djangoproject.com/) \(official docs\)
-* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django) 
-
+* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Start fast a new project using _development-ready _[Django Starters](https://appseed.us/admin-dashboards/django) 

@@ -10,7 +10,7 @@ description: >-
 
 
 
-> Features:
+> Features: 
 
 * Codebase: [Jinja Starter](../../boilerplate-code/boilerplate-jinja.md) 
 * Render Engine: Flask / **Jinja2**
@@ -19,9 +19,9 @@ description: >-
 > Links
 
 * [Jinja Light Bootstrap Dashboard](https://github.com/app-generator/jinja-light-bootstrap) - source code
-* [Jinja Light Bootstrap Dashboard](https://jinja-template-light-bootstrap.appseed.us/) - LIVE deployment  
+* [Jinja Light Bootstrap Dashboard](https://jinja-template-light-bootstrap.appseed.us) - LIVE deployment  
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**. 
 
 
 
@@ -29,7 +29,7 @@ description: >-
 
 [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is a modern and designer-friendly templating language for Python, modeled after Django’s templates. It is fast, widely used, and secure with the optional sandboxed template execution environment. Jinja is basically an engine used to generate HTML or XML returned to the user via an HTTP response. 
 
-> Read more about [Jinja Template Language](../../content/what-is/jinja.md)
+> Read more about [Jinja Template Language](../../content/what-is/jinja.md) 
 
 
 
@@ -50,4 +50,3 @@ description: >-
 * [Light Bootstrap Dashboard](https://bit.ly/2ZEXOU3) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Light Bootstrap Dashboard - Open-source Design.](../../.gitbook/assets/light-bootstrap-dashboard.jpg)
-

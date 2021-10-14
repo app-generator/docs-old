@@ -8,19 +8,19 @@ description: >-
 
  **Material Kit** is a **Free Bootstrap 4 UI Kit** with a fresh, new design inspired by Google's material design.  **Material Kit** makes use of light, surface, and movement. It uses a deliberate color choice, edge-to-edge imagery, and large-scale typography.  For newcomers, **Flask** is a lightweight web application framework written in Python that can be easily extended to become an API, a simple one-page project, or complex eCommerce solutions.
 
-> Features
+> Features 
 
 * SQLite database, Flask-SQLAlchemy ORM
-* Session-Based auth flow \(login, register\)
+* Session-Based auth flow (login, register)
 * Deployment scripts: Docker, Gunicorn / Nginx, Heroku 
 
 > Links
 
 * [Flask Material Kit](https://appseed.us/apps/flask-apps/flask-material-kit) - product page
 * [Flask Material Kit](https://github.com/app-generator/flask-material-kit) - source code 
-* [Flask Material Kit](https://flask-material-kit.appseed-srv1.com/) - LIVE Demo 
+* [Flask Material Kit](https://flask-material-kit.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**. 
 
 
 
@@ -49,4 +49,3 @@ description: >-
 * [Material UI Kit](https://bit.ly/3u2lZc6) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Material Kit - Free Bootstrap UI Kit.](../../.gitbook/assets/material-kit-login-page.jpg)
-

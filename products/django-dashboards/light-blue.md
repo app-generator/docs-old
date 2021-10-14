@@ -6,23 +6,23 @@ description: >-
 
 # Django Light Blue
 
-**Light Blue Dashboard** is a world-first transparent admin template built with Bootstrap and pure Javascript \(No frameworks\). It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs. 
+**Light Blue Dashboard** is a world-first transparent admin template built with Bootstrap and pure Javascript (No frameworks). It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs. 
 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: Light Blue Dashboard  \(free version\) by **FlatLogic**  
+* UI Kit: Light Blue Dashboard  (free version) by **FlatLogic**  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
 
-> Links
+> Links 
 
 * [Django Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue) - product page
 * [Django Light Blue](https://github.com/app-generator/django-dashboard-light-blue) - source code 
-* [Django Light Blue](https://django-dashboard-light-blue.appseed.us/)  - LIVE Demo 
+* [Django Light Blue](https://django-dashboard-light-blue.appseed.us)  - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -51,4 +51,3 @@ Django is a high-level Python Web framework that encourages rapid development an
 * [Light Blue Dashboard](https://flatlogic.github.io/light-blue-dashboard/) - LIVE demo
 
 ![Light Blue Dashboard - Free Bootstrap Template.](../../.gitbook/assets/light-blue-dashboard.jpg)
-

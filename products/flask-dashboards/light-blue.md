@@ -6,25 +6,25 @@ description: >-
 
 # Flask Light Blue
 
-Light Blue Dashboard is a world-first transparent admin template built with Bootstrap and pure Javascript \(No frameworks\). It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs.
+Light Blue Dashboard is a world-first transparent admin template built with Bootstrap and pure Javascript (No frameworks). It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs.
 
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: Light Blue \(free version\) provided by **FlatLogic** 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: Light Blue (free version) provided by **FlatLogic** 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Flask Light Blue](https://appseed.us/admin-dashboards/flask-dashboard-light-blue) - product page
 * [Flask Light Blue](https://github.com/app-generator/flask-dashboard-light-blue) - source code 
-* [Flask Light Blue](https://flask-dashboard-light-blue.appseed.us/)  - LIVE Demo 
+* [Flask Light Blue](https://flask-dashboard-light-blue.appseed.us)  - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -53,4 +53,3 @@ Light Blue Dashboard is a world-first transparent admin template built with Boot
 * [Light Blue Dashboard](https://github.com/flatlogic/light-blue-dashboard) - source code published on Github 
 
 ![Light Blue Dashboard - Free Bootstrap Template.](../../.gitbook/assets/light-blue-dashboard.jpg)
-

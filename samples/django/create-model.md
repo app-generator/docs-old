@@ -8,10 +8,10 @@ This page explains **how to create and USE a model in Django**. All commands use
 
 > Resources
 
-* [Django Create Model](https://github.com/app-generator/django-create-model) - the source code \(Github/MIT License\)
+* [Django Create Model](https://github.com/app-generator/django-create-model) - the source code (Github/MIT License)
 * More [Django Samples](https://appseed.us/admin-dashboards/django) provided with authentication, basic modules
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [AppSeed](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[AppSeed](https://appseed.us)** users**. 
 
 
 
@@ -21,14 +21,14 @@ This sample can be coded from scratch by following the steps below.
 
 > Check [Python](../../content/what-is/python.md) Version
 
-```text
+```
 $ python --version
 Python 3.8.4 <-- All good
 ```
 
-> Create/activate a virtual environment - Unix-based system
+>  Create/activate a virtual environment - Unix-based system
 
-```text
+```
 $ # Virtualenv modules installation
 $ virtualenv env
 $ source env/bin/activate  
@@ -36,27 +36,27 @@ $ source env/bin/activate
 
 For Windows, the syntax is slightly different
 
-```text
+```
 $ # virtualenv env
 $ # .\env\Scripts\activate
 ```
 
-> Install Django \(the latest stable version\)
+>  Install Django (the latest stable version)
 
-```text
+```
 $ pip install django
 ```
 
-> Create a new Django Project
+>  Create a new Django Project
 
-```text
+```
 $ mkdir django-sample-urls
 $ cd django-sample-urls
 ```
 
  Inside the new directory, we will invoke `startproject` subcommand
 
-```text
+```
 $ django-admin startproject config .
 ```
 
@@ -64,14 +64,14 @@ $ django-admin startproject config .
 
 > Setup the database
 
-```text
+```
 $ python manage.py makemigrations
 $ python manage.py migrate
 ```
 
 > Start the app
 
-```text
+```
 $ python manage.py runserver 
 $
 $ # Access the web app in browser: http://127.0.0.1:8000/
@@ -81,13 +81,13 @@ At this point we should see the default Django page in the browser:
 
 ![Django - Default Project Page.](../../.gitbook/assets/django-framework-cover.jpg)
 
-> Create a new Django app
+>  Create a new Django app
 
-```text
+```
 $ python manage.py startapp sample
 ```
 
-> **Visualize the default SQL settings** - `config/settings.py`
+>  **Visualize the default SQL settings** - `config/settings.py`
 
 ```python
 # File: config/settings.py (partial content)
@@ -117,14 +117,14 @@ class Book(models.Model):                                 # <- NEW
 
  **Tip** - for a quick check over the latest changes we can run `check` subcommand.
 
-```text
+```
 $ python manage.py check
 System check identified no issues (0 silenced).  
 ```
 
- **Generate the SQL code** \(`migrate` the database\).
+ **Generate the SQL code** (`migrate` the database).
 
-```text
+```
 $ python manage.py makemigrations  # generate the SQL code
 Migrations for 'sample':
   sample\migrations\0001_initial.py
@@ -133,7 +133,7 @@ Migrations for 'sample':
 
 **Apply changes on the database**
 
-```text
+```
 $ python manage.py migrate
 Operations to perform:
   Apply all migrations: admin, auth, contenttypes, sample, sessions
@@ -156,7 +156,7 @@ $ python manage.py shell
 
 ```
 
- **List all books** \(using the CLI\)
+ **List all books** (using the CLI)
 
 ```python
 $ python manage.py shell
@@ -200,11 +200,11 @@ $ python manage.py shell
 
 **Use the model via Admin Section**
 
-Django comes with an `admin` section _out-of-the-box_ that allows us to manage with ease all models defined in the project. To manage the `Book` model in the administration console we need to create a `superuser` \(aka the admin\) and after `register` the `Book` model to be visible in the admin section.
+Django comes with an `admin` section _out-of-the-box_ that allows us to manage with ease all models defined in the project. To manage the `Book` model in the administration console we need to create a `superuser` (aka the admin) and after `register` the `Book` model to be visible in the admin section.
 
 > Create the superuser
 
-```text
+```
 $ python manage.py createsuperuser
 sername (leave blank to use 'sm0ke'): admin
 Email address: admin@appseed.us
@@ -213,7 +213,7 @@ Password (again):
 Superuser created successfully. 
 ```
 
-> Register `Book` model to be visible in the `admin` section - Edit `sample/admin.py` as below:
+>  Register `Book` model to be visible in the `admin` section - Edit `sample/admin.py` as below:
 
 ```python
 # File: sample/admin.py
@@ -229,16 +229,15 @@ admin.site.register(Book)       # <- NEW
 
 At this point, we should see the `Books` model in the UI and able to execute CRUD operations.
 
-![Create Django Model - Admin Interface.](../../.gitbook/assets/image%20%285%29.png)
+![Create Django Model - Admin Interface.](<../../.gitbook/assets/image (5).png>)
 
-![Create Django Model - List Model Items](../../.gitbook/assets/image%20%287%29.png)
+![Create Django Model - List Model Items](<../../.gitbook/assets/image (7).png>)
 
-![Django Create Model - Edit Model Item](../../.gitbook/assets/image%20%286%29.png)
+![Django Create Model - Edit Model Item](<../../.gitbook/assets/image (6).png>)
 
 
 
 ### Resources
 
-* Read more about [Django](https://www.djangoproject.com/) \(official docs\)
-* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django) 
-
+* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Start fast a new project using _development-ready _[Django Starters](https://appseed.us/admin-dashboards/django) 

@@ -8,7 +8,7 @@ description: >-
 
 Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs. The project is a super simple Flask project WITHOUT database, ORM, or any other hard dependency. 
 
-> Features:
+> Features: 
 
 * Codebase: [Jinja Starter](../../boilerplate-code/boilerplate-jinja.md) 
 * Render Engine: Flask / **Jinja2**
@@ -18,9 +18,9 @@ Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help 
 
 * [Jinja Pixel Lite](https://appseed.us/jinja-template/jinja-template-pixel-uikit) - product page
 * [Jinja Pixel Lite](https://github.com/app-generator/jinja-pixel-lite) - source code
-* [Jinja Pixel Lite](https://jinja-pixel-lite.appseed-srv1.com/) - LIVE deployment 
+* [Jinja Pixel Lite](https://jinja-pixel-lite.appseed-srv1.com) - LIVE deployment 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**. 
 
 
 
@@ -28,7 +28,7 @@ Pixel is a free, fully responsive, and modern Bootstrap 4 UI Kit that will help 
 
 [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is a modern and designer-friendly templating language for Python, modeled after Django’s templates. It is fast, widely used, and secure with the optional sandboxed template execution environment. Jinja is basically an engine used to generate HTML or XML returned to the user via an HTTP response. 
 
-> Read more about [Jinja Template Language](../../content/what-is/jinja.md)
+> Read more about [Jinja Template Language](../../content/what-is/jinja.md) 
 
 
 
@@ -49,4 +49,3 @@ Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pri
 * [Pixel Lite](https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit) - product page hosted by [Themesberg](../../content/partners/themesberg.md)
 
 ![Pixel Lite - Freelancer Page](../../.gitbook/assets/pixel-lite-freelancer-page.jpg)
-

@@ -13,13 +13,13 @@ AppSeed, in particular, uses HTML parsing for two things:
 * Page structure detection
 * Component extraction 
 
-For newcomers, **AppSeed** uses automation tools to convert lifeless UI Kits into simple starters generated in many frameworks and patterns. For instance, this open-source design - [**Pixel Lite**](../bootstrap-template/pixel-lite-template.md) provided by Themesberg has been _translated_ to [Flask](../../products/flask-apps/pixel-lite.md) and [Django](../../products/django-apps/pixel-lite.md) using **HTML parsing** as the first phase of the translation process. 
+For newcomers, **AppSeed** uses automation tools to convert lifeless UI Kits into simple starters generated in many frameworks and patterns. For instance, this open-source design - [**Pixel Lite**](../bootstrap-template/pixel-lite-template.md) provided by Themesberg has been _translated _to [Flask](../../products/flask-apps/pixel-lite.md) and [Django](../../products/django-apps/pixel-lite.md) using **HTML parsing** as the first phase of the translation process. 
 
 > Required libraries and tools
 
-* [Python](https://www.python.org/) - interpreter 
+* [Python](https://www.python.org) - interpreter 
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - a well-known parsing library 
-* [Lxml](https://lxml.de/) - used to compensate BS4 limitations 
+* [Lxml](https://lxml.de) - used to compensate BS4 limitations 
 
 ### The process
 
@@ -32,7 +32,7 @@ The flow explained in this article will execute a few simple steps:
 
 > Install libraries via PIP
 
-```text
+```
 $ pip install requests 
 $ pip install lxml
 $ pip install beautifulsoup4
@@ -52,7 +52,7 @@ $ python [ENTER]
 >>> html_page = f.read()
 ```
 
-> Load content from remote HTML file \(the [LIVE sample](https://demo.themesberg.com/pixel-lite/index.html)\)
+> Load content from remote HTML file (the [LIVE sample](https://demo.themesberg.com/pixel-lite/index.html))
 
 ```python
 >>> import requests
@@ -60,7 +60,7 @@ $ python [ENTER]
 >>> html_page = page.content
 ```
 
-At this point `html_page` variable contains the entire HTML content \(string type\) and we can use it in BS4 or Lxml to extract the components. To visualize the page structure we can use browser tools: 
+At this point `html_page` variable contains the entire HTML content (string type) and we can use it in BS4 or Lxml to extract the components. To visualize the page structure we can use browser tools: 
 
 ![HTML Parser - Target Component Inspection.](../../.gitbook/assets/html-parser-target-component-inspect.jpg)
 
@@ -133,6 +133,5 @@ The component is fully extracted and parsable:
 ### Resources
 
 * [Use XPath in Beautiful Soup](https://stackoverflow.com/questions/11465555/can-we-use-xpath-with-beautifulsoup) - related article published on StackOverflow
-* [Web Scraping](https://docs.python-guide.org/scenarios/scrape/) - the right way \(with sample\)
+* [Web Scraping](https://docs.python-guide.org/scenarios/scrape/) - the right way (with sample)
 * [How to get the content from Lxml object](https://stackoverflow.com/questions/5395948/incredibly-basic-lxml-questions-getting-html-string-content-of-lxml-etree-elem) - StackOverflow article
-

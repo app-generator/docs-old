@@ -9,7 +9,7 @@ description: Open-source Django starter coded on top CoreUI design (free version
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [CoreUI](../../content/bootstrap-template/coreui.md) \(free version\)  
+* UI Kit: [CoreUI](../../content/bootstrap-template/coreui.md) (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -18,11 +18,11 @@ description: Open-source Django starter coded on top CoreUI design (free version
 
 * [CoreUI Django](https://appseed.us/admin-dashboards/django-dashboard-coreui) - product page
 * [CoreUI Django](https://github.com/app-generator/django-dashboard-coreui) - source code
-* [CoreUI Django](https://django-coreui.appseed-srv1.com/) - LIVE Demo 
+* [CoreUI Django](https://django-coreui.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -46,7 +46,6 @@ Django is a high-level Python Web framework that encourages rapid development an
 CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer the ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. 
 
 * [CoreUI](../../content/bootstrap-template/coreui.md) - more information provided by AppSeed
-* [CoreUI](https://bit.ly/2VTDaxg) - product page \(HTML version\)
+* [CoreUI](https://bit.ly/2VTDaxg) - product page (HTML version)
 
 ![CoreUI - Open-source Bootstrap Template.](../../.gitbook/assets/docs-coreui-screen.jpg)
-

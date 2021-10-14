@@ -9,7 +9,7 @@ One of the best open-source admin dashboard & control panel theme. Built on top 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **AdminLTE** crafted by ColorLib
+* UI Kit: **AdminLTE **crafted by ColorLib
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -18,11 +18,11 @@ One of the best open-source admin dashboard & control panel theme. Built on top 
 
 * [AdminLTE Django](https://appseed.us/admin-dashboards/django-dashboard-adminlte) - product page
 * [AdminLTE Django](https://github.com/app-generator/django-dashboard-adminlte) - source code
-* [AdminLTE Django](https://adminlte-django.appseed-srv1.com/) - LIVE Demo 
+* [AdminLTE Django](https://adminlte-django.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -45,7 +45,6 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 **AdminLTE** is a popular open-source template for admin dashboards and control panels. It is a responsive HTML template that is based on the Bootstrap CSS framework. It utilizes all of the Bootstrap components in its design and re-styles many commonly used plugins to create a consistent design that can be used as a user interface for backend applications. AdminLTE is based on a modular design, which allows it to be easily customized and built upon.
 
-* [AdminLTE](https://adminlte.io/) - product page \(HTML version\)
+* [AdminLTE](https://adminlte.io) - product page (HTML version)
 
 ![AdminLTE - Open-source Bootstrap Template.](../../.gitbook/assets/adminlte-dashboard-cover.png)
-

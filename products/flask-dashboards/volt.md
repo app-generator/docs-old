@@ -11,22 +11,22 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: Volt Dashboard \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: Volt Dashboard (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Volt Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-volt) - product page
 * [Volt Dashboard Flask](https://github.com/app-generator/flask-dashboard-volt) - source code 
-* [Volt Dashboard Flask](https://flask-volt-dashboard.appseed-srv1.com/) - LIVE Deployment 
+* [Volt Dashboard Flask](https://flask-volt-dashboard.appseed-srv1.com) - LIVE Deployment 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Flask
 
@@ -55,4 +55,3 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 * [Volt Dashboard](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official documentation 
 
 ![Volt Dashboard - Free Bootstrap Template.](../../.gitbook/assets/volt-dashboard-cover.png)
-

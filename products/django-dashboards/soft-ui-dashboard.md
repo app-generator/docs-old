@@ -11,18 +11,18 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **Soft UI Dashboard** \(free version\)  
+* UI Kit: **Soft UI Dashboard** (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
 
-> Links
+> Links 
 
-* [Django Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com/) - LIVE demo
+* [Django Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com) - LIVE demo
 * [Django Soft UI Dashboard](https://github.com/app-generator/django-soft-ui-dashboard) - Source Code 
-* [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+* [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -49,4 +49,3 @@ Soft UI Dashboard is built with over 70 frontend individual elements, like butto
 * [Soft UI Dashboard](https://bit.ly/2Q1uIfK) - product page hosted by **Creative-Tim**
 
 ![Soft UI Dashboard - Open-source Bootstrap Template.](../../.gitbook/assets/soft-ui-dashboard-page-dashboard.jpg)
-

@@ -11,20 +11,20 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **Light Bootstrap Dashboard** \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: **Light Bootstrap Dashboard** (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Light Bootstrap Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-light-bootstrap) - product page
 * [Light Bootstrap Dashboard Flask](https://github.com/app-generator/flask-dashboard-light-bootstrap) - source code 
-* [Light Bootstrap Dashboard Flask](https://flask-light-bootstrap.appseed-srv1.com/) - LIVE Demo 
+* [Light Bootstrap Dashboard Flask](https://flask-light-bootstrap.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -53,4 +53,3 @@ description: >-
 * [Light Bootstrap Dashboard](https://bit.ly/2ZEXOU3) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Light Bootstrap Dashboard - Free Template.](../../.gitbook/assets/light-bootstrap-dashboard.jpg)
-

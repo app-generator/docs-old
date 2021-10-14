@@ -11,22 +11,22 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [**Material Admin**](https://github.com/BootstrapDash/Material-Admin) \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: [**Material Admin**](https://github.com/BootstrapDash/Material-Admin) (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Material Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - product page
 * [Material Admin Flask](https://github.com/app-generator/flask-dashboard-material-admin) - source code 
-* [Material Admin Flask](https://flask-dashboard-material-admin.appseed.us/) - LIVE Deployment 
+* [Material Admin Flask](https://flask-dashboard-material-admin.appseed.us) - LIVE Deployment 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Flask
 
@@ -52,4 +52,3 @@ One of the best open-source admin dashboard design. **Material Admin** is a free
 * [Material Admin](https://github.com/BootstrapDash/Material-Admin) - source code published on Github
 
 ![Material Admin - Open-source Bootstrap Template.](../../.gitbook/assets/material-admin-bootstrap.jpg)
-

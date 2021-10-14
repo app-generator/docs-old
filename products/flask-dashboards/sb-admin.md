@@ -11,20 +11,20 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **SB Admin** \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: **SB Admin** (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [SB Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-sb-admin) - product page
 * [SB Admin Flask](https://github.com/app-generator/flask-dashboard-sb-admin) - source code 
-* [SB Admin Flask](https://flask-sb-admin.appseed-srv1.com/) - LIVE Demo 
+* [SB Admin Flask](https://flask-sb-admin.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -43,14 +43,13 @@ description: >-
 * [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
 * [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
-### 
+###
 
 ### SB Admin UI
 
 **SB Admin** is a free, open-source, Bootstrap 4 based admin theme perfect for quickly creating dashboards and web applications. It's modern design style with subtle shadows and a card-based layout could be described as flat material and is inspired by the principles of material design along with a simple, attractive color system.
 
 * [SB Admin](https://startbootstrap.com/template/sb-admin) - product page
-* [SB Admin](https://github.com/startbootstrap/startbootstrap-sb-admin) - source code \(Github\)
+* [SB Admin](https://github.com/startbootstrap/startbootstrap-sb-admin) - source code (Github)
 
 ![SB Admin - Open-source Bootstrap Template](../../.gitbook/assets/sb-admin-bootstrap-dashboard.jpg)
-

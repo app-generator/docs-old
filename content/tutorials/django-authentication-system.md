@@ -21,38 +21,38 @@ Being a "batteries-included" framework, Django comes with a powerful authenticat
 
 As mentioned in the official Django documentation, the **User** model represents the core entity used to save and manage authentication. The fields managed by the User model can be found below:
 
-| Field | Sample Value | Information |
-| :--- | :--- | :--- |
-| username | test | Mandatory Field |
-| password | Super\_S3cret | optional for inactive users |
-| email | test@appseed.us | optional |
-| fist\_name | John | optional |
-| last\_name | Doe | optional |
+| Field     | Sample Value    | Information                 |
+| --------- | --------------- | --------------------------- |
+| username  | test            | Mandatory Field             |
+| password  | Super_S3cret    | optional for inactive users |
+| email     | test@appseed.us | optional                    |
+| fist_name | John            | optional                    |
+| last_name | Doe             | optional                    |
 
-Probably the most simple way to create a new user in Django is to use the CLI \(Django shell\). In case you don't have already a Django project, feel free to clone an [open-source sample](https://github.com/app-generator/django-learn-by-coding) provided by the AppSeed Team to explain many Django concepts: 
+Probably the most simple way to create a new user in Django is to use the CLI (Django shell). In case you don't have already a Django project, feel free to clone an [open-source sample](https://github.com/app-generator/django-learn-by-coding) provided by the AppSeed Team to explain many Django concepts: 
 
-```text
+```
 $ git clone https://github.com/app-generator/django-learn-by-coding.git
 $ cd django-learn-by-coding
 ```
 
 > Create a virtual environment - Linux-based systems
 
-```text
+```
 $ virtualenv env
 $ source env/bin/activate 
 ```
 
 For Windows system, the syntax is different:
 
-```text
+```
 $ virtualenv env
 $ .\env\Scripts\activate 
 ```
 
-> Install Django
+> Install Django 
 
-```text
+```
 $ pip install django
 ```
 
@@ -64,7 +64,7 @@ The user creation process using the terminal is usually related to the `superuse
 
 > Create the `superuser` in Django
 
-```text
+```
 $ # We are in the ROOT of the project
 $ python manage.py createsuperuser
 sername (leave blank to use 'test'): admin
@@ -96,7 +96,7 @@ Once the `superuser` admin is created we can access the `admin` section and inte
 
 Using the CLI we can explore all properties and of course update fields. 
 
-> Create a new \(common\) user
+> Create a new (common) user
 
 ```python
 >>> from django.contrib.auth.models import User
@@ -214,7 +214,7 @@ def register_user(request):
 
 * The User sees the registration page
 * The User inputs all fields 
-* The form is submitted and the controller receives all information \(username, password\)
+* The form is submitted and the controller receives all information (username, password)
 * If the form is valid, the form is `saved` and the user is created 
 * A confirmation message is returned to the user
 
@@ -260,7 +260,7 @@ def register_user(request):
 
 Django hooks the authenticated in the `request` object and we can check if a request is done by an authenticated user or not by calling a helper. The same check is available in views.
 
-> Check user is authenticated in controller - `is_authenticated` \(boolean\) property
+> Check user is authenticated in controller - `is_authenticated` (boolean) property
 
 ```python
 def testme(path):
@@ -305,12 +305,11 @@ If the user is authenticated all session information will be deleted. If the use
 
 
 
-> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed.
+> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed. 
 
 
 
 ### Resources
 
-* Read more about [Django](https://www.djangoproject.com/) \(official docs\)
-* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django) 
-
+* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Start fast a new project using _development-ready _[Django Starters](https://appseed.us/admin-dashboards/django) 

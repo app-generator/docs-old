@@ -11,7 +11,7 @@ description: >-
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **SB Admin** \(free version\)  
+* UI Kit: **SB Admin** (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -20,11 +20,11 @@ description: >-
 
 * [SB Admin Django](https://appseed.us/admin-dashboards/django-dashboard-sb-admin) - product page
 * [SB Admin Django](https://github.com/app-generator/django-dashboard-sb-admin) - source code
-* [SB Admin Django](https://django-sb-admin.appseed-srv1.com/) - LIVE Demo 
+* [SB Admin Django](https://django-sb-admin.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -48,7 +48,6 @@ Django is a high-level Python Web framework that encourages rapid development an
 **SB Admin** is a free, open-source, Bootstrap 4 based admin theme perfect for quickly creating dashboards and web applications. It's modern design style with subtle shadows and a card-based layout could be described as flat material and is inspired by the principles of material design along with a simple, attractive color system.
 
 * [SB Admin](https://startbootstrap.com/template/sb-admin) - product page
-* [SB Admin](https://github.com/startbootstrap/startbootstrap-sb-admin) - source code \(Github\)
+* [SB Admin](https://github.com/startbootstrap/startbootstrap-sb-admin) - source code (Github)
 
 ![SB Admin - Open-source Bootstrap Template](../../.gitbook/assets/sb-admin-bootstrap-dashboard.jpg)
-

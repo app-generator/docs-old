@@ -11,20 +11,20 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [Star Admin](../../content/bootstrap-template/star-admin.md) \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: [Star Admin](../../content/bootstrap-template/star-admin.md) (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Star Admin Flask](https://appseed.us/admin-dashboards/flask-star-admin) - product page
 * [Star Admin Flask](https://github.com/app-generator/flask-star-admin) - source code 
-* [Star Admin Flask](https://flask-star-admin.appseed-srv1.com/) - LIVE Demo 
+* [Star Admin Flask](https://flask-star-admin.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -53,4 +53,3 @@ Star Admin is packed with all the features that fit your needs but not cramped w
 * [Star Admin](https://bit.ly/2VXUgKu) - product page hosted by [BootstrapDash](../../content/partners/bootstrapdash.md)
 
 ![Star Admin - Bootstrap Dashboard Template.](../../.gitbook/assets/docs-star-admin-screen.jpg)
-

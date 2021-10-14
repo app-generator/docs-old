@@ -8,7 +8,7 @@ description: >-
 
 Pixel Pro is a premium **Bootstrap 5 UI Kit without jQuery** featuring over 1000 components, 50+ sections and 35 example pages including a fully-fledged user dashboard. The codebase is a super simple Flask project WITHOUT database, ORM, or any other hard dependency.  
 
-> Features:
+> Features: 
 
 * Codebase: [Jinja Starter](../../boilerplate-code/boilerplate-jinja.md) 
 * Render Engine: Flask / **Jinja2**
@@ -17,9 +17,9 @@ Pixel Pro is a premium **Bootstrap 5 UI Kit without jQuery** featuring over 1000
 > Links
 
 * [Jinja Pixel PRO](https://appseed.us/jinja-template/jinja-pixel-uikit-pro) - product page
-* [Jinja Pixel PRO](https://jinja-pixel-pro.appseed-srv1.com/) - LIVE deployment 
+* [Jinja Pixel PRO](https://jinja-pixel-pro.appseed-srv1.com) - LIVE deployment 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**. 
 
 
 
@@ -27,7 +27,7 @@ Pixel Pro is a premium **Bootstrap 5 UI Kit without jQuery** featuring over 1000
 
 [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is a modern and designer-friendly templating language for Python, modeled after Django’s templates. It is fast, widely used, and secure with the optional sandboxed template execution environment. Jinja is basically an engine used to generate HTML or XML returned to the user via an HTTP response. 
 
-> Read more about [Jinja Template Language](../../content/what-is/jinja.md)
+> Read more about [Jinja Template Language](../../content/what-is/jinja.md) 
 
 
 
@@ -48,4 +48,3 @@ A pixel-perfect design that comes with 35 pre-built pages and manually crafted U
 * [Pixel PRO](https://themesberg.com/product/ui-kit/pixel-pro-premium-bootstrap-5-ui-kit) - product page hosted by [Themesberg](../../content/partners/themesberg.md)
 
 ![Pixel PRO - Premium Bootstrap 5 UI Kit](../../.gitbook/assets/docs-cover-pixel-pro.jpg)
-

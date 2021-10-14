@@ -11,7 +11,7 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [MaterialPro Lite](../../content/bootstrap-template/materialpro-lite.md) \(free version\) 
+* UI Kit: [MaterialPro Lite](../../content/bootstrap-template/materialpro-lite.md) (free version) 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -20,9 +20,9 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 
 * [MaterialPro Lite Django](https://appseed.us/admin-dashboards/django-dashboard-material-lite) - product page
 * [MaterialPro Lite Django](https://github.com/app-generator/django-dashboard-material-lite) - source code 
-* [MaterialPro Lite Django](https://django-dashboard-material-lite.appseed.us/) - LIVE Demo 
+* [MaterialPro Lite Django](https://django-dashboard-material-lite.appseed.us) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -43,11 +43,10 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### **MaterialPro Lite** - UI Kit
+### **MaterialPro Lite **- UI Kit
 
 Material Pro Bootstrap is simplicity personified, the elegant user interface makes developing apps and websites a breeze. There are a host of options to tweak the layout as per your choice and create a fluid user interface that's exceptionally easy to use. Since it is designed as per Material principles, you can be assured that the template is lightning fast to load, cross-browser compatible, and renders well on screens of all sizes. 
 
 * [MaterialPro Lite](https://bit.ly/2ZJuiMR) - product page hosted by [WrapPixel](../../content/partners/wrappixel.md)
 
 ![MaterialPro Lite - Free Bootstrap Template.](../../.gitbook/assets/docs-materialpro-lite-screen.jpg)
-

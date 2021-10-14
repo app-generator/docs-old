@@ -11,22 +11,22 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **Shards Lite** \(free version\) crafted by DesignRevision
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: **Shards Lite** (free version) crafted by DesignRevision
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Shards Flask](https://appseed.us/admin-dashboards/flask-dashboard-shards) - product page
 * [Shards Flask](https://github.com/app-generator/flask-dashboard-shards) - source code
-* [Shards Flask](https://flask-dashboard-shards.appseed.us/) - LIVE Demo 
+* [Shards Flask](https://flask-dashboard-shards.appseed.us) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Flask
 
@@ -53,4 +53,3 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 * [Shards Dashboard](https://designrevision.com/downloads/shards-dashboard-lite/) - product page hosted by DesignRevision
 
 ![Shards Dashboard - Free Bootstrap Template.](../../.gitbook/assets/shards-dashboard.jpg)
-

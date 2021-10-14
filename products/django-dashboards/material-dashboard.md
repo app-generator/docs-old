@@ -6,12 +6,12 @@ description: >-
 
 # Django Material Dashboard
 
-**Material Dashboard** is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers \(blue, green, orange, red, and purple\) and an option to have a background image on the sidebar. 
+**Material Dashboard** is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red, and purple) and an option to have a background image on the sidebar. 
 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [Material Dashboard](../../content/bootstrap-template/material-dashboard.md) \(free version\) 
+* UI Kit: [Material Dashboard](../../content/bootstrap-template/material-dashboard.md) (free version) 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -20,9 +20,9 @@ description: >-
 
 * [Material Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-material) - product page
 * [Material Dashboard Django](https://github.com/app-generator/django-dashboard-material) - source code 
-* [Material Dashboard Django](https://django-material-dashboard.appseed-srv1.com/) - LIVE Demo 
+* [Material Dashboard Django](https://django-material-dashboard.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -43,7 +43,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### [**Material Dashboard**](../../content/bootstrap-template/material-dashboard.md) **- UI Kit**
+### [**Material Dashboard**](../../content/bootstrap-template/material-dashboard.md)** - UI Kit**
 
 Material Dashboard is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy-to-use and beautiful set of components. Material Dashboard was built over the popular Bootstrap 4 framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
 
@@ -51,4 +51,3 @@ Material Dashboard is a free Material Bootstrap 4 Admin with a fresh, new design
 * [Material Dashboard](https://bit.ly/3fSPqaK) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Material Dashboard - Charts Page.](../../.gitbook/assets/docs-material-dashboard-screen.jpg)
-

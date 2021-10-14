@@ -11,20 +11,20 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [MaterialPro Lite](../../content/bootstrap-template/materialpro-lite.md) \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: [MaterialPro Lite](../../content/bootstrap-template/materialpro-lite.md) (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [MaterialPro Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-lite) - product page
 * [MaterialPro Lite Flask](https://github.com/app-generator/flask-material-pro-lite) - source code 
-* [MaterialPro Lite Flask](https://flask-dashboard-material-lite.appseed.us/) - LIVE Demo 
+* [MaterialPro Lite Flask](https://flask-dashboard-material-lite.appseed.us) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -52,4 +52,3 @@ Material Pro Bootstrap is simplicity personified, the elegant user interface mak
 * [MaterialPro Lite](https://bit.ly/2ZJuiMR) - product page hosted by [WrapPixel](../../content/partners/wrappixel.md)
 
 ![MaterialPro Lite - Free Bootstrap Template.](../../.gitbook/assets/docs-materialpro-lite-screen.jpg)
-

@@ -6,21 +6,21 @@ description: >-
 
 # Boilerplate Jinja
 
-**Jinja** is basically an engine used to generate HTML or XML returned to the user via an HTTP response. For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated \(or rendered into HTML\) are replaced with actual values. 
+**Jinja** is basically an engine used to generate HTML or XML returned to the user via an HTTP response. For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated (or rendered into HTML) are replaced with actual values. 
 
 > Features:
 
 * UI Ready: the starter contains a `production-ready` design
-* Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
+* Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com)
 * Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
 
 > Links
 
-* [Jinja Boilerplate Code](https://github.com/app-generator/boilerplate-code-jinja) - Source code \(published on Github\)
-* [Jinja Boilerplate Code](https://boilerplate-code-jinja.appseed-srv1.com/) - LIVE demo
+* [Jinja Boilerplate Code](https://github.com/app-generator/boilerplate-code-jinja) - Source code (published on Github)
+* [Jinja Boilerplate Code](https://boilerplate-code-jinja.appseed-srv1.com) - LIVE demo
 * Sample [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -28,15 +28,15 @@ description: >-
 
 ### Environment
 
-To use the stater, [Python3](https://www.python.org/) should be installed properly in the workstation. If you are not sure if Python is properly installed, please open a terminal and type `python --version`. The full list with dependencies and tools required to build the app:
+To use the stater, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is properly installed, please open a terminal and type `python --version`. The full list with dependencies and tools required to build the app:
 
-* [Python3](https://www.python.org/) - the programming language used to code the app
-* [GIT](https://git-scm.com/) - used to clone the source code from the Github repository
-* Basic development tools \(g++ compiler, python development libraries ..etc\) used by Python to compile the app dependencies in your environment. 
+* [Python3](https://www.python.org) - the programming language used to code the app
+* [GIT](https://git-scm.com) - used to clone the source code from the Github repository
+* Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment. 
 
 
 
-### Build the Template <a id="build-the-app"></a>
+### Build the Template <a href="build-the-app" id="build-the-app"></a>
 
 To built and start the app locally, follow the steps:
 
@@ -47,7 +47,7 @@ To built and start the app locally, follow the steps:
 
 > **Change the current directory** to `source code` directory
 
-```text
+```
 $ git clone https://github.com/app-generator/boilerplate-code-jinja.git
 $ cd boilerplate-code-jinja
 $
@@ -86,7 +86,7 @@ $ # Access the UI in browser: http://127.0.0.1:5000/
 
 The project has a simple structure, represented as below:
 
-```text
+```
 < PROJECT ROOT >
    |
    |-- app/__init__.py
@@ -127,22 +127,22 @@ The project has a simple structure, represented as below:
 
 ### Deployment
 
- The project comes with a basic configuration for [Docker](https://www.docker.com/), [HEROKU](https://www.heroku.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/). 
+ The project comes with a basic configuration for [Docker](https://www.docker.com), [HEROKU](https://www.heroku.com), [Gunicorn](https://gunicorn.org), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/). 
 
-#### [Docker](https://www.docker.com/) execution
+#### [Docker](https://www.docker.com) execution
 
 The steps to start the template using Docker:
 
-> **Step \#1** - Clone/download the source code
+> **Step #1** - Clone/download the source code
 
-```text
+```
 $ git clone https://github.com/app-generator/boilerplate-code-jinja.git
 $ cd boilerplate-code-jinja
 ```
 
-> Step \#2 - Start the app in Docker
+> Step #2 - Start the app in Docker
 
-```text
+```
 $ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
 ```
 
@@ -150,16 +150,16 @@ Visit `http://localhost:5005` in your browser. The app should be up & running.
 
 
 
-#### [Heroku](https://www.heroku.com/) Deployment
+#### [Heroku](https://www.heroku.com) Deployment
 
 Steps to deploy on **Heroku**
 
-* [Create a FREE account](https://signup.heroku.com/) on the Heroku platform
+* [Create a FREE account](https://signup.heroku.com) on the Heroku platform
 * [Install the Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) that match your OS: Mac, Unix or Windows
 * Open a terminal window and authenticate via `heroku login` command
 * Clone the sources and push the project for LIVE deployment
 
-```text
+```
 $ # Clone the source code:
 $ git clone https://github.com/app-generator/boilerplate-code-jinja.git
 $ cd boilerplate-code-jinja
@@ -182,5 +182,4 @@ $ # Open the LIVE app in browser
 $ heroku open
 ```
 
-#### 
-
+####

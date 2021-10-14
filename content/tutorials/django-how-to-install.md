@@ -9,17 +9,19 @@ Django is a popular framework written in Python used to code modern and secure w
 > Content Features:
 
 * Level: **beginners** 
-* Mentioned Topics:
+*   Mentioned Topics:
 
-  * Django
-  * Virtual Environment
-  * Basic command-line commands 
+    * Django
+    * Virtual Environment
+    * Basic command-line commands 
+
+
 
 ### What is Django
 
-For newcomers, Django is a popular framework built by experienced developers, actively supported by an impressive open-source community.  Django comes with _batteries included_ concept and provides modules to handle the **database**, **authentication**, **built-in security**, plus a powerful command-line interface to interact with our app. To start learning Django feel free to access:
+For newcomers, Django is a popular framework built by experienced developers, actively supported by an impressive open-source community.  Django comes with _batteries included _concept and provides modules to handle the **database**, **authentication**, **built-in security**, plus a powerful command-line interface to interact with our app. To start learning Django feel free to access:
 
-* [Django](https://www.djangoproject.com/) - the official website and [documentation](https://docs.djangoproject.com/)
+* [Django](https://www.djangoproject.com) - the official website and [documentation](https://docs.djangoproject.com)
 * [Django Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) - a nice tutorial provided by Mozilla Docs
 * [What is Django](../what-is/django.md) - a short introduction provided by AppSeed
 
@@ -45,7 +47,7 @@ The above commands have identical effects and will create a new `env` directory 
 
 > Activate virtual environment
 
-```text
+```
 $ # Unix based systems
 $ source env/bin/activate
 // OR
@@ -55,7 +57,7 @@ $ .\env\Scripts\activate
 
   On successful activation, the  terminal gets a prefix as below:
 
-```text
+```
 (env) $
 ```
 
@@ -72,7 +74,7 @@ The recommended way to install Python packages is to use PIP, the official packa
 
  The above command will install the latest Django version. To install a specific version, please use the syntax:
 
-```text
+```
 (env) $ # Install Django 2.2.10
 (env) $ pip install "django==2.2.10"
 ```
@@ -92,7 +94,7 @@ The recommended way to install Python packages is to use PIP, the official packa
 
 The removal of a Python package can be done with ease via `pip`:
 
-```text
+```
 (env) $ # This will remove Django
 (env) $ pip uninstall django
 (env) Found existing installation: Django 2.2.10
@@ -125,7 +127,6 @@ $ # no environment prefix
 
 To learn more about Python, **Virtual environments,** or get support, please access:
 
-* [Python](https://www.python.org/) - official website
+* [Python](https://www.python.org) - official website
 * [Virtual Environments](https://docs.python.org/3/tutorial/venv.html) - official docs
-* Join [AppSeed](https://appseed.us/) and ask for [support](https://appseed.us/support) - for **registered users** 
-
+* Join [AppSeed](https://appseed.us) and ask for [support](https://appseed.us/support) - for **registered users** 

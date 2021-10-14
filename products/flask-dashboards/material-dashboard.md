@@ -6,27 +6,27 @@ description: >-
 
 # Flask Material Dashboard
 
-**Material Dashboard** is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers \(blue, green, orange, red and purple\) and an option to have a background image on the sidebar. 
+**Material Dashboard** is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar. 
 
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: Material Dashboard \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: Material Dashboard (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Material Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-design) - product page
 * [Material Dashboard Flask](https://github.com/app-generator/flask-material-dashboard) - source code 
-* [Material Dashboard Flask](https://flask-material-dashboard.appseed-srv1.com/) - LIVE Demo 
+* [Material Dashboard Flask](https://flask-material-dashboard.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Flask
 
@@ -53,4 +53,3 @@ Material Dashboard is a free Material Bootstrap 4 Admin with a fresh, new design
 * [Material Dashboard](https://bit.ly/3fSPqaK) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Material Dashboard - Charts Page.](../../.gitbook/assets/docs-material-dashboard-screen.jpg)
-

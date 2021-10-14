@@ -11,7 +11,7 @@ description: >-
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: Azia Dashboard \(free version\)  
+* UI Kit: Azia Dashboard (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -19,11 +19,11 @@ description: >-
 > Links
 
 * [Azia Dashboard Django](https://github.com/app-generator/django-dashboard-azia) - source code
-* [Azia Dashboard Django](https://django-dashboard-azia.appseed-srv1.com/) - LIVE Demo 
+* [Azia Dashboard Django](https://django-dashboard-azia.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -49,4 +49,3 @@ Django is a high-level Python Web framework that encourages rapid development an
 * [Azia Dashboard](https://bit.ly/3m10jIM) - product page hosted by BootstrapDash
 
 ![Azia Dashboard - Free Bootstrap Template](../../.gitbook/assets/docs-azia-charts-screen.jpg)
-

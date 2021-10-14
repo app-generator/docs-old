@@ -11,19 +11,19 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **Azia Dashboard** \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: **Azia Dashboard** (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Azia Dashboard Flask](https://github.com/app-generator/flask-dashboard-azia) - source code 
-* [Azia Dashboard Flask](https://flask-dashboard-azia.appseed-srv1.com/) - LIVE Demo 
+* [Azia Dashboard Flask](https://flask-dashboard-azia.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -51,6 +51,4 @@ description: >-
 * [Azia Dashboard](https://bit.ly/3m10jIM) - product page hosted by BootstrapDash
 
 ![Azia Dashboard - Free Bootstrap Template](../../.gitbook/assets/docs-azia-charts-screen.jpg)
-
-
 

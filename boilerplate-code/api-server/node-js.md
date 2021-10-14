@@ -31,23 +31,23 @@ Free API Server coded on top of Express / Node JS with **SQLite** persistence an
 
 ### Requirements
 
-* [Node.js](https://nodejs.org/) &gt;= 12.x
+* [Node.js](https://nodejs.org) >= 12.x
 * [SQLite](https://www.sqlite.org/index.html)
 
-### 
+###
 
 ### How to use the code
 
-> **Step \#1 -** Clone the sources
+> ** Step #1 - **Clone the sources
 
-```text
+```
 $ git clone https://github.com/app-generator/api-server-nodejs.git
 $ cd api-server-nodejs
 ```
 
 **Install dependencies** via NPM or Yarn
 
-```text
+```
 $ npm i
 // OR
 $ yarn
@@ -55,13 +55,13 @@ $ yarn
 
 **Run the SQLite migration**
 
-```text
+```
 $ yarn typeorm migration:run
 ```
 
 **Start the API server** - development mode
 
-```text
+```
 $ npm dev
 // OR
 $ yarn dev
@@ -69,26 +69,26 @@ $ yarn dev
 
 **Production Build** - files generated in `build` directory
 
-```text
+```
 $ npm build
 // OR
 $ yarn build
 ```
 
-**Start the API server** - for production \(files served from `build/index.js`\)
+**Start the API server** - for production (files served from `build/index.js`)
 
-```text
+```
 $ npm start
 // OR
 $ yarn start
 ```
 
-The API server will start using the `PORT` specified in `.env` file \(default 5000\)  
+The API server will start using the `PORT` specified in `.env` file (default 5000)\
 
 
 ### Codebase Structure
 
-```text
+```
 < ROOT / src >
      | 
      |-- config/                              
@@ -120,24 +120,23 @@ The SQLite Path is set in `.env`, as `SQLITE_PATH`
 
 > Generate migration:
 
-```text
+```
 $ yarn typeorm migration:generate -n your_migration_name
 ```
 
 > run migration:
 
-```text
+```
 $ yarn typeorm migration:run
 ```
 
 
 
-### Compatible Fullstack Products <a id="compatible-fullstack-products-1"></a>
+### Compatible Fullstack Products <a href="compatible-fullstack-products-1" id="compatible-fullstack-products-1"></a>
 
 The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**,** an open-source React Dashboard.
 
 * ​[React Datta Able](https://appseed.us/product/react-node-js-datta-able) - product page
 * ​[React Datta Able](https://github.com/app-generator/react-datta-able-dashboard) - source code
 
-![React Datta Able - Open-Source Dashboard.](https://gblobscdn.gitbook.com/assets%2F-MYVW6MKCi9iujNc3SK_%2F-Memyr3wdOIsonokJPUQ%2F-Men-RiulajMsyVGTEgy%2Freact-datta-able-cover.jpg?alt=media&token=c87fbe5e-44b0-4d3d-9bb3-c41495fbb567)
-
+![React Datta Able - Open-Source Dashboard.](https://gblobscdn.gitbook.com/assets%2F-MYVW6MKCi9iujNc3SK\_%2F-Memyr3wdOIsonokJPUQ%2F-Men-RiulajMsyVGTEgy%2Freact-datta-able-cover.jpg?alt=media\&token=c87fbe5e-44b0-4d3d-9bb3-c41495fbb567)

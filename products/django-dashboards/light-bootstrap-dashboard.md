@@ -11,7 +11,7 @@ description: >-
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **Light Bootstrap Dashboard** \(free version\)  
+* UI Kit: **Light Bootstrap Dashboard** (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -20,11 +20,11 @@ description: >-
 
 * [Light Bootstrap Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-light) - product page
 * [Light Bootstrap Dashboard Django](https://github.com/app-generator/django-dashboard-light-bootstrap) - source code
-* [Light Bootstrap Dashboard Django](https://django-light-bootstrap.appseed-srv1.com/) - LIVE Demo 
+* [Light Bootstrap Dashboard Django](https://django-light-bootstrap.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -51,4 +51,3 @@ Django is a high-level Python Web framework that encourages rapid development an
 * [Light Bootstrap Dashboard](https://bit.ly/2ZEXOU3) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Light Bootstrap Dashboard - Free Template.](../../.gitbook/assets/light-bootstrap-dashboard.jpg)
-

@@ -11,11 +11,11 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **Adminator** \(free version\) provided by ColorLib 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: **Adminator** (free version) provided by ColorLib 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
@@ -24,7 +24,7 @@ description: >-
 * Adminator Flask - source code 
 * Adminator Flask - LIVE Demo
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -47,10 +47,9 @@ description: >-
 
 ### Adminator UI Kit
 
-**Adminator** is a popular open-source template for admin dashboards and control panels. It is a responsive HTML template that is based on the Bootstrap CSS framework. For newcomers, [Adminator](https://appseed.us/admin-dashboards/django-dashboard-adminator) is provided by ColorLib, a well-known company involved in many ope-source products. **Adminator** has a modern UI and comes with a _state-of-the-art_ tooling chain to compile the HTML files.
+**Adminator** is a popular open-source template for admin dashboards and control panels. It is a responsive HTML template that is based on the Bootstrap CSS framework. For newcomers, [Adminator](https://appseed.us/admin-dashboards/django-dashboard-adminator) is provided by ColorLib, a well-known company involved in many ope-source products. **Adminator** has a modern UI and comes with a _state-of-the-art _tooling chain to compile the HTML files.
 
 * [Adminator](../../content/bootstrap-template/adminator.md) - more information provided by AppSeed
-* [Adminator](https://github.com/puikinsh/Adminator-admin-dashboard) - source code \(HTML version\)
+* [Adminator](https://github.com/puikinsh/Adminator-admin-dashboard) - source code (HTML version)
 
 ![Adminator - Open-source Bootstrap Template.](../../.gitbook/assets/adminator-bootstrap-template.jpg)
-

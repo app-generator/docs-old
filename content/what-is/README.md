@@ -1,5 +1,5 @@
 ---
-description: 'Technical terms used by geeks, and programmers.'
+description: Technical terms used by geeks, and programmers.
 ---
 
 # What IS
@@ -41,7 +41,7 @@ Something is missing? Contact us on [Discord](https://discord.gg/fZC6hup) and su
   * [Panini SSG](panini.md)
   * [Pipenv](pipenv.md)
 * R terms
-  * \*\*\*\*[**React**](react.md)\*\*\*\*
+  * ****[**React**](react.md)****
 * S terms
   * [Svelte JS](svelte-js.md)
   * [Static Site](static-site.md)
@@ -57,4 +57,3 @@ Something is missing? Contact us on [Discord](https://discord.gg/fZC6hup) and su
 * X terms
 * Y terms
 * Z terms
-

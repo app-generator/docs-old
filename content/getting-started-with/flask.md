@@ -8,13 +8,13 @@ This page aims to help beginners getting started with Flask, a popular Python we
 
 > How to getting started with Flask
 
-The quickest setup is to install [Python3](https://www.python.org/), a code editor like [VsCode](https://code.visualstudio.com/) or [Atom](https://atom.io/), and \(optionally\) GIT the popular command-line versioning tool.
+The quickest setup is to install [Python3](https://www.python.org), a code editor like [VsCode](https://code.visualstudio.com) or [Atom](https://atom.io), and (optionally) GIT the popular command-line versioning tool.
 
 Once all tools are installed and accessible in the terminal, we can code and start a simple Flask application: 
 
-> **Step \#1** - Install Flask using [PIP](https://pypi.org/project/pip/)
+> **Step #1 **- Install Flask using [PIP](https://pypi.org/project/pip/)
 
-```text
+```
 $ pip install Flask
 ```
 
@@ -32,9 +32,9 @@ if __name__ == '__main__':
     app.run() 
 ```
 
-> **Step \#3** - Start the app
+> **Step #3** - Start the app
 
-```text
+```
 $ python3 app.py
 ```
 
@@ -47,4 +47,3 @@ By visiting the `http://127.0.0.1:5000/` in the browser, we should see the `Hell
 * Flask - official website
 * A curated list with [Flask Apps](https://appseed.us/apps/flask-apps) and [dashboards](https://appseed.us/admin-dashboards/flask) provided by AppSeed
 * Ask for [support](https://appseed.us/support) in case of any issues 
-

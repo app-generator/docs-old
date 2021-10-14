@@ -9,7 +9,7 @@ description: Open-source Django Starter coded on top Black Dashboard design (fre
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [Black Dashboard](../../content/bootstrap-template/black-dashboard.md) \(free version\)  
+* UI Kit: [Black Dashboard](../../content/bootstrap-template/black-dashboard.md) (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -18,9 +18,9 @@ description: Open-source Django Starter coded on top Black Dashboard design (fre
 
 * [Black Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-black) - product page
 * [Black Dashboard Django](https://github.com/app-generator/django-dashboard-black) - source code
-* [Black Dashboard Django](https://django-black-dashboard.appseed-srv1.com/) - LIVE Demo 
+* [Black Dashboard Django](https://django-black-dashboard.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -41,7 +41,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### **Black Dashboard** UI Kit <a id="black-dashboard-ui-kit"></a>
+### **Black Dashboard** UI Kit <a href="black-dashboard-ui-kit" id="black-dashboard-ui-kit"></a>
 
 **Black Dashboard** features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
 
@@ -49,4 +49,3 @@ Django is a high-level Python Web framework that encourages rapid development an
 * ​[Black Dashboard](https://bit.ly/2L0W6Z7) - product page hosted by [Creative-Tim](https://appseed.gitbook.io/docs/content/partners/creative-tim)​
 
 ![Black Dashboard - Free Dashboard template.](../../.gitbook/assets/docs-black-dashboard-screen.jpg)
-

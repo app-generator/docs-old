@@ -11,7 +11,7 @@ description: >-
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [Argon Dashboard](../../content/bootstrap-template/argon-dashboard.md) \(free version\)  
+* UI Kit: [Argon Dashboard](../../content/bootstrap-template/argon-dashboard.md) (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -20,11 +20,11 @@ description: >-
 
 * [Argon Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-argon) - product page
 * [Argon Dashboard Django](https://github.com/app-generator/django-dashboard-argon) - source code
-* [Argon Dashboard Django](https://django-argon-dashboard.appseed-srv1.com/) - LIVE Demo 
+* [Argon Dashboard Django](https://django-argon-dashboard.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -51,4 +51,3 @@ Django is a high-level Python Web framework that encourages rapid development an
 * [Argon Dashboard](https://bit.ly/2KEZQiF) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Argon Dashboard - Main Page.](../../.gitbook/assets/docs-argon-dashboard-screen.jpg)
-

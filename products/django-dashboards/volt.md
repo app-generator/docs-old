@@ -11,7 +11,7 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [Volt Dashboard](../../content/bootstrap-template/volt-dashboard.md) ****\(free version\)
+* UI Kit: [Volt Dashboard](../../content/bootstrap-template/volt-dashboard.md)** **(free version)
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -20,11 +20,11 @@ Volt is a free and open-source **Bootstrap 5** powered admin dashboard with comp
 
 * [Volt Dashboard Django](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
 * [Volt Dashboard Django](https://github.com/app-generator/django-dashboard-volt) - source code
-* [Volt Dashboard Django](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Demo 
+* [Volt Dashboard Django](https://django-volt-dashboard.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -53,4 +53,3 @@ Django is a high-level Python Web framework that encourages rapid development an
 * [Volt Dashboard](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) - product page hosted by Themesberg 
 
 ![Volt Dashboard - Free Bootstrap Template.](../../.gitbook/assets/volt-dashboard-cover.png)
-

@@ -11,18 +11,18 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: Shards Dashboard \(free version\) provided by DesignRevision  
+* UI Kit: Shards Dashboard (free version) provided by DesignRevision  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
 
-> Links
+> Links 
 
 * [Shards Django](https://appseed.us/admin-dashboards/django-dashboard-shards) - product page
 * [Shards Django](https://github.com/app-generator/django-dashboard-shards) - source code
-* [Shards Django](https://django-dashboard-shards.appseed.us/) - LIVE Demo 
+* [Shards Django](https://django-dashboard-shards.appseed.us) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -51,4 +51,3 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 * [Shards Dashboard](https://designrevision.com/downloads/shards-dashboard-lite/) - product page hosted by DesignRevision
 
 ![Shards Dashboard - Free Bootstrap Template.](../../.gitbook/assets/shards-dashboard.jpg)
-

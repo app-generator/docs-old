@@ -2,7 +2,7 @@
 
 Pixel is a free, fully responsive, and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs. The **Django codebase** is provided with database, ORM, authentication, and deployment scripts.  
 
-> Features
+> Features 
 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
@@ -12,9 +12,9 @@ Pixel is a free, fully responsive, and modern **Bootstrap 5 UI Kit** that will h
 
 * [Django Pixel Lite](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
 * [Django Pixel Lite](https://github.com/app-generator/django-pixel-bootstrap-uikit) - source code 
-* [Django Pixel Lite](https://django-pixel-lite.appseed-srv1.com/) - LIVE Demo
+* [Django Pixel Lite](https://django-pixel-lite.appseed-srv1.com) - LIVE Demo
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -43,6 +43,4 @@ Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pri
 * [Pixel Lite](https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit) - product page hosted by [Themesberg](../../content/partners/themesberg.md)
 
 ![Pixel Lite - Open-source UI Kit](../../.gitbook/assets/pixel-lite-presentation-cover.jpg)
-
-
 

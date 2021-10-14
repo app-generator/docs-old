@@ -12,7 +12,7 @@ This page explains how to deploy a simple [Flask](https://www.palletsprojects.co
 
 ### Dependencies
 
-* [Apache](https://httpd.apache.org/) / httpd \(on CentOS\) server
+* [Apache](https://httpd.apache.org/) / `httpd` \(on CentOS\) server
 * [mod\_wsgi](https://modwsgi.readthedocs.io/)
 * [Flask](https://www.palletsprojects.com/p/flask/) web framework
 * [Python3](https://www.python.org/)

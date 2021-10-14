@@ -13,7 +13,7 @@ This sample explains how to extend an existing Django API Starter and add anothe
 
 ### Codebase structure
 
-```text
+```
 PROJECT ROOT
 ├── api                           # App containing all project-specific apps
 │   ├── apps.py
@@ -105,14 +105,13 @@ Content-Type: application/json
 
 > **Login** - `api/users/login`
 
-```text
+```
 cd api && django-admin startapp transactions
 ```
 
 Once it's done, rewrite the `apps.py` file with the following content. 
 
-```text
-
+```
 ```
 
 ```javascript
@@ -125,7 +124,7 @@ Content-Type: application/json
 }
 ```
 
-**Response :** 
+**Response : **
 
 ```javascript
 {
@@ -151,7 +150,7 @@ authorization: JWT_TOKEN (returned by Login request)
 }
 ```
 
-**Response :** 
+**Response : **
 
 ```javascript
 {
@@ -166,14 +165,14 @@ Let's edit information about the user and check a session using cURL.
 
 > **Check Session**- `api/users/checkSession`
 
-```text
+```
 curl --request POST \
   --url http://127.0.0.1:8000/api/users/checkSession \
   --header 'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNjI4NzgxNTY4fQ.mB_YcZxZJd37r_4NYnLYeCByEHKGBC2ob0xe9KgcOII' \
   --header 'Content-Type: application/json'
 ```
 
-**Response :** 
+**Response : **
 
 ```javascript
 {
@@ -183,7 +182,7 @@ curl --request POST \
 
 > **Edit User** - `api/users/edit`
 
-```text
+```
 curl --request POST \
   --url http://127.0.0.1:8000/api/users/edit \
   --header 'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNjI4NzgxNTY4fQ.mB_YcZxZJd37r_4NYnLYeCByEHKGBC2ob0xe9KgcOII' \
@@ -195,7 +194,7 @@ curl --request POST \
 }'
 ```
 
-**Response :** 
+**Response : **
 
 ```javascript
 {
@@ -213,7 +212,7 @@ To add a model for `transaction` in the project, let's create a new application 
 * Then modify the name and the label of the app in `apps.py`
 * And add the `app` in the `INSTALLED_APPS` in the `settings.py` of the project.
 
-```text
+```
 cd api && django-admin startapp transaction
 ```
 
@@ -287,11 +286,11 @@ And now the [viewsets](https://www.django-rest-framework.org/api-guide/viewsets/
 
 The routes for the transaction interface API should look like this : 
 
-* `api/transactions/create` -&gt; create transaction
-* `api/transactions/edit/id`-&gt; edit transaction
-* `api/transactions/delete/id` -&gt; delete transaction
-* `api/transactions/get/id` -&gt; get specific transaction 
-* `api/transactions/get` -&gt; get all transactions 
+* `api/transactions/create` -> create transaction
+* `api/transactions/edit/id`-> edit transaction
+* `api/transactions/delete/id` -> delete transaction
+* `api/transactions/get/id` -> get specific transaction 
+* `api/transactions/get` -> get all transactions 
 
 The [ViewSet](https://www.django-rest-framework.org/api-guide/viewsets/#viewset) class comes with built-in [actions](https://www.django-rest-framework.org/api-guide/viewsets/#viewset-actions) : 
 
@@ -299,7 +298,7 @@ The [ViewSet](https://www.django-rest-framework.org/api-guide/viewsets/#viewset)
 * retrieve
 * create
 * update
-* partial\_update
+* partial_update
 * destroy
 
 And to make sure the names of the URLs match what we need, we'll be using [actions](https://www.django-rest-framework.org/api-guide/viewsets/#marking-extra-actions-for-routing). 
@@ -430,7 +429,7 @@ class TransactionViewSet(viewsets.ModelViewSet):
         }, status=status.HTTP_200_OK)
 ```
 
-Notice that for the  `get/id` \(`get_transaction`\), we are writing the `url_path` using **regex expression**.
+Notice that for the  `get/id` (`get_transaction`), we are writing the `url_path` using **regex expression**.
 
 And finally, the actions for `api/transactions/delete/id` and `api/transactions/edit`. 
 
@@ -523,4 +522,3 @@ Congratulations. You just learned :
 * How to add a new model;
 * How to add a serializer for this model;
 * How to rewrite `viewset` behavior and `actions` to match your needs.
-

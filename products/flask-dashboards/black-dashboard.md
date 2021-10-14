@@ -9,22 +9,22 @@ description: Open-source Flask starter coded on top Black Dashboard design (free
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: Black Dashboard \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: Black Dashboard (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Black Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-black) - product page
 * [Black Dashboard Flask](https://github.com/app-generator/flask-black-dashboard) - source code 
-* [Black Dashboard Flask](https://flask-black-dashboard.appseed-srv1.com/) - LIVE Demo 
+* [Black Dashboard Flask](https://flask-black-dashboard.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Flask
 
@@ -43,7 +43,7 @@ description: Open-source Flask starter coded on top Black Dashboard design (free
 
 
 
-### **Black Dashboard** UI Kit 
+### **Black Dashboard **UI Kit 
 
 Using this modern, dark-themed design you will save a lot of time going from prototyping to full-functional code because all elements are implemented. **Black Dashboard** features over 16 individual components, giving you the freedom of choosing and combining. 
 
@@ -51,6 +51,4 @@ Using this modern, dark-themed design you will save a lot of time going from pro
 * [Black Dashboard](https://bit.ly/2L0W6Z7) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Black Dashboard - Free Dashboard template.](../../.gitbook/assets/docs-black-dashboard-screen.jpg)
-
-
 

@@ -4,7 +4,7 @@ description: How To customize Django Admin Interface
 
 # Django Customize Admin UI
 
-This page explains how to override Django admin and import a custom template to it. Along with the tutorial, we provide a working sample coded on top of Black Dashboard design \(free version\) designed by Creative-Tim.
+This page explains how to override Django admin and import a custom template to it. Along with the tutorial, we provide a working sample coded on top of Black Dashboard design (free version) designed by Creative-Tim.
 
 **Links & Resources**
 
@@ -13,7 +13,7 @@ This page explains how to override Django admin and import a custom template to 
 
 ## The Basics
 
-Django provides default pages for login, registration, 404 and 500 pages \(etc\) the full list can be found in the `site-packages/django` folder:
+Django provides default pages for login, registration, 404 and 500 pages (etc) the full list can be found in the `site-packages/django` folder:
 
 ```bash
 .../site-packages/django/contrib/admin/templates/
@@ -60,14 +60,14 @@ The admin templates come in two directories:
 
 To customize the `404` page, you need to override the right file. The relative path leading to the file has to be the same as the one being overridden. The file you’re interested in is `404.html`.
 
- **Step \#1 - Create template directory**
+** Step #1 - Create template directory**
 
 ```bash
 # Django Root Project <-- you are here
 mkdir -p templates/
 ```
 
- **Step \#2 - Update Django Settings**
+** Step #2 - Update Django Settings**
 
 To use the new templates the project settings file should be updated as bellow to use it.
 
@@ -96,9 +96,9 @@ TEMPLATES = [
 
 As mentioned before, Django will try to resolve a template file by scanning the directories defined by the user in the settings file. If nothing is found, the default version will be used from `site-packages/django/contrib/admin/templates/` directory.
 
- **Step \#3 - Customize 404 page**
+** Step #3 - Customize 404 page**
 
-The custom version of our 404 page can be easily done by copying the default version from `admin/templates/` directory and save it in the directory created in **Step \#2**
+The custom version of our 404 page can be easily done by copying the default version from `admin/templates/` directory and save it in the directory created in **Step #2**
 
 ```bash
 # Django Root Project <-- you are here
@@ -128,11 +128,11 @@ Once we save the file, Django will use it when a 404 error case occur when users
 
 ### A complete example
 
-This section explains the process of integrating Black Dashboard design \(free version\) to style the default admin section for Django.
+This section explains the process of integrating Black Dashboard design (free version) to style the default admin section for Django.
 
 **Download UI Kit & Assets**
 
-Download your favorite template which usually contains **css**, **js**, **images** and **fonts** files. The sample we are using here \(Black Dashboard\) can be downloaded from the [product page](https://www.creative-tim.com/product/black-dashboard?AFFILIATE=128200).
+Download your favorite template which usually contains **css**, **js**, **images** and **fonts** files. The sample we are using here (Black Dashboard) can be downloaded from the [product page](https://www.creative-tim.com/product/black-dashboard?AFFILIATE=128200).
 
 ![Django Admin Black](https://raw.githubusercontent.com/app-generator/django-dashboard-black/master/media/django-dashboard-black-screen.png)
 
@@ -148,7 +148,7 @@ $ python manage.py startapp admin_black
 
 Create new directories `templates`, `static` and `templatetages` inside. The application folders structure should look as below:
 
-```text
+```
 admin_black/
     migrations/
         __init__.py
@@ -168,7 +168,7 @@ admin_black/
     views.py
 ```
 
-Add your application \(admin\_black\) to the INSTALLED\_APPS setting of your Django project settings.py file \(note it should be before 'django.contrib.admin'\):
+Add your application (admin_black) to the INSTALLED_APPS setting of your Django project settings.py file (note it should be before 'django.contrib.admin'):
 
 ```python
 INSTALLED_APPS = [
@@ -182,7 +182,7 @@ Now your application is ready to add a template. To do this, you need to add you
 
 > The folders' structure of this section is completely arbitrary.
 
-```text
+```
 admin_black/
     ...
     static/
@@ -211,11 +211,11 @@ In the previous, we added all the required information to our project. Now we wa
 .../site-packages/django/contrib/admin/templates
 ```
 
-In this section you will see two folders that include **admin** and **registration**. As it is clear from the name, the **admin** folder is related to the admin templates and the **registration** folder is related to registration, such as _password\_reset\_form.html_, _logged\_out.html_ and etc templates.
+In this section you will see two folders that include **admin** and **registration**. As it is clear from the name, the **admin** folder is related to the admin templates and the **registration** folder is related to registration, such as _password_reset_form.html_, _logged_out.html_ and etc templates.
 
 In Django admin, to override the templates, just create the same files with the same address in your application. For example, to change the _base.html_, just create such a file in your application:
 
-```text
+```
 admin_black/
     ...
     templates/
@@ -289,7 +289,7 @@ admin_black/
 
 You can also use **templatetags** to provide more customization like a custom `sidebar` and `navigation`. To do this create a new file inside the `templatetags` as below:
 
-```text
+```
 admin_black/
     ...
     templatetags/
@@ -323,5 +323,4 @@ This way you can override the Django admin template and import your own template
 
 * Page editor and `Django Admin Black` author - [**Iman Karimi**](https://www.linkedin.com/in/iman-karimi/)
 * [Django Black Dashboard](https://appseed.us/admin-dashboards/django-dashboard-black) - free Django product that uses the same UI Kit
-* Access the [AppSeed](https://appseed.us/) platform for support and more [Django Templates](https://appseed.us/admin-dashboards/django)
-
+* Access the [AppSeed](https://appseed.us) platform for support and more [Django Templates](https://appseed.us/admin-dashboards/django)

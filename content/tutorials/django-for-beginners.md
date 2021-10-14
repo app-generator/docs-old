@@ -4,13 +4,13 @@ description: A comprehensive introduction to Django for beginners
 
 # Django For Beginners
 
-This tutorial aims to help beginners getting started with Django, a popular Web Framework written in Python.  To get maximum from this content, the audience should be familiar with a terminal and have a minimal set of tools already installed. [Python3](https://www.python.org/), a modern code editor \([VsCode](https://code.visualstudio.com/), [Atom](https://atom.io/)\), and [GIT](https://git-scm.com/) versioning command-line tool should be enough to experiment with all the code.
+This tutorial aims to help beginners getting started with Django, a popular Web Framework written in Python.  To get maximum from this content, the audience should be familiar with a terminal and have a minimal set of tools already installed. [Python3](https://www.python.org), a modern code editor ([VsCode](https://code.visualstudio.com), [Atom](https://atom.io)), and [GIT](https://git-scm.com) versioning command-line tool should be enough to experiment with all the code.
 
 ### Install Python
 
 The core of dependency for Django is Python and we should install the interpreter first. Most of the systems come with Python already installed and we can easily check in the terminal:
 
-```text
+```
 $ python --version
 Python 3.8.4       <-- All Good     
 ```
@@ -21,7 +21,7 @@ If the version displayed in the terminal is Python2, please note that this versi
 
 With **Python** up and running, we can install Django and other modules required by our development. The recommended way to install and manage the dependencies for a Python project is to use a virtual environment, a safe way to isolate the dependencies across multiple projects. 
 
-```text
+```
 $ # Linux-based systems
 $ virtualenv env
 $ source env/bin/activate  
@@ -29,14 +29,14 @@ $ source env/bin/activate
 
 For Windows-based systems, the syntax is slightly different:
 
-```text
+```
 $ virtualenv env
 $ .\env\Scripts\activate
 ```
 
-> Let's install Django, using PIP \(official package manager for Python\)
+> Let's install Django, using PIP (official package manager for Python)
 
-```text
+```
 $ pip install django
 ```
 
@@ -44,16 +44,16 @@ The above command will install the latest stable version of Django. From this po
 
 ### Install a Code Editor
 
-This section has plenty of options from the old-school \(yet modern\) [Vim](https://www.vim.org/download.php) to [VsCode](https://code.visualstudio.com/) and [Atom](https://atom.io/). For those unfamiliar with any of these tools, VsCode might be a good choice to get started fast. 
+This section has plenty of options from the old-school (yet modern) [Vim](https://www.vim.org/download.php) to [VsCode](https://code.visualstudio.com) and [Atom](https://atom.io). For those unfamiliar with any of these tools, VsCode might be a good choice to get started fast. 
 
-* [VSCode](https://code.visualstudio.com/) - official website
+* [VSCode](https://code.visualstudio.com) - official website
 * [VSCode](https://code.visualstudio.com/Download) - download page
 
 ![Programming Kit - VSCode editor.](../../.gitbook/assets/programming-kit-vscode.jpg)
 
 ### Build a Django Project
 
-A new project can be generated with ease in Django by using _django-admin_ that provides a collection of settings for the database, Django, and security layer.
+A new project can be generated with ease in Django by using _django-admin _that provides a collection of settings for the database, Django, and security layer.
 
 > Create the project folder
 
@@ -64,22 +64,22 @@ $ cd my-django-project
 
    Inside the directory, we will generate the core of our project using _django-admin tool :_
 
-```text
+```
 $ django-admin startproject config .
 ```
 
-   **Note**: Take into account that `.` at the end of the command_._ 
+   **Note**: Take into account that `.` at the end of the command_. _
 
 > Create the database and the app tables
 
-```text
+```
 $ python manage.py makemigrations
 $ python manage.py migrate
 ```
 
 > Start the application
 
-```text
+```
 $ python manage.py runserver 
 $
 $ # Access the web app in browser: http://127.0.0.1:8000/
@@ -93,11 +93,11 @@ At this point we should see the default Django page in the browser:
 
 In the previous section, we've generated the core of the project that handles the configuration and now we will create the first Django application to serve a simple page to the users. 
 
-```text
+```
 $ python manage.py startapp app
 ```
 
-> Add a new route - edit `app/views.py`
+> Add a new route - edit `app/views.py` 
 
 ```python
 from django.shortcuts import render
@@ -142,13 +142,13 @@ urlpatterns = [
 ]
 ```
 
-After saving all changes we should no longer see the Django default page \(the one with the green rocket\):  
+After saving all changes we should no longer see the Django default page (the one with the green rocket):  
 
-![Django For Beginners - The first page.](../../.gitbook/assets/image%20%289%29.png)
+![Django For Beginners - The first page.](<../../.gitbook/assets/image (9).png>)
 
 ### Create New Model
 
-Even simple applications require minimal storage for persistent data. Django provides _out-of-the-box_ an SQLite database, just to help us start fast. During this section, we will create and interact with a new table \(model\). 
+Even simple applications require minimal storage for persistent data. Django provides _out-of-the-box _an SQLite database, just to help us start fast. During this section, we will create and interact with a new table (model). 
 
 > Visualize the default SQL settings - `config/settings.py`
 
@@ -164,7 +164,7 @@ DATABASES = {
 ... 
 ```
 
- The `ENGINE` specify the technology used to manage the database. In our case is a lightweight \(yet powerful\) SQLite engine. `NAME` informs Django where to save the database on the filesystem. 
+ The `ENGINE` specify the technology used to manage the database. In our case is a lightweight (yet powerful) SQLite engine. `NAME` informs Django where to save the database on the filesystem. 
 
 > **Define a new model** `Books` in `sample` application. The below changes should be added to `sample/models.py`:
 
@@ -181,14 +181,14 @@ class Book(models.Model):                                 # <- NEW
 
 **Tip** - for a quick check over the latest changes we can run `check` subcommand.
 
-```text
+```
 $ python manage.py check
 System check identified no issues (0 silenced).  
 ```
 
-> **Generate the SQL code** \(`migrate` the database\).
+> **Generate the SQL code** (`migrate` the database).
 
-```text
+```
 $ python manage.py makemigrations  # generate the SQL code
 Migrations for 'sample':
   sample\migrations\0001_initial.py
@@ -197,7 +197,7 @@ Migrations for 'sample':
 
 > **Apply changes on the database**
 
-```text
+```
 $ python manage.py migrate
 Operations to perform:
   Apply all migrations: admin, auth, contenttypes, sample, sessions
@@ -220,7 +220,7 @@ $ python manage.py shell
 
 ```
 
-> **List all items \(books\)** \(using the CLI\)
+> **List all items (books)** (using the CLI)
 
 ```python
 $ python manage.py shell
@@ -262,7 +262,7 @@ $ python manage.py shell
 
 ```
 
-### 
+###
 
 ### Using Admin Section
 
@@ -281,7 +281,7 @@ Superuser created successfully.
 
 ![Django Admin - Default View.](../../.gitbook/assets/django-admin-default-view.jpg)
 
-CRUD \(create, read, update, delete\) actions are provided for all default models \(users, groups\) shipped by Django. To register the new models, `Books` in our case, we need just a few lines of code. 
+CRUD (create, read, update, delete) actions are provided for all default models (users, groups) shipped by Django. To register the new models, `Books` in our case, we need just a few lines of code. 
 
 > Register `Book` model to be visible in the `admin` section
 
@@ -297,20 +297,19 @@ admin.site.register(Book)       # <- NEW
 
   After this small change in our code, we should see `Books` model listed in the admin page:
 
-![Django Admin - Register Books Model. ](../../.gitbook/assets/image%20%285%29.png)
+![Django Admin - Register Books Model. ](<../../.gitbook/assets/image (5).png>)
 
 > Django Admin - Edit Book Items
 
-![Django Admin - Edit Book Item.](../../.gitbook/assets/image%20%286%29.png)
+![Django Admin - Edit Book Item.](<../../.gitbook/assets/image (6).png>)
 
 
 
-> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed.
+> Thanks for reading! For more topics, feel free to [contact](https://appseed.us/support) Appseed. 
 
 
 
 ### Resources
 
-* Read more about [Django](https://www.djangoproject.com/) \(official docs\)
-* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django) 
-
+* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Start fast a new project using _development-ready _[Django Starters](https://appseed.us/admin-dashboards/django) 

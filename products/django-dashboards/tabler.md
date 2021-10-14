@@ -9,7 +9,7 @@ Tabler is a UI kit that speeds up the development process and makes it easier th
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: Tabler Dashboard \(free version\)  
+* UI Kit: Tabler Dashboard (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
@@ -18,11 +18,11 @@ Tabler is a UI kit that speeds up the development process and makes it easier th
 
 * [Tabler Django](https://appseed.us/admin-dashboards/django-dashboard-tabler) - product page
 * [Tabler Django](https://github.com/app-generator/django-dashboard-tabler) - source code
-* [Tabler Django](https://django-dashboard-tabler.appseed.us/) - LIVE Demo 
+* [Tabler Django](https://django-dashboard-tabler.appseed.us) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Django
 
@@ -48,4 +48,3 @@ Tabler is a UI kit that speeds up the development process and makes it easier th
 * [Tabler Dashboard](https://github.com/admin-dashboards/bootstrap-template-tabler) - source code published on Github 
 
 ![Tabler Dashboard - Open-source Template.](../../.gitbook/assets/docs-cover-tabler.jpg)
-

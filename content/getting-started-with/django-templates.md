@@ -4,7 +4,7 @@ description: A comprehensive introduction to Django Template System for beginner
 
 # Django Templates
 
-This page is a comprehensive introduction to [**Django Template**](https://dev.to/sm0ke/django-templates-short-introduction-and-free-samples-2878) system, a modern and designer-friendly language for **Python** used to generate dynamic HTML pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive **open-source** community - Github stats: 2k contributors, Used by **675k** Users, ~**58k** Stars. 
+This page is a comprehensive introduction to [**Django Template**](https://dev.to/sm0ke/django-templates-short-introduction-and-free-samples-2878) system, a modern and designer-friendly language for **Python** used to generate dynamic HTML pages. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development by reusing modules and libraries built by experienced programmers. On top of this, **Django** is actively supported by an impressive **open-source** community - Github stats: 2k contributors, Used by **675k** Users, \~**58k** Stars. 
 
 ![Django Framework - Cover Image.](../../.gitbook/assets/django-framework-cover-xs.png)
 
@@ -14,7 +14,7 @@ Before start using Django Template System, we need to install Python, the langua
 
 The best way to install Python is to access the [download page](https://www.python.org/downloads/) and use the appropriate installer that matches the operating system. Once the installation process is completed we can check if Python is properly installed directly in the terminal:
 
-```text
+```
 $ python
 Python 3.8.4 (tags/v3.8.4:dfa645a, Jul 13 2020, 16:46:45) ...
 Type "help", "copyright", "credits" or "license" for more information.
@@ -23,7 +23,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
  The next step is to install Django using a virtual environment: 
 
-```text
+```
 $ virtualenv env
 $ source env/bin/activate
 $
@@ -34,19 +34,19 @@ $ pip install django
 
 Once Python and Django are installed, we can move forward in developing a Django application by creating a Django _project_.
 
-```text
+```
 $ django-admin startproject django_templates
 ```
 
 This command will automatically create a `django_templates` folder in the current directory, and all the necessary files for a basic, but fully functioning **Django** website with an SQLite database. Being a `batteries-included` framework, Django scaffolds the project with working authentication and administration modules out-of-the-box. To use any of these default features a migration should be executed to create the necessary tables. 
 
-```text
+```
 $ python manage.py migrate
 ```
 
 Our new Django project can be started using the command:
 
-```text
+```
 $ python manage.py runserver
 ```
 
@@ -78,7 +78,7 @@ To enhance this default configuration with a template folder, we need to create 
 
 > For simplicity,  the`templates` folder will be created in the root of the project
 
-```text
+```
 $ mkdir templates
 ```
 
@@ -112,10 +112,10 @@ Once the basic configuration is done, we can move forward and see how this templ
 
 * Inject variables, Lists, classes into templates
 * Filters to transform the information directly in the template in many ways 
-* Conditionals \(test variable presence or value\) `{% if %}...{% endif %}`
-* Loops \(iterate on lists\) - `{% for x in y %}...{% endfor %}` 
-* Imports \(components reuse\) `{% include "header.html" %}`
-* Inheritance \(extend page templates\) `{% extends "base.html" %}`
+* Conditionals (test variable presence or value) `{% if %}...{% endif %}`
+* Loops (iterate on lists) - `{% for x in y %}...{% endfor %} `
+* Imports (components reuse) `{% include "header.html" %}`
+* Inheritance (extend page templates) `{% extends "base.html" %}`
 * Block Declaration `{% block content %}...{% endblock %}`
 
 Let's iterate on each feature and check out the sample code:
@@ -130,7 +130,7 @@ Django template system knows how to render simple variables, class attributes, a
 {{ my_list.1 }}        <-- access list items by index    
 ```
 
-> **Filters** - simple helpers useful to transform the information directly in the template
+> **Filters **- simple helpers useful to transform the information directly in the template
 
 Here is a short-list with popular helpers: `upper`, `default value`, string `truncation`
 
@@ -147,7 +147,7 @@ Here is a short-list with popular helpers: `upper`, `default value`, string `tru
                           <-- Capitalize first letter      
 ```
 
-> **Comments** in Django templates
+> **Comments **in Django templates
 
 Django template system will ignore everything between `{% comment %}` and `{% endcomment %}`
 
@@ -218,7 +218,7 @@ Template inheritance empowers the developer to build a base template that contai
 </html>
 ```
 
-**Child template** - that `extends` the base template
+**Child template **- that `extends` the base template
 
 ```python
 { extends "base.html" }
@@ -235,14 +235,14 @@ When Django loads `child.html`, the `{ extends }` block informs the engine to me
 * `{ block title }` becomes **MySample**
 * `{ block content }` becomes **Cool content here**
 
-### 
+###
 
 ### Django Template Sample
 
 All the above concepts can be seen in action by accessing a simple Django seed project built on top of the latest Bootstrap version: [Pixel UI Django](https://appseed.us/django/django-pixel-bootstrap-uikit). This simple Django template can be downloaded and used for hobby and commercial products - for more information, please access: 
 
 * [Pixel Lite Django](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
-* [Pixel Lite Django](https://django-pixel-lite.appseed-srv1.com/) - LIVE demo
+* [Pixel Lite Django](https://django-pixel-lite.appseed-srv1.com) - LIVE demo
 
 ![Pixel Lite - Open-Source Django Template](../../.gitbook/assets/pixel-bootstrap-5-freelancer-page.png)
 
@@ -250,7 +250,6 @@ All the above concepts can be seen in action by accessing a simple Django seed p
 
 ### Resources
 
-* [Django Templates](https://djangobook.com/mdj2-django-templates/) **-** a ****free chapter from `The Django Book` ****
+* [Django Templates](https://djangobook.com/mdj2-django-templates/)** - **a** **free chapter from `The Django Book`** **
 * [Django Templates](https://www.geeksforgeeks.org/django-templates/) - a really nice article provided by GeeksForGeeks platform
 * [Django Templates](https://bit.ly/3aStaNb) - provided by Creative-Tim and AppSeed 
-

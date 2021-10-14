@@ -11,18 +11,18 @@ description: >-
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [Star Admin](../../content/bootstrap-template/star-admin.md) \(free version\)  
+* UI Kit: [Star Admin](../../content/bootstrap-template/star-admin.md) (free version)  
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
 
-> Links
+> Links 
 
 * [Star Admin Django](https://appseed.us/admin-dashboards/django-star-admin) - product page
 * [Star Admin Django](https://github.com/app-generator/django-star-admin) - source code 
-* [Star Admin Django](https://django-star-admin.appseed-srv1.com/) - LIVE Demo 
+* [Star Admin Django](https://django-star-admin.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -51,4 +51,3 @@ Star Admin is packed with all the features that fit your needs but not cramped w
 * [Star Admin](https://bit.ly/2VXUgKu) - product page hosted by [BootstrapDash](../../content/partners/bootstrapdash.md)
 
 ![Star Admin - Bootstrap Dashboard Template.](../../.gitbook/assets/docs-star-admin-screen.jpg)
-

@@ -9,22 +9,22 @@ description: Open-source Flask starter coded on top CoreUI design (free version)
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [CoreUI](../../content/bootstrap-template/coreui.md) \(free version\) crafted by [CoreUI Agency](../../content/partners/coreui.md)
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: [CoreUI](../../content/bootstrap-template/coreui.md) (free version) crafted by [CoreUI Agency](../../content/partners/coreui.md)
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [CoreUI Flask](https://appseed.us/admin-dashboards/flask-dashboard-coreui) - product page
 * [CoreUI Flask](https://github.com/app-generator/flask-dashboard-coreui) - source code
-* [CoreUI Flask](https://flask-coreui.appseed-srv1.com/) - LIVE Demo
+* [CoreUI Flask](https://flask-coreui.appseed-srv1.com) - LIVE Demo
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Flask
 
@@ -51,4 +51,3 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 * [CoreUI](https://bit.ly/2VTDaxg) - product page hosted on CoreUI.io 
 
 ![CoreUI - Open-source Bootstrap Template.](../../.gitbook/assets/docs-coreui-screen.jpg)
-

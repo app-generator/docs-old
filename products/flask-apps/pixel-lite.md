@@ -8,19 +8,19 @@ description: >-
 
 Pixel is a free, fully responsive, and modern **Bootstrap 5 UI Kit** that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs. The Flask codebase is provided with database, ORM, authentication, and deployment scripts.  
 
-> Features
+> Features 
 
 * SQLite database, Flask-SQLAlchemy ORM
-* Session-Based auth flow \(login, register\)
+* Session-Based auth flow (login, register)
 * Deployment scripts: Docker, Gunicorn / Nginx, Heroku 
 
 > Links
 
 * [Flask Pixel Lite](https://appseed.us/apps/flask-apps/flask-pixel-bootstrap-uikit) - product page
 * [Flask Pixel Lite](https://github.com/app-generator/flask-pixel-bootstrap-uikit) - source code 
-* [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com/) - LIVE Demo
+* [Flask Pixel Lite](https://flask-pixel-lite.appseed-srv1.com) - LIVE Demo
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -49,4 +49,3 @@ Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pri
 * [Pixel Lite](https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit) - product page hosted by [Themesberg](../../content/partners/themesberg.md)
 
 ![Pixel Lite - Freelancer Page.](../../.gitbook/assets/pixel-lite-freelancer-page.jpg)
-

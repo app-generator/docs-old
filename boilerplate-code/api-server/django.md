@@ -25,7 +25,7 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 
 ### Requirements
 
-* **Python3** \(Python2 is not supported\) 
+* **Python3** (Python2 is not supported) 
 * **Django**==3.2.5
 * **djangorestframework**==3.12.4
 * **PyJWT**==2.1.0
@@ -35,29 +35,29 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 
 ### How to use the code
 
-> **Step \#1 -** Clone the sources
+> **Step #1 - **Clone the sources
 
-```text
+```
 $ git clone https://github.com/app-generator/api-server-django.git
 $ cd api-server-django
 ```
 
-> **Step \#2 -** Create a virtual environment
+> **Step #2 - **Create a virtual environment
 
-```text
+```
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 ```
 
-> **Step \#3-** Install dependencies using `pip`
+> **Step #3- **Install dependencies using `pip`
 
-```text
+```
 $ pip install -r requirements.txt
 ```
 
-> **Step \#4** - Start the API Server
+> **Step #4** - Start the API Server
 
-```text
+```
 $ python manage.py migrate
 $ python manage.py runserver
 ```
@@ -68,28 +68,27 @@ The API server will start using the default port `8000`.
 
 ### **Docker execution**
 
-> **Step \#1** - Get the code
+> **Step #1** - Get the code
 
-```text
+```
 $ git clone https://github.com/app-generator/api-server-django.git
 $ cd api-server-django
 ```
 
-> **step \#2** - Start the app in Docker
+> **step #2** - Start the app in Docker
 
-```text
+```
 $ docker-compose up -d --build
 ```
 
-Visit `http://localhost:5000` in your browser. The API server will be running.  
+Visit `http://localhost:5000` in your browser. The API server will be running.\
 
 
 ### Compatible Fullstack Products
 
-The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**,** an open-source React Dashboard.
+The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**, **an open-source React Dashboard.
 
 * [React Datta Able](https://appseed.us/product/react-node-js-datta-able) - product page
 * [React Datta Able](https://github.com/app-generator/react-datta-able-dashboard) - source code
 
 ![React Datta Able - Open-Source Dashboard](../../.gitbook/assets/react-datta-able-cover.jpg)
-

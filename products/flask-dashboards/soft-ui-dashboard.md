@@ -11,22 +11,22 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [Soft UI Dashboard](../../content/bootstrap-template/soft-ui-dashboard.md) by [Creative-Tim](../../content/partners/creative-tim.md) ****
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: [Soft UI Dashboard](../../content/bootstrap-template/soft-ui-dashboard.md) by [Creative-Tim](../../content/partners/creative-tim.md)** **
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
-* [Flask Soft UI Dashboard](https://flask-soft-ui-dashboard.appseed-srv1.com/) - LIVE demo
+* [Flask Soft UI Dashboard](https://flask-soft-ui-dashboard.appseed-srv1.com) - LIVE demo
 * [Flask Soft UI Dashboard](https://github.com/app-generator/flask-soft-ui-dashboard) - Source Code
 * [Flask Soft UI Dashboard](https://www.youtube.com/watch?v=omtEiaajf0k) - yTube presentation
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-### 
+###
 
 ### What is Flask
 
@@ -53,4 +53,3 @@ Soft UI Dashboard is built with over 70 frontend individual elements, like butto
 * [Soft UI Dashboard](https://bit.ly/2Q1uIfK) - product page hosted by **Creative-Tim**
 
 ![Soft UI Dashboard - Billing Page.](../../.gitbook/assets/soft-ui-dashboard-page-billing.jpg)
-

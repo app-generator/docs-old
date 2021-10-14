@@ -11,20 +11,20 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [Argon Dashboard](../../content/bootstrap-template/argon-dashboard.md) \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: [Argon Dashboard](../../content/bootstrap-template/argon-dashboard.md) (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Argon Dashboard Flask](https://appseed.us/admin-dashboards/flask-boilerplate-dashboard-argon) - product page
 * [Argon Dashboard Flask](https://github.com/app-generator/flask-boilerplate-dashboard-argon) - source code 
-* [Argon Dashboard Flask](https://flask-argon-dashboard.appseed-srv1.com/) - LIVE Demo 
+* [Argon Dashboard Flask](https://flask-argon-dashboard.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -53,4 +53,3 @@ description: >-
 * [Argon Dashboard](https://bit.ly/2KEZQiF) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Argon Dashboard - Main Page.](../../.gitbook/assets/docs-argon-dashboard-screen.jpg)
-

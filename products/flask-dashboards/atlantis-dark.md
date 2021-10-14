@@ -11,20 +11,20 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **Atlantis Dark** design \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: **Atlantis Dark** design (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Atlantis Dark Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark) - product page
 * [Atlantis Dark Flask](https://github.com/app-generator/flask-dashboard-atlantis-dark) - source code 
-* [Atlantis Dark Flask](https://flask-atlantis-dark.appseed-srv1.com/) - LIVE Demo 
+* [Atlantis Dark Flask](https://flask-atlantis-dark.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -49,10 +49,8 @@ description: >-
 
 Atlantis Dark Lite admin dashboard has 2 layouts, many plugins, and UI components to help developers create dashboards quickly and effectively so they can save development time and also help users to make the right and fast decisions based on existing data.
 
-* [Atlantis Lite](https://www.themekita.com/atlantis-lite-bootstrap-dashboard.html) - product page \(HTML version\)
+* [Atlantis Lite](https://www.themekita.com/atlantis-lite-bootstrap-dashboard.html) - product page (HTML version)
 * [Atlantis Lite](https://themekita.com/demo-atlantis-bootstrap/livepreview/documentation/) - documentation 
 
 ![Atlantis Lite - Dark Layout Dashboard.](../../.gitbook/assets/atlantis-lite-cover.png)
-
-
 

@@ -114,7 +114,7 @@
   * [Jinja Volt Bootstrap 5](products/jinja-templates/volt-bootstrap-5.md)
   * [Jinja Volt PRO](products/jinja-templates/volt-dashboard-pro.md)
 
-## Free Samples <a id="samples"></a>
+## Free Samples <a href="samples" id="samples"></a>
 
 * [Django Samples](samples/django/README.md)
   * [Django Create Model](samples/django/create-model.md)
@@ -190,7 +190,7 @@
   * [Flask Simple Charts](content/how-to/flask-simple-charts.md)
   * [Flask Social Login](content/how-to/flask-social-login.md)
   * [Flask Stripe Payments](content/how-to/flask-stripe-payments.md)
-  * [Flask Deploy on Apache](content/how-to/flask-apache-deployment.md)
+  * [Flask Deploy on Apache](content/how-to/flask-apache-centos-virtualenv-minimal-configuration.md)
   * [Flask Deploy on HEROKU](content/how-to/flask-deploy-on-heroku.md)
   * [Flask AWS Deployment](content/how-to/flask-aws-deployment.md)
   * [Flask Google Cloud Deploy](content/how-to/flask-google-cloud-deploy.md)
@@ -263,4 +263,3 @@
   * [CoreUI React](content/react-template/coreui-react.md)
 * [Vue Templates](content/vue-template/README.md)
   * [Vuetify Material Dashboard](content/vue-template/vuetify-material-dashboard.md)
-

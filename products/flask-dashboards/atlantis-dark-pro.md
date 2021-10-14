@@ -11,19 +11,19 @@ Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to mana
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [Atlantis Dark PRO](../../content/bootstrap-template/atlantis-pro.md) ****crafted by ThemeKita
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: [Atlantis Dark PRO](../../content/bootstrap-template/atlantis-pro.md)** **crafted by ThemeKita
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
-> Links
+> Links 
 
 * [Atlantis Dark PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark-pro) - product page
 * [Atlantis Dark PRO Flask](https://github.com/app-generator/flask-dashboard-atlantis-dark-pro) - public repository used for tracking issues 
-* [Atlantis Dark PRO Flask](https://flask-atlantis-dark-pro.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** \(issues tracker\) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
+* [Atlantis Dark PRO Flask](https://flask-atlantis-dark-pro.appseed-srv1.com) - LIVE Demo
+* [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance. 
 
 
 
@@ -53,4 +53,3 @@ Atlantis PRO has 9 layouts, 26 plugins and many UI components to help developers
 ![Atlantis Dark - Premium Bootstrap template.](../../.gitbook/assets/docs-atlantis-pro-screen.jpg)
 
  
-

@@ -11,20 +11,20 @@ description: >-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **Gradient Able** \(free version\) 
-* DBMS: SQLite, PostgreSQL \(production\)
-* DB Tools: SQLAlchemy ORM, Flask-Migrate \(schema migrations\)
+* UI Kit: **Gradient Able** (free version) 
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
-* Session-Based authentication \(via **flask\_login**\), Forms validation
+* Session-Based authentication (via **flask_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU 
 
 > Links
 
 * [Gradient Able Flask](https://appseed.us/admin-dashboards/flask-gradient-able) - product page
 * [Gradient Able Flask](https://github.com/app-generator/flask-gradient-able) - source code
-* [Gradient Able Flask](https://flask-gradient-able.appseed-srv1.com/) - LIVE Demo 
+* [Gradient Able Flask](https://flask-gradient-able.appseed-srv1.com) - LIVE Demo 
 
-> [Support](https://appseed.us/support) \(Email and LIVE on Discord\) for **registered** [**AppSeed**](https://appseed.us/) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
 
 
@@ -47,9 +47,8 @@ description: >-
 
 ### Gradient Able UI Kit
 
-**Gradient Able** is a beautiful admin dashboard template built over [Bootstrap 4 ](http://getbootstrap.com/)It will help you get started developing your project dashboards in no time. Using Gradient Able Dashboard is pretty simple but requires basic knowledge of javascript, CSS, and of course [Bootstrap](http://getbootstrap.com/).
+**Gradient Able **is a beautiful admin dashboard template built over [Bootstrap 4 ](http://getbootstrap.com)It will help you get started developing your project dashboards in no time. Using Gradient Able Dashboard is pretty simple but requires basic knowledge of javascript, CSS, and of course [Bootstrap](http://getbootstrap.com).
 
 * [Gradient Able](https://bit.ly/3b0H1ks) - product page hosted by CodedThemes
 
 ![Gradient Able - Dashboard Page. ](../../.gitbook/assets/docs-gradient-able-screen.jpg)
-
