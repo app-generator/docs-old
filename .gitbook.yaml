@@ -18,11 +18,17 @@ redirects:
     django/: products/django-apps/README.md
     apps/flask-apps: products/flask-apps/README.md
     apps/flask-apps/: products/flask-apps/README.md    
+    tutorials: content/tutorials/README.md
     tutorials/: content/tutorials/README.md
+    bootstrap-template: content/bootstrap-template/README.md
     bootstrap-template/: content/bootstrap-template/README.md
+    ui-kits: content/bootstrap-template/README.md
     ui-kits/: content/bootstrap-template/README.md
+    tutorials/flask-understand-flask-code-simple-app: content/tutorials/flask-code-simple-web-app.md
     tutorials/flask-understand-flask-code-simple-app/: content/tutorials/flask-code-simple-web-app.md
+    ui-kits/datta-able: content/bootstrap-template/datta-able.md
     ui-kits/datta-able/: content/bootstrap-template/datta-able.md
+    ui-kits/adminlte: content/bootstrap-template/adminlte.md
     ui-kits/adminlte/: content/bootstrap-template/adminlte.md
     what-is/boilerplate-code: content/what-is/boilerplate-code.md
     what-is/boilerplate-code/: content/what-is/boilerplate-code.md
