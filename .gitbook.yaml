@@ -6,5 +6,15 @@ root: ./
     summary: SUMMARY.md​
 
 redirects:
+    what-is: content/what-is/README.md
+    what-is/: content/what-is/README.md
+    what-is/flask: content/what-is/flask.md
+    what-is/flask/: content/what-is/flask.md
+    what-is/django: content/what-is/django.md
+    what-is/django/: content/what-is/django.md
+    how-to: content/how-to/README.md
+    how-to/: content/how-to/README.md
+    admin-dashboards: boilerplate-code/django-dashboard.md
+    admin-dashboards/: boilerplate-code/django-dashboard.md
     apps/react: products/react/README.md
     apps/react/: products/react/README.md
