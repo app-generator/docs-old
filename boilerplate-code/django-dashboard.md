@@ -158,7 +158,7 @@ At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**.
 ```
 
 
-## The bootstrap flow <a href="the-bootstrap-flow" id="the-bootstrap-flow"></a>
+## App Bootstrap Flow <a href="bootstrap-flow" id="bootstrap-flow"></a>
 
 * Django bootstrapper `manage.py` uses `core/settings.py` as the main configuration file
 * `core/settings.py` loads the app magic from `.env` file
