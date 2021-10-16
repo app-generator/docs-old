@@ -4,14 +4,16 @@ description: The reference codebase used in all Django Admin Dashboards.
 
 # Boilerplate Django Dashboards
 
-Open-source codebase used by all [Django Dashboards](https://appseed.us/admin-dashboards/django)  provided by AppSeed.
+Open-Source codebase used by all [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed.
 
 * `Up-to-date` dependencies: **Django 3.2.6 LTS**
 * [SCSS compilation](#recompile-css) via Gulp
-* UI Kit: Volt Dashboard (Free Version) provided by Themesberg
+* Bootstrap 5 Design: [Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/) (demo link) 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: [Docker](#start-in-docker), Gunicorn/Nginx
+* `Custom Admin Theme` (open-source)
+  - [Django Admin Volt](https://pypi.org/project/django-admin-volt/)
 * Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 > Links
