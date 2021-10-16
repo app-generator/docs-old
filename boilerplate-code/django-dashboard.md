@@ -167,6 +167,41 @@ At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**.
 * Unlock the pages served by _app_ node for authenticated users
 
 
+## Recompile CSS <a href="recompile-css" id="recompile-css"></a>
+
+To recompile SCSS files, follow this setup:
+
+**Step #1** - Install tools
+
+- [NodeJS](https://nodejs.org/en/) 12.x or higher
+- [Gulp](https://gulpjs.com/) - globally 
+    - `npm install -g gulp-cli`
+- [Yarn](https://yarnpkg.com/) (optional) 
+
+
+**Step #2** - Change the working directory to `assets` folder
+
+```bash
+$ cd apps/static/assets
+```
+
+**Step #3** - Install modules (this will create a classic `node_modules` directory)
+
+```bash
+$ npm install
+// OR
+$ yarn
+```
+
+**Step #4** - Edit & Recompile SCSS files 
+
+```bash
+$ gulp scss
+```
+
+The generated files are saved in `static/assets/css` directory.
+
+
 ## App Configuration <a href="app-configuration" id="app-configuration"></a>
 
 The environment configuration file **`.env`** specify a short-list with variables:
