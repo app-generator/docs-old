@@ -7,7 +7,7 @@ description: The reference codebase used in all Django Admin Dashboards.
 Open-source codebase used by all Django Dashboards provided by AppSeed
 
 * Reference Codebase - [Django Dashboard Boilerplate](https://github.com/app-generator/boilerplate-code-django-dashboard)
-* Up-to-date [dependencies](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/requirements.txt): **Django 3.2.6 LTS **
+* Up-to-date [dependencies](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/requirements.txt): **Django 3.2.6 LTS**
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx
@@ -15,8 +15,18 @@ Open-source codebase used by all Django Dashboards provided by AppSeed
 > Links
 
 * [Source Code](https://github.com/app-generator/boilerplate-code-django-dashboard) - released on Github (MIT License)
-* [Product page](https://appseed.us/boilerplate-code/django-dashboard) - Hosted on AppSeed 
 * Samples: [Django Dashboards](https://appseed.us/admin-dashboards/django) section on AppSeed 
+* Product [ROADMAP](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/README.md#product-roadmap):
+  - `Up-to-date dependencies`
+  - Improved `authentication`: 
+    - Password reset, Email confirmation on register
+  - `Extended user model`: custom fiels: Name, Surname, Address, User Photo
+  - `API` via DRF
+  - `Data Tables` - paginated information
+  - `Sample Charts`
+  - `Social Login` for Google and Github
+  - `Deployment`: Docker, HEROKU, AWS Ec2, Google Cloud, Azure
+  - `Payments`: One-time payments via [Stripe Checkout](https://stripe.com/payments/checkout)
 
 > Free [support](https://appseed.us/support) via email and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Service
 
@@ -70,7 +80,7 @@ To built and start the app locally, follow the steps:
 
 > **Step #1** - Get the source code
 
-* Download the ZIP from [Github](https://github.com/app-generator/boilerplate-code-django-dashboard)
+* Download the ZIP from the product page
 * Using `GIT` tool in the terminal to clone the source code
 
 
@@ -87,6 +97,13 @@ $ # .\env\Scripts\activate
 $
 $ # Install modules - SQLite Storage
 $ pip3 install -r requirements.txt
+```
+
+> **Step #3** - Setup (migrate) database
+
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
 ```
 
 > **Step #3** - Start the app
@@ -110,32 +127,32 @@ At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**.
 ```
 < PROJECT ROOT >
    |
-   |-- core/                          # Implements app configuration
-   |    |-- settings.py               # Defines Global Settings
-   |    |-- wsgi.py                   # Start the app in production
-   |    |-- urls.py                   # Define URLs served by all apps/nodes
+   |-- core/                         # Implements app configuration
+   |    |-- settings.py              # Defines Global Settings
+   |    |-- wsgi.py                  # Start the app in production
+   |    |-- urls.py                  # Define URLs served by all apps/nodes
    |
    |-- apps/
    |    |
-   |    |-- home/                     # A simple app that serve HTML files
-   |    |-- authentication/           # Handles auth routes (login and register)
+   |    |-- home/                    # A simple app that serve HTML files
+   |    |-- authentication/          # Handles auth routes (login and register)
    |    |
    |    |-- static/
-   |    |    |-- <css, JS, images>    # CSS files, Javascripts files
+   |    |    |-- <css, JS, images>   # CSS files, Javascripts files
    |    |
-   |    |-- templates/                # Templates used to render pages
-   |         |-- includes/            # HTML chunks and components
-   |         |-- layouts/             # Master pages
-   |         |-- accounts/            # Authentication pages
-   |         |-- home/                # UI Kit Pages
-   |              |-- index.html      # Index page
-   |              |-- 404-page.html   # 404 page
-   |              |-- *.html          # All other pages
+   |    |-- templates/               # Templates used to render pages
+   |         |-- includes/           # HTML chunks and components
+   |         |-- layouts/            # Master pages
+   |         |-- accounts/           # Authentication pages
+   |         |-- home/               # UI Kit Pages
+   |              |-- index.html     # Index page
+   |              |-- 404-page.html  # 404 page
+   |              |-- *.html         # All other pages
    |
-   |-- requirements.txt               # Development modules - SQLite storage
+   |-- requirements.txt              # Development modules - SQLite storage
    |
-   |-- .env                           # Inject Configuration via Environment
-   |-- manage.py                      # Start the app - Django default start script
+   |-- .env                          # Inject Configuration via Environment
+   |-- manage.py                     # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
@@ -156,7 +173,7 @@ The environment configuration file **`.env`** specify a short-list with variable
 * [`SECRET_KEY`](https://docs.djangoproject.com/en/3.0/ref/settings/#secret-key) - Used by Django for [cryptographic signing](https://docs.djangoproject.com/en/3.0/topics/signing/)
 * `SERVER` - The public domain/address used in the production environment
 
-```
+```python
 # File: core/settings.py
 
 ...
