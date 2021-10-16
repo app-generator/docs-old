@@ -10,15 +10,16 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 > Features
 
-* Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **Soft UI Dashboard** (free version)  
+* `Up-to-date` dependencies: **Django 3.2.6 LTS**
+* [SCSS compilation](#recompile-css) via Gulp
+* Bootstrap 5 Design: [Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com) (demo link) 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx 
 
 > Links 
 
-* [Django Soft UI Dashboard](https://github.com/app-generator/django-soft-ui-dashboard) - product page 
+* [Django Soft UI Dashboard](https://appseed.us/product/django-soft-ui-dashboard) - product page 
 * [Django Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com) - LIVE demo
 * Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
@@ -29,15 +30,6 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 > Read more about [Django Framework](../../content/what-is/django.md)
 
-
-## How to use the App
-
-* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment) - prepare your workstation for **Django**
-* [Start in Docker](../../boilerplate-code/django-dashboard.md#start-in-docker) 
-* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app) - start this **Django** app in the local environment
-* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
-* [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
-* [Recompile SCSS](../../boilerplate-code/django-dashboard.md#recompile-css) - update CSS files (tooling via Gulp)
 
 ## Start in Docker <a href="start-in-docker" id="start-in-docker"></a>
 
@@ -69,6 +61,14 @@ $ sudo docker-compose pull
 $ sudo docker-compose build 
 $ sudo docker-compose up -d # execute demonized via '-d' argument
 ```
+
+## How to use the App
+
+* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment) - prepare your workstation for **Django**
+* [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app) - start this **Django** app in the local environment
+* [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
+* [Recompile SCSS](../../boilerplate-code/django-dashboard.md#recompile-css) - update CSS files (tooling via Gulp)
 
 
 ## Soft Dashboard UI Kit
