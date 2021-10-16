@@ -22,17 +22,15 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 * [Django Soft UI Dashboard](https://github.com/app-generator/django-soft-ui-dashboard) - Source Code 
 * [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
 
-###
 
-### What is Django
+## What is Django
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
 
 > Read more about [Django Framework](../../content/what-is/django.md)
 
 
-
-### How to use the App
+## How to use the App
 
 * [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
 * [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
@@ -40,8 +38,37 @@ Django is a high-level Python Web framework that encourages rapid development an
 * [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
 
 
+## Start in Docker <a href="start-in-docker" id="start-in-docker"></a>
 
-### Soft Dashboard UI Kit
+The project comes with Docker support that allows a quick start in any environment
+
+> **Step #1** - Get the source code
+
+* Download the ZIP from the `product page` or use GIT to clone the sources:
+
+```bash
+$ git clone https://github.com/app-generator/django-soft-ui-dashboard
+$ cd django-soft-ui-dashboard
+```
+
+> **Step #2** - Install modules
+
+```bash
+$ docker-compose pull       # download the modules 
+$ docker-compose build      # local build
+$ docker-compose up         # start the app 
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
+
+> Note: for `Linux-based` systems the above commands might require `sudo` execution. Here is a sample:
+
+```bash
+$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d 
+```
+
+
+## Soft Dashboard UI Kit
 
 Soft UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, alerts, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files and classes.
 
