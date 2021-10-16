@@ -20,7 +20,7 @@ Open-source codebase used by all Django Dashboards provided by AppSeed
 
 > Free [support](https://appseed.us/support) via email and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Service
 
-###  <a href="environment" id="environment"></a>
+### <a href="environment" id="environment"></a>
 
 ### Environment <a href="environment" id="environment"></a>
 
@@ -30,7 +30,22 @@ To use the stater, [Python3](https://www.python.org) should be installed properl
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * `Basic development tools` (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment. 
 
-###  <a href="build-the-app" id="build-the-app">XXX</a>
+### How to use the project
+
+### Start in Docker <a href="start-in-docker" id="start-in-docker"></a>
+
+The project comes with Docker support that allows a quick start in any environment
+
+```bash
+$ docker-compose pull       # download the modules 
+$ docker-compose build      # local build
+$ docker-compose up         # start the app 
+$ # docker-compose up -s    # start the app as a daemon 
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
+
+> Note: for `Linux-based` systems the above commands might require `sudo` execution.
 
 ### Build the app <a href="build-the-app" id="build-the-app"></a>
 
