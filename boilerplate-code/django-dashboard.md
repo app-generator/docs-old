@@ -36,7 +36,8 @@ The project comes with Docker support that allows a quick start in any environme
 
 > **Step #1** - Get the source code
 
-* Download the ZIP from [Github](https://github.com/app-generator/boilerplate-code-django-dashboard)
+* Download the ZIP from the product page
+// OR
 * Using `GIT` tool in the terminal to clone the source code
 
 ```bash
