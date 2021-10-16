@@ -11,7 +11,7 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 > Features
 
 * `Up-to-date` dependencies: **Django 3.2.6 LTS**
-* [SCSS compilation](#recompile-css) via Gulp
+* `SCSS compilation` via Gulp
 * Bootstrap 5 Design: [Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com) (demo link) 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
@@ -22,6 +22,10 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 * [Django Soft UI Dashboard](https://appseed.us/product/django-soft-ui-dashboard) - product page 
 * [Django Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com) - LIVE demo
 * Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+* Related Products:
+  - **PRO Version**: [Django Soft UI Dashboard PRO](https://appseed.us/product/django-soft-ui-dashboard-pro) 
+  - Flask Version [Soft UI Dashboard Flask](https://appseed.us/product/flask-soft-ui-dashboard) - `open-source` project
+  - Full-stack version: [React Node Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - `open-source` project
 
 
 ## What is Django
