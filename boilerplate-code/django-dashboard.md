@@ -23,12 +23,14 @@ Open-source codebase used by all Django Dashboards provided by AppSeed
   - [x] Improved `authentication`: 
     - [x] Password reset, Email confirmation on register
   - [x] `Extended user model`: custom fiels: Name, Surname, Address, User Photo
-  - `API` via DRF
-  - `Data Tables` - paginated information
-  - `Sample Charts`
-  - `Social Login` for Google and Github
-  - `Deployment`: Docker, HEROKU, AWS Ec2, Google Cloud, Azure
-  - `Payments`: One-time payments via [Stripe Checkout](https://stripe.com/payments/checkout)
+  - [ ] `API` via DRF
+  - [ ] `Data Tables` - paginated information
+  - [ ] `Sample Charts`
+  - [ ] `Social Login` for Google and Github
+  - [x] `Deployment`: 
+    - [x] Docker 
+    - HEROKU, AWS Ec2, Google Cloud, Azure
+  - [ ] `Payments`: One-time payments via [Stripe Checkout](https://stripe.com/payments/checkout)
 
 
 ## Environment <a href="environment" id="environment"></a>
