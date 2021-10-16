@@ -64,7 +64,9 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 > Note: for `Linux-based` systems the above commands might require `sudo` execution. Here is a sample:
 
 ```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d 
+$ sudo docker-compose pull 
+$ sudo docker-compose build 
+$ sudo docker-compose up -d # execute demonized via '-d' argument
 ```
 
 
