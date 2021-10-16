@@ -41,18 +41,11 @@ To built and start the app locally, follow the steps:
 * Download the ZIP from [Github](https://github.com/app-generator/boilerplate-code-django-dashboard)
 * Using `GIT` tool in the terminal to clone the source code
 
-> **Step #2 - **Install modules
+<br />
 
-```
-```
+> **Step #2 - Install modules
 
-
-
-
-
-```
-$ # Make sure you are running the commands INSIDE source code directory
-$
+```bash
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
 $ source env/bin/activate
@@ -63,19 +56,21 @@ $ # .\env\Scripts\activate
 $
 $ # Install modules - SQLite Storage
 $ pip3 install -r requirements.txt
-$
-$ # Create tables
-$ python manage.py makemigrations
-$ python manage.py migrate
-$
+```
+
+<br /> 
+
+> **Step #3 - Start the app
+
+```bash
 $ # Start the application (development mode)
 $ python manage.py runserver # default port 8000
 $
 $ # Start the app - custom port
 $ # python manage.py runserver 0.0.0.0:<your_port>
-$
-$ # Access the web app in browser: http://127.0.0.1:8000/
 ```
+
+<br />
 
 At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**. By default, the app will redirect guest users to the login page. To access the private pages:
 
@@ -89,39 +84,49 @@ At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**.
 ```
 < PROJECT ROOT >
    |
-   |-- core/                         # Implements app logic 
-   |    |-- settings.py              # Django app bootstrapper
+   |-- core/                               # Implements app configuration
+   |    |-- settings.py                    # Defines Global Settings
+   |    |-- wsgi.py                        # Start the app in production
+   |    |-- urls.py                        # Define URLs served by all apps/nodes
+   |
+   |-- apps/
+   |    |
+   |    |-- home/                          # A simple app that serve HTML files
+   |    |    |-- views.py                  # Serve HTML pages for authenticated users
+   |    |    |-- urls.py                   # Define some super simple routes  
+   |    |
+   |    |-- authentication/                # Handles auth routes (login and register)
+   |    |    |-- urls.py                   # Define authentication routes  
+   |    |    |-- views.py                  # Handles login and registration  
+   |    |    |-- forms.py                  # Define auth forms (login and register) 
+   |    |
    |    |-- static/
-   |    |    |-- <css, JS, images>   # CSS files, Javascripts files
+   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
    |    |
-   |    |-- templates/               # Templates used to render pages
+   |    |-- templates/                     # Templates used to render pages
+   |         |-- includes/                 # HTML chunks and components
+   |         |    |-- navigation.html      # Top menu component
+   |         |    |-- sidebar.html         # Sidebar component
+   |         |    |-- footer.html          # App Footer
+   |         |    |-- scripts.html         # Scripts common to all pages
    |         |
-   |         |-- includes/           # HTML chunks and components
-   |         |-- layouts/            # Master pages
-   |         |-- accounts/           # Authentication pages
-   |         |    |-- login.html     # Login page
-   |         |    |-- register.html  # Register page
+   |         |-- layouts/                   # Master pages
+   |         |    |-- base-fullscreen.html  # Used by Authentication pages
+   |         |    |-- base.html             # Used by common pages
    |         |
-   |      index.html                 # The default page
-   |     page-404.html               # Error 404 page
-   |     page-500.html               # Error 404 page
-   |       *.html                    # All other HTML pages
+   |         |-- accounts/                  # Authentication pages
+   |         |    |-- login.html            # Login page
+   |         |    |-- register.html         # Register page
+   |         |
+   |         |-- home/                      # UI Kit Pages
+   |              |-- index.html            # Index page
+   |              |-- 404-page.html         # 404 page
+   |              |-- *.html                # All other pages
    |
-   |-- authentication/               # Handles auth routes (login and register)
-   |    |
-   |    |-- urls.py                  # Define authentication routes  
-   |    |-- views.py                 # Handles login and registration  
-   |    |-- forms.py                 # Define auth forms  
+   |-- requirements.txt                     # Development modules - SQLite storage
    |
-   |-- app/                          # A simple app that serve HTML files
-   |    |
-   |    |-- views.py                 # Serve HTML pages for authenticated users
-   |    |-- urls.py                  # Define some super simple routes  
-   |
-   |-- requirements.txt              # Development modules - SQLite storage
-   |
-   |-- .env                          # Inject Configuration via Environment
-   |-- manage.py                     # Start the app 
+   |-- .env                                 # Inject Configuration via Environment
+   |-- manage.py                            # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
@@ -195,7 +200,6 @@ The file **`authentication/forms.py`** defines the table(s) used by the applicat
   * password
 
 
-
 * Form #2 - **SignUpForm** with fields:
   * name - The friendly name
   * email - eMail address
@@ -203,7 +207,7 @@ The file **`authentication/forms.py`** defines the table(s) used by the applicat
   * password1 - used to authenticate
   * password2 - password check field
 
-
+<br />
 
 ### App Routing <a href="app-routing" id="app-routing"></a>
 
@@ -248,39 +252,39 @@ Pages served by the starter are organized using a simple folder structure:
 ```
 < PROJECT ROOT >
    |
-   |-- core/                               # Implements app logic and serve the static assets
+   |-- apps/
    |    |
-   |    |-- static/assets/
-   |    |    |-- css
-   |    |    |-- JS
-   |    |    |-- images
-   |    |    |-- SCSS
+   |    |-- home/                          # A simple app that serve HTML files
+   |    |    |-- views.py                  # Serve HTML pages for authenticated users
+   |    |    |-- urls.py                   # Define some super simple routes  
+   |    |
+   |    |-- authentication/                # Handles auth routes (login and register)
+   |    |    |-- urls.py                   # Define authentication routes  
+   |    |    |-- views.py                  # Handles login and registration  
+   |    |    |-- forms.py                  # Define auth forms (login and register) 
+   |    |
+   |    |-- static/
+   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
    |    |
    |    |-- templates/                     # Templates used to render pages
-   |         |
    |         |-- includes/                 # HTML chunks and components
    |         |    |-- navigation.html      # Top menu component
    |         |    |-- sidebar.html         # Sidebar component
    |         |    |-- footer.html          # App Footer
    |         |    |-- scripts.html         # Scripts common to all pages
    |         |
-   |         |-- layouts/                  # Master pages
-   |         |    |-- base-fullscreen.html # Used by Authentication pages
-   |         |    |-- base.html            # Used by common pages
+   |         |-- layouts/                   # Master pages
+   |         |    |-- base-fullscreen.html  # Used by Authentication pages
+   |         |    |-- base.html             # Used by common pages
    |         |
-   |         |-- accounts/                 # Authentication pages
-   |         |    |-- login.html           # Login page
-   |         |    |-- register.html        # Register page
+   |         |-- accounts/                  # Authentication pages
+   |         |    |-- login.html            # Login page
+   |         |    |-- register.html         # Register page
    |         |
-   |      index.html                       # The default page
-   |     page-404.html                     # Error 404 page
-   |     page-500.html                     # Error 404 page
-   |       *.html                          # All other HTML pages
-   |
-   |-- app/                                # A simple app that serve HTML files
-   |    |
-   |    |-- views.py                       # Serve HTML pages for authenticated users
-   |    |-- urls.py                        # Define some super simple routes  
+   |         |-- home/                      # UI Kit Pages
+   |              |-- index.html            # Index page
+   |              |-- 404-page.html         # 404 page
+   |              |-- *.html                # All other pages
    |
    |-- ************************************************************************
 ```
