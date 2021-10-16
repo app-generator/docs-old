@@ -18,9 +18,9 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 > Links 
 
+* [Django Soft UI Dashboard](https://github.com/app-generator/django-soft-ui-dashboard) - product page 
 * [Django Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com) - LIVE demo
-* [Django Soft UI Dashboard](https://github.com/app-generator/django-soft-ui-dashboard) - Source Code 
-* [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered **[**AppSeed**](https://appseed.us)** users**.
+* Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 
 ## What is Django
@@ -32,11 +32,12 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 ## How to use the App
 
-* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
+* [Set up the environment](../../boilerplate-code/django-dashboard.md#environment) - prepare your workstation for **Django**
+* [Start in Docker](../../boilerplate-code/django-dashboard.md#start-in-docker) 
 * [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app) - start this **Django** app in the local environment
 * [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
 * [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
-
+* [Recompile SCSS](../../boilerplate-code/django-dashboard.md#recompile-css) - update CSS files (tooling via Gulp)
 
 ## Start in Docker <a href="start-in-docker" id="start-in-docker"></a>
 
