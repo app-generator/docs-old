@@ -6,7 +6,7 @@ description: >-
 
 # Django Soft Dashboard
 
-Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks, and fully coded pages, **Soft UI Dashboard** is ready to help you create stunning websites and web apps. 
+Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks, and fully coded pages, **[Soft UI Dashboard](https://appseed.us/product/django-soft-ui-dashboard)** is ready to help you create stunning websites and web apps. 
 
 > Features
 
