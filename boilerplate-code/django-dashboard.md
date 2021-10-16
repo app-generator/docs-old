@@ -19,10 +19,10 @@ Open-source codebase used by all Django Dashboards provided by AppSeed
 * [Source Code](https://github.com/app-generator/boilerplate-code-django-dashboard) - released on Github (MIT License)
 * Samples: [Django Dashboards](https://appseed.us/admin-dashboards/django) section on AppSeed 
 * Product [ROADMAP](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/README.md#product-roadmap):
-  - `Up-to-date dependencies`
-  - Improved `authentication`: 
-    - Password reset, Email confirmation on register
-  - `Extended user model`: custom fiels: Name, Surname, Address, User Photo
+  - [x] `Up-to-date dependencies`
+  - [x] Improved `authentication`: 
+    - [x] Password reset, Email confirmation on register
+  - [x] `Extended user model`: custom fiels: Name, Surname, Address, User Photo
   - `API` via DRF
   - `Data Tables` - paginated information
   - `Sample Charts`
