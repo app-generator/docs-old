@@ -30,7 +30,7 @@ To use the stater, [Python3](https://www.python.org) should be installed properl
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * `Basic development tools` (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment. 
 
-###  <a href="build-the-app" id="build-the-app"></a>
+###  <a href="build-the-app" id="build-the-app">XXX</a>
 
 ### Build the app <a href="build-the-app" id="build-the-app"></a>
 
@@ -41,9 +41,8 @@ To built and start the app locally, follow the steps:
 * Download the ZIP from [Github](https://github.com/app-generator/boilerplate-code-django-dashboard)
 * Using `GIT` tool in the terminal to clone the source code
 
-<br />
 
-> **Step #2 - Install modules
+> **Step #2** - Install modules
 
 ```bash
 $ # Virtualenv modules installation (Unix based systems)
@@ -58,9 +57,7 @@ $ # Install modules - SQLite Storage
 $ pip3 install -r requirements.txt
 ```
 
-<br /> 
-
-> **Step #3 - Start the app
+> **Step #3** - Start the app
 
 ```bash
 $ # Start the application (development mode)
@@ -69,8 +66,6 @@ $
 $ # Start the app - custom port
 $ # python manage.py runserver 0.0.0.0:<your_port>
 ```
-
-<br />
 
 At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**. By default, the app will redirect guest users to the login page. To access the private pages:
 
@@ -84,53 +79,35 @@ At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**.
 ```
 < PROJECT ROOT >
    |
-   |-- core/                               # Implements app configuration
-   |    |-- settings.py                    # Defines Global Settings
-   |    |-- wsgi.py                        # Start the app in production
-   |    |-- urls.py                        # Define URLs served by all apps/nodes
+   |-- core/                          # Implements app configuration
+   |    |-- settings.py               # Defines Global Settings
+   |    |-- wsgi.py                   # Start the app in production
+   |    |-- urls.py                   # Define URLs served by all apps/nodes
    |
    |-- apps/
    |    |
-   |    |-- home/                          # A simple app that serve HTML files
-   |    |    |-- views.py                  # Serve HTML pages for authenticated users
-   |    |    |-- urls.py                   # Define some super simple routes  
-   |    |
-   |    |-- authentication/                # Handles auth routes (login and register)
-   |    |    |-- urls.py                   # Define authentication routes  
-   |    |    |-- views.py                  # Handles login and registration  
-   |    |    |-- forms.py                  # Define auth forms (login and register) 
+   |    |-- home/                     # A simple app that serve HTML files
+   |    |-- authentication/           # Handles auth routes (login and register)
    |    |
    |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
+   |    |    |-- <css, JS, images>    # CSS files, Javascripts files
    |    |
-   |    |-- templates/                     # Templates used to render pages
-   |         |-- includes/                 # HTML chunks and components
-   |         |    |-- navigation.html      # Top menu component
-   |         |    |-- sidebar.html         # Sidebar component
-   |         |    |-- footer.html          # App Footer
-   |         |    |-- scripts.html         # Scripts common to all pages
-   |         |
-   |         |-- layouts/                   # Master pages
-   |         |    |-- base-fullscreen.html  # Used by Authentication pages
-   |         |    |-- base.html             # Used by common pages
-   |         |
-   |         |-- accounts/                  # Authentication pages
-   |         |    |-- login.html            # Login page
-   |         |    |-- register.html         # Register page
-   |         |
-   |         |-- home/                      # UI Kit Pages
-   |              |-- index.html            # Index page
-   |              |-- 404-page.html         # 404 page
-   |              |-- *.html                # All other pages
+   |    |-- templates/                # Templates used to render pages
+   |         |-- includes/            # HTML chunks and components
+   |         |-- layouts/             # Master pages
+   |         |-- accounts/            # Authentication pages
+   |         |-- home/                # UI Kit Pages
+   |              |-- index.html      # Index page
+   |              |-- 404-page.html   # 404 page
+   |              |-- *.html          # All other pages
    |
-   |-- requirements.txt                     # Development modules - SQLite storage
+   |-- requirements.txt               # Development modules - SQLite storage
    |
-   |-- .env                                 # Inject Configuration via Environment
-   |-- manage.py                            # Start the app - Django default start script
+   |-- .env                           # Inject Configuration via Environment
+   |-- manage.py                      # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
-
 
 
 ### The bootstrap flow <a href="the-bootstrap-flow" id="the-bootstrap-flow"></a>
