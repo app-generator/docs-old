@@ -4,7 +4,7 @@ description: The reference codebase used in all Django Admin Dashboards.
 
 # Boilerplate Django Dashboards
 
-Open-source codebase used by all Django Dashboards provided by AppSeed
+Open-source codebase used by all [Django Dashboards](https://appseed.us/admin-dashboards/django)  provided by AppSeed.
 
 * Up-to-date [dependencies](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/requirements.txt): **Django 3.2.6 LTS**
 * [SCSS compilation](https://github.com/app-generator/boilerplate-code-django-dashboard#recompile-css) via Gulp
@@ -17,7 +17,6 @@ Open-source codebase used by all Django Dashboards provided by AppSeed
 > Links
 
 * [Source Code](https://github.com/app-generator/boilerplate-code-django-dashboard) - released on Github (MIT License)
-* Samples: [Django Dashboards](https://appseed.us/admin-dashboards/django) section on AppSeed 
 * Product [ROADMAP](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/README.md#product-roadmap):
   - [x] `Up-to-date dependencies`
   - [x] Improved `authentication`: 
@@ -171,7 +170,7 @@ At this point, we can visit the app in the browser **`http://127.0.0.1:8000/`**.
 
 To recompile SCSS files, follow this setup:
 
-**Step #1** - Install tools
+> **Step #1** - Install tools
 
 - [NodeJS](https://nodejs.org/en/) 12.x or higher
 - [Gulp](https://gulpjs.com/) - globally 
@@ -179,13 +178,13 @@ To recompile SCSS files, follow this setup:
 - [Yarn](https://yarnpkg.com/) (optional) 
 
 
-**Step #2** - Change the working directory to `assets` folder
+> **Step #2** - Change the working directory to `assets` folder
 
 ```bash
 $ cd apps/static/assets
 ```
 
-**Step #3** - Install modules (this will create a classic `node_modules` directory)
+> **Step #3** - Install modules (this will create a classic `node_modules` directory)
 
 ```bash
 $ npm install
@@ -193,7 +192,7 @@ $ npm install
 $ yarn
 ```
 
-**Step #4** - Edit & Recompile SCSS files 
+> **Step #4** - Edit & Recompile SCSS files 
 
 ```bash
 $ gulp scss
