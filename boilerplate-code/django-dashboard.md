@@ -6,11 +6,13 @@ description: The reference codebase used in all Django Admin Dashboards.
 
 Open-source codebase used by all Django Dashboards provided by AppSeed
 
-* Reference Codebase - [Django Dashboard Boilerplate](https://github.com/app-generator/boilerplate-code-django-dashboard)
 * Up-to-date [dependencies](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/requirements.txt): **Django 3.2.6 LTS**
+* [SCSS compilation](https://github.com/app-generator/boilerplate-code-django-dashboard#recompile-css) via Gulp
+* UI Kit: Volt Dashboard (Free Version) provided by Themesberg
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx
+* Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 > Links
 
@@ -27,8 +29,6 @@ Open-source codebase used by all Django Dashboards provided by AppSeed
   - `Social Login` for Google and Github
   - `Deployment`: Docker, HEROKU, AWS Ec2, Google Cloud, Azure
   - `Payments`: One-time payments via [Stripe Checkout](https://stripe.com/payments/checkout)
-
-> Free [support](https://appseed.us/support) via email and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Service
 
 
 ## Environment <a href="environment" id="environment"></a>
@@ -47,15 +47,14 @@ The project comes with Docker support that allows a quick start in any environme
 > **Step #1** - Get the source code
 
 * Download the ZIP from the product page
-// OR
-* Using `GIT` tool in the terminal to clone the source code
+* Use `GIT` tool in the terminal to clone the source code
 
 ```bash
 $ git clone https://github.com/app-generator/boilerplate-code-django-dashboard
 $ cd boilerplate-code-django-dashboard
 ```
 
-> **Step #2** - Install modules
+> **Step #2** - Execute Docker `commands`
 
 ```bash
 $ docker-compose pull       # download the modules 
@@ -84,7 +83,7 @@ To built and start the app locally, follow the steps:
 * Using `GIT` tool in the terminal to clone the source code
 
 
-> **Step #2** - Install modules
+> **Step #2** - Install modules using a `Virtual Environment`
 
 ```bash
 $ # Virtualenv modules installation (Unix based systems)
