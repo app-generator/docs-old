@@ -35,7 +35,7 @@ Open-Source codebase used by all [Flask Dashboards](https://appseed.us/admin-das
   - [ ] `Payments`: One-time payments via [Stripe Checkout](https://stripe.com/payments/checkout)
 
 
-### Environment <a href="environment" id="environment"></a>
+## Environment <a href="environment" id="environment"></a>
 
 To use the stater, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is properly installed, please open a terminal and type `python --version`. The full list with dependencies and tools required to build the app:
 
@@ -415,7 +415,8 @@ The file **`apps/authentication/models.py`** (Base Blueprint) defines the table(
   * email - The email address
   * password - Hashed password
 
-### App Forms <a href="app-forms" id="app-forms"></a>
+
+## App Forms <a href="app-forms" id="app-forms"></a>
 
 The file **`app/authentication/forms.py`** (Base Blueprint) defines the table(s) used by the application. Being a simple starter, by default the following forms are defined:
 
