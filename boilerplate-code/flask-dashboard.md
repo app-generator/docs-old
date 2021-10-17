@@ -14,7 +14,7 @@ Open-Source codebase used by all [Flask Dashboards](https://appseed.us/admin-das
 * DBMS & Tools: SQLite / PostgreSQL / SQLAlchemy ORM, Flask-Migrate
 * Modular design with Blueprints
 * Session-Based authentication (via flask_login), Forms validation
-* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
+* Deployment scripts: [Docker](#start-in-docker), Gunicorn / Nginx, HEROKU
 * Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 > Links
