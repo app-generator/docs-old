@@ -211,14 +211,14 @@ DEBUG = config('DEBUG', default=True)
 # Create the WSGI app, using the app factory pattern
 app = create_app( app_config )
 
-# Migrate automaticaly the app using Flask Migrate library
+# Migrate automatically the app using Flask Migrate library
 Migrate(app, db)
 ```
 
-> **`app/__init__.py`** (simplified version)
+> **`apps/__init__.py`** (simplified version)
 
 ```
-# File: app/__init__.py
+# File: apps/__init__.py
 
 db            = SQLAlchemy()        # Invoke SQLAlchemy
 login_manager = LoginManager()      # Invoke Login Manager
@@ -227,13 +227,13 @@ def register_extensions(app):
     db.init_app(app)                # Inject SQLAlchemy magic
     login_manager.init_app(app)     # Add Login Manager to the app
 
-# Register app blueprints: `base`, `home`
+# Register app blueprints: `authentication`, `home`
 def register_blueprints(app):
-    for module_name in ('base', 'home'):
+    for module_name in ('authentication', 'home'):
         module = import_module('app.{}.routes'.format(module_name))
         app.register_blueprint(module.blueprint)
 
-# Create the tables (automaticaly)
+# Create the tables (automatically)
 def configure_database(app):
 
     @app.before_first_request
@@ -242,7 +242,7 @@ def configure_database(app):
 
 # Create the WSGI app using the factory pattern
 def create_app(config):
-    app = Flask(__name__, static_folder='base/static')
+    app = Flask(__name__)
     app.config.from_object(config)
     register_extensions(app)
     register_blueprints(app)
@@ -250,7 +250,7 @@ def create_app(config):
     return app
 ```
 
-The **`app/__init__.py`** constructs the app by putting together a short-list of things:
+The **`apps/__init__.py`** constructs the app by putting together a short-list of things:
 
 * Invoke SQLAlchemy
 * Invoke and inject the `Login Manager` into the app
@@ -407,7 +407,7 @@ In this configuration profile, the database defaults to a PostgreSQL DBMS. Make 
 
 ## App Tables <a href="app-tables" id="app-tables"></a>
 
-The file **`app/base/models.py`** (Base Blueprint) defines the table(s) used by the application. Being a simple starter, by default the following tabes are defined:
+The file **`apps/authentication/models.py`** (Base Blueprint) defines the table(s) used by the application. Being a simple starter, by default the following tabes are defined:
 
 * Table #1 - **Users** with fields:
   * Id - Primary key, unique
@@ -417,7 +417,7 @@ The file **`app/base/models.py`** (Base Blueprint) defines the table(s) used by 
 
 ### App Forms <a href="app-forms" id="app-forms"></a>
 
-The file **`app/base/forms.py`** (Base Blueprint) defines the table(s) used by the application. Being a simple starter, by default the following forms are defined:
+The file **`app/authentication/forms.py`** (Base Blueprint) defines the table(s) used by the application. Being a simple starter, by default the following forms are defined:
 
 * Form #1 - **LoginForm** with fields:
   * username
@@ -456,7 +456,7 @@ This blueprint will serve requested pages from `apps/home/templates` directory t
 
 Pages and all assets defined in the UI Kits are served by the app using both blueprints:
 
-* _Home Blueprint_ manage the static assets - `apps/base/static/assets`
+* _Home Blueprint_ manage the static assets - `apps/authentication/static/assets`
 * _Home Blueprint_ store the layout `master pages`, HTML chunks (footer. header, scripts) and `login, registration` pages
 * _Base Blueprint_ serve the HTML pages (index, page-404, etc) and the rest of the pages defined in the UI kit.
 
@@ -510,10 +510,10 @@ Constructed by [Flask-Login](https://flask-login.readthedocs.io/en/latest/) can 
 
 > **How it works**
 
-`app/base/models.py` define the callback functions required by **Flask-Login** library:
+`app/authentication/models.py` define the callback functions required by **Flask-Login** library:
 
 ```
-# File: app/base/models.py
+# File: app/authentication/models.py
 
 @login_manager.user_loader
 def user_loader(id):
