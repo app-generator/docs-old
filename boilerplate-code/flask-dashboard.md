@@ -10,7 +10,7 @@ Open-Source codebase used by all [Flask Dashboards](https://appseed.us/admin-das
 
 * `Up-to-date` dependencies: **Flask 2.0.1**
 * [SCSS compilation](#recompile-css) via Gulp
-* Bootstrap 5 Design: [Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com/) (demo link) 
+* Bootstrap 5 Design: [Volt Dashboard](https://flask-volt-dashboard.appseed-srv1.com/) (demo link) 
 * DBMS & Tools: SQLite / PostgreSQL / SQLAlchemy ORM, Flask-Migrate
 * Modular design with Blueprints
 * Session-Based authentication (via flask_login), Forms validation
