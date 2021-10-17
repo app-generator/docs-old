@@ -167,7 +167,7 @@ Starter uses a simple codebase (no Blueprints) with a structure presented below:
    |-- .env                         # Inject Configuration via Environment
    |-- run.py                       # Start the app - WSGI gateway
    |
-   |-- *****************************
+   |-- ******************************
 ```
 
 
@@ -316,7 +316,7 @@ The starter defines two blueprints:
    |              |-- *.html                # All other pages
    |
    |
-   |-- ************************************************************************
+   |-- **************************************
 ```
 
 
@@ -359,7 +359,7 @@ The generated files are saved in `static/assets/css` directory.
 
 The configuration file **`apps/config.py`** defines a dual configuration controlled via the `.env` file ( `DEBUG` variable)
 
-> **DebugConfig** - default configuration used for development
+> **Debug Config** - default configuration used for development
 
 This configuration becomes active if `.env` file has the `DEBUG` file set to _True_
 
@@ -379,7 +379,7 @@ During the first request, the SQLite database and tables are automatically creat
 
 > _Hint_: to visualize the SQLite database content an external tool should be installed: [DB Browser for SQLite](https://sqlitebrowser.org) it might be a good choice.
 
-> **ProductionConfig** - production configuration
+> **Production Config** - production configuration
 
 This configuration becomes active if `.env` file has the `DEBUG` file set to _False_
 
