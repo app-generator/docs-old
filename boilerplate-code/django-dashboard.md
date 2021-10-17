@@ -85,7 +85,6 @@ To built and start the app locally, follow the steps:
 * Download the ZIP from the product page
 * Using `GIT` tool in the terminal to clone the source code
 
-
 > **Step #2** - Install modules using a `Virtual Environment`
 
 ```bash
