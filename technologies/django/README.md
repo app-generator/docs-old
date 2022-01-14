@@ -2,5 +2,6 @@
 description: Django Index
 ---
 
-# Django Tech
+# Django
 
+``
