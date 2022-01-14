@@ -1,0 +1,54 @@
+---
+description: Open-source Flask starter coded on top Black Dashboard design (free version).
+---
+
+# Flask Black Dashboard
+
+**Black Dashboard** is a beautiful Bootstrap 4 Admin Dashboard with a huge number of components built to fit together and look amazing. Black Dashboard comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
+
+> Features
+
+* Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
+* UI Kit: Black Dashboard (free version)&#x20;
+* DBMS: SQLite, PostgreSQL (production)
+* DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
+* Modular design with **Blueprints**
+* Session-Based authentication (via **flask\_login**), Forms validation
+* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU&#x20;
+
+> Links
+
+* [Black Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-black) - product page
+* [Black Dashboard Flask](https://github.com/app-generator/flask-black-dashboard) - source code&#x20;
+* [Black Dashboard Flask](https://flask-black-dashboard.appseed-srv1.com) - LIVE Demo&#x20;
+
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+
+###
+
+### What is Flask
+
+**Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+> Read more about [Flask Framework](../../content/what-is/flask.md)
+
+
+
+### How to use the App
+
+* [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
+* [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
+* [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
+* [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
+
+
+
+### **Black Dashboard** UI Kit&#x20;
+
+Using this modern, dark-themed design you will save a lot of time going from prototyping to full-functional code because all elements are implemented. **Black Dashboard** features over 16 individual components, giving you the freedom of choosing and combining.&#x20;
+
+* [Black Dashboard](../../content/bootstrap-template/black-dashboard.md) - more information provided by AppSeed
+* [Black Dashboard](https://bit.ly/2L0W6Z7) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
+
+![Black Dashboard - Free Dashboard template.](../../.gitbook/assets/docs-black-dashboard-screen.jpg)
+

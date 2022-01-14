@@ -1,0 +1,38 @@
+---
+description: How to extend the default user model in Django with more fields
+---
+
+# Django Extend User Model
+
+This page explains how to extend the default User Model in Django and associate with a user other information like address, phone number .. etc.
+
+
+
+t what if you need more fields? Such as address, phone number, city ...etc. In that case, you can just extend the user model, here the `AbstractUser` class.
+
+```python
+from django.db import models
+from django.contrib.auth.models import AbstractUser 
+
+class CustomUser(AbstractUser):
+    """
+    The User model has already:
+    - first name
+    - last name
+    - email
+    - username
+    - is_active
+    - is_staff
+    - date_joined
+    - last_login
+    """
+
+    phone = models.CharField(max_length=35, blank=True, null=True)
+    address = models.CharField(max_length=255, blank=True, null=True)
+    address_number = models.CharField(max_length=35, blank=True, null=True)
+    city = models.CharField(max_length=35, blank=True, null=True)
+
+```
+
+Once it's done, you'll need to add a manager. The manager will tell Django how to create a new user or a super user.&#x20;
+
