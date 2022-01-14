@@ -4,4 +4,9 @@ description: Getting Started with Python
 
 # Getting Started
 
-@ToDo
+**Python** is an interpreted general-purpose programming language. In other words, **Python** code is interpreted at runtime (not compiled like C++) and can be used for coding many types of programs from web apps, system scripts, user interfaces, and machine learning projects.&#x20;
+
+* Python - official website
+* Python - official documentation&#x20;
+
+\[incomplete]&#x20;
