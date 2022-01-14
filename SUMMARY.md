@@ -130,8 +130,7 @@
 
 ## Technologies
 
-* [Index](technologies/README.md)
-* [Django](technologies/django/README.md)
+* [Django](technologies/django/getting-started.md)
 
 ## Content
 
