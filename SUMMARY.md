@@ -131,9 +131,9 @@
 ## Technologies
 
 * [Django](technologies/django/README.md)
-  * [Getting Started](technologies/django/getting-started.md)
+  * [Getting started with Django](technologies/django/getting-started.md)
 * [Flask](technologies/flask/README.md)
-  * [Getting Started](technologies/flask/getting-started.md)
+  * [Getting started with Flask](technologies/flask/getting-started.md)
 
 ## Content
 

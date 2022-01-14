@@ -1,7 +1,7 @@
 ---
-description: Getting Started with Flask
+description: A comprehensive introduction to Flask
 ---
 
-# Getting Started
+# Getting started with Flask
 
 @ToDo
