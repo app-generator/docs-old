@@ -130,6 +130,8 @@
 
 ## Technologies
 
+* [Python](technologies/python/README.md)
+  * [Getting Started](technologies/python/getting-started.md)
 * [Django](technologies/django/README.md)
   * [Getting Started](technologies/django/getting-started.md)
 * [Flask](technologies/flask/README.md)
