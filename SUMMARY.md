@@ -130,7 +130,9 @@
 
 ## Technologies
 
-* [Django](technologies/django/getting-started.md)
+* [Django](technologies/django/README.md)
+  * [Getting Started](technologies/django/getting-started.md)
+  * [First App](technologies/django/first-app.md)
 
 ## Content
 
