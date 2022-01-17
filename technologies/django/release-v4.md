@@ -48,7 +48,7 @@ Starting with Django 4, the Oracle version should be at least v19 or above. The 
 
 ---
 
-## Breaking Changes&#x20
+## Breaking Changes
 
 > `CSRF_TRUSTED_ORIGINS` changes
 
@@ -64,7 +64,7 @@ CSRF_TRUSTED_ORIGINS = ['http://localhost:85', 'http://127.0.0.1']
 
 <br />
 
-## AppSeed Free Starters upgraded to Django 4.x
+## Free Starters upgraded to Django 4.x
 
 * [Django Bootstrap 5 Volt](https://github.com/app-generator/django-volt-dashboard) - `open-source` starter&#x20;
 * [Django Datta Able](https://appseed.us/admin-dashboards/django-datta-able) - `open-source` seed project
