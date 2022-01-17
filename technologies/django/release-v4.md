@@ -14,13 +14,19 @@ In December 2021 [Django Version 4](https://docs.djangoproject.com/en/4.0/releas
 
 In this version the default `pytz` time zone has been migrated to `zoneinfo`&#x20;
 
+<br />
+
 > Template-based form rendering
 
 `Forms`, `Formsets`, and `ErrorList` are now rendered using the template engine to enhance customization.
 
+<br />
+
 > RedisCache backend
 
 Django v4 provides built-in support for caching with Redis via `redis-py` library
+
+<br />
 
 > scrypt password hasher
 
