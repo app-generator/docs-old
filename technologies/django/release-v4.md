@@ -17,7 +17,7 @@ In December 2021 [Django Version 4](https://docs.djangoproject.com/en/4.0/releas
 * &#x20;[RedisCache backend](https://docs.djangoproject.com/en/4.0/releases/4.0/#redis-cache-backend) provides built-in support for caching with Redis
 *   #### scrypt password hasher&#x20;
 
-    This new `password hasher` is more secure compared to PBKDF2 (the default hashing alghorithm before v4)
+    This new `password hasher` is more secure compared to PBKDF2 (the default hashing algorithm before v4)
 
 > Deprecated Features
 
