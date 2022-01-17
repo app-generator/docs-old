@@ -1,7 +1,7 @@
 ---
-description: Flask Index
+description: Flask related topics
 ---
 
-# Flask Tech
+# Flask
 
-- [Getting Started](./getting-started.md)
+* [Getting Started](getting-started.md)

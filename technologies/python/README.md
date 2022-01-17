@@ -1,7 +1,7 @@
 ---
-description: Python Index
+description: Python related topics
 ---
 
-# Python Tech
+# Python
 
-- [Getting Started](./getting-started.md)
+* [Getting Started](getting-started.md)

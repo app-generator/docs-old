@@ -1,7 +1,8 @@
 ---
-description: Django Index
+description: Django related topics
 ---
 
-# Django Tech
+# Django
 
-- [Getting Started](./getting-started.md)
+* [Getting Started](getting-started.md)
+* [Django v4 release](django-v4-release.md)

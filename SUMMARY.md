@@ -134,6 +134,7 @@
   * [Getting Started](technologies/python/getting-started.md)
 * [Django](technologies/django/README.md)
   * [Getting Started](technologies/django/getting-started.md)
+  * [Django v4 Release](technologies/django/django-v4-release.md)
 * [Flask](technologies/flask/README.md)
   * [Getting Started](technologies/flask/getting-started.md)
 
