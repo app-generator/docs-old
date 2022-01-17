@@ -6,18 +6,27 @@ description: Django new version summary
 
 In December 2021 [Django Version 4](https://docs.djangoproject.com/en/4.0/releases/4.0/) has been released with various upgrades to the framework, improvements, deprecations and also a few breaking changes.&#x20;
 
-> Django 4.0 highlights
+---
 
-*   #### `zoneinfo` default time zone
+## Django 4.0 highlights
 
-    In this version the default `pytz` time zone has been migrated to `zoneinfo`&#x20;
-*   #### Template-based form rendering
+> `zoneinfo` default time zone
 
-    `Forms`, `Formsets`, and `ErrorList` are now rendered using the template engine to enhance customization.
-* &#x20;[RedisCache backend](https://docs.djangoproject.com/en/4.0/releases/4.0/#redis-cache-backend) provides built-in support for caching with Redis
-*   #### scrypt password hasher&#x20;
+In this version the default `pytz` time zone has been migrated to `zoneinfo`&#x20;
 
-    This new `password hasher` is more secure compared to PBKDF2 (the default hashing algorithm before v4)
+> Template-based form rendering
+
+`Forms`, `Formsets`, and `ErrorList` are now rendered using the template engine to enhance customization.
+
+> RedisCache backend
+
+Django v4 provides built-in support for caching with Redis via `redis-py` library
+
+> scrypt password hasher
+
+This new `password hasher` is more secure compared to PBKDF2 (the default hashing algorithm before v4)
+
+---
 
 > Deprecated Features
 
