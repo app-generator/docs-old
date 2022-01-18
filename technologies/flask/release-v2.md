@@ -8,7 +8,7 @@ This page summarizes all updates provided by version 2.0 of Flask.&#x20;
 
 ***
 
-## Flask 4.0 highlights
+## Flask 2.0 highlights
 
 > `Blueprints` 
 
@@ -16,11 +16,13 @@ Starting with `2.0` version `Blueprints` can be nested under each other. This fe
 
 \
 
+
 > `Flask Shell` 
 
 Tab completion is now supported for all registered entities (variables, classes)
 
 \
+
 
 > `Config from file`
 
@@ -28,23 +30,27 @@ Re-add deprecated `Config.from_json`, which was accidentally removed early.
 
 \
 
+
 > `Improved CLI errors`
 
 When an app could not be loaded, errors are displayed instantly when the development server is active.
 
-\ 
+\
+
 
 > `FLASK_DEBUG` is deprecated
 
 Replaced by FLASK_ENV, a more current environment variable.
 
-\ 
+\
+
 
 > `Language Detection` 
 
 **langdetect** package is used by default. 
 
-\ 
+\
+
 
 > ` Improved Static files cache` - on development
 
