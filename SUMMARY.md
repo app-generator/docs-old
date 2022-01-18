@@ -137,6 +137,7 @@
   * [Django v4 Release](technologies/django/release-v4.md)
 * [Flask](technologies/flask/README.md)
   * [Getting Started](technologies/flask/getting-started.md)
+  * [Flask v2.0 Release](technologies/flask/flask-v2.0-release.md)
 
 ## Content
 
