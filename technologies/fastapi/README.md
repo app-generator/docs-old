@@ -1,7 +1,7 @@
 ---
-description: Flask related topics
+description: FastAPI related topics
 ---
 
-# Flask
+# FastAPI
 
 * [Getting Started](getting-started.md)
