@@ -13,9 +13,9 @@ Open-Source codebase used by all [Flask Dashboards](https://appseed.us/admin-das
 * Bootstrap 5 Design: [Volt Dashboard](https://flask-volt-dashboard.appseed-srv1.com) (demo link)
 * DBMS & Tools: SQLite / PostgreSQL / SQLAlchemy ORM, Flask-Migrate
 * Modular design with Blueprints
-* Session-Based authentication (via flask\_login), Forms validation
-* Deployment scripts: [Docker](flask-dashboard.md#start-in-docker), Gunicorn / Nginx, HEROKU
-* Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+* `Session-Based authentication` (via flask\_login), Forms validation
+* `Deployment`: [Docker](flask-dashboard.md#start-in-docker), Gunicorn / Nginx, HEROKU
+* Free [Support](https://appseed.us/support) via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 > Links
 
@@ -59,9 +59,7 @@ $ cd boilerplate-code-flask-dashboard
 > **Step #2** - Execute Docker `commands`
 
 ```bash
-$ docker-compose pull       # download the modules 
-$ docker-compose build      # local build
-$ docker-compose up         # start the app 
+$ docker-compose up --build  
 ```
 
 Visit `http://localhost:85` in your browser. The app should be up & running.
@@ -69,14 +67,12 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 > Note: for `Linux-based` systems the above commands might require `sudo` execution. Here is a sample:
 
 ```bash
-$ sudo docker-compose pull 
-$ sudo docker-compose build 
-$ sudo docker-compose up -d # execute demonized via '-d' argument 
+$ sudo docker-compose up --build 
 ```
 
 ## Build the app <a href="#build-the-app" id="build-the-app"></a>
 
-To built and start the app locally, follow the steps:
+To build and start the app locally, follow the steps:
 
 > **Step #1** - Get the source code
 
@@ -561,3 +557,10 @@ def sample_method(path):
         </ul>
     </div>
 ```
+
+
+
+## Links & Resources <a href="#data-structures" id="data-structures"></a>
+
+* Ask for [support](https://appseed.us/support) via email and [Discord](https://discord.gg/fZC6hup)
+* [Free Dashboards](https://appseed.us/admin-dashboards/open-source) -  a curated index provided by AppSeed &#x20;
