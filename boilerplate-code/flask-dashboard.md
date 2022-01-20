@@ -8,7 +8,7 @@ description: >-
 
 Open-Source codebase used by all [Flask Dashboards](https://appseed.us/admin-dashboards/flask) provided by AppSeed.
 
-* `Up-to-date` dependencies: **Flask 2.0.1**
+* `Up-to-date` dependencies: **Flask 2.0.2**
 * [SCSS compilation](flask-dashboard.md#recompile-css) via Gulp
 * Bootstrap 5 Design: [Volt Dashboard](https://flask-volt-dashboard.appseed-srv1.com) (demo link)
 * DBMS & Tools: SQLite / PostgreSQL / SQLAlchemy ORM, Flask-Migrate
@@ -24,7 +24,7 @@ Open-Source codebase used by all [Flask Dashboards](https://appseed.us/admin-das
   * [x] `Up-to-date dependencies`
   * [x] Improved `authentication`:
     * [x] Password reset, Email confirmation on register
-  * [x] `Extended user model`: custom fiels: Name, Surname, Address, User Photo
+  * [x] `Extended user model`: custom fields: Name, Surname, Address, User Photo
   * [ ] `API` via Flask-RestX
   * [ ] `Data Tables` - paginated information
   * [ ] `Sample Charts`
