@@ -10,8 +10,8 @@ Open-Source codebase used by all [Django Dashboards](https://appseed.us/admin-da
 * [SCSS compilation](django-dashboard.md#recompile-css) via Gulp
 * Bootstrap 5 Design: [Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) (demo link)
 * SQLite Database, Django Native ORM
-* Session-Based Authentication, Forms validation
-* Deployment scripts: [Docker](django-dashboard.md#start-in-docker), Gunicorn/Nginx
+* `Session-Based Authentication`, Forms validation
+* Deployment: [Docker](django-dashboard.md#start-in-docker), Gunicorn/Nginx
 * `Custom Admin Theme` (open-source)
   * [Django Admin Volt](https://pypi.org/project/django-admin-volt/)
 * Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
@@ -23,7 +23,7 @@ Open-Source codebase used by all [Django Dashboards](https://appseed.us/admin-da
   * [x] `Up-to-date dependencies`
   * [x] Improved `authentication`:
     * [x] Password reset, Email confirmation on register
-  * [x] `Extended user model`: custom fiels: Name, Surname, Address, User Photo
+  * [x] `Extended user model`: custom fields: Name, Surname, Address, User Photo
   * [ ] `API` via DRF
   * [x] `Data Tables` - paginated information
   * [ ] `Sample Charts`
@@ -71,7 +71,7 @@ $ sudo docker-compose up --build
 
 ## Build from Sources <a href="#build-the-app" id="build-the-app"></a>
 
-To built and start the app locally, follow the steps:
+To build and start the app locally, follow the steps:
 
 > **Step #1** - Get the source code
 
