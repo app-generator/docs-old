@@ -6,7 +6,7 @@ description: The reference codebase used in all Django Admin Dashboards.
 
 Open-Source codebase used by all [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed.
 
-* `Up-to-date` dependencies: **Django 3.2.6 LTS**
+* `Up-to-date` dependencies: **Django 4.1**
 * [SCSS compilation](django-dashboard.md#recompile-css) via Gulp
 * Bootstrap 5 Design: [Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) (demo link)
 * SQLite Database, Django Native ORM
@@ -25,7 +25,7 @@ Open-Source codebase used by all [Django Dashboards](https://appseed.us/admin-da
     * [x] Password reset, Email confirmation on register
   * [x] `Extended user model`: custom fiels: Name, Surname, Address, User Photo
   * [ ] `API` via DRF
-  * [ ] `Data Tables` - paginated information
+  * [x] `Data Tables` - paginated information
   * [ ] `Sample Charts`
   * [ ] `Social Login` for Google and Github
   * [x] `Deployment`:
@@ -58,9 +58,7 @@ $ cd boilerplate-code-django-dashboard
 > **Step #2** - Execute Docker `commands`
 
 ```bash
-$ docker-compose pull       # download the modules 
-$ docker-compose build      # local build
-$ docker-compose up         # start the app 
+$ docker-compose up --build 
 ```
 
 Visit `http://localhost:85` in your browser. The app should be up & running.
@@ -68,9 +66,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 > Note: for `Linux-based` systems the above commands might require `sudo` execution. Here is a sample:
 
 ```bash
-$ sudo docker-compose pull 
-$ sudo docker-compose build 
-$ sudo docker-compose up -d # execute demonized via '-d' argument 
+$ sudo docker-compose up --build 
 ```
 
 ## Build from Sources <a href="#build-the-app" id="build-the-app"></a>
@@ -410,3 +406,10 @@ def testme(path):
         </ul>
     </div>
 ```
+
+
+
+## Links & Resources <a href="#data-structures" id="data-structures"></a>
+
+* Ask for [support](https://appseed.us/support) via email and [Discord](https://discord.gg/fZC6hup)
+* [Free Dashboards](https://appseed.us/admin-dashboards/open-source) -  a curated index provided by AppSeed &#x20;
