@@ -8,6 +8,9 @@ description: A comprehensive introduction to FastAPI
 
 * [FastAPI](https://fastapi.tiangolo.com) - official website
 * [FastAPI](https://github.com/tiangolo/fastapi) - source code (published on Github)
+* [Learn FastAPI by coding](https://github.com/app-generator/fastapi-learn-by-coding) - sample project&#x20;
+
+
 
 As posted on the official website, FastAPI key features are listed below:
 
