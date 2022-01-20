@@ -138,6 +138,8 @@
 * [Flask](technologies/flask/README.md)
   * [Getting Started](technologies/flask/getting-started.md)
   * [Flask v2.0 Release](technologies/flask/release-v2.md)
+* [FastAPI](technologies/fastapi/README.md)
+  * [Getting Started](technologies/fastapi/getting-started.md)
 
 ## Content
 
