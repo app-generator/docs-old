@@ -79,3 +79,11 @@ At this point we should be able to visit the API in the browser:
 * Redoc:  `http://localhost:8000/redoc`
 
 ![FastAPI - Simple API Project](../../.gitbook/assets/fastapi-hello-world.jpg)
+
+
+
+### FastAPI Resources
+
+* [The future of FastAPI and Pyndantic](https://tiangolo.medium.com/the-future-of-fastapi-and-pydantic-is-bright-2d1785a603a9)
+* [You should start using FastAPI](https://towardsdatascience.com/you-should-start-using-fastapi-now-7efb280fec02)
+* [Rise of Pydantic Stack](https://python.plainenglish.io/an-introduction-to-the-pydantic-stack-9e490d606c8d) &#x20;
