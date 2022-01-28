@@ -138,6 +138,9 @@
 * [Flask](technologies/flask/README.md)
   * [Getting Started](technologies/flask/getting-started.md)
   * [Flask v2.0 Release](technologies/flask/release-v2.md)
+* [MySql](technologies/mysql/README.md)
+  * [Install MySql on Windows](technologies/mysql/install-on-windows.md)
+  * [Install MySql on Ubuntu](technologies/mysql/install-mysql-on-ubuntu.md)
 * [FastAPI](technologies/fastapi/README.md)
   * [Getting Started](technologies/fastapi/getting-started.md)
 
