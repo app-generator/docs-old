@@ -183,7 +183,9 @@ def register_user(request):
 ```markup
 <form role="form" method="post" action="">
 
-    {% csrf_token %}                    
+    {% raw %}
+{% csrf_token %}
+{% endraw %}                    
 
     <div>
         {{ form.username }}
@@ -276,7 +278,8 @@ def testme(path):
 
 ```markup
     <!-- The Usage of <current_user> object -->
-    {% if request.user.is_authenticated %}
+    {% raw %}
+{% if request.user.is_authenticated %}
 
         <!-- Html chunk rendered for authenticated users-->
 
@@ -285,6 +288,7 @@ def testme(path):
         <!-- Html chunk rendered for guests users-->
 
     {% endif %}
+{% endraw %}
 ```
 
 

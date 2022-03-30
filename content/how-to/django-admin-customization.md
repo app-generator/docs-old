@@ -108,6 +108,7 @@ vi templates/404.html
 ```markup
 <!-- templates/404.html --> 
 
+{% raw %}
 {% extends "admin/base_site.html" %}
 {% load i18n %}
 
@@ -120,6 +121,7 @@ vi templates/404.html
 <p>{% trans "We're sorry, but the requested page could not be found." %}</p>
 
 {% endblock %}
+{% endraw %}
 ```
 
 Once we save the file, Django will use it when a 404 error case occur when users interacts with our application.
@@ -240,7 +242,8 @@ admin_black/
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="{% static "admin_black/assets/img/apple-icon.png" %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% raw %}
+{% static "admin_black/assets/img/apple-icon.png" %}">
     <link rel="icon" type="image/png" href="{% static "admin_black/assets/img/favicon.png" %}">
 
     <title>{% block title %}{% endblock %}</title>
@@ -262,6 +265,7 @@ admin_black/
     {% block blockbots %}
         <meta name="robots" content="NONE,NOARCHIVE">
     {% endblock %}
+{% endraw %}
 </head>
 ```
 
@@ -269,7 +273,8 @@ admin_black/
 
 ```markup
 ...
-<script src="{% static "admin_black/assets/js/core/jquery.min.js" %}"></script>
+<script src="{% raw %}
+{% static "admin_black/assets/js/core/jquery.min.js" %}"></script>
 <script src="{% static "admin_black/assets/js/core/popper.min.js" %}"></script>
 <script src="{% static "admin_black/assets/js/core/bootstrap.min.js" %}"></script>
 <script src="{% static "admin_black/assets/js/plugins/perfect-scrollbar.jquery.min.js" %}"></script>
@@ -281,6 +286,7 @@ admin_black/
 <script src="{% static "admin_black/assets/js/scripts.js" %}"></script>
 
 {% block extrascript %}{% endblock %}
+{% endraw %}
 </body>
 </html>
 ```
@@ -301,6 +307,7 @@ admin_black/
 ```markup
 <!-- sidebar.html -->
 
+{% raw %}
 {% load admin_black %}
 
 <div class="sidebar">
@@ -310,6 +317,7 @@ admin_black/
         {% if app_list %}
             ...
         {% endif %}
+{% endraw %}
         ...
     </div>
 </div>

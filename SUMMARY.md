@@ -288,3 +288,4 @@
   * [Vuetify Material Dashboard](content/vue-template/vuetify-material-dashboard.md)
 * [How to Fix](content/how-to-fix/README.md)
   * [Cannot import name 'TextField' from 'wtforms'](content/how-to-fix/cannot-import-name-textfield-from-wtforms.md)
+  * [ImportError: cannot import name 'safe\_str\_cmp' from 'werkzeug.security'](content/how-to-fix/importerror-cannot-import-name-safe\_str\_cmp-from-werkzeug.security.md)

@@ -131,6 +131,7 @@ This is the structure of our chart, And it must be in JSON to be displayed in JS
 In your template, just call your chart and send the data to JS Function. For example:
 
 ```markup
+{% raw %}
 {% load static %}
 
 <div class="col-xl-12">
@@ -148,7 +149,8 @@ In your template, just call your chart and send the data to JS Function. For exa
 
 <!-- Load your JS files  -->
 <script src="{% static 'assets/plugins/chart-morris/js/raphael.min.js' %}"></script>
-<script src="{% static 'assets/plugins/chart-morris/js/morris.min.js' %}"></script>
+<script src="{% static 'assets/plugins/chart-morris/js/morris.min.js' %}
+{% endraw %}"></script>
 
 <script>
     Morris.Bar({{ chart_data|safe }});

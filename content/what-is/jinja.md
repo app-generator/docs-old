@@ -72,9 +72,11 @@ In Jinja, we can iterate with ease, using a for block:
 ```markup
 ...
       <ul>
-        {% for n in my_list %}
+        {% raw %}
+{% for n in my_list %}
         <li>{{n}}</li>
         {% endfor %}
+{% endraw %}
       </ul>
 ...
 ```
@@ -90,7 +92,9 @@ Let's take a look at a real sample:
 ```markup
 <html>
   <head>
-    <title>My Jinja {% block title %}{% endblock %} </title>
+    <title>My Jinja {% raw %}
+{% block title %}{% endblock %}
+{% endraw %} </title>
   </head>
   <body>
     <div class="container">

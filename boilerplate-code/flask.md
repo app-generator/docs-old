@@ -423,7 +423,8 @@ def index(path):
         <ul class="navbar-nav ml-auto">
 
         <!-- The Usage of <current_user> object -->
-        {% if current_user.is_authenticated %}
+        {% raw %}
+{% if current_user.is_authenticated %}
 
             <!-- Html chunk rendered for authenticated users-->
 
@@ -449,6 +450,7 @@ def index(path):
             </li>
 
         {% endif %}
+{% endraw %}
 
         </ul>
     </div>

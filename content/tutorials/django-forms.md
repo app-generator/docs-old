@@ -160,7 +160,9 @@ def index(request):
         <table> 
             {{ form.as_table }} 
         </table> 
-        {% csrf_token %} 
+        {% raw %}
+{% csrf_token %}
+{% endraw %} 
         <br />
         <input type="submit" value="Submit"> 
     </form> 

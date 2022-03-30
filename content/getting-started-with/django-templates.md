@@ -152,16 +152,19 @@ Here is a short-list with popular helpers: `upper`, `default value`, string `tru
 Django template system will ignore everything between `{% comment %}` and `{% endcomment %}`
 
 ```python
+{% raw %}
 {% comment %} 
 
 Here can be a long story    <-- Ignored by Django
 
 {% endcomment %}
+{% endraw %}
 ```
 
 > **Conditionals** - useful to test a variable presence or value
 
 ```python
+{% raw %}
 {% if discount %}
 
     <span>Special Price {{ discount }}
@@ -170,16 +173,19 @@ Here can be a long story    <-- Ignored by Django
 
     <span>Regular Price {{ price }}
 
-{% endif %}    
+{% endif %}
+{% endraw %}    
 ```
 
 > **Loops** - how to iterate on lists
 
 ```python
 <ul>
-    {% for i in list %}
+    {% raw %}
+{% for i in list %}
         <li>{{ i }}</li>
     {% endfor %}
+{% endraw %}
 </ul>
 ```
 
@@ -193,7 +199,9 @@ This feature is useful when we code large projects where parts of the UI are com
     This is just a simple file served from the "templates" directory.
 </p>
 
-{% include "includes/footer.html" %} <-- Import directive
+{% raw %}
+{% include "includes/footer.html" %}
+{% endraw %} <-- Import directive
 ```
 
 > **Template Inheritance** - allows to `extend` template with specific information
@@ -205,7 +213,9 @@ Template inheritance empowers the developer to build a base template that contai
 ```python
 <html>
   <head>
-    <title>My Django {% block title %}{% endblock %} </title>
+    <title>My Django {% raw %}
+{% block title %}{% endblock %}
+{% endraw %} </title>
   </head>
   <body>
     <div class="container">

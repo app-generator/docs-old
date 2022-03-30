@@ -335,7 +335,8 @@ def testme(path):
         <ul class="navbar-nav ml-auto">
 
         <!-- The Usage of <current_user> object -->
-        {% if request.user.is_authenticated %}
+        {% raw %}
+{% if request.user.is_authenticated %}
 
             <!-- Html chunk rendered for authenticated users-->
 
@@ -361,6 +362,7 @@ def testme(path):
             </li>
 
         {% endif %}
+{% endraw %}
 
         </ul>
     </div>
