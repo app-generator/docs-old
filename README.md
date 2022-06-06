@@ -4,7 +4,7 @@ description: App Generator - the official documentation.
 
 # Home
 
-### What is [AppSeed](https://appseed.us)
+## What is [AppSeed](https://appseed.us)
 
 [AppSeed](https://appseed.us) is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim), [CodedThemes](https://appseed.us/agency/codedthemes), [Themesberg](https://appseed.us/agency/themesberg), and other well-known [agencies](https://appseed.us/agency).
 
@@ -21,7 +21,7 @@ Starters are provided in different patterns and technologies under permissive (M
 * Full-Stack applications that use [React](https://appseed.us/apps/react/) as frontend engine 
 * API Servers for [NodeJS](boilerplate-code/api-server/node-js.md), [Flask](boilerplate-code/api-server/flask.md) and [Django](boilerplate-code/api-server/django.md).  
 
-### Support
+## Support
 
 Support is an important part of our business model. A good product, in order to be useful, should have good support. We are providing support for all our products using two tiers:
 
@@ -30,7 +30,7 @@ Support is an important part of our business model. A good product, in order to 
   * **Email Support** <_support @ appseed.us>_ - 6h (or less) response time
   * **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup) - with high priority for commercial products
 
-### Latest Products
+## Latest Products
 
 * [Django Template Volt](boilerplate-code/django-templates/volt-dashboard.md) - open-source admin template styled with Bootstrap5
 * [React Node JS Berry](products/react/node-js-berry-dashboard.md) - Open-source full-stack product
@@ -40,7 +40,7 @@ Support is an important part of our business model. A good product, in order to 
 
 ![Berry Dashboard - Premium Full-stack Starter](.gitbook/assets/fullstack-berry-dashboard-charts-xs.jpg)
 
-### AppSeed for Beginners
+## AppSeed for Beginners
 
 * This [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md) includes a few essential libraries and tools
 * [Django for Beginners](content/tutorials/django-for-beginners.md) - a nice tutorial that covers the basics
@@ -56,9 +56,8 @@ Support is an important part of our business model. A good product, in order to 
   * [Showcase charts in Django](samples/django/django-sales-charts.md) 
 * Ask for support in [Discord](https://discord.gg/fZC6hup) - for registered [AppSeed](https://appseed.us) users.
 
-****
 
 ### **Where to go from here**
 
 * Browse [AppSeed](https://appseed.us) and find a starter for your next project
-* Access the [support](https://appseed.us/support) page in case you need help
+* Access the [support](https://appseed.us/support/) page in case you need help
