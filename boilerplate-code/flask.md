@@ -42,15 +42,11 @@ $ git clone https://github.com/app-generator/boilerplate-code-flask.git
 $ cd boilerplate-code-flask
 ```
 
-<br />
-
 > **Step 2** - Edit `.env` and set `DEBUG=True`. This will activate the `SQLite` persistance. 
 
 ```txt
 DEBUG=True
 ```
-
-<br />
 
 > **Step 3** - Start the APP in `Docker`
 
@@ -71,8 +67,6 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 - `Create a new MySql` database
 - `Create a new user` and assign full privilegies (read/write)
 
-<br />
-
 > **Step 2** - Edit the `.env` to match your MySql DB credentials. Make sure `DB_ENGINE` is set to `mysql`.
 
 - `DB_ENGINE`  : `mysql` 
@@ -81,8 +75,6 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 - `DB_PORT`    : default value = `3306`
 - `DB_USERNAME`: default value = `appseed_db_usr`
 - `DB_PASS`    : default value = `pass`
-
-<br />
 
 Here is a sample:  
 
@@ -111,8 +103,6 @@ $ git clone https://github.com/app-generator/boilerplate-code-flask.git
 $ cd app-generator/boilerplate-code-flask
 ```
 
-<br />
-
 ### 👉 Set Up for `Unix`, `MacOS` 
 
 > Install modules via `VENV`  
@@ -123,16 +113,12 @@ $ source env/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-<br />
-
 > Set Up Flask Environment
 
 ```bash
 $ export FLASK_APP=run.py
 $ export FLASK_ENV=development
 ```
-
-<br />
 
 > Start the app
 
@@ -154,8 +140,6 @@ $ .\env\Scripts\activate
 $ pip3 install -r requirements.txt
 ```
 
-<br />
-
 > Set Up Flask Environment
 
 ```bash
@@ -167,8 +151,6 @@ $ # Powershell
 $ $env:FLASK_APP = ".\run.py"
 $ $env:FLASK_ENV = "development"
 ```
-
-<br />
 
 > Start the app
 
@@ -281,8 +263,6 @@ The file that constructs the core features of our application is `apps/__init__.
 
 The codebase is built using a modular design that uses `blueprints`. By default, the project comes with a two `blueprints`
 
-<br />
-
 ### 👉 Authentication Blueprint
 
 > Definition: `apps/authentication`. The core files: 
@@ -295,8 +275,6 @@ The codebase is built using a modular design that uses `blueprints`. By default,
   - `login`
   - `register`
   - `logout` 
-
-<br />
 
 ### 👉 Home Blueprint
 
