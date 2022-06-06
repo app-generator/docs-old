@@ -23,7 +23,8 @@ This page describes the **unified definition** used by all API servers provided 
 
 > For more information or support please access the [AppSeed](https://appseed.us) platform or chat directly with support team on [Discord](https://appseed.us/support).
 
-### API Information
+
+## API Information
 
 > Interface descriptor - [POSTMAN collection format](https://github.com/app-generator/api-unified-definition/blob/main/api.postman\_collection.json)
 
@@ -34,7 +35,8 @@ This page describes the **unified definition** used by all API servers provided 
   * `/api/users/checkSession`: check an existing JWT Token for validity
   * `/api/users/edit` - edit the information associated with a registered user
 
-### API Samples
+
+## API Samples
 
 > **Register** - `api/users/register`
 
