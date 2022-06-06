@@ -17,9 +17,9 @@ This page describes the **unified definition** used by all API servers provided 
 
 > UI Products aligned to use it:
 
-* [React Berry Dashboard](https://appseed.us/product/react-node-js-berry-dashboard) - free product
-* [React Datta Able](https://github.com/app-generator/react-datta-able-dashboard) - free product
-* [React Datta Able PRO](https://appseed.us/product/react-node-js-datta-able-pro) - commercial product
+* [React Berry Dashboard](https://appseed.us/product/berry-dashboard/api-server-nodejs/react/) - free product
+* [React Datta Able](https://appseed.us/product/datta-able/api-server-nodejs/react/) - free product
+* [React Datta Able PRO](https://appseed.us/product/datta-able-pro/full-stack/react/) - commercial product
 
 > For more information or support please access the [AppSeed](https://appseed.us) platform or chat directly with support team on [Discord](https://appseed.us/support).
 
