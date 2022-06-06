@@ -23,7 +23,8 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 
 ![Django API Server - Open-source Product.](../../.gitbook/assets/api-cover-django-xs.jpg)
 
-### Requirements
+
+## Requirements
 
 * **Python3** (Python2 is not supported)
 * **Django**==3.2.5
@@ -31,7 +32,8 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 * **PyJWT**==2.1.0
 * **django-cors-headers**==3.7.0
 
-### How to use the code
+
+## How to use the code
 
 > **Step #1 -** Clone the sources
 
@@ -62,7 +64,8 @@ $ python manage.py runserver
 
 The API server will start using the default port `8000`.
 
-### **Docker execution**
+
+## **Docker execution**
 
 > **Step #1** - Get the code
 
@@ -79,7 +82,8 @@ $ docker-compose up -d --build
 
 Visit `http://localhost:5000` in your browser. The API server will be running.\
 
-### Compatible Fullstack Products
+
+## Compatible Fullstack Products
 
 The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**,** an open-source React Dashboard.
 

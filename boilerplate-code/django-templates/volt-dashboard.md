@@ -12,7 +12,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 * [Django Volt Dashboard](https://appseed.us/admin-dashboards/django-dashboard-volt) - Open-source starter that uses the same UI Kit
 * [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) - LIVE Demo&#x20;
 
-### Why Django Admin Volt?
+## Why Django Admin Volt?
 
 * Bootstrap 5 Design: **Volt Dashboard** (Free version) provided by **Themesberg**
 * New fresh look
@@ -23,7 +23,8 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 
 ![Django Template Volt - Free Admin Theme ](<../../.gitbook/assets/image (12).png>)
 
-### Installation
+
+## Installation
 
 ```
 $ pip install django-admin-volt
@@ -43,7 +44,7 @@ Add `admin_volt` application to the `INSTALLED_APPS` settings of your Django pro
 
 > The name respects the convention `APP_NAME.apps.APP_NAMEConfig` required by all apps defined in the  **INSTALLED\_APPS** section.
 
-&#x20;In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class. You can go [**here**](https://fontawesome.com/v4.7/icons/) to use more icons.
+In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class. You can go [**here**](https://fontawesome.com/v4.7/icons/) to use more icons.
 
 ```
 

@@ -26,7 +26,7 @@ Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boi
 ![Flask API Server - Open-source Product.](../../.gitbook/assets/api-cover-flask-xs.jpg)
 
 
-## Requirements ‌<a href="#requirements" id="requirements"></a>
+## Requirements
 
 * **Python3** (Python2 is not supported)
 * **Flask**==2.0.2
@@ -110,6 +110,7 @@ api-server-flask/
 ├── run.py
 └── tests.py
 ```
+
 
 ## Compatible Fullstack Products
 
