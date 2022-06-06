@@ -21,7 +21,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 * Minimal template overriding
 * Easy integration
 
-![Django Template Volt - Free Admin Theme ](<../../.gitbook/assets/image (12).png>)
+![Django Template Volt - Open-Source Admin Theme ](../../.gitbook/assets/django-admin-volt.png)
 
 
 ## Installation
