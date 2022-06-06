@@ -8,13 +8,10 @@ description: >-
 
 This page describes the **unified definition** used by all API servers provided by AppSeed. This internal standard is used by all full-stack products, despite the UI or backend technology.
 
-
-
 > API Servers aligned to use it:
 
 * [API Server Django](django.md) - free product
 * [API Server Flask](flask.md) - free product
-* [API Server FastAPI](https://github.com/app-generator/api-unified-definition#) - free product / **Work in progress**
 * [API Server Node JS](node-js.md) - free product
 * [API Server Node JS PRO](https://github.com/app-generator/api-server-nodejs-pro) - commercial product
 
@@ -36,8 +33,6 @@ This page describes the **unified definition** used by all API servers provided 
   * `/api/users/logout`: delete the associated JWT token
   * `/api/users/checkSession`: check an existing JWT Token for validity
   * `/api/users/edit` - edit the information associated with a registered user
-
-
 
 ### API Samples
 
