@@ -283,7 +283,7 @@ The codebase is built using a modular design that uses `blueprints`. By default,
 
 <br />
 
-### Authentication Blueprint
+### 👉 Authentication Blueprint
 
 > Definition: `apps/authentication`. The core files: 
 
@@ -298,14 +298,14 @@ The codebase is built using a modular design that uses `blueprints`. By default,
 
 <br />
 
-### Home Blueprint
+### 👉 Home Blueprint
 
 This module return all pages saved in the `templates/home` directory to authenticated users. 
 In case a page is not found, a generic page is returned using a `404` HTTP error status. 
 
 <br />
 
-## Where to go from here
+## 🚀 Where to go from here
 
 - Access the [support](https://appseed.us/support/) page in case something is missing
 - Download a few sample projects built on top of this codebase: 
