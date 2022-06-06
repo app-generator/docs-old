@@ -18,7 +18,8 @@ Starters are provided in different patterns and technologies under permissive (M
 
 * [Open-source dashboards](https://appseed.us/admin-dashboards/open-source/) generated in [Flask](https://appseed.us/admin-dashboards/flask/) and [Django](https://appseed.us/admin-dashboards/django/)
 * [Web Apps](https://appseed.us/apps/) powered by [Flask](https://appseed.us/apps/flask/), and [Django](https://appseed.us/apps/django/)
-* Full-Stack applications that use [React](https://appseed.us/apps/react/) as frontend engine and different backend API Servers (NodeJS, Django, Flask). 
+* Full-Stack applications that use [React](https://appseed.us/apps/react/) as frontend engine 
+* API Servers for [NodeJS](boilerplate-code/api-server/node-js.md), [Flask](boilerplate-code/api-server/flask.md) and [Django](boilerplate-code/api-server/django.md).  
 
 ### Support
 
