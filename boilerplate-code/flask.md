@@ -278,7 +278,7 @@ The codebase is built using a modular design that uses `blueprints`. By default,
 
 ### 👉 Home Blueprint
 
-This module return all pages saved in the `templates/home` directory to authenticated users. 
+This module returns all pages saved in the `templates/home` directory to authenticated users. 
 In case a page is not found, a generic page is returned using a `404` HTTP error status. 
 
 <br />
@@ -290,5 +290,3 @@ In case a page is not found, a generic page is returned using a `404` HTTP error
   - [Flask Material Kit](https://appseed.us/product/material-kit/flask/) - open-source `Bootstrap 5` Desing
   - [Flask Pixel UI Kit](https://appseed.us/product/pixel-bootstrap/flask/) - open-source starter
   - [Flask Soft UI System](https://appseed.us/product/soft-ui-design/flask/) - free `Bootstrap 5` starter 
-
- 
