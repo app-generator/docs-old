@@ -243,11 +243,11 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 
 The file that constructs the core features of our application is `apps/__init__.py`. The most important steps are listed below: 
 
-- Invoke SQLAlchemy to build the `db` object. 
+- Invokes SQLAlchemy to build the `db` object. 
   - Using `SQLAlchemy` we can manage the database information with ease 
--Invoke LoginManager to build the `login_manager` object.
+- Invokes LoginManager to build the `login_manager` object.
   - `login_manager` manage the authentication layer (login, logout, register)
-- Define `create_app` helper that does the following: 
+- Defines `create_app` helper that does the following: 
   - create the `Flask` app object
   - injects `db` and `login_manager` objects
   - loads the `configuration`
