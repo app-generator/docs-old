@@ -19,19 +19,17 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
   * `/api/users/login`: authenticate an existing user
   * `/api/users/logout`: delete the associated JWT token
   * `/api/users/checkSession`: check an existing JWT Token for validity
-  * `/api/users/edit` - edit the information associated with a registered user&#x20;
+  * `/api/users/edit` - edit the information associated with a registered user
 
 ![Django API Server - Open-source Product.](../../.gitbook/assets/api-cover-django-xs.jpg)
 
 ### Requirements
 
-* **Python3** (Python2 is not supported)&#x20;
+* **Python3** (Python2 is not supported)
 * **Django**==3.2.5
 * **djangorestframework**==3.12.4
 * **PyJWT**==2.1.0
-* **django-cors-headers**==3.7.0&#x20;
-
-
+* **django-cors-headers**==3.7.0
 
 ### How to use the code
 
@@ -64,8 +62,6 @@ $ python manage.py runserver
 
 The API server will start using the default port `8000`.
 
-
-
 ### **Docker execution**
 
 > **Step #1** - Get the code
@@ -82,7 +78,6 @@ $ docker-compose up -d --build
 ```
 
 Visit `http://localhost:5000` in your browser. The API server will be running.\
-
 
 ### Compatible Fullstack Products
 
