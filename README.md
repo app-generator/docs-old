@@ -6,7 +6,7 @@ description: App Generator - the official documentation.
 
 ## What is [AppSeed](https://appseed.us)
 
-[AppSeed](https://appseed.us) is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim), [CodedThemes](https://appseed.us/agency/codedthemes), [Themesberg](https://appseed.us/agency/themesberg), and other well-known [agencies](https://appseed.us/agency).
+AppSeed is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim/), [CodedThemes](https://appseed.us/agency/codedthemes/), [Themesberg](https://appseed.us/agency/themesberg/), and other well-known [agencies](https://appseed.us/agency/).
 
 Such projects can be used in many contexts by developers and designers:
 
@@ -21,14 +21,12 @@ Starters are provided in different patterns and technologies under permissive (M
 * Full-Stack applications that use [React](https://appseed.us/apps/react/) as frontend engine 
 * API Servers for [NodeJS](boilerplate-code/api-server/node-js.md), [Flask](boilerplate-code/api-server/flask.md) and [Django](boilerplate-code/api-server/django.md).  
 
-## Support
+## [Support](https://appseed.us/support/)
 
-Support is an important part of our business model. A good product, in order to be useful, should have good support. We are providing support for all our products using two tiers:
+Support is an important part of our business model. A good product, in order to be useful, should have good support.
 
-* **Free** Support via Github (issues tracker) - 24h response time
-* **Fast** [**Support**](https://appseed.us/support/) for registered users.
-  * **Email Support** <_support @ appseed.us>_ - 6h (or less) response time
-  * **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup) - with high priority for commercial products
+* **Email Support** <_support @ appseed.us>_ - 6h (or less) response time
+* **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup) 
 
 ## Latest Products
 
