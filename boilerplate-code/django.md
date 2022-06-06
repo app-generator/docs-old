@@ -97,7 +97,6 @@ DB_PORT=3306                  # MySql port, default = 3306
 
 <br />
 
-
 ## ✨ How to use it
 
 > Download the code 
@@ -107,8 +106,6 @@ $ # Get the code
 $ git clone https://github.com/app-generator/boilerplate-code-django.git
 $ cd boilerplate-code-django
 ```
-
-<br />
 
 ### 👉 Set Up for `Unix`, `MacOS` 
 
@@ -139,8 +136,6 @@ $ python manage.py runserver
 
 At this point, the app runs at `http://127.0.0.1:8000/`. 
 
-<br />
-
 ### 👉 Set Up for `Windows` 
 
 > Install modules via `VENV` (windows) 
@@ -169,8 +164,6 @@ $ python manage.py runserver
 ```
 
 At this point, the app runs at `http://127.0.0.1:8000/`. 
-
-<br />
 
 ### 👉 Create Users
 

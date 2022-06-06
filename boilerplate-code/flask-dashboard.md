@@ -130,8 +130,6 @@ $ flask run
 
 At this point, the app runs at `http://127.0.0.1:5000/`. 
 
-<br />
-
 ### 👉 Set Up for `Windows` 
 
 > Install modules via `VENV` (windows) 
@@ -161,8 +159,6 @@ $ flask run
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`. 
-
-<br />
 
 ### 👉 Create Users
 
