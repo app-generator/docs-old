@@ -16,23 +16,19 @@ Such projects can be used in many contexts by developers and designers:
 
 Starters are provided in different patterns and technologies under permissive (MIT, LGPL) or commercial licenses:
 
-* [Open-source dashboards](https://appseed.us/admin-dashboards/open-source) generated in [Flask](https://appseed.us/admin-dashboards/flask) and [Django](https://appseed.us/admin-dashboards/django)
+* [Open-source dashboards](https://appseed.us/admin-dashboards/open-source/) generated in [Flask](https://appseed.us/admin-dashboards/flask/) and [Django](https://appseed.us/admin-dashboards/django/)
 * [Static sites](https://appseed.us/static-site) provided on top of 11ty and other popular SSGs.&#x20;
 * [Web Apps](https://appseed.us/django) used for simple presentation projects for [Flask](https://appseed.us/apps/flask-apps) and [Django](https://appseed.us/django)&#x20;
 * Full-Stack applications that use [Vue](https://appseed.us/apps/vuejs) and [React](https://appseed.us/apps/react) as frontend engines. &#x20;
-
-
 
 ### Support
 
 Support is an important part of our business model. A good product, in order to be useful, should have good support. We are providing support for all our products using two tiers:
 
 * **Free** Support via Github (issues tracker) - 24h response time
-* **Fast** [**Support**](https://appseed.us/support) -  for registered [AppSeed](https://appseed.us) users.
+* **Fast** [**Support**](https://appseed.us/support/) for registered users.
   * **Email Support** <_support @ appseed.us>_ - 6h (or less) response time
   * **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup) - with high priority for commercial products&#x20;
-
-###
 
 ### Latest Products
 
