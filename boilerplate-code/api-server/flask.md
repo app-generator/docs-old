@@ -21,21 +21,21 @@ Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boi
   * `/api/users/login`: authenticate an existing user
   * `/api/users/logout`: delete the associated JWT token
   * `/api/users/checkSession`: check an existing JWT Token for validity
-  * `/api/users/edit` - edit the information associated with a registered user &#x20;
+  * `/api/users/edit` - edit the information associated with a registered user 
 
 ![Flask API Server - Open-source Product.](../../.gitbook/assets/api-cover-flask-xs.jpg)
 
-### Requirements ‌ <a href="#requirements" id="requirements"></a>
+
+## Requirements ‌<a href="#requirements" id="requirements"></a>
 
 * **Python3** (Python2 is not supported)
 * **Flask**==2.0.2
 * **flask-restx**==0.4.0
 * **Flask-JWT-Extended**==4.2.3
-* pytest&#x20;
+* pytest
 
-###
 
-### Getting Started
+## Getting Started
 
 > **Step #1** - clone the project using GIT
 
@@ -44,7 +44,7 @@ $ git clone https://github.com/app-generator/api-server-flask.git
 $ cd api-server-flask
 ```
 
-> **Step #2** - Install dependencies (using a virtual environment)&#x20;
+> **Step #2** - Install dependencies (using a virtual environment)
 
 ```
 $ python3 -m venv /path/to/your/virtual/environment
@@ -57,7 +57,7 @@ Install dependencies in once the `virtualenv`  is activated
 $ pip install -r requirements.txt
 ```
 
-> **Step #3** - Prepare the environment&#x20;
+> **Step #3** - Prepare the environment
 
 ```
 $ export FLASK_APP=run.py
@@ -93,10 +93,9 @@ $ flask run
 Visit `http://localhost:5000` in your browser. The API server will be running.
 
 
+## Project Structure
 
-### Project Structure
-
-The codebase has a simple, intuitive structure where `run.py` is responsible to bundle and start the API Server using the setup coded by the `api` folder:   &#x20;
+The codebase has a simple, intuitive structure where `run.py` is responsible to bundle and start the API Server using the setup coded by the `api` folder:   
 
 ```
 api-server-flask/
@@ -112,9 +111,7 @@ api-server-flask/
 └── tests.py
 ```
 
-### &#x20;<a href="#compatible-fullstack-products" id="compatible-fullstack-products"></a>
-
-### Compatible Fullstack Products <a href="#compatible-fullstack-products" id="compatible-fullstack-products"></a>
+## Compatible Fullstack Products
 
 The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**,** an open-source React Dashboard.
 
