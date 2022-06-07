@@ -37,6 +37,7 @@ To use the stater, [Python3](https://www.python.org) should be installed properl
 
 
 ## ✨ Start the app in Docker
+<br />
 
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
