@@ -35,9 +35,9 @@ To use the stater, [Python3](https://www.python.org) should be installed properl
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * Optional `Docker`
 
+<br />
 
 ## ✨ Start the app in Docker
-<br />
 
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
@@ -230,3 +230,4 @@ DB_PORT=3306                  # MySql port, default = 3306
 <br />
 
 At this point, the app should use `MySql` for the persistence layer. 
+
