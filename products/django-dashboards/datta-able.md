@@ -123,7 +123,12 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 
 <br />
 
-## ✨ Create `Superuser` 
+## ✨ Manage App `Users`
+
+By default, the starter is not provided with default users. 
+To access the private pages and the admin section, reserved for `superusers`, follow up the next sections. 
+
+### 👉 Create `Superusers` 
 
 To access the `admin` section, Django requires `superuser` privilegies. This can be done using the `createsuperuser` argument. 
 
@@ -142,7 +147,7 @@ Once the `superuser` is successfully created, we can access the `admin` section:
 
 <br />
 
-## ✨ Create (Ordinary) Users
+### 👉 Create (Ordinary) Users
 
 By default, the app redirects guest users to authenticate. In order to access the private pages, follow this set up: 
 
