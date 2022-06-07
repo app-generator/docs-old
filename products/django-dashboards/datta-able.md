@@ -57,7 +57,96 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 
 <br />
 
-## ✨ Create Users
+## ✨ Manual Build
+
+> Download the code 
+
+```bash
+$ # Get the code
+$ git clone https://github.com/app-generator/django-datta-able.git.git
+$ cd django-datta-able.git
+```
+
+### 👉 Set Up for `Unix`, `MacOS` 
+
+> Install modules via `VENV`  
+
+```bash
+$ virtualenv env
+$ source env/bin/activate
+$ pip3 install -r requirements.txt
+```
+
+<br />
+
+> Set Up Database
+
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+<br />
+
+> Start the app
+
+```bash
+$ python manage.py runserver
+```
+
+At this point, the app runs at `http://127.0.0.1:8000/`. 
+
+### 👉 Set Up for `Windows` 
+
+> Install modules via `VENV` (windows) 
+
+```
+$ virtualenv env
+$ .\env\Scripts\activate
+$ pip3 install -r requirements.txt
+```
+
+<br />
+
+> Set Up Database
+
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+<br />
+
+> Start the app
+
+```bash
+$ python manage.py runserver
+```
+
+At this point, the app runs at `http://127.0.0.1:8000/`. 
+
+<br />
+
+## ✨ Create `Superuser` 
+
+To access the `admin` section, Django requires `superuser` privilegies. This can be done using the `superuser` argument. 
+
+```bash
+$ python.exe manage.py createsuperuser
+>>> Username (leave blank to use 'test'): test
+>>> Email address: admin@appseed.us
+>>> Password: *******
+>>> Password (again): *******
+>>> Superuser created successfully.
+```
+
+Once the `superuser` is successfully created, we can access the `admin` section: 
+
+`http://localhost:8000/admin/` (make sure you have a `/` at the end).
+
+<br />
+
+## ✨ Create (Ordinary) Users
 
 By default, the app redirects guest users to authenticate. In order to access the private pages, follow this set up: 
 
@@ -125,7 +214,8 @@ The project is coded using a simple and intuitive structure presented below:
 
 ## ✨ Application Bootstrap Flow
 
-The entry point of the project is the `core.settings.py` file where all the project configuration is bundled. The most important steps that make the project functional are listed below: 
+The entry point of the project is the `core.settings.py` file where all the project configuration is bundled. 
+The `most important files` that make the project functional are listed below: 
 
 - `manage.py` (saved in the root of the project) loads `core/settings.py`
 - `core/settings.py`:
@@ -231,3 +321,8 @@ DB_PORT=3306                  # MySql port, default = 3306
 
 At this point, the app should use `MySql` for the persistence layer. 
 
+<br />
+
+## ✨ Customisation
+
+### Add a new app
