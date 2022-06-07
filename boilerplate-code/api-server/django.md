@@ -24,7 +24,7 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 ![Django API Server - Open-source Product.](../../.gitbook/assets/api-cover-django-xs.jpg)
 
 
-## Requirements
+## ✨ Requirements
 
 * **Python3** (Python2 is not supported)
 * **Django**==3.2.13
@@ -34,29 +34,29 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 * **gunicorn**==20.1.0 (used by the Docker set up)
 
 
-## How to use the code
+## ✨ How to use the code
 
-> **Step #1 -** Clone the sources
+> 👉 **Step #1 -** Clone the sources
 
 ```
 $ git clone https://github.com/app-generator/api-server-django.git
 $ cd api-server-django
 ```
 
-> **Step #2 -** Create a virtual environment
+> 👉 **Step #2 -** Create a virtual environment
 
 ```
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 ```
 
-> **Step #3-** Install dependencies using `pip`
+> 👉 **Step #3-** Install dependencies using `pip`
 
 ```
 $ pip install -r requirements.txt
 ```
 
-> **Step #4** - Start the API Server
+> 👉 **Step #4** - Start the API Server
 
 ```
 $ python manage.py migrate
@@ -66,25 +66,25 @@ $ python manage.py runserver
 The API server will start using the default port `8000`.
 
 
-## **Docker execution**
+## ✨ **Docker execution**
 
-> **Step #1** - Get the code
+> 👉 **Step #1** - Get the code
 
 ```
 $ git clone https://github.com/app-generator/api-server-django.git
 $ cd api-server-django
 ```
 
-> **step #2** - Start the app in Docker
+> 👉 *Step #2** - Start the app in Docker
 
 ```
 $ docker-compose up -d --build
 ```
 
-Visit `http://localhost:5000` in your browser. The API server will be running.\
+Visit `http://localhost:5000` in your browser. The API server will be running
 
 
-## Compatible Fullstack Products
+## ✨ Compatible Fullstack Products
 
 The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**,** an open-source React Dashboard.
 
