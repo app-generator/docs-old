@@ -408,7 +408,7 @@ DB_PORT=3306                  # MySql port, default = 3306
 
 At this point, the app should use `MySql` for the persistence layer. 
 
-### 👉 Add a new app
+### 👉 Adding a new app
 
 The existing codebase can be extended with ease with new apps and features.
 Here are the steps that create a new application named `polls`. 
