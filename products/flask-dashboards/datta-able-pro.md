@@ -64,7 +64,7 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 
 ## ✨ Manual Build
 
-> Download the code 
+> Download the code - access the [product page](https://appseed.us/product/datta-able-pro/flask/) and download the ZIP (requires a purchase)
 
 ```bash
 $ # Get the code
