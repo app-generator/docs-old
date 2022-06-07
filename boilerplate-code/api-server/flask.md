@@ -37,14 +37,14 @@ Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boi
 
 ## ✨ Getting Started
 
-> 👉 **Step #1** - clone the project using GIT
+> 👉 **Step 1** - clone the project using GIT
 
 ```
 $ git clone https://github.com/app-generator/api-server-flask.git
 $ cd api-server-flask
 ```
 
-> 👉 **Step #2** - Install dependencies (using a virtual environment)
+> 👉 **Step 2** - Install dependencies (using a virtual environment)
 
 ```
 $ python3 -m venv /path/to/your/virtual/environment
@@ -57,7 +57,7 @@ Install dependencies in once the `virtualenv`  is activated
 $ pip install -r requirements.txt
 ```
 
-> 👉 **Step #3** - Prepare the environment
+> 👉 **Step 3** - Prepare the environment
 
 ```
 $ export FLASK_APP=run.py
@@ -74,7 +74,7 @@ $ (Powershell) $env:FLASK_APP = ".\run.py"
 $ (Powershell) $env:FLASK_ENV = "development"
 ```
 
-> 👉 **Step #4** - Initialize the database, check `run.py` for shell context
+> 👉 **Step 4** - Initialize the database, check `run.py` for shell context
 
 ```
 $ flask shell
@@ -82,7 +82,7 @@ $ flask shell
 >>> db.create_all()
 ```
 
-> **Step #5** - Start the API server
+> 👉 **Step 5** - Start the API server
 
 ```
 $ python run.py

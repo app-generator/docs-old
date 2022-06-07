@@ -39,14 +39,14 @@ Free API Server coded on top of Express / Node JS with **SQLite** persistence an
 
 ## ✨ How to use the code
 
-> 👉 **Step #1** - Clone the sources
+> 👉 **Step 1** - Clone the sources
 
 ```
 $ git clone https://github.com/app-generator/api-server-nodejs.git
 $ cd api-server-nodejs
 ```
 
-> 👉 **Step #1** - Install dependencies via NPM or Yarn
+> 👉 **Step 2** - Install dependencies via NPM or Yarn
 
 ```
 $ npm i
@@ -54,13 +54,13 @@ $ npm i
 $ yarn
 ```
 
-> 👉 **Step #2** -  Run the `SQLite` migration
+> 👉 **Step 3** -  Run the `SQLite` migration
 
 ```
 $ yarn typeorm migration:run
 ```
 
-> 👉 **Step #3** -  Start the API server (development mode)
+> 👉 **Step 4** -  Start the API server (development mode)
 
 ```
 $ npm dev
@@ -68,7 +68,7 @@ $ npm dev
 $ yarn dev
 ```
 
-> 👉 **Step #4** -  Production Build (files generated in `build` directory)
+> 👉 **Step 5** -  Production Build (files generated in `build` directory)
 
 ```
 $ npm build
@@ -76,7 +76,7 @@ $ npm build
 $ yarn build
 ```
 
-> 👉 **Step #5** -  Start the API server (production mode)
+> 👉 **Step 6** -  Start the API server (production mode)
 
 ```
 $ npm start
