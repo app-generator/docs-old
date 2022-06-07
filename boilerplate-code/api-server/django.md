@@ -6,6 +6,8 @@ description: Open-source API Server crafted in Django using DRF (Django REST Fra
 
 Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authentication flow is based on **json web tokens**. The product comes with a simple, intuitive codebase, DRF integration, SQLite for persistence JWT Authentication API, Docker, and unitary tests.
 
+> Version: **[v1.0.2](https://github.com/app-generator/api-server-django/releases)**, release date `2022-06-07` 
+
 * [API Definition](api-unified-definition.md) - the unified API structure implemented by this server
 * [Django API Server](https://github.com/app-generator/api-server-django) - source code
 * Full-stack samples compatible with this product:

@@ -8,7 +8,7 @@ description: >-
 
 Free API Server coded on top of Express / Node JS with **SQLite** persistence and JWT authentication via Passport library - `passport-jwt` strategy.
 
-> Product Links
+> Version: **[v1.0.1](https://github.com/app-generator/api-server-nodejs/releases)**, release date `2022-06-02` 
 
 * [API Definition](api-unified-definition.md) - the unified API structure implemented by this server
 * [Node JS API Server](https://github.com/app-generator/api-server-nodejs) - source code
@@ -28,22 +28,25 @@ Free API Server coded on top of Express / Node JS with **SQLite** persistence an
 ![Node JS API Server - Open-source Product.](../../.gitbook/assets/api-cover-nodejs-xs.jpg)
 
 
-## Requirements
+## ✨ Tests Matrix
 
-* [Node.js](https://nodejs.org) >= 12.x
-* [SQLite](https://www.sqlite.org/index.html)
+| NodeJS | NPM | YARN | Status | 
+| --- | --- | --- | --- | 
+| `v17.0.0`  | `v8.11.0`  | `v1.22.18` | ✔️ |
+| `v16.15.1` | `v8.11.0`  | `v1.22.18` | ✔️ | 
+| `v16.13.0` | `v8.1.0`   | `v1.22.5`  | ✔️ | 
 
 
-## How to use the code
+## ✨ How to use the code
 
->**Step #1 -** Clone the sources
+> 👉 **Step #1** - Clone the sources
 
 ```
 $ git clone https://github.com/app-generator/api-server-nodejs.git
 $ cd api-server-nodejs
 ```
 
-**Install dependencies** via NPM or Yarn
+> 👉 **Step #1** - Install dependencies via NPM or Yarn
 
 ```
 $ npm i
@@ -51,13 +54,13 @@ $ npm i
 $ yarn
 ```
 
-**Run the SQLite migration**
+> 👉 **Step #2** -  Run the `SQLite` migration
 
 ```
 $ yarn typeorm migration:run
 ```
 
-**Start the API server** - development mode
+> 👉 **Step #3** -  Start the API server (development mode)
 
 ```
 $ npm dev
@@ -65,7 +68,7 @@ $ npm dev
 $ yarn dev
 ```
 
-**Production Build** - files generated in `build` directory
+> 👉 **Step #4** -  Production Build (files generated in `build` directory)
 
 ```
 $ npm build
@@ -73,7 +76,7 @@ $ npm build
 $ yarn build
 ```
 
-**Start the API server** - for production (files served from `build/index.js`)
+> 👉 **Step #5** -  Start the API server (production mode)
 
 ```
 $ npm start
@@ -84,7 +87,7 @@ $ yarn start
 The API server will start using the `PORT` specified in `.env` file (default 5000)\
 
 
-## Codebase Structure
+## ✨ Codebase Structure
 
 ```
 < ROOT / src >
@@ -110,26 +113,26 @@ The API server will start using the `PORT` specified in `.env` file (default 500
      |-- ************************************************************************
 ```
 
-### SQLite Path
+### ✨ SQLite Path
 
 The SQLite Path is set in `.env`, as `SQLITE_PATH`
 
-### Database migration
+### ✨ Database migration
 
-> Generate migration:
+> 👉 `Generate` migration:
 
 ```
 $ yarn typeorm migration:generate -n your_migration_name
 ```
 
-> run migration:
+> 👉 `Run` migration:
 
 ```
 $ yarn typeorm migration:run
 ```
 
 
-## Compatible Fullstack Products
+## ✨ Compatible Fullstack Products
 
 The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**,** an open-source React Dashboard.
 
