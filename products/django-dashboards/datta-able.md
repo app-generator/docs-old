@@ -35,7 +35,6 @@ To use the stater, [Python3](https://www.python.org) should be installed properl
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * Optional `Docker`
 
-<br />
 
 ## ✨ Start the app in Docker
 
