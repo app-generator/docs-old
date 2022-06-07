@@ -233,7 +233,8 @@ The project is coded using a simple and intuitive structure presented below:
 
 ## ✨ Application Bootstrap Flow
 
-The entry point of the project is the `core.settings.py` file where all the project configuration is bundled. The most important steps that makes the project functional are listed below: 
+The entry point of the project is the `core.settings.py` file where all the project configuration is bundled. 
+The most important steps that make the project functional are listed below:
 
 - `manage.py` (saved in the root of the project) loads `core/settings.py`
 - `core/settings.py`:
