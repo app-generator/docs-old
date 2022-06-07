@@ -67,6 +67,8 @@ $ git clone https://github.com/app-generator/django-datta-able.git.git
 $ cd django-datta-able.git
 ```
 
+<br />
+
 ### 👉 Set Up for `Unix`, `MacOS` 
 
 > Install modules via `VENV`  
@@ -91,6 +93,8 @@ $ python manage.py runserver
 ```
 
 At this point, the app runs at `http://127.0.0.1:8000/`. 
+
+<br />
 
 ### 👉 Set Up for `Windows` 
 
@@ -248,6 +252,92 @@ urlpatterns = [
 
 <br />
 
+## ✨ UI Assets and Templates
+
+The project comes with a modern UI fully migrated and usable with Django Template Engine. 
+
+### 👉 Page Templates
+
+All pages and components are saved inside the `apps/templates` directory. Here are the standard directories: 
+
+- `templates/layouts`: the project masterpages 
+- `templates/includes`: the project UI components (used across multiple pages) 
+- `templates/accounts`: login & registration page
+- `templates/home`: all other pages served via a generic routing by `apps/home` app
+
+```bash
+< PROJECT ROOT >
+   |
+   |-- core/                           # Implements app configuration
+   |-- apps/
+   |    |
+   |    |-- home/                      # A simple app that serve HTML files
+   |    |-- authentication/            # Handles auth routes (login and register)
+   |    |
+   |    |-- static/
+   |    |    |-- <css, JS, images>     # CSS files, Javascripts files
+   |    |
+   |    |-- templates/                 # Templates used to render pages
+   |         |-- includes/             # HTML chunks and components
+   |         |    |-- navigation.html  # Top menu component
+   |         |    |-- footer.html      # App Footer
+   |         |    |-- scripts.html     # Scripts common to all pages
+   |         |
+   |         |-- layouts/              # Master pages
+   |         |    |-- base.html        # Used by common pages
+   |         |
+   |         |-- accounts/             # Authentication pages
+   |         |    |-- login.html       # Login page
+   |         |    |-- register.html    # Register page
+   |         |
+   |         |-- home/                 # UI Kit Pages
+   |              |-- index.html       # Index page
+   |              |-- page-404.html    # 404 page
+   |              |-- *.html           # All other pages
+   |
+   |-- ************************************************************************
+```
+
+<br />
+
+### 👉 Static Assets
+
+The statie assets used by the project (`JS`, `CSS`, `images`) are saved inside the `apps/static/assets` folder. 
+This path can be customized with ease via `ASSETS_ROOT` variable saved in the `.env` file. 
+
+> How it works 
+
+- `.env` defines the `ASSETS_ROOT` variable 
+- `core/settings.py` read the value of `ASSETS_ROOT` and defaults to `/static/assets` if not found: 
+
+```python
+# content of core/settings.py (truncated content)
+
+ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets') 
+
+```
+
+- All pages and components use the `ASSETS_ROOT` variable. Here is a sample extracted from `templates/layouts/base.html`: 
+
+```html
+<head>
+    <title>
+        Django Datta Able - {% block title %}{% endblock %} | AppSeed
+    </title>
+
+    <!-- vendor css -->
+    <link rel="stylesheet" href="{{ ASSETS_ROOT }}/css/style.css">
+```
+
+At runtime, the `href` property is resolved to `/static/assets/css/style.css` based on the value saved in the `.env` file: 
+
+```env
+# No Slash at the end
+ASSETS_ROOT=/static/assets
+```
+
+<br />
+
 ## ✨ Default Apps
 
 The codebase comes with two simple apps that handle the authentication and serve all pages saved in the `apps/templates/home` directory. 
@@ -386,6 +476,10 @@ INSTALLED_APPS = [
 ![Django new app - browser output.](https://user-images.githubusercontent.com/51070104/172329836-93dfb838-87ba-4067-9983-93a95ca8571c.png)
 
 <br />
+
+### 👉 Static Assets for `production`
+
+@todo
 
 ## 🚀 Where to go from here
 
