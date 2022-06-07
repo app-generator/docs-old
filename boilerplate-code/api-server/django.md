@@ -27,10 +27,11 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 ## Requirements
 
 * **Python3** (Python2 is not supported)
-* **Django**==3.2.5
-* **djangorestframework**==3.12.4
-* **PyJWT**==2.1.0
-* **django-cors-headers**==3.7.0
+* **Django**==3.2.13
+* **djangorestframework**==3.13.1
+* **PyJWT**==2.4.0
+* **django-cors-headers**==3.13.0
+* **gunicorn**==20.1.0 (used by the Docker set up)
 
 
 ## How to use the code
