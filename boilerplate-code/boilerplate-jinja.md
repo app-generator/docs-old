@@ -127,21 +127,6 @@ At this point, the app runs at `http://127.0.0.1:5000/`.
 
 <br />
 
-## ✨ Manage App `Users`
-
-By default, the starter is not provided with users. 
-
-### 👉 Create Users
-
-By default, the app redirects guest users to authenticate. In order to access the private pages, follow this set up: 
-
-- Start the app via `flask run`
-- Access the `registration` page and create a new user:
-  - `http://127.0.0.1:5000/register`
-- Access the `sign in` page and authenticate
-  - `http://127.0.0.1:5000/login`
-<br />
-
 ## ✨ Codebase structure
 
 The project is coded using a simple and intuitive structure presented below:
