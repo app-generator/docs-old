@@ -33,7 +33,6 @@ Pixel was built by experienced web developers with a focus on good and high-qual
 
 > UI Kit Documentation - full presentation over the [UI foundation](https://themesberg.com/docs/bootstrap-5/pixel/foundation/typography/) and [components](https://themesberg.com/docs/bootstrap-5/pixel/components/alerts/)
 
-<br />
 
 ## ✨ Environment
 
@@ -45,7 +44,6 @@ Here is the full list with dependencies and tools required to build the app:
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * (Optional) `Docker` - a popular virtualization software 
 
-<br />
 
 ## ✨ Start the app in Docker
 
