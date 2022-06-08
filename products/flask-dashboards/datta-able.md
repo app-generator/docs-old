@@ -44,8 +44,8 @@ Here is the full list with dependencies and tools required to build the app:
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/flask-datta-able.git.git
-$ cd flask-datta-able.git
+$ git clone https://github.com/app-generator/flask-datta-able.git
+$ cd flask-datta-able
 ```
 
 > 👉 **Step 2** - Start the APP in `Docker`
@@ -64,8 +64,8 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/flask-datta-able.git.git
-$ cd flask-datta-able.git
+$ git clone https://github.com/app-generator/flask-datta-able.git
+$ cd flask-datta-able
 ```
 
 <br />
