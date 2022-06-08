@@ -16,170 +16,277 @@ description: >-
 
 > Links
 
-* [Jinja Boilerplate Code](https://github.com/app-generator/boilerplate-code-jinja) - Source code (published on Github)
-* [Jinja Boilerplate Code](https://boilerplate-code-jinja.appseed-srv1.com) - LIVE demo
-* Sample [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed&#x20;
+* [Source Code](https://github.com/app-generator/boilerplate-code-jinja) - released on Github (MIT License)
+* [Product page](https://appseed.us/boilerplate-code/flask-boilerplate/) - Hosted on AppSeed
+* Samples: [Flask Apps](https://appseed.us/apps/flask/) section on AppSeed
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for `registered users`.
 
+<br />
 
+## ✨ Environment
 
-![Jinja - Official Logo.](../.gitbook/assets/jinja-banner.jpg)
-
-### Environment
-
-To use the stater, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is properly installed, please open a terminal and type `python --version`. The full list with dependencies and tools required to build the app:
+To use the starter, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is installed, please open a terminal and type `python --version`. 
+Here is the full list with dependencies and tools required to build the app:
 
 * [Python3](https://www.python.org) - the programming language used to code the app
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
-* Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.&#x20;
+* Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
+* (Optional) `Docker` - a popular virtualization software 
 
+<br />
 
+## ✨ Start the app in Docker
 
-### Build the Template <a href="#build-the-app" id="build-the-app"></a>
+> 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
-To built and start the app locally, follow the steps:
-
-> **Get the source code**
-
-* Download the ZIP from Github Repository
-* Using GIT tool in the terminal to clone the source code
-
-> **Change the current directory** to `source code` directory
-
-```
+```bash
+$ # Get the code
 $ git clone https://github.com/app-generator/boilerplate-code-jinja.git
 $ cd boilerplate-code-jinja
-$
-$ # Virtualenv modules installation (Unix based systems)
+```
+
+> 👉 **Step 2** - Start the APP in `Docker`
+
+```bash
+$ docker-compose up --build 
+```
+
+Visit `http://localhost:5085` in your browser. The app should be up & running.
+
+<br />
+
+## ✨ Manual Build
+
+> Download the code 
+
+```bash
+$ # Get the code
+$ git clone https://github.com/app-generator/boilerplate-code-jinja.git
+$ cd boilerplate-code-jinja
+```
+
+<br />
+
+### 👉 Set Up for `Unix`, `MacOS` 
+
+> Install modules via `VENV`  
+
+```bash
 $ virtualenv env
 $ source env/bin/activate
-$
-$ # Virtualenv modules installation (Windows based systems)
-$ # virtualenv env
-$ # .\env\Scripts\activate
-$
-$ # Install requirements
 $ pip3 install -r requirements.txt
-$
-$ # Set the FLASK_APP environment variable
-$ (Unix/Mac) export FLASK_APP=run.py
-$ (Windows) set FLASK_APP=run.py
-$ (Powershell) $env:FLASK_APP = ".\run.py"
-$
-$ # Set up the DEBUG environment
-$ # (Unix/Mac) export FLASK_ENV=development
-$ # (Windows) set FLASK_ENV=development
-$ # (Powershell) $env:FLASK_ENV = "development"
-$
-$ # Run the Jinja Template
-$ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
-$ # --port=5000    - specify the app port (default 5000)  
-$ flask run --host=0.0.0.0 --port=5000
-$
-$ # Access the UI in browser: http://127.0.0.1:5000/
 ```
 
+> Set Up Flask Environment
 
+```bash
+$ export FLASK_APP=run.py
+$ export FLASK_ENV=development
+```
 
-### Codebase Structure
+> Start the app
 
-The project has a simple structure, represented as below:
+```bash
+$ flask run
+```
+
+At this point, the app runs at `http://127.0.0.1:5000/`. 
+
+<br />
+
+### 👉 Set Up for `Windows` 
+
+> Install modules via `VENV` (windows) 
 
 ```
+$ virtualenv env
+$ .\env\Scripts\activate
+$ pip3 install -r requirements.txt
+```
+
+> Set Up Flask Environment
+
+```bash
+$ # CMD 
+$ set FLASK_APP=run.py
+$ set FLASK_ENV=development
+$
+$ # Powershell
+$ $env:FLASK_APP = ".\run.py"
+$ $env:FLASK_ENV = "development"
+```
+
+> Start the app
+
+```bash
+$ flask run
+```
+
+At this point, the app runs at `http://127.0.0.1:5000/`. 
+
+<br />
+
+## ✨ Manage App `Users`
+
+By default, the starter is not provided with users. 
+
+### 👉 Create Users
+
+By default, the app redirects guest users to authenticate. In order to access the private pages, follow this set up: 
+
+- Start the app via `flask run`
+- Access the `registration` page and create a new user:
+  - `http://127.0.0.1:5000/register`
+- Access the `sign in` page and authenticate
+  - `http://127.0.0.1:5000/login`
+<br />
+
+## ✨ Codebase structure
+
+The project is coded using a simple and intuitive structure presented below:
+
+```bash
 < PROJECT ROOT >
    |
-   |-- app/__init__.py
-   |-- app/
-   |    |-- static/
-   |    |    |-- <css, JS, images>         # CSS files, Javascripts files
+   |-- apps/
    |    |
-   |    |-- templates/
+   |    |-- static/
+   |    |    |-- <css, JS, images>          # CSS files, Javascripts files
+   |    |
+   |    |-- templates/                      # Templates used to render pages
+   |    |    |-- includes/                  # HTML chunks and components
+   |    |    |    |-- navigation.html       # Top menu component
+   |    |    |    |-- footer.html           # App Footer
+   |    |    |    |-- scripts.html          # Scripts common to all pages
    |    |    |
-   |    |    |-- includes/                 # Page chunks, components
-   |    |    |    |
-   |    |    |    |-- navigation.html      # Top bar
-   |    |    |    |-- sidebar.html         # Left sidebar
-   |    |    |    |-- scripts.html         # JS scripts common to all pages
-   |    |    |    |-- footer.html          # The common footer
+   |    |    |-- layouts/                   # Master pages
+   |    |    |    |-- base-fullscreen.html  # Used by Authentication pages
+   |    |    |    |-- base.html             # Used by common pages
    |    |    |
-   |    |    |-- layouts/                  # App Layouts (the master pages)
-   |    |    |    |
-   |    |    |    |-- base.html            # Used by common pages like index, UI
-   |    |    |    |-- base-fullscreen.html # Used by auth pages (login, register)
+   |    |    |-- accounts/                  # Authentication pages
+   |    |    |    |-- login.html            # Login page
+   |    |    |    |-- register.html         # Register page
    |    |    |
-   |    |  index.html                      # The default page
-   |    |  login.html                      # Auth Login Page
-   |    |  register.html                   # Auth Registration Page
-   |    |  page-404.html                   # Error 404 page (page not found)
-   |    |  page-500.html                   # Error 500 page (server error)
-   |    |    *.html                        # All other pages provided by the UI Kit
+   |    |    |-- home/                      # UI Kit Pages
+   |    |         |-- index.html            # Index page
+   |    |         |-- page-404.html         # 404 page
+   |    |         |-- *.html                # All other pages
+   |    |    
+   |  views.py                              # Implements app routing
+   |  config.py                             # Set up the app   
+   |    __init__.py                         # Initialize the app
    |
-   |-- requirements.txt
+   |-- requirements.txt                     # App Dependencies
    |
-   |-- run.py
+   |-- .env                                 # Inject Configuration via Environment
+   |-- run.py                               # Start the app - WSGI gateway
    |
-   |-- *************************************
+   |-- ************************************************************************
+```
+
+<br />
+
+## ✨ UI Assets and Templates
+
+The project comes with a modern UI fully migrated and usable with Django Template Engine. 
+
+### 👉 Page Templates
+
+All pages and components are saved inside the `apps/templates` directory. Here are the standard directories: 
+
+- `templates/layouts`: UI masterpages 
+- `templates/includes`: UI components (used across multiple pages) 
+- `templates/accounts`: login & registration page
+- `templates/home`: all other pages served via a generic routing by `apps/home` app
+
+```bash
+< PROJECT ROOT >
+   |
+   |-- apps/
+   |    |
+   |    |-- static/
+   |    |    |-- <css, JS, images>     # CSS files, Javascripts files
+   |    |
+   |    |-- templates/                 # Templates used to render pages
+   |         |-- includes/             # HTML chunks and components
+   |         |    |-- navigation.html  # Top menu component
+   |         |    |-- footer.html      # App Footer
+   |         |    |-- scripts.html     # Scripts common to all pages
+   |         |
+   |         |-- layouts/              # Master pages
+   |         |    |-- base.html        # Used by common pages
+   |         |
+   |         |-- accounts/             # Authentication pages
+   |         |    |-- login.html       # Login page
+   |         |    |-- register.html    # Register page
+   |         |
+   |         |-- home/                 # UI Kit Pages
+   |              |-- index.html       # Index page
+   |              |-- page-404.html    # 404 page
+   |              |-- *.html           # All other pages
+   |
+   |-- ************************************************************************
+```
+
+<br />
+
+### 👉 Static Assets
+
+The static assets used by the project (`JS`, `CSS`, `images`) are saved inside the `apps/static/assets` folder. 
+This path can be customized with ease via `ASSETS_ROOT` variable saved in the `.env` file. 
+
+> How it works 
+
+- `.env` defines the `ASSETS_ROOT` variable 
+- `core/settings.py` read the value of `ASSETS_ROOT` and defaults to `/static/assets` if not found: 
+
+```python
+# content of core/settings.py (truncated content)
+
+ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets') 
 
 ```
 
+- All pages and components use the `config.ASSETS_ROOT` variable. Here is a sample extracted from `templates/layouts/base.html`: 
 
+```html
+<head>
 
-### Deployment
+    <!-- Source Code -->
+    <link rel="stylesheet" href="{{ config.ASSETS_ROOT }}/css/style.css">
 
-&#x20;The project comes with a basic configuration for [Docker](https://www.docker.com), [HEROKU](https://www.heroku.com), [Gunicorn](https://gunicorn.org), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).&#x20;
-
-#### [Docker](https://www.docker.com) execution
-
-The steps to start the template using Docker:
-
-> **Step #1** - Clone/download the source code
-
-```
-$ git clone https://github.com/app-generator/boilerplate-code-jinja.git
-$ cd boilerplate-code-jinja
-```
-
-> Step #2 - Start the app in Docker
+    <!-- RUNTIME -->
+    <link rel="stylesheet" href="/static/assets/css/style.css">
 
 ```
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
+
+At runtime, the `href` property is resolved to `/static/assets/css/style.css` based on the value saved in the `.env` file: 
+
+```env
+# No Slash at the end
+ASSETS_ROOT=/static/assets
 ```
 
-Visit `http://localhost:5005` in your browser. The app should be up & running.
+<br />
 
+## 👉 Static Assets for `production`
 
+As explained in the [Static Assets](#static-assets) section, the assets are managed via: 
 
-#### [Heroku](https://www.heroku.com) Deployment
+- `apps/static/assets` - the folder where `JS`, `CSS`, and `images` files are saved
+- `ASSETS_ROOT` - environment variable, that defaults to `/static/assets` if not defined 
 
-Steps to deploy on **Heroku**
+In production, the contents of the `apps/static/assets` files should be copied to an external (public) directory and the `ASSETS_ROOT` environment variable updated accordingly. 
 
-* [Create a FREE account](https://signup.heroku.com) on the Heroku platform
-* [Install the Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) that match your OS: Mac, Unix or Windows
-* Open a terminal window and authenticate via `heroku login` command
-* Clone the sources and push the project for LIVE deployment
+For instance, if the `static` files are copied to `https://cdn.your-server.com/datta-able-assets`, the `.env` file should be updated as below: 
 
+```.env
+# No Slash at the end
+ASSETS_ROOT=https://cdn.your-server.com/datta-able-assets
 ```
-$ # Clone the source code:
-$ git clone https://github.com/app-generator/boilerplate-code-jinja.git
-$ cd boilerplate-code-jinja
-$
-$ # Check Heroku CLI is installed
-$ heroku -v
-heroku/7.25.0 win32-x64 node-v12.13.0 # <-- All good
-$
-$ # Check Heroku CLI is installed
-$ heroku login
-$ # this commaond will open a browser window - click the login button (in browser)
-$
-$ # Create the Heroku project
-$ heroku create
-$
-$ # Trigger the LIVE deploy
-$ git push heroku master
-$
-$ # Open the LIVE app in browser
-$ heroku open
-```
+ 
+## 🚀 Where to go from here
 
-####
+- 👉 Access the [support](https://appseed.us/support/) page in case something is missing
+- 👉 Use the [App Generator](https://appseed.us/generator) to generate a new project
