@@ -54,8 +54,8 @@ Here is the full list with dependencies and tools required to build the app:
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-material-kit.git
-$ cd django-material-kit
+$ git clone https://github.com/app-generator/flask-material-kit.git
+$ cd flask-material-kit
 ```
 
 > 👉 **Step 2** - Start the APP in `Docker`
@@ -74,8 +74,8 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-material-kit.git
-$ cd django-material-kit
+$ git clone https://github.com/app-generator/flask-material-kit.git
+$ cd flask-material-kit
 ```
 
 <br />
@@ -269,7 +269,7 @@ In case a page is not found, a generic page is returned using a `404` HTTP error
 
 ## ✨ UI Assets and Templates
 
-The project comes with a modern UI fully migrated and usable with Django Template Engine. 
+The project comes with a modern UI fully migrated and usable with Flask Template Engine. 
 
 ### 👉 Page Templates
 
