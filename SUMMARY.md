@@ -72,6 +72,7 @@
   * [Flask Tabler](products/flask-dashboards/tabler.md)
 * [Django Apps](products/django-apps/README.md)
   * [Django Pixel Lite](products/django-apps/pixel-lite.md)
+  * [Django Pixel PRO](products/django-apps/pixel-pro.md)
   * [Django Material Kit 2 PRO](products/django-apps/material-kit-2-pro.md)
 * [Django Dashboards](products/django-dashboards/README.md)
   * [Django Adminator](products/django-dashboards/adminator.md)
