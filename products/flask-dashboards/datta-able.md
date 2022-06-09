@@ -377,14 +377,14 @@ Here is a sample:
 ```txt
 # .env sample
 
-DEBUG=False                   # False enables the MySql Persistence
+DEBUG=False                 # False enables the MySql Persistence
 
-DB_ENGINE=mysql               # Database Driver
-DB_NAME=appseed_flask         # Database Name
-DB_USERNAME=appseed_flask_usr # Database User
-DB_PASS=STRONG_PASS_HERE      # Password 
-DB_HOST=localhost             # Database HOST, default is localhost 
-DB_PORT=3306                  # MySql port, default = 3306 
+DB_ENGINE=mysql             # Database Driver
+DB_NAME=appseed_db          # Database Name
+DB_USERNAME=appseed_db_usr  # Database User
+DB_PASS=STRONG_PASS_HERE    # Password 
+DB_HOST=localhost           # Database HOST, default is localhost 
+DB_PORT=3306                # MySql port, default = 3306 
 ```
 
 At this point, the app should use `MySql` for the persistence layer. 
