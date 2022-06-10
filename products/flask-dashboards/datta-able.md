@@ -208,7 +208,7 @@ The `most important files` that make the project functional are listed below:
   - import the `create_app` helper from `apps`
 - `Flask` application is built by `create_app`
   - If `Debug=True` - SQLite is used (development mode)
-  - If `Debug=False` - SQLite is used (production mode)
+  - If `Debug=False` - MySql is used (production mode)
 - Configuration 
   - is defined in `apps/config.py`
 
