@@ -38,6 +38,7 @@
   * [Flask React Datta Able](products/react/flask-datta-able.md)
 * [Flask Apps](products/flask-apps/README.md)
   * [Flask Material Kit](products/flask-apps/material-kit.md)
+  * [Flask Material Kit PRO](products/flask-apps/material-kit-pro.md)  
   * [Flask Material Kit 2 PRO](products/flask-apps/material-kit-2-pro.md)
   * [Flask Pixel Lite](products/flask-apps/pixel-lite.md)
   * [Flask Soft Design](products/flask-apps/soft-ui-design.md)     
