@@ -76,6 +76,7 @@
   * [Django Pixel Lite](products/django-apps/pixel-lite.md)
   * [Django Pixel PRO](products/django-apps/pixel-pro.md)
   * [Django Material Kit](products/django-apps/material-kit.md)  
+  * [Django Material Kit PRO](products/django-apps/material-kit-pro.md)   
   * [Django Material Kit 2 PRO](products/django-apps/material-kit-2-pro.md)
   * [Django Soft Design](products/django-apps/soft-ui-design.md)   
 * [Django Dashboards](products/django-dashboards/README.md)
