@@ -399,11 +399,11 @@ As explained in the [Static Assets](#static-assets) section, the assets are mana
 
 In production, the contents of the `apps/static/assets` files should be copied to an external (public) directory and the `ASSETS_ROOT` environment variable updated accordingly. 
 
-For instance, if the `static` files are copied to `https://cdn.your-server.com/datta-able-assets`, the `.env` file should be updated as below: 
+For instance, if the `static` files are copied to `https://cdn.your-server.com/volt-assets`, the `.env` file should be updated as below: 
 
 ```.env
 # No Slash at the end
-ASSETS_ROOT=https://cdn.your-server.com/datta-able-assets
+ASSETS_ROOT=https://cdn.your-server.com/volt-assets
 ```
  
 ## 🚀 Where to go from here
