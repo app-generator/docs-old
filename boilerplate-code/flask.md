@@ -307,10 +307,10 @@ This path can be customized with ease via `ASSETS_ROOT` variable saved in the `.
 > How it works 
 
 - `.env` defines the `ASSETS_ROOT` variable 
-- `core/settings.py` read the value of `ASSETS_ROOT` and defaults to `/static/assets` if not found: 
+- `apps/config.py` read the value of `ASSETS_ROOT` and defaults to `/static/assets` if not found: 
 
 ```python
-# content of core/settings.py (truncated content)
+# content of apps/config.py (truncated content)
 
 ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets') 
 
