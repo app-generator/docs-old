@@ -1,5 +1,5 @@
 ---
-description: Open-source Flask Starter coded on top Volt PRO Bootstrap 5 design (Premium Version).
+description: Premium Flask Starter coded on top Volt PRO Bootstrap 5 design (Premium Version).
 ---
 
 # Volt Dashboard PRO Flask
