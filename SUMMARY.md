@@ -41,6 +41,7 @@
   * [Flask Material Kit PRO](products/flask-apps/material-kit-pro.md)  
   * [Flask Material Kit 2 PRO](products/flask-apps/material-kit2-pro.md)
   * [Flask Pixel Lite](products/flask-apps/pixel-lite.md)
+  * [Flask Pixel PRO](products/flask-apps/pixel-pro.md)  
   * [Flask Soft Design](products/flask-apps/soft-ui-design.md)     
 * [Flask Dashboards](products/flask-dashboards/README.md)
   * [Flask Adminator](products/flask-dashboards/adminator.md)
