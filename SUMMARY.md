@@ -43,6 +43,7 @@
   * [Flask Pixel Lite](products/flask-apps/pixel-lite.md)
   * [Flask Pixel PRO](products/flask-apps/pixel-pro.md)  
   * [Flask Soft Design](products/flask-apps/soft-ui-design.md)     
+  * [Flask Soft Design PRO](products/flask-apps/soft-ui-design-pro.md)  
 * [Flask Dashboards](products/flask-dashboards/README.md)
   * [Flask Adminator](products/flask-dashboards/adminator.md)
   * [Flask AdminLTE](products/flask-dashboards/adminlte.md)
