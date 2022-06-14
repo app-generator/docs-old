@@ -81,6 +81,7 @@
   * [Django Material Kit PRO](products/django-apps/material-kit-pro.md)   
   * [Django Material Kit 2 PRO](products/django-apps/material-kit2-pro.md)
   * [Django Soft Design](products/django-apps/soft-ui-design.md)   
+  * [Django Soft Design PRO](products/django-apps/soft-ui-design-pro.md)  
 * [Django Dashboards](products/django-dashboards/README.md)
   * [Django Adminator](products/django-dashboards/adminator.md)
   * [Django AdminLTE](products/django-dashboards/adminlte.md)
