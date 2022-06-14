@@ -129,7 +129,12 @@
   * [Jinja Volt Bootstrap 5](products/jinja-templates/volt-bootstrap-5.md)
   * [Jinja Volt PRO](products/jinja-templates/volt-dashboard-pro.md)
 
-## Free Samples <a href="#samples" id="samples"></a>
+## Features
+
+* [Flask](features/flask/README.md)
+  * [Extended User Model](features/features/extended-user-model.md)
+
+## Free Samples
 
 * [Django Samples](samples/django/README.md)
   * [Django Create Model](samples/django/create-model.md)
