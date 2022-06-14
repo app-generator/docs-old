@@ -132,7 +132,7 @@
 ## Features
 
 * [Flask](features/flask/README.md)
-  * [Extended User Model](features/features/extended-user-model.md)
+  * [Extended User Model](features/flask/extended-user-model.md)
 
 ## Free Samples
 
