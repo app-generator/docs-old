@@ -30,6 +30,7 @@ The codebase used during the demostration is Flask Datta Able, a simple and open
 ## Enhance the exising `User` model
   * Add  new fields
   - `role`, `status`, `failed_logins`
+
 @TBD
 
 <br />
@@ -43,12 +44,12 @@ The codebase used during the demostration is Flask Datta Able, a simple and open
 <br />
 
 ## CLI improvements
-
-> Used for database init & migration
+  - Used for database init & migration
     1. python manage.py db init (for create migrations)
     2. python manage.py db migrate (for apply migrations)
     3. python manage.py db create_admin (for create admin user)
     2. python manage.py db runserver (for run app)
+
 
 @TBD
 
@@ -57,7 +58,7 @@ The codebase used during the demostration is Flask Datta Able, a simple and open
 ## relation with the parent (User model)
   1. ForeignKey realtion with UserProfile
 
-- Signals
+## Signals
   1. Create Userprofile(function name: create_profile_by_user)
   2. Delete Userprofile(function name: delete_profile_by_user)
 
