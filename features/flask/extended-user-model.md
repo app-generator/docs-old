@@ -28,12 +28,15 @@ The codebase used during the demostration is Flask Datta Able, a simple and open
 <br />
 
 ## Enhance the exising `User` model
-
+  * Add  new fields
+  - `role`, `status`, `failed_logins`
 @TBD
 
 <br />
 
 ## Add new `UserProfile` model
+  * UserProfile table fileds
+  - `full_name`,`bio`,`address`,`zipcode`,`phone`,`email`,`website`,`image`
 
 @TBD
 
@@ -42,12 +45,33 @@ The codebase used during the demostration is Flask Datta Able, a simple and open
 ## CLI improvements
 
 > Used for database init & migration
+    1. python manage.py db init (for create migrations)
+    2. python manage.py db migrate (for apply migrations)
+    3. python manage.py db create_admin (for create admin user)
+    2. python manage.py db runserver (for run app)
 
 @TBD
 
 <br />
 
-## Routing updates 
+## relation with the parent (User model)
+  1. ForeignKey realtion with UserProfile
+
+- Signals
+  1. Create Userprofile(function name: create_profile_by_user)
+  2. Delete Userprofile(function name: delete_profile_by_user)
+
+<br/>
+
+## Routing updates
+  - `/register`  (methods=['GET', 'POST'])
+  - `/login`  (methods=['GET', 'POST'])
+  - `/profile`  (methods=['GET'])
+  - `/user_list` (methods=['GET'])
+  - `/edit_user` (methods=['GET', 'PUT'])
+  - `/update_status` (methods=['PUT'])
+  - `/email_exists` (methods=['GET'])
+  - `/delete_user` (methods=['DELETE'])
 
 > What was done to support the new editing 
 
@@ -56,7 +80,26 @@ The codebase used during the demostration is Flask Datta Able, a simple and open
 <br />
 
 ## UI Changes 
+* Bootstrap model
+    1. edit button popup model (for edit users details)
+    2. edit button popup model (for user profile details)
+    3. validate the password strength using a bar colored from red (week password) to green (strong password).
+    4. status update toggle button (Active/Suspend)
+    5. user edit email check valid or not
+    6. delete user display popup (Do you want to delte)
 
 @TBD
 
+<br/>
 
+## events from the backend
+  1. onchange (for status update)
+  2. onclick (for get user details and delete user)
+  3. onSubmit (for form submit)
+  4. onkeyUp (for check email exists or not)
+
+## FTP Server
+ 1. connect FTP server 
+ 2. upload image to save FTP server
+ 3. save image url to db
+ 4. get image to saved image url 
