@@ -66,8 +66,6 @@ The codebase used during the demostration is Flask Datta Able, a simple and open
   - `/email_exists` (methods=['GET'])
   - `/delete_user` (methods=['DELETE'])
 
-> What was done to support the new editing 
-
 <br />
 
 ## UI Changes 
