@@ -9,7 +9,7 @@ description: >-
 Open-source full-stack seed project coded in [**React** and **Django**](https://appseed.us/product/django-react-datta-able-pro) on top of a modern design from **CodedThemes**. The **React** / **Django** codebase is already configured with an SQLite database, API, and JWT token-based authentication flow.
 
 * [Django React Datta PRO](https://appseed.us/product/django-react-datta-able-pro) - product page
-* [Django React Datta PRO](https://django-react-datta-able-pro.appseed-srv1.com) - LIVE demo
+* [Django React Datta PRO](https://django-react-datta-able-pro.appseed-srv1.com/) - LIVE demo
 
 ![Django React - datta Able PRO.](../../.gitbook/assets/django-react-datta-pro-xs.jpg)
 
@@ -64,7 +64,7 @@ To use the product and see all features in action an API server should be up and
 
 ![Django API Server - Open-source product.](../../.gitbook/assets/api-cover-django-xs.jpg)
 
-Here we will use the first option and build a real API server coded in **Django Framework** on top of [DRF](https://www.django-rest-framework.org) Library with SQLite persistence.
+Here we will use the first option and build a real API server coded in **Django Framework** on top of [DRF](https://www.django-rest-framework.org/) Library with SQLite persistence.
 
 > &#x20;**Step #1** - Clone the API Server from Github
 

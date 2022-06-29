@@ -12,17 +12,17 @@ This page explains how to deploy a simple [Flask](https://www.palletsprojects.co
 
 ### Dependencies
 
-* [Apache](https://httpd.apache.org) / `httpd` (on CentOS) server
-* [mod\_wsgi](https://modwsgi.readthedocs.io)
+* [Apache](https://httpd.apache.org/) / `httpd` (on CentOS) server
+* [mod\_wsgi](https://modwsgi.readthedocs.io/)
 * [Flask](https://www.palletsprojects.com/p/flask/) web framework
-* [Python3](https://www.python.org)
-* [Virtualenv](https://virtualenv.pypa.io)
+* [Python3](https://www.python.org/)
+* [Virtualenv](https://virtualenv.pypa.io/)
 
 
 
 ### Prepare the environment
 
-> Install [Apache](https://httpd.apache.org) server
+> Install [Apache](https://httpd.apache.org/) server
 
 ```bash
 $ sudo yum install httpd
@@ -31,7 +31,7 @@ $ # by default the server is down.
 $ sudo systemctl start httpd
 ```
 
-> Install [mod\_wsgi](https://modwsgi.readthedocs.io)
+> Install [mod\_wsgi](https://modwsgi.readthedocs.io/)
 
 ```bash
 $ sudo yum install mod_wsgi
@@ -47,7 +47,7 @@ $ sudo httpd -M | grep wsgi
 wsgi_module (shared) # <-- the OK response
 ```
 
-> Install [Virtualenv](https://virtualenv.pypa.io)
+> Install [Virtualenv](https://virtualenv.pypa.io/)
 
 Virtual environments will sandbox the app to run isolated from the global server environment
 

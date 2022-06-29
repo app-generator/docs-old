@@ -22,7 +22,7 @@ WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material de
 
 * [MaterialPro Flask](https://appseed.us/admin-dashboards/flask-material-dashboard-wpx-pro) - product page
 * [MaterialPro Flask](https://github.com/app-generator/flask-material-wpx-pro) - public repository used for tracking issues &#x20;
-* [MaterialPro Flask](https://flask-material-wpx-pro.appseed-srv1.com) - LIVE Demo
+* [MaterialPro Flask](https://flask-material-wpx-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 

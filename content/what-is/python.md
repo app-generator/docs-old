@@ -4,11 +4,11 @@ description: Short introduction to Python
 
 # What IS Python
 
-[Python](https://www.python.org) is a general-purpose coding language—which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. Python is interpreted, easy to learn surrounded by a huge ecosystem, actively supported and used in many industries and domains - Resources:
+[Python](https://www.python.org/) is a general-purpose coding language—which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. Python is interpreted, easy to learn surrounded by a huge ecosystem, actively supported and used in many industries and domains - Resources:
 
-* [Python](https://www.python.org) - the official website
+* [Python](https://www.python.org/) - the official website
 * [Python For Beginners](https://www.python.org/about/gettingstarted/) - a starting guide &#x20;
-* [Python Cheatsheet](https://www.pythoncheatsheet.org) - this site should make you curious
+* [Python Cheatsheet](https://www.pythoncheatsheet.org/) - this site should make you curious
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - popular Python web framework&#x20;
 
 **Can be used for things like**: (starting from the simple ones)
@@ -23,7 +23,7 @@ description: Short introduction to Python
 
 ### [Install Python](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/how-to/install-python/README.md)
 
-The **Python** can be downloaded from the [official website](https://www.python.org). Choose the installer for your operating system, download, and click a few times. By typing python --version in a terminal window, you should see something like this:
+The **Python** can be downloaded from the [official website](https://www.python.org/). Choose the installer for your operating system, download, and click a few times. By typing python --version in a terminal window, you should see something like this:
 
 ```bash
 $ python --version
@@ -82,7 +82,7 @@ TypeError: can only concatenate str (not "int") to str
 
 ### Install libraries
 
-Python is an open-source software actively supported by a huge ecosystem where programmers expose their work to be reused by others. Flask and Django are just a few examples. The full-index with available packages can be found on [PyPI - Python Package Index](https://pypi.org).
+Python is an open-source software actively supported by a huge ecosystem where programmers expose their work to be reused by others. Flask and Django are just a few examples. The full-index with available packages can be found on [PyPI - Python Package Index](https://pypi.org/).
 
 In this section we will write code to extract the title from a web page. To do this, we will reuse two popular libraries putbished on **PyPI** and use them in the python console to extract the title from `google.com`.
 
@@ -112,7 +112,7 @@ Once the libraries are installed succesfully, we can write code in the Python co
 
 * [Flask](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) - Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 library and Werkzeug WSGI toolkit.
 * [Django](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) - Full-stack framework Django is one of the most beloved web development frameworks for developing Python applications.
-* [FastAPI](https://fastapi.tiangolo.com) - a high performance, easy to learn, ready for production framework
+* [FastAPI](https://fastapi.tiangolo.com/) - a high performance, easy to learn, ready for production framework
 
 
 

@@ -315,5 +315,5 @@ If the user is authenticated all session information will be deleted. If the use
 
 ### Resources
 
-* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Read more about [Django](https://www.djangoproject.com/) (official docs)
 * Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)&#x20;

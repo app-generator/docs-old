@@ -197,5 +197,5 @@ class HelloForm(forms.Form):
 
 ### Resources&#x20;
 
-* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Read more about [Django](https://www.djangoproject.com/) (official docs)
 * Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)&#x20;

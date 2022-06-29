@@ -47,4 +47,4 @@ Using an older version provides a quick fix for your codebase but is not recomme
 
 * [WTForms](https://wtforms.readthedocs.io/en/3.0.x/) - official documentation
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/) - library documentation
-* Join the [AppSeed](https://appseed.us) community on [Discord](https://discord.gg/fZC6hup).
+* Join the [AppSeed](https://appseed.us/) community on [Discord](https://discord.gg/fZC6hup).

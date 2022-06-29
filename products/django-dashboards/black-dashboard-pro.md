@@ -20,7 +20,7 @@ description: >-
 
 * [Black PRO Django](https://appseed.us/admin-dashboards/django-dashboard-black-pro) - product page
 * [Black PRO Django](https://github.com/app-generator/django-dashboard-black-pro) - public repository used for bug tracking
-* [Black PRO Django](https://django-black-dashboard-pro.appseed-srv1.com) - LIVE Demo
+* [Black PRO Django](https://django-black-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 ###

@@ -22,9 +22,9 @@ description: >-
 
 * [Sleek Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-sleek) - product page
 * [Sleek Admin Flask](https://github.com/app-generator/flask-dashboard-sleek) - source code&#x20;
-* [Sleek Admin Flask](https://flask-dashboard-sleek.appseed.us) - LIVE Demo&#x20;
+* [Sleek Admin Flask](https://flask-dashboard-sleek.appseed.us/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ###
 
@@ -47,9 +47,9 @@ description: >-
 
 ### Sleek Admin - UI Kit
 
-**Sleek Dashboard** has impressive typography that compliments exceedingly with its colorful and elegant interface. Open-source, MIT licensed product crafted for free by [TAF Coder](https://www.iamabdus.com). Built with  [Bootstrap](https://getbootstrap.com), the world's most popular front-end component library for developing with HTML, CSS, and JS. It's open-source, intuitive, and powerful front-end framework for faster and easier web development.
+**Sleek Dashboard** has impressive typography that compliments exceedingly with its colorful and elegant interface. Open-source, MIT licensed product crafted for free by [TAF Coder](https://www.iamabdus.com/). Built with  [Bootstrap](https://getbootstrap.com/), the world's most popular front-end component library for developing with HTML, CSS, and JS. It's open-source, intuitive, and powerful front-end framework for faster and easier web development.
 
 * [Sleek Admin](https://github.com/tafcoder/sleek-dashboard) - source code&#x20;
-* [Sleek Admin](https://sleek.tafcoder.com) - LIVE demo&#x20;
+* [Sleek Admin](https://sleek.tafcoder.com/) - LIVE demo&#x20;
 
 ![Sleek Admin - Open-source Dashboard.](../../.gitbook/assets/sleek-dashboard-bootstrap.jpg)

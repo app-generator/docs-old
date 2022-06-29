@@ -18,25 +18,25 @@ In a multilayered architecture the most common used layers are:
 
 This layer handles the user interaction. This part of the application is usually built-in HTML and Javascript in various technologies and frameworks:
 
-* [React](https://reactjs.org) - the popular Javascript framework built by Facebook
-* [Vue.js](https://vuejs.org) - The Progressive JavaScript Framework
-* [jQuery](https://jquery.com)  &#x20;
+* [React](https://reactjs.org/) - the popular Javascript framework built by Facebook
+* [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
+* [jQuery](https://jquery.com/)  &#x20;
 
 ### Application layer
 
 Represents the server-side of the application and can be developed in many programming languages:
 
-* [Php](https://www.php.net) (the most popular server-side language ) using [Laravel](https://laravel.com), [CodeIgniter](https://www.codeigniter.com)
-* [Python](https://www.python.org) server-side apps can be developed using [Django](https://www.djangoproject.com), [Flask](http://flask.pocoo.org)
+* [Php](https://www.php.net/) (the most popular server-side language ) using [Laravel](https://laravel.com/), [CodeIgniter](https://www.codeigniter.com/)
+* [Python](https://www.python.org/) server-side apps can be developed using [Django](https://www.djangoproject.com/), [Flask](http://flask.pocoo.org/)
 * [Ruby](https://www.ruby-lang.org/en/)
 
 ### Database layer
 
 The majority of web apps requires a type of storage to save the relevant data:
 
-* [MySql](https://www.mysql.com) - the popular open-source database engine&#x20;
+* [MySql](https://www.mysql.com/) - the popular open-source database engine&#x20;
 * [SQLite](https://www.sqlite.org/index.html) - the lite version of MySql
-* [MongoDB](https://www.mongodb.com) - a document-based engine
+* [MongoDB](https://www.mongodb.com/) - a document-based engine
 
 
 

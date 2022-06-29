@@ -23,7 +23,7 @@ Python 2.5 and later comes with a WSGI server which will be used in this tutoria
 A short-list with web frameworks with native WSGI support:
 
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions
-* [Django](https://www.djangoproject.com) - The web framework for perfectionists with deadlines.
+* [Django](https://www.djangoproject.com/) - The web framework for perfectionists with deadlines.
 * [Pyramid](http://www.pylonsproject.org/projects/pyramid/about) - Pyramid is a minimalist web framework aiming at composability and making developers paying only for what they use.
 * [Falcon](http://www.pylonsproject.org/projects/pyramid/about) - Falcon is a high-performance Python framework for building cloud APIs
 

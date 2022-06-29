@@ -17,10 +17,10 @@ description: >-
 > Links
 
 * [Jinja Atlantis Lite](https://appseed.us/jinja-template/jinja-template-atlantis-dark) - product page
-* [Jinja Atlantis Lite](https://jinja-atlantis-dark.appseed-srv1.com) - LIVE Deployment
+* [Jinja Atlantis Lite](https://jinja-atlantis-dark.appseed-srv1.com/) - LIVE Deployment
 * [Jinja Atlantis Lite](https://github.com/app-generator/jinja-atlantis-dark) - Source code&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

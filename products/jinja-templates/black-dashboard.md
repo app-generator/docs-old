@@ -17,9 +17,9 @@ description: >-
 > Links
 
 * [Jinja Black Dashboard](https://github.com/app-generator/jinja-black-dashboard) - source code
-* [Jinja Black Dashboard](https://jinja-black-dashboard.appseed-srv1.com) - LIVE deployment&#x20;
+* [Jinja Black Dashboard](https://jinja-black-dashboard.appseed-srv1.com/) - LIVE deployment&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

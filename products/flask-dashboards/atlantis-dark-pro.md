@@ -22,7 +22,7 @@ Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to mana
 
 * [Atlantis Dark PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark-pro) - product page
 * [Atlantis Dark PRO Flask](https://github.com/app-generator/flask-dashboard-atlantis-dark-pro) - public repository used for tracking issues&#x20;
-* [Atlantis Dark PRO Flask](https://flask-atlantis-dark-pro.appseed-srv1.com) - LIVE Demo
+* [Atlantis Dark PRO Flask](https://flask-atlantis-dark-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 

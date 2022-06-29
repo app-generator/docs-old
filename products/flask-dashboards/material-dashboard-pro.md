@@ -22,7 +22,7 @@ description: >-
 
 * [Material PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) - product page
 * [Material PRO Flask](https://github.com/app-generator/flask-dashboard-material-pro) - public repository used for bug tracking
-* [Material PRO Flask](https://flask-material-dashboard-pro.appseed-srv1.com) - LIVE Demo
+* [Material PRO Flask](https://flask-material-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 

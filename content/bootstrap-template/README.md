@@ -8,7 +8,7 @@ description: Bootstrap Templates used by AppSeed to generate seed projects.
 
 Bootstrap is a powerful toolkit - a collection of HTML, CSS, and JavaScript tools for creating and building web pages and web applications. It is a free and open-source project, hosted on GitHub, and originally created by Twitter.&#x20;
 
-* [Bootstrap](https://getbootstrap.com) - the official website
+* [Bootstrap](https://getbootstrap.com/) - the official website
 * [Short Bootstrap Tutorial](https://www.toptal.com/front-end/what-is-bootstrap-a-short-tutorial-on-the-what-why-and-how)
 * [What is Bootstrap](https://wpamelia.com/what-is-bootstrap/) - a comprehensive introduction
 

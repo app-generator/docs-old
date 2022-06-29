@@ -20,9 +20,9 @@ description: >-
 
 * [SB Admin Django](https://appseed.us/admin-dashboards/django-dashboard-sb-admin) - product page
 * [SB Admin Django](https://github.com/app-generator/django-dashboard-sb-admin) - source code
-* [SB Admin Django](https://django-sb-admin.appseed-srv1.com) - LIVE Demo&#x20;
+* [SB Admin Django](https://django-sb-admin.appseed-srv1.com/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ###
 

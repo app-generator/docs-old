@@ -17,9 +17,9 @@ description: >-
 > Links
 
 * [Jinja Volt Dashboard](https://github.com/app-generator/jinja-volt-dashboard) - source code
-* [Jinja Volt Dashboard](https://jinja-volt-dashboard.appseed-srv1.com) - LIVE deployment&#x20;
+* [Jinja Volt Dashboard](https://jinja-volt-dashboard.appseed-srv1.com/) - LIVE deployment&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

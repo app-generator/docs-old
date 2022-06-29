@@ -22,7 +22,7 @@ description: >-
 
 * [Argon PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-argon-pro) - product page
 * [Argon PRO Flask](https://github.com/app-generator/flask-dashboard-argon-pro) - public repository used for bug tracking
-* [Argon PRO Flask](https://flask-argon-dashboard-pro.appseed-srv1.com) - LIVE Demo&#x20;
+* [Argon PRO Flask](https://flask-argon-dashboard-pro.appseed-srv1.com/) - LIVE Demo&#x20;
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.
 
 

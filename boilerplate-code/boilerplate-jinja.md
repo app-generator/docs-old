@@ -6,7 +6,7 @@ description: >-
 
 # Boilerplate Jinja
 
-**Jinja** is basically an engine used to generate HTML or XML returned to the user via an HTTP response. For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated (or rendered into HTML) are replaced with actual values.&#x20;
+**Jinja** is basically an engine used to generate HTML or XML returned to the user via an HTTP response. For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated (or rendered into HTML) are replaced with actual values.
 
 > Features:
 
@@ -22,23 +22,24 @@ description: >-
 
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for `registered users`.
 
-<br />
+\
+
 
 ## ✨ Environment
 
-To use the starter, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is installed, please open a terminal and type `python --version`. 
-Here is the full list with dependencies and tools required to build the app:
+To use the starter, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is installed, please open a terminal and type `python --version`. Here is the full list with dependencies and tools required to build the app:
 
 * [Python3](https://www.python.org) - the programming language used to code the app
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
-* (Optional) `Docker` - a popular virtualization software 
+* (Optional) `Docker` - a popular virtualization software
 
-<br />
+\
+
 
 ## ✨ Start the app in Docker
 
-> 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
+> 👉 **Step 1** - Download the code from the GH repository (using `GIT`)
 
 ```bash
 $ # Get the code
@@ -54,11 +55,12 @@ $ docker-compose up --build
 
 Visit `http://localhost:5085` in your browser. The app should be up & running.
 
-<br />
+\
+
 
 ## ✨ Manual Build
 
-> Download the code 
+> Download the code
 
 ```bash
 $ # Get the code
@@ -66,11 +68,12 @@ $ git clone https://github.com/app-generator/boilerplate-code-jinja.git
 $ cd boilerplate-code-jinja
 ```
 
-<br />
+\
 
-### 👉 Set Up for `Unix`, `MacOS` 
 
-> Install modules via `VENV`  
+### 👉 Set Up for `Unix`, `MacOS`
+
+> Install modules via `VENV`
 
 ```bash
 $ virtualenv env
@@ -91,13 +94,14 @@ $ export FLASK_ENV=development
 $ flask run
 ```
 
-At this point, the app runs at `http://127.0.0.1:5000/`. 
+At this point, the app runs at `http://127.0.0.1:5000/`.
 
-<br />
+\
 
-### 👉 Set Up for `Windows` 
 
-> Install modules via `VENV` (windows) 
+### 👉 Set Up for `Windows`
+
+> Install modules via `VENV` (windows)
 
 ```
 $ virtualenv env
@@ -123,9 +127,10 @@ $ $env:FLASK_ENV = "development"
 $ flask run
 ```
 
-At this point, the app runs at `http://127.0.0.1:5000/`. 
+At this point, the app runs at `http://127.0.0.1:5000/`.
 
-<br />
+\
+
 
 ## ✨ Codebase structure
 
@@ -170,20 +175,21 @@ The project is coded using a simple and intuitive structure presented below:
    |-- ************************************************************************
 ```
 
-<br />
+\
+
 
 ## ✨ UI Assets and Templates
 
-The project comes with a modern UI fully migrated and usable with Django Template Engine. 
+The project comes with a modern UI fully migrated and usable with Django Template Engine.
 
 ### 👉 Page Templates
 
-All pages and components are saved inside the `apps/templates` directory. Here are the standard directories: 
+All pages and components are saved inside the `apps/templates` directory. Here are the standard directories:
 
-- `templates/layouts`: UI masterpages 
-- `templates/includes`: UI components (used across multiple pages) 
-- `templates/accounts`: login & registration page
-- `templates/home`: all other pages served via a generic routing by `apps/home` app
+* `templates/layouts`: UI masterpages
+* `templates/includes`: UI components (used across multiple pages)
+* `templates/accounts`: login & registration page
+* `templates/home`: all other pages served via a generic routing by `apps/home` app
 
 ```bash
 < PROJECT ROOT >
@@ -214,26 +220,25 @@ All pages and components are saved inside the `apps/templates` directory. Here a
    |-- ************************************************************************
 ```
 
-<br />
+\
+
 
 ### 👉 Static Assets
 
-The static assets used by the project (`JS`, `CSS`, `images`) are saved inside the `apps/static/assets` folder. 
-This path can be customized with ease via `ASSETS_ROOT` variable saved in the `.env` file. 
+The static assets used by the project (`JS`, `CSS`, `images`) are saved inside the `apps/static/assets` folder. This path can be customized with ease via `ASSETS_ROOT` variable saved in the `.env` file.
 
-> How it works 
+> How it works
 
-- `.env` defines the `ASSETS_ROOT` variable 
-- `core/settings.py` read the value of `ASSETS_ROOT` and defaults to `/static/assets` if not found: 
+* `.env` defines the `ASSETS_ROOT` variable
+* `core/settings.py` read the value of `ASSETS_ROOT` and defaults to `/static/assets` if not found:
 
 ```python
 # content of core/settings.py (truncated content)
 
 ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets') 
-
 ```
 
-- All pages and components use the `config.ASSETS_ROOT` variable. Here is a sample extracted from `templates/layouts/base.html`: 
+* All pages and components use the `config.ASSETS_ROOT` variable. Here is a sample extracted from `templates/layouts/base.html`:
 
 ```html
 <head>
@@ -243,35 +248,35 @@ ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets')
 
     <!-- RUNTIME -->
     <link rel="stylesheet" href="/static/assets/css/style.css">
-
 ```
 
-At runtime, the `href` property is resolved to `/static/assets/css/style.css` based on the value saved in the `.env` file: 
+At runtime, the `href` property is resolved to `/static/assets/css/style.css` based on the value saved in the `.env` file:
 
-```env
+```
 # No Slash at the end
 ASSETS_ROOT=/static/assets
 ```
 
-<br />
+\
+
 
 ## 👉 Static Assets for `production`
 
-As explained in the [Static Assets](#static-assets) section, the assets are managed via: 
+As explained in the [Static Assets](boilerplate-jinja.md#static-assets) section, the assets are managed via:
 
-- `apps/static/assets` - the folder where `JS`, `CSS`, and `images` files are saved
-- `ASSETS_ROOT` - environment variable, that defaults to `/static/assets` if not defined 
+* `apps/static/assets` - the folder where `JS`, `CSS`, and `images` files are saved
+* `ASSETS_ROOT` - environment variable, that defaults to `/static/assets` if not defined
 
-In production, the contents of the `apps/static/assets` files should be copied to an external (public) directory and the `ASSETS_ROOT` environment variable updated accordingly. 
+In production, the contents of the `apps/static/assets` files should be copied to an external (public) directory and the `ASSETS_ROOT` environment variable updated accordingly.
 
-For instance, if the `static` files are copied to `https://cdn.your-server.com/datta-able-assets`, the `.env` file should be updated as below: 
+For instance, if the `static` files are copied to `https://cdn.your-server.com/datta-able-assets`, the `.env` file should be updated as below:
 
-```.env
+```
 # No Slash at the end
 ASSETS_ROOT=https://cdn.your-server.com/datta-able-assets
 ```
- 
+
 ## 🚀 Where to go from here
 
-- 👉 Access the [support](https://appseed.us/support/) page in case something is missing
-- 👉 Use the [App Generator](https://appseed.us/generator) to generate a new project
+* 👉 Access the [support](https://appseed.us/support/) page in case something is missing
+* 👉 Use the [App Generator](https://appseed.us/generator) to generate a new project

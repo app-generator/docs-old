@@ -23,9 +23,9 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 To compile and start the project in a local environment a [minimum programming kit](../tutorials/minimal-programming-kit.md) must be installed and accessible via the terminal:
 
 * [Nodejs](https://nodejs.org/en/) - version 10.x or above
-* [Yarn](https://yarnpkg.com) - a smart package manager for Node
-* [GIT](https://git-scm.com) - versioning command-line tool
-* [Gulp](https://gulpjs.com) - toolkit automation&#x20;
+* [Yarn](https://yarnpkg.com/) - a smart package manager for Node
+* [GIT](https://git-scm.com/) - versioning command-line tool
+* [Gulp](https://gulpjs.com/) - toolkit automation&#x20;
 
 Once we have all these tools installed and accessible via the terminal, we can move forward to clone the sources from the public repository, install modules and start the app in the browser.
 

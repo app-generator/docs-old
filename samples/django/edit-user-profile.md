@@ -16,7 +16,7 @@ Django Sample project that allows registered users to edit their profile outside
 
 > Links
 
-* [Django User Profile ](https://django-user-profile.appseed-srv1.com) - LIVE deployment
+* [Django User Profile ](https://django-user-profile.appseed-srv1.com/) - LIVE deployment
 * [Django User Profile](https://github.com/app-generator/django-user-profile) - Sample Source Code
 * Support via [Github](https://github.com/app-generator/django-user-profile/issues) (issues tracker) and LIVE on [Discord](https://discord.gg/fZC6hup).
 
@@ -28,8 +28,8 @@ Django Sample project that allows registered users to edit their profile outside
 
 To compile and execute the project in a local environment the workstation must have a few software tools already installed:&#x20;
 
-* [GIT](https://git-scm.com) - command line versioning tool used to clone the sources&#x20;
-* [Python3](https://www.python.org) - the language used to code the project &#x20;
+* [GIT](https://git-scm.com/) - command line versioning tool used to clone the sources&#x20;
+* [Python3](https://www.python.org/) - the language used to code the project &#x20;
 
 **Check GIT is installed**
 
@@ -200,5 +200,5 @@ if settings.DEVEL:
 
 **Links & Resources**:
 
-* [Django](https://www.djangoproject.com) - official website
+* [Django](https://www.djangoproject.com/) - official website
 * More [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed

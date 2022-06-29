@@ -6,7 +6,7 @@ description: Short introduction to Flask
 
 **Flask** is a lightweight **WSGI** web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
-Compared to his older brother [Django](https://www.djangoproject.com), Flask provides a lightweight codebase and more freedom to the developer. This might be a good thing because you have more freedom in terms of app design and structure but at the same time, this freedom might inject problems when your application becomes complex.
+Compared to his older brother [Django](https://www.djangoproject.com/), Flask provides a lightweight codebase and more freedom to the developer. This might be a good thing because you have more freedom in terms of app design and structure but at the same time, this freedom might inject problems when your application becomes complex.
 
 
 
@@ -141,6 +141,6 @@ With this minimal example in mind, we can extend this app with more features. A 
 **App Links**
 
 * [Flask Dashboard - Black Design](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
-* [Flask Dashboard Black Demo](https://flask-dashboard-black.appseed.us) - LIVE app
+* [Flask Dashboard Black Demo](https://flask-dashboard-black.appseed.us/) - LIVE app
 
 ![Flask Dashboard - Black Design, dashboard screen.](https://raw.githubusercontent.com/app-generator/flask-black-dashboard/master/media/flask-black-dashboard-screen.png)

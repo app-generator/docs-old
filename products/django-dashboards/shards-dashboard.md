@@ -20,9 +20,9 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 
 * [Shards Django](https://appseed.us/admin-dashboards/django-dashboard-shards) - product page
 * [Shards Django](https://github.com/app-generator/django-dashboard-shards) - source code
-* [Shards Django](https://django-dashboard-shards.appseed.us) - LIVE Demo&#x20;
+* [Shards Django](https://django-dashboard-shards.appseed.us/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

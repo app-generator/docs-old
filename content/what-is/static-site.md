@@ -14,8 +14,8 @@ The term "static" does not mean that your site has no dynamic capabilities. It s
 A static site is usually generated from a variety of sources like Headless CMS, Markdown files, Text files stored on the filesystem. There are many static site generators capable to build, manage and generate static content. We will mention only a few on this page:
 
 * [Gatsby](http://gatsbyjs.org) - powered by React, GraphQL, Webapack, tools for image optimization, SEO.
-* [Eleventy](https://11ty.io) - written in JavaScript. Works with HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, and JavaScript Template Literals.
-* [Gridsome](https://gridsome.org) - Build blazing fast websites for any CMS or data with Vue.js&#x20;
+* [Eleventy](https://11ty.io/) - written in JavaScript. Works with HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, and JavaScript Template Literals.
+* [Gridsome](https://gridsome.org/) - Build blazing fast websites for any CMS or data with Vue.js&#x20;
 
 
 

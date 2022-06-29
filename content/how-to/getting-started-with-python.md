@@ -6,7 +6,7 @@ description: Getting Started with Python
 
 This page explains how to get started with Python and execute simple code using this programming language - Resources:
 
-* [Python](https://www.python.org) - the official website
+* [Python](https://www.python.org/) - the official website
 * [Python](https://en.wikipedia.org/wiki/Python\_\(programming\_language) - Wikipedia page
 * [Applications for Python](https://www.python.org/about/apps/) - blog artcile&#x20;
 * [What can I do with Python](https://www.freecodecamp.org/news/what-can-you-do-with-python-the-3-main-applications-518db9a68a78/) - blog article&#x20;

@@ -17,9 +17,9 @@ Pixel Pro is a premium **Bootstrap 5 UI Kit without jQuery** featuring over 1000
 > Links
 
 * [Jinja Pixel PRO](https://appseed.us/jinja-template/jinja-pixel-uikit-pro) - product page
-* [Jinja Pixel PRO](https://jinja-pixel-pro.appseed-srv1.com) - LIVE deployment&#x20;
+* [Jinja Pixel PRO](https://jinja-pixel-pro.appseed-srv1.com/) - LIVE deployment&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

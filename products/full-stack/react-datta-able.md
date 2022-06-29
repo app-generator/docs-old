@@ -9,9 +9,9 @@ description: >-
 Full-stack version of **Datta Able PRO**, a premium design crafted by **CodedThemes** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django (FASTapi coming soon). &#x20;
 
 * [Full-stack React Datta Able](https://appseed.us/full-stack/react-datta-able) - product page
-* [Full-stack React Datta Able](https://fullstack-react-datta-able.appseed-srv1.com) - LIVE Demo
+* [Full-stack React Datta Able](https://fullstack-react-datta-able.appseed-srv1.com/) - LIVE Demo
 
-![React Datta Able - Full-stack Version](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1).jpg>)
+![React Datta Able - Full-stack Version](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1).jpg>)
 
 
 
@@ -20,8 +20,8 @@ Full-stack version of **Datta Able PRO**, a premium design crafted by **CodedThe
 To successfully compile and use the product, please make sure your workstation has the right tools installed and accessible in the terminal window:
 
 * [Node JS](https://nodejs.org/en/) 12.x version (or above) - used to build both parts (frontend & backend)
-* [GIT](https://git-scm.com) versioning command-line tool - used to clone the sources from Github
-* A code editor: [VsCode](https://code.visualstudio.com) or [Atom](https://atom.io)
+* [GIT](https://git-scm.com/) versioning command-line tool - used to clone the sources from Github
+* A code editor: [VsCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 * Ability to work in the terminal window  &#x20;
 
 ### Product Features

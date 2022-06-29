@@ -6,7 +6,7 @@ description: Short introduction to Ubuntu
 
 **Ubuntu** is a free and open-source Linux distribution based on Debian. Ubuntu is officially released in three editions: Desktop, Server, and Core for the internet of things devices and robots. All the editions can run on the computer alone, or in a virtual machine.
 
-* [Ubuntu](https://ubuntu.com) - official website
+* [Ubuntu](https://ubuntu.com/) - official website
 * [Ubuntu](https://ubuntu.com/download/desktop) - Downloads page
 
 ![Ubuntu - Open-source OS.](../../.gitbook/assets/os-ubuntu.jpg)
@@ -27,5 +27,5 @@ Ubuntu includes thousands of pieces of software, starting with the Linux kernel 
 
 ### Ubuntu Resources
 
-* [Ubuntu](https://ubuntu.com) - official website
-* [Canonical](http://www.canonical.com) - The official sponsor
+* [Ubuntu](https://ubuntu.com/) - official website
+* [Canonical](http://www.canonical.com/) - The official sponsor

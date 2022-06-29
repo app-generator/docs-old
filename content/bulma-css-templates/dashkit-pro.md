@@ -7,11 +7,11 @@ description: Premium dashboard styled with Bulma CSS crafted by CssNinja agency.
 **Dashkit** is an incredible Bulma dashboard that comes with numerous customizable and reusable components. **Dashkit** features an amazing set of components to jumpstart your next project. The product is built with Bulma and Alpine JS and also features a Spruce JS store if you want to use it in your project.
 
 * [Dashkit PRO](https://cssninja.io/product/dashkit) - product page hosted by CssNinja
-* [Dashkit PRO](https://dashkit.cssninja.io) - Live Demo
+* [Dashkit PRO](https://dashkit.cssninja.io/) - Live Demo
 
 > Built with:
 
-* [Bulma CSS](https://bulma.io) v0.9.1
+* [Bulma CSS](https://bulma.io/) v0.9.1
 * [AlpineJs](https://github.com/alpinejs/alpine) - minimal framework for composing JavaScript behavior in your markup
 * [Spruce](https://github.com/ryangjchandler/spruce) **-** lightweight state management layer for Alpine.js ****&#x20;
 
@@ -29,7 +29,7 @@ description: Premium dashboard styled with Bulma CSS crafted by CssNinja agency.
 
 Being a commercial product to get access to the source code please access the official page and purchase a license. Once you have the source code downloaded a [minimal programming kit](../tutorials/minimal-programming-kit.md) should be properly installed and accessible in the terminal. &#x20;
 
-* A modern editor - [VSCode](https://code.visualstudio.com)
+* A modern editor - [VSCode](https://code.visualstudio.com/)
 * [Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools
 
 Once all the tools are installed we can start compiling the code.&#x20;

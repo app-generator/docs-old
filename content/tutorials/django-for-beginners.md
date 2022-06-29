@@ -4,7 +4,7 @@ description: A comprehensive introduction to Django for beginners
 
 # Django For Beginners
 
-This tutorial aims to help beginners getting started with Django, a popular Web Framework written in Python.  To get maximum from this content, the audience should be familiar with a terminal and have a minimal set of tools already installed. [Python3](https://www.python.org), a modern code editor ([VsCode](https://code.visualstudio.com), [Atom](https://atom.io)), and [GIT](https://git-scm.com) versioning command-line tool should be enough to experiment with all the code.
+This tutorial aims to help beginners getting started with Django, a popular Web Framework written in Python.  To get maximum from this content, the audience should be familiar with a terminal and have a minimal set of tools already installed. [Python3](https://www.python.org/), a modern code editor ([VsCode](https://code.visualstudio.com/), [Atom](https://atom.io/)), and [GIT](https://git-scm.com/) versioning command-line tool should be enough to experiment with all the code.
 
 ### Install Python
 
@@ -44,9 +44,9 @@ The above command will install the latest stable version of Django. From this po
 
 ### Install a Code Editor
 
-This section has plenty of options from the old-school (yet modern) [Vim](https://www.vim.org/download.php) to [VsCode](https://code.visualstudio.com) and [Atom](https://atom.io). For those unfamiliar with any of these tools, VsCode might be a good choice to get started fast.&#x20;
+This section has plenty of options from the old-school (yet modern) [Vim](https://www.vim.org/download.php) to [VsCode](https://code.visualstudio.com/) and [Atom](https://atom.io/). For those unfamiliar with any of these tools, VsCode might be a good choice to get started fast.&#x20;
 
-* [VSCode](https://code.visualstudio.com) - official website
+* [VSCode](https://code.visualstudio.com/) - official website
 * [VSCode](https://code.visualstudio.com/Download) - download page
 
 ![Programming Kit - VSCode editor.](../../.gitbook/assets/programming-kit-vscode.jpg)
@@ -311,5 +311,5 @@ admin.site.register(Book)       # <- NEW
 
 ### Resources
 
-* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Read more about [Django](https://www.djangoproject.com/) (official docs)
 * Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)&#x20;

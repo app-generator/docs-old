@@ -8,10 +8,10 @@ description: >-
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-* Basic programming knowledge in [Python](https://www.python.org)
+* Basic programming knowledge in [Python](https://www.python.org/)
 * Basic Flask knowledge and [WSGI](https://docs-old.appseed.us/what-is/wsgi/) concept
 * Comfortable using a terminal
-* Already familiar with [GIT](https://git-scm.com) - command-line versioning tool
+* Already familiar with [GIT](https://git-scm.com/) - command-line versioning tool
 
 
 
@@ -20,11 +20,11 @@ description: >-
 &#x20;[Flask](https://docs-old.appseed.us/how-to/flask-deploy-on-heroku/\(https://palletsprojects.com/p/flask/\)) is a lightweight [WSGI](https://docs-old.appseed.us/what-is/wsgi/) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 * [Flask](https://palletsprojects.com/p/flask/) - official website
-* [Flask](https://flask.palletsprojects.com) - official documentation
+* [Flask](https://flask.palletsprojects.com/) - official documentation
 
 
 
-### What is [HEROKU](https://www.heroku.com)
+### What is [HEROKU](https://www.heroku.com/)
 
 Heroku's a _fully managed_ platform that helps developers to deploy apps with ease. Heroku is a cloud-based, fully-managed platform as a service (Paas) for building, running, and managing apps - features:
 
@@ -82,7 +82,7 @@ For our sample, `gunicorn` is called with `run:app` argument.
 
 ### How to deploy on HEROKU
 
-* [Create a FREE account](https://signup.heroku.com) on Heroku platform
+* [Create a FREE account](https://signup.heroku.com/) on Heroku platform
 * [Install the Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) that match your OS: Mac, Unix or Windows
 * Open a terminal window and authenticate via `heroku login` command
 * Clone the sources and push the project for LIVE deployment

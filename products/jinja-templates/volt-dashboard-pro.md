@@ -17,9 +17,9 @@ description: >-
 > Links
 
 * [Jinja Volt PRO](https://appseed.us/jinja-template/jinja-template-volt-pro) - product page
-* [Jinja Volt PRO](https://jinja-volt-pro.appseed-srv1.com) - LIVE deployment&#x20;
+* [Jinja Volt PRO](https://jinja-volt-pro.appseed-srv1.com/) - LIVE deployment&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

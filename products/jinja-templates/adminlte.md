@@ -17,9 +17,9 @@ description: >-
 > Links
 
 * [Jinja AdminLTE](https://github.com/app-generator/jinja-adminlte) - source code
-* [Jinja AdminLTE](https://adminlte-jinja.appseed-srv1.com) - LIVE deployment&#x20;
+* [Jinja AdminLTE](https://adminlte-jinja.appseed-srv1.com/) - LIVE deployment&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 
@@ -45,6 +45,6 @@ description: >-
 **AdminLTE** is a popular open-source template for admin dashboards and control panels. It is a responsive HTML template that is based on the Bootstrap CSS framework. It utilizes all of the Bootstrap components in its design and re-styles many commonly used plugins to create a consistent design that can be used as a user interface for backend applications. AdminLTE is based on a modular design, which allows it to be easily customized and built upon.
 
 * [AdminLTE](adminlte.md) - more information provided by AppSeed
-* [AdminLTE](https://adminlte.io) - product page (HTML version)
+* [AdminLTE](https://adminlte.io/) - product page (HTML version)
 
 ![AdminLTE - Open-source Bootstrap Template.](../../.gitbook/assets/adminlte-bootstrap-dashboard.jpg)

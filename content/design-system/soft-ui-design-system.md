@@ -31,7 +31,7 @@ You will save a lot of time going from prototyping to full-functional code, beca
 
 ### Soft UI Dashboard
 
-[Soft UI](https://appseed.us/ui-kit/soft-ui-design-system) Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes. Used open-source plugins and libraries:  [Bootstrap 5](https://www.getbootstrap.com) and  [Popper.js](https://popper.js.org).&#x20;
+[Soft UI](https://appseed.us/ui-kit/soft-ui-design-system) Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes. Used open-source plugins and libraries:  [Bootstrap 5](https://www.getbootstrap.com/) and  [Popper.js](https://popper.js.org/).&#x20;
 
 * [Soft UI Dashboard](https://bit.ly/2Q1uIfK) - product page
 * [Soft UI Dashboard](https://bit.ly/3dLM7CE) - LIVE Demo

@@ -14,11 +14,11 @@ This guide is written for Windows 10 version but can be used as a starting point
 
 
 
-### [Visual Studio Code](https://code.visualstudio.com)
+### [Visual Studio Code](https://code.visualstudio.com/)
 
 Visual Studio Code is a lightweight but powerful source code editor that runs on your desktop and is available for Windows, MacOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).&#x20;
 
-* [Visual Studio Code](https://code.visualstudio.com) - the official page
+* [Visual Studio Code](https://code.visualstudio.com/) - the official page
 * [Visual Studio Code](https://code.visualstudio.com/docs) - documentation
 
 ###

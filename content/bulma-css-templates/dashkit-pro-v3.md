@@ -8,8 +8,8 @@ Dashkit is a modern dashboard styled with Bulma CSS crafted by CssNinja agency. 
 
 > Note: This is a legacy version, for the latest version please access [Dashkit PRO v4](dashkit-pro.md)
 
-* [Dashkit PRO v3](https://bulma-css.com/dashkit/) - hosted by [Bulma-CSS.com](https://bulma-css.com)
-* [Dashkit PRO v3](https://dashkit-pro.bulma-css.com) - LIVE Demo
+* [Dashkit PRO v3](https://bulma-css.com/dashkit/) - hosted by [Bulma-CSS.com](https://bulma-css.com/)
+* [Dashkit PRO v3](https://dashkit-pro.bulma-css.com/) - LIVE Demo
 
 ![Dashkit v3 - Bulma Dashboard.](../../.gitbook/assets/dashkit-v3-bulma-css.jpg)
 
@@ -17,9 +17,9 @@ Dashkit is a modern dashboard styled with Bulma CSS crafted by CssNinja agency. 
 
 Being a commercial product to get access to the source code please access the official page and purchase a license. Once you have the source code downloaded a [minimal programming kit](https://docs.appseed.us/content/tutorials/minimal-programming-kit) should be properly installed and accessible in the terminal.
 
-* A modern editor - [VSCode](https://code.visualstudio.com)​
+* A modern editor - [VSCode](https://code.visualstudio.com/)​
 * ​[Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools
-* [Gulp](https://gulpjs.com) - installed globally&#x20;
+* [Gulp](https://gulpjs.com/) - installed globally&#x20;
 
 Once all the tools are installed we can start compiling the code.
 

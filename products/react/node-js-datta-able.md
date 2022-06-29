@@ -9,7 +9,7 @@ description: >-
 Open-source full-stack seed project coded in **React** and **Node JS** on top of a modern design from **CodedThemes**. The React / NodeJS codebase is already configured with a Mongo database, API, and authentication flow.
 
 * [React Node JS Datta Able](https://appseed.us/product/react-node-js-datta-able) - product page
-* [React Node JS Datta Able](https://react-node-js-datta-able.appseed-srv1.com) - LIVE demo
+* [React Node JS Datta Able](https://react-node-js-datta-able.appseed-srv1.com/) - LIVE demo
 * [React Node JS Datta PRO](node-js-datta-able-pro.md) - Premium Version (more pages and components)
 
 ![React Node JS - Datta Able (free version).](../../.gitbook/assets/react-datta-able-cover.jpg)
@@ -67,12 +67,12 @@ Here we will use the first version and build a real API server coded in Node JS/
 
 > API Server Description&#x20;
 
-Express / Nodejs Starter with JWT authentication, MongoDB where authentication is based on [json web tokens](https://jwt.io). `passport-jwt` strategy is used to handle the Email/Password authentication. After a successful login, the generated token is sent to the requester.
+Express / Nodejs Starter with JWT authentication, MongoDB where authentication is based on [json web tokens](https://jwt.io/). `passport-jwt` strategy is used to handle the Email/Password authentication. After a successful login, the generated token is sent to the requester.
 
 > Dependencies&#x20;
 
-* [Node.js](https://nodejs.org) >= 12.x
-* [MongoDB](https://www.mongodb.com) server&#x20;
+* [Node.js](https://nodejs.org/) >= 12.x
+* [MongoDB](https://www.mongodb.com/) server&#x20;
 
 > &#x20;**Step #1** - Clone the API Server from Github
 

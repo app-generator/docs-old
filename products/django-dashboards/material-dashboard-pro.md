@@ -20,7 +20,7 @@ description: >-
 
 * [Material PRO Django](https://appseed.us/admin-dashboards/django-dashboard-material-pro) - product page
 * [Material PRO Django](https://github.com/app-generator/django-dashboard-material-pro) - public repository used for bug tracking
-* [Material PRO Django](https://django-material-dashboard-pro.appseed-srv1.com) - LIVE Demo
+* [Material PRO Django](https://django-material-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 

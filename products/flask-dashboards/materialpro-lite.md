@@ -22,9 +22,9 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 
 * [MaterialPro Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-lite) - product page
 * [MaterialPro Lite Flask](https://github.com/app-generator/flask-material-pro-lite) - source code&#x20;
-* [MaterialPro Lite Flask](https://flask-dashboard-material-lite.appseed.us) - LIVE Demo&#x20;
+* [MaterialPro Lite Flask](https://flask-dashboard-material-lite.appseed.us/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

@@ -8,7 +8,7 @@ This page aims to help beginners getting started with Flask, a popular Python we
 
 > How to getting started with Flask
 
-The quickest setup is to install [Python3](https://www.python.org), a code editor like [VsCode](https://code.visualstudio.com) or [Atom](https://atom.io), and (optionally) GIT the popular command-line versioning tool.
+The quickest setup is to install [Python3](https://www.python.org/), a code editor like [VsCode](https://code.visualstudio.com/) or [Atom](https://atom.io/), and (optionally) GIT the popular command-line versioning tool.
 
 Once all tools are installed and accessible in the terminal, we can code and start a simple Flask application:&#x20;
 

@@ -22,7 +22,7 @@ description: >-
 
 * [Black PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-black-pro) - product page
 * [Black PRO Flask](https://github.com/app-generator/flask-dashboard-black-pro) - public repository used for bug tracking
-* [Black PRO Flask](https://flask-black-dashboard-pro.appseed-srv1.com) - LIVE Demo
+* [Black PRO Flask](https://flask-black-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 ###

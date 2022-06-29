@@ -19,7 +19,7 @@ Django is a modern web framework that comes with the "batteries-included" concep
 
 Besides the common features and modules provided by Django core, this amazing framework is constantly improved by many open-source enthusiasts and also enhanced by other libraries coded to be used and integrated with ease in Django - the official Django links are below:
 
-* [Django](https://www.djangoproject.com) - official website
+* [Django](https://www.djangoproject.com/) - official website
 * [Django](https://docs.djangoproject.com/en/3.2/) - official documentation
 
 ![Django - New project Default Page.](../../.gitbook/assets/django-framework-cover.jpg)
@@ -28,8 +28,8 @@ Besides the common features and modules provided by Django core, this amazing fr
 
 To start using Django a few tools and libraries are required. Being a Python library, to run properly Django requires Python to be executed without exceptions and fully complete its mission. On top of this, other tools are recommended for a full-featured Django environment: &#x20;
 
-* [Python3](https://www.python.org) - the latest actively supported version of Python
-* [GIT](https://git-scm.com) - a command-line tool used to download sources from [Github](https://github.com)
+* [Python3](https://www.python.org/) - the latest actively supported version of Python
+* [GIT](https://git-scm.com/) - a command-line tool used to download sources from [Github](https://github.com/)
 * Basic knowledge in working with [virtual environments](https://docs.python.org/3/tutorial/venv.html)
 
 > How to check Python installation&#x20;
@@ -174,7 +174,7 @@ The command will ask for username, password, and email address. Once the process
 
 For more Django-related resource, please access:
 
-* [Django](https://www.djangoproject.com) - the official website
+* [Django](https://www.djangoproject.com/) - the official website
 * A curated list with [Django apps](https://appseed.us/django) and [dashboards ](https://appseed.us/admin-dashboards/django) provided by AppSeed
 * Ask for [support](https://appseed.us/support) using email and [Discord](https://discord.gg/fZC6hup) - for registered users
 

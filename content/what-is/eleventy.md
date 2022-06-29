@@ -8,7 +8,7 @@ Eleventy (11ty) was created to be a JavaScript alternative to Jekyll. It’s zer
 
 Unlike other JavaScript web frameworks like Gatsby or NuxtJS, 11ty doesn’t come bundled with a front-end library. 11ty is more like a traditional SSG (such as Hugo or Jekyll) where it takes a series of templates, markdown files, and data and renders HTML files to serve.
 
-* [Eleventy (11ty)](https://www.11ty.dev) - official website&#x20;
+* [Eleventy (11ty)](https://www.11ty.dev/) - official website&#x20;
 
 Eleventy uses independent template engines. We don’t want to hold your content hostage. If you decide to use something else later, having your content decoupled in this way will make migration easier. Eleventy works with multiple template languages. You can pick one or use them all together in a single project: `html`, `Markdown`, `Liquid`, `Mustache`.
 

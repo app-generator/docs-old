@@ -20,7 +20,7 @@ Open-source full-stack seed project coded in **React** and **Node JS** on top of
 > Links
 
 * [React Node JS Berry](https://appseed.us/product/react-node-js-berry-dashboard) - product page
-* [React Node JS Berry](https://react-node-js-berry-dashboard.appseed-srv1.com) - LIVE Demo
+* [React Node JS Berry](https://react-node-js-berry-dashboard.appseed-srv1.com/) - LIVE Demo
 * Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 * Related Products:
   * **PRO Version**: [Full-Stack React Berry PRO](https://appseed.us/full-stack/react-berry-dashboard)
@@ -80,11 +80,11 @@ Here, we will use the first version and build a real API server coded in Node JS
 
 > API Server Description
 
-Express / Nodejs Starter with JWT authentication, MongoDB where authentication is based on [json web tokens](https://jwt.io). `passport-jwt` strategy is used to handle the Email/Password authentication. After a successful login, the generated token is sent to the requester.
+Express / Nodejs Starter with JWT authentication, MongoDB where authentication is based on [json web tokens](https://jwt.io/). `passport-jwt` strategy is used to handle the Email/Password authentication. After a successful login, the generated token is sent to the requester.
 
 > Dependencies
 
-* [Node.js](https://nodejs.org) >= 12.x
+* [Node.js](https://nodejs.org/) >= 12.x
 * GIT: `command-line` utility
 
 > **Step #1** - Clone the API Server from Github

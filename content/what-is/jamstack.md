@@ -46,8 +46,8 @@ If all goes well, the app can be visited on [http://localhost:8000](http://local
 
 ### Related Resources
 
-* [JAMstack](https://jamstack.org) - the website&#x20;
-* [WTF is JAMstack](https://jamstack.wtf) - an well-known resource fpr JAMstack developers&#x20;
+* [JAMstack](https://jamstack.org/) - the website&#x20;
+* [WTF is JAMstack](https://jamstack.wtf/) - an well-known resource fpr JAMstack developers&#x20;
 * A Curated List of [Apps coded in JAMstack](https://blog.appseed.us/what-is-jamstack/)
 * [Apps built in JAMstack](https://appseed.us/apps/jamstack) - index provided by AppSeed
 * Open-Source [JAMstack Apps](https://github.com/app-generator/jamstack) published on [Github](https://github.com/search?q=jamstack)

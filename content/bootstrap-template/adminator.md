@@ -17,9 +17,9 @@ For newcomers, [Adminator](https://appseed.us/admin-dashboards/django-dashboard-
 
 To use this modern design and compile in a local environment a [minimal development](../tutorials/minimal-programming-kit.md) kit is required:
 
-* A modern editor - [VSCode](https://code.visualstudio.com)
+* A modern editor - [VSCode](https://code.visualstudio.com/)
 * [Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools&#x20;
-* [GIT](https://git-scm.com) - a command-line tool used to download sources from [Github](https://github.com)
+* [GIT](https://git-scm.com/) - a command-line tool used to download sources from [Github](https://github.com/)
 
 Once we have all these tools accessible we can start compiling the product:
 

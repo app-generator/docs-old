@@ -17,9 +17,9 @@ description: >-
 > Links
 
 * [Jinja Argon Dashboard](https://github.com/app-generator/jinja-argon-dashboard) - source code
-* [Jinja Argon Dashboard](https://jinja-argon-dashboard.appseed-srv1.com) - LIVE deployment&#x20;
+* [Jinja Argon Dashboard](https://jinja-argon-dashboard.appseed-srv1.com/) - LIVE deployment&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

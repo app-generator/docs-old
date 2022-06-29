@@ -19,7 +19,7 @@ description: Open-source Django sample provided by AppSeed on top of Argon Dashb
 
 > Links
 
-* [Django Argon Charts](https://django-argon-charts.appseed-srv1.com) - LIVE deployment
+* [Django Argon Charts](https://django-argon-charts.appseed-srv1.com/) - LIVE deployment
 * [Django Graphs and Charts](https://www.creative-tim.com/blog/django-templates/django-graphs-charts-argon-dashboard/) - a comprehensive blog article
 * [Argon Dashboard Django](https://bit.ly/3si4e7q) - the original starter
 
@@ -31,8 +31,8 @@ description: Open-source Django sample provided by AppSeed on top of Argon Dashb
 
 To compile and execute the project in a local environment the workstation must have a few software tools already installed:&#x20;
 
-* [GIT](https://git-scm.com) - command line versioning tool used to clone the sources&#x20;
-* [Python3](https://www.python.org) - the language used to code the project &#x20;
+* [GIT](https://git-scm.com/) - command line versioning tool used to clone the sources&#x20;
+* [Python3](https://www.python.org/) - the language used to code the project &#x20;
 
 &#x20;
 
@@ -156,5 +156,5 @@ The application that manages and implements all features:
 
 **Links & Resources**:
 
-* [Django](https://www.djangoproject.com) - official website
+* [Django](https://www.djangoproject.com/) - official website
 * More [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed

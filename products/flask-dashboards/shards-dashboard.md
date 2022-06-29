@@ -22,9 +22,9 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 
 * [Shards Flask](https://appseed.us/admin-dashboards/flask-dashboard-shards) - product page
 * [Shards Flask](https://github.com/app-generator/flask-dashboard-shards) - source code
-* [Shards Flask](https://flask-dashboard-shards.appseed.us) - LIVE Demo&#x20;
+* [Shards Flask](https://flask-dashboard-shards.appseed.us/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ###
 

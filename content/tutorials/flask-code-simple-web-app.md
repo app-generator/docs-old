@@ -19,15 +19,15 @@ This tutorial aims to help beginners to start coding simple apps using **Flask**
 
 ### Environment  <a href="#environment" id="environment"></a>
 
-To use the stater, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is properly installed, please open a terminal and type `python --version`. The full ist with dependencies and tools required to build the app:
+To use the stater, [Python3](https://www.python.org/) should be installed properly in the workstation. If you are not sure if Python is properly installed, please open a terminal and type `python --version`. The full ist with dependencies and tools required to build the app:
 
-* [Python3](https://www.python.org) - the programming language used to code the app
-* [GIT](https://git-scm.com) - used to clone the source code from the Github repository
+* [Python3](https://www.python.org/) - the programming language used to code the app
+* [GIT](https://git-scm.com/) - used to clone the source code from the Github repository
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 
 
 
-> Check [Python](https://www.python.org) version (using the terminal)
+> Check [Python](https://www.python.org/) version (using the terminal)
 
 ```
 $ # Check Python version
@@ -35,7 +35,7 @@ $ python --version
 Python 3.7.2 # <--- All good
 ```
 
-> Check [GIT](https://git-scm.com) command tool (using the terminal)
+> Check [GIT](https://git-scm.com/) command tool (using the terminal)
 
 ```
 $ # Check git

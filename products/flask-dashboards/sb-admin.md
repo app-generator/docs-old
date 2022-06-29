@@ -22,9 +22,9 @@ description: >-
 
 * [SB Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-sb-admin) - product page
 * [SB Admin Flask](https://github.com/app-generator/flask-dashboard-sb-admin) - source code&#x20;
-* [SB Admin Flask](https://flask-sb-admin.appseed-srv1.com) - LIVE Demo&#x20;
+* [SB Admin Flask](https://flask-sb-admin.appseed-srv1.com/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

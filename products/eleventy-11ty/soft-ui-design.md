@@ -14,7 +14,7 @@ Eleventy Soft is an Eleventy adaptation of Soft UI Design System (a user-friendl
 
 ### Quick Start
 
-This project uses includes a Blog system that uses Prismic CMS. You'll need a free [prismic.io](http://prismic.io) account.
+This project uses includes a Blog system that uses Prismic CMS. You'll need a free [prismic.io](http://prismic.io/) account.
 
 ### Setup Prismic CMS
 
@@ -84,7 +84,7 @@ This project uses includes a Blog system that uses Prismic CMS. You'll need a fr
 ### Deploy to Netlify
 
 * Upload the local repository you set up to Github.
-* Go to [https://app.netlify.com](https://app.netlify.com). Once you’ve logged in, click the 'New site from Git' button and choose the forked repository you just created.
+* Go to [https://app.netlify.com](https://app.netlify.com/). Once you’ve logged in, click the 'New site from Git' button and choose the forked repository you just created.
 * Follow the prompts, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete.
 * When you get to deploy & build settings, you need to add your Prismic repository API endpoint as an environmental variable named PRISMIC\_REPOSITORY\_NAME
 

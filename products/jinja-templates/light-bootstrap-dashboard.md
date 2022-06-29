@@ -19,9 +19,9 @@ description: >-
 > Links
 
 * [Jinja Light Bootstrap Dashboard](https://github.com/app-generator/jinja-light-bootstrap) - source code
-* [Jinja Light Bootstrap Dashboard](https://jinja-template-light-bootstrap.appseed.us) - LIVE deployment &#x20;
+* [Jinja Light Bootstrap Dashboard](https://jinja-template-light-bootstrap.appseed.us/) - LIVE deployment &#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

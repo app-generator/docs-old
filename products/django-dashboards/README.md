@@ -31,6 +31,6 @@ The codebase is fairly simple and was provided like this intentionally to help b
 
 ### Resources
 
-* [Django](https://www.djangoproject.com)  - official website
+* [Django](https://www.djangoproject.com/)  - official website
 * [What IS Django](../../content/what-is/django.md) - a comprehensive introduction&#x20;
 * [Django Apps](https://appseed.us/django) - index hosted on AppSeed platform

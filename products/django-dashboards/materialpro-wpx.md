@@ -20,7 +20,7 @@ WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material de
 
 * [MaterialPro Django](https://appseed.us/admin-dashboards/django-material-dashboard-wpx-pro) - product page
 * [MaterialPro Django](https://github.com/app-generator/django-material-wpx-pro) - public repository used for tracking issues &#x20;
-* [MaterialPro Django](https://django-material-wpx-pro.appseed-srv1.com) - LIVE Demo
+* [MaterialPro Django](https://django-material-wpx-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 ###

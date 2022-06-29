@@ -16,10 +16,10 @@ Star Admin is packed with all the features that fit your needs but not cramped w
 
 To build Star Admin in a local environment, NodeJs, Yarn and Gulp must be properly installed and accessible in the terminal:
 
-* [GIT](https://git-scm.com) - command line versioning command&#x20;
+* [GIT](https://git-scm.com/) - command line versioning command&#x20;
 * [NodeJS](https://nodejs.org/en/) - version 10.x or above
-* [Yarn](https://yarnpkg.com) - a modern package manager
-* [Gulp](https://gulpjs.com) - installed globally.
+* [Yarn](https://yarnpkg.com/) - a modern package manager
+* [Gulp](https://gulpjs.com/) - installed globally.
 
 if you're not sure if the required tools are already installed, open a terminal and type the following commands.
 

@@ -252,7 +252,7 @@ When Django loads `child.html`, the `{ extends }` block informs the engine to me
 All the above concepts can be seen in action by accessing a simple Django seed project built on top of the latest Bootstrap version: [Pixel UI Django](https://appseed.us/django/django-pixel-bootstrap-uikit). This simple Django template can be downloaded and used for hobby and commercial products - for more information, please access:&#x20;
 
 * [Pixel Lite Django](https://appseed.us/django/django-pixel-bootstrap-uikit) - product page
-* [Pixel Lite Django](https://django-pixel-lite.appseed-srv1.com) - LIVE demo
+* [Pixel Lite Django](https://django-pixel-lite.appseed-srv1.com/) - LIVE demo
 
 ![Pixel Lite - Open-Source Django Template](../../.gitbook/assets/pixel-bootstrap-5-freelancer-page.png)
 

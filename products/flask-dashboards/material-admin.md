@@ -22,9 +22,9 @@ description: >-
 
 * [Material Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - product page
 * [Material Admin Flask](https://github.com/app-generator/flask-dashboard-material-admin) - source code&#x20;
-* [Material Admin Flask](https://flask-dashboard-material-admin.appseed.us) - LIVE Deployment&#x20;
+* [Material Admin Flask](https://flask-dashboard-material-admin.appseed.us/) - LIVE Deployment&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ###
 

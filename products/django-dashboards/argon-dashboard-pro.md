@@ -20,7 +20,7 @@ description: >-
 
 * [Argon PRO Django](https://appseed.us/admin-dashboards/django-dashboard-argon-pro) - product page
 * [Argon PRO Django](https://github.com/app-generator/django-dashboard-argon-pro) - public repository used for bug tracking
-* [Argon PRO Django](https://django-argon-dashboard-pro.appseed-srv1.com) - LIVE Demo
+* [Argon PRO Django](https://django-argon-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
 ###

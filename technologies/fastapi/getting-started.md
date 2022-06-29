@@ -4,9 +4,9 @@ description: A comprehensive introduction to FastAPI
 
 # Getting Started
 
-[FastAPI](https://fastapi.tiangolo.com) is an open-source high-performance, easy to learn web framework, at the same time fast to code, and production-ready.
+[FastAPI](https://fastapi.tiangolo.com/) is an open-source high-performance, easy to learn web framework, at the same time fast to code, and production-ready.
 
-* [FastAPI](https://fastapi.tiangolo.com) - official website
+* [FastAPI](https://fastapi.tiangolo.com/) - official website
 * [FastAPI](https://github.com/tiangolo/fastapi) - source code (published on Github)
 * [Learn FastAPI by coding](https://github.com/app-generator/fastapi-learn-by-coding) - sample project&#x20;
 
@@ -14,7 +14,7 @@ description: A comprehensive introduction to FastAPI
 
 As posted on the official website, FastAPI key features are listed below:
 
-* **Very high performance** - thanks to [Starlette](https://www.starlette.io) and [Pydantic](https://pydantic-docs.helpmanual.io)
+* **Very high performance** - thanks to [Starlette](https://www.starlette.io/) and [Pydantic](https://pydantic-docs.helpmanual.io/)
 * **Fast-to-code** and intuitive&#x20;
 * **Robust** - provides interactive documentation `out-of-the-box`
 * **Standards-based** - fully compatible with `OpenAPI` and `JSON Schema`

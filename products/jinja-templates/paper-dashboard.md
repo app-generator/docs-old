@@ -17,9 +17,9 @@ description: >-
 > Links
 
 * [Jinja Paper Dashboard](https://github.com/app-generator/jinja-paper-dashboard) - source code
-* [Jinja Paper Dashboard](https://jinja-paper-dashboard-pro.appseed-srv1.com) - LIVE deployment &#x20;
+* [Jinja Paper Dashboard](https://jinja-paper-dashboard-pro.appseed-srv1.com/) - LIVE deployment &#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.&#x20;
 
 
 

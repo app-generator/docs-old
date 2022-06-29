@@ -19,7 +19,7 @@ Made of hundred of elements, designed blocks, and fully coded pages, [**Soft UI 
 > Links
 
 * [Soft UI Dashboard Flask PRO](https://appseed.us/product/flask-soft-ui-dashboard-pro) - Product page
-* [Soft UI Dashboard Flask PRO](https://flask-soft-ui-dashboard-pro.appseed-srv1.com) - LIVE Demo
+* [Soft UI Dashboard Flask PRO](https://flask-soft-ui-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 
 > [Support](https://appseed.us/support) via Email and LIVE on [Discord](https://discord.gg/fZC6hup)
 

@@ -20,9 +20,9 @@ description: >-
 
 * [Star Admin Django](https://appseed.us/admin-dashboards/django-star-admin) - product page
 * [Star Admin Django](https://github.com/app-generator/django-star-admin) - source code&#x20;
-* [Star Admin Django](https://django-star-admin.appseed-srv1.com) - LIVE Demo&#x20;
+* [Star Admin Django](https://django-star-admin.appseed-srv1.com/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
 

@@ -9,7 +9,7 @@ description: >-
 Open-source full-stack seed project coded in **React** and **Firebase** on top of a modern design from **CodedThemes**. The React / Firebase codebase is already configured with social login (Google)
 
 * [React Firebase Datta Able](https://appseed.us/product/react-firebase-datta-able) - product page
-* [React Firebase Datta Able](https://react-firebase-datta-able.appseed-srv1.com) - LIVE demo
+* [React Firebase Datta Able](https://react-firebase-datta-able.appseed-srv1.com/) - LIVE demo
 * [React Firebase Datta Able](https://github.com/app-generator/react-firebase-datta-able) - Source Code
 
 ![React Firebase  - Datta Able (free version)](../../.gitbook/assets/react-firebase-datta-app-view.jpg)

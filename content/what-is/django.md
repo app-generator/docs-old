@@ -4,14 +4,14 @@ description: Short introduction to Django
 
 # What IS Django
 
-[Django](https://www.djangoproject.com) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.&#x20;
+[Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.&#x20;
 
-* [Django](https://www.djangoproject.com) - official website
+* [Django](https://www.djangoproject.com/) - official website
 * [Django Documentation](https://docs.djangoproject.com/en/3.0/) - recommended starting point for every aspire Django developer&#x20;
 
 
 
-### Set up PC for [Django](https://www.djangoproject.com) <a href="#set-up-pc-for-django" id="set-up-pc-for-django"></a>
+### Set up PC for [Django](https://www.djangoproject.com/) <a href="#set-up-pc-for-django" id="set-up-pc-for-django"></a>
 
 Being a Python framework, Django requires Python to run. Django is compatible with Python2, Python3 (the recommended version). &#x20;
 

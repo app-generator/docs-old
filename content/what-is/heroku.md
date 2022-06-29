@@ -10,7 +10,7 @@ To use effectively HEROKU we need to install the CLI, the command line interface
 
 ### How to start
 
-* Create a FREE account on [HEROKU](https://signup.heroku.com) platform
+* Create a FREE account on [HEROKU](https://signup.heroku.com/) platform
 * Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) that match your OS: Mac, Unix, or Windows
 * Open a terminal window and authenticate via HEROKU login command:
   * Type in terminal `heroku login`. This will open a new browser window where the LOGIN action must be confirmed

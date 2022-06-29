@@ -7,7 +7,7 @@ description: Open source dashboard template with a responsive and high-quality U
 Tabler is a UI kit that speeds up the development process and makes it easier than ever! Built on the latest version of Bootstrap, it helps you create templates based on fully customizable and ready-to-use UI components, which can be used by both simple websites and sophisticated systems. With basic knowledge of HTML and CSS, you’ll be able to create dashboards that are fully functional and beautifully designed.
 
 * [Tabler](https://github.com/admin-dashboards/bootstrap-template-tabler) - source code published on Github
-* [Tabler](https://preview.tabler.io) - LIVE deployment
+* [Tabler](https://preview.tabler.io/) - LIVE deployment
 
 **Coded by Developers -** Clear and telling code that you won't get lost in. It was made with care and loves so that you don't have to spend hours on making it work.
 

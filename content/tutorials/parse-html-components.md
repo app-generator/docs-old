@@ -17,9 +17,9 @@ For newcomers, **AppSeed** uses automation tools to convert lifeless UI Kits int
 
 > Required libraries and tools
 
-* [Python](https://www.python.org) - interpreter&#x20;
+* [Python](https://www.python.org/) - interpreter&#x20;
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - a well-known parsing library&#x20;
-* [Lxml](https://lxml.de) - used to compensate BS4 limitations&#x20;
+* [Lxml](https://lxml.de/) - used to compensate BS4 limitations&#x20;
 
 ### The process
 

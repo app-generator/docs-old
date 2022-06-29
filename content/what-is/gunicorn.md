@@ -4,7 +4,7 @@ description: Short introduction to Gunicorn
 
 # What IS Gunicorn
 
-[Gunicorn](https://gunicorn.org) 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy.
+[Gunicorn](https://gunicorn.org/) 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy.
 
 Gunicorn is one of many WSGI server implementations, but it's particularly important because it is a stable, commonly-used part of web app deployments that's powered some of the largest Python-powered web applications in the world, such as Instagram.
 
@@ -60,6 +60,6 @@ $ gunicorn -w 4 myapp:app
 
 ### Resources
 
-* [Gunicorn](https://gunicorn.org) - the official website
+* [Gunicorn](https://gunicorn.org/) - the official website
 * [Gunicorn Docs](http://docs.gunicorn.org/en/stable/) - for the last stable version
 * [Gunicorn](https://www.fullstackpython.com/green-unicorn-gunicorn.html) - blog article published on `Full-Stack Python`

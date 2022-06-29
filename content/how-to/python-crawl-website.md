@@ -72,6 +72,6 @@ This simple tutorial should provoke curious minds to search other Python `hot to
 
 #### Links & Resources
 
-* [Python](https://www.python.org) - the official website
-* [Python Cheatsheet](https://www.pythoncheatsheet.org) - this site should make you curious
+* [Python](https://www.python.org/) - the official website
+* [Python Cheatsheet](https://www.pythoncheatsheet.org/) - this site should make you curious
 * Join [AppSeed](https://appseed.us) - For support and `production-ready` starters&#x20;

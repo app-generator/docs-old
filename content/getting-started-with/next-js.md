@@ -8,17 +8,17 @@ description: >-
 
 **Next JS** is a popular web framework built on top of React that provides _out-of-the-box_ many hot features used in modern web development: static and server rendering, smart bundling, Typescripts support without a complex configuration. &#x20;
 
-* [Next JS](https://nextjs.org)  - official website
+* [Next JS](https://nextjs.org/)  - official website
 * [Next JS](https://nextjs.org/docs) - documentation&#x20;
 
 ![Next JS - Open-Source React Framework.](../../.gitbook/assets/next-js-react-framework.jpg)
 
 To start using Next JS a [minimal programming kit](../tutorials/minimal-programming-kit.md) should be already installed with some of the tools:
 
-* A modern editor - [VSCode](https://code.visualstudio.com) or [Atom](https://atom.io)
+* A modern editor - [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 * [Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools
-* [Yarn](https://yarnpkg.com) - a popular package manager for NodeJS (better than [NPM](https://www.npmjs.com))
-* [GIT](https://git-scm.com) - a command-line tool used to download sources from [Github](https://github.com)
+* [Yarn](https://yarnpkg.com/) - a popular package manager for NodeJS (better than [NPM](https://www.npmjs.com/))
+* [GIT](https://git-scm.com/) - a command-line tool used to download sources from [Github](https://github.com/)
 
 Once we have this minimal set of tools, we can install **Next JS** using npm or **Yarn**.
 

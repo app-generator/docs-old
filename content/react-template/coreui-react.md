@@ -39,7 +39,7 @@ $ cd coreui-free-react-admin-template
 $ npm run install # via NPM 
 ```
 
-We can use [Yarn](https://yarnpkg.com) as an alternative&#x20;
+We can use [Yarn](https://yarnpkg.com/) as an alternative&#x20;
 
 ```bash
 $ yarn

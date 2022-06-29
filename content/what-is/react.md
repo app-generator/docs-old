@@ -6,7 +6,7 @@ description: Short introduction to React, the popular UI library backed by Faceb
 
 React is an **open-source** front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
 
-* [React JS](https://reactjs.org) - official website
+* [React JS](https://reactjs.org/) - official website
 * [React JS](https://reactjs.org/docs/getting-started.html) - documentation
 
 ![React JS - The official logo](../../.gitbook/assets/icons-react-x500w.png)
@@ -45,9 +45,9 @@ As mentioned in the official documentation, the easiest way to start using React
 To properly run a React project the workstation needs a [minimal programming kit](../tutorials/minimal-programming-kit.md) properly installed and accessible in the terminal.&#x20;
 
 * [Node JS](https://nodejs.org/en/) - the ecosystem used by the React Library
-* A modern code editor like [VsCode](https://code.visualstudio.com) or [Atom](https://atom.io)
-* [NPM](https://www.npmjs.com) - a package manager for Javascript
-* (optional) [Yarn](https://yarnpkg.com) - a faster alternative to NPM
+* A modern code editor like [VsCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
+* [NPM](https://www.npmjs.com/) - a package manager for Javascript
+* (optional) [Yarn](https://yarnpkg.com/) - a faster alternative to NPM
 
 Also, the ability to work in the terminal and call system commands might speed up the development process. Once we have the NodeJS installed, we should install the `create-react-app` command-line tool in the global scope.
 

@@ -18,9 +18,9 @@ Tabler is a UI kit that speeds up the development process and makes it easier th
 
 * [Tabler Django](https://appseed.us/admin-dashboards/django-dashboard-tabler) - product page
 * [Tabler Django](https://github.com/app-generator/django-dashboard-tabler) - source code
-* [Tabler Django](https://django-dashboard-tabler.appseed.us) - LIVE Demo&#x20;
+* [Tabler Django](https://django-dashboard-tabler.appseed.us/) - LIVE Demo&#x20;
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us) **users**.
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 ###
 

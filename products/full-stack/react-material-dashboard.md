@@ -9,7 +9,7 @@ description: >-
 Full-stack version of **React Material Dashboard**, a premium design crafted by **Creative-Tim** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django (FASTapi coming soon).  For newcomers, **React Material Dashboard** is a popular dashboard template that makes use of light, surface, and movement.&#x20;
 
 * [Full-stack React Material Dashboard](https://appseed.us/full-stack/react-material-dashboard) - product page
-* [Full-stack React Material Dashboard](https://fullstack-react-material-dashboard.appseed-srv1.com) - LIVE Demo
+* [Full-stack React Material Dashboard](https://fullstack-react-material-dashboard.appseed-srv1.com/) - LIVE Demo
 
 ![React Material Dashboard - Full-stack Version](../../.gitbook/assets/react-material-dashboard-screen.png)
 
@@ -18,8 +18,8 @@ Full-stack version of **React Material Dashboard**, a premium design crafted by 
 To successfully compile and use the product, please make sure your workstation has the right tools installed and accessible in the terminal window:
 
 * [Node JS](https://nodejs.org/en/) 12.x version (or above) - used to build both parts (frontend & backend)
-* [GIT](https://git-scm.com) versioning command-line tool - used to clone the sources from Github
-* A code editor: [VsCode](https://code.visualstudio.com) or [Atom](https://atom.io)
+* [GIT](https://git-scm.com/) versioning command-line tool - used to clone the sources from Github
+* A code editor: [VsCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 * Ability to work in the terminal window  &#x20;
 
 ### Product Features

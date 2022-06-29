@@ -8,7 +8,7 @@ description: >-
 
 The CentOS Linux distribution is a stable, predictable, manageable, and reproducible platform derived from the sources of Red Hat Enterprise Linux (RHEL). CentOS Linux is developed by a small but growing team of core developers. In turn, the core developers are supported by an active user community including system administrators, network administrators, managers, core Linux contributors, and Linux enthusiasts from around the world.&#x20;
 
-* [The CentOS Project](https://www.centos.org) - official website
+* [The CentOS Project](https://www.centos.org/) - official website
 * [CentOS](https://en.wikipedia.org/wiki/CentOS) - Wikipedia page
 * [Red Hat Enterprise Linux](https://en.wikipedia.org/wiki/Red\_Hat\_Enterprise\_Linux) - Wikipedia page
 

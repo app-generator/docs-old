@@ -55,7 +55,7 @@ To use MySql as the backend engine for a Django project, we need to follow a sim
 
 The installation process is different on different systems but this phase should not be a blocking point because Unix systems provide by default a MySql server and for Windows, we can use a visual installer.  For more information please access the download page and select the installer that matches your operating system:
 
-* [MySql](https://www.mysql.com) - official website
+* [MySql](https://www.mysql.com/) - official website
 * [MySql Downloads](https://dev.mysql.com/downloads/) page
 
 ###

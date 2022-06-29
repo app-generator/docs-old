@@ -17,9 +17,9 @@ $ sudo yum group install "Development Tools"
 
 ###
 
-### Install [Git](https://git-scm.com)
+### Install [Git](https://git-scm.com/)
 
-[Git](https://git-scm.com) is the most popular version control system on Linux. It is easy to use, amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development.
+[Git](https://git-scm.com/) is the most popular version control system on Linux. It is easy to use, amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development.
 
 ```bash
 $ sudo yum install git
@@ -69,7 +69,7 @@ $ lynx http://localhost
 
 ###
 
-### Installing [Node.js](https://nodejs.org)
+### Installing [Node.js](https://nodejs.org/)
 
 Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
 
@@ -82,7 +82,7 @@ $ node --version
 
 ###
 
-### Installing [Yarn](https://yarnpkg.com)
+### Installing [Yarn](https://yarnpkg.com/)
 
 The yarn is an advanced package management software for Node.js applications. It is a fast, secure, and reliable alternative that any other Nodejs package manager.
 

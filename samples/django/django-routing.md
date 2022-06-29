@@ -11,7 +11,7 @@ This sample might be useful to beginners to understand **how the routing system 
 * [Django Routing Sample](https://github.com/app-generator/django-routing-sample) - the source code (Github/MIT License)
 * More [Django Samples](https://appseed.us/admin-dashboards/django) provided with authentication, basic modules
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.&#x20;
 
 
 
@@ -180,5 +180,5 @@ The browser sample output returned by a local iteration: &#x20;
 
 ### Resources
 
-* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Read more about [Django](https://www.djangoproject.com/) (official docs)
 * Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)&#x20;

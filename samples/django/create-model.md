@@ -11,7 +11,7 @@ This page explains **how to create and USE a model in Django**. All commands use
 * [Django Create Model](https://github.com/app-generator/django-create-model) - the source code (Github/MIT License)
 * More [Django Samples](https://appseed.us/admin-dashboards/django) provided with authentication, basic modules
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.&#x20;
 
 
 
@@ -239,5 +239,5 @@ At this point, we should see the `Books` model in the UI and able to execute CRU
 
 ### Resources
 
-* Read more about [Django](https://www.djangoproject.com) (official docs)
+* Read more about [Django](https://www.djangoproject.com/) (official docs)
 * Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)&#x20;

@@ -41,5 +41,5 @@ Re-enter new password: ******
 
 ### Links & Resources
 
-* [MySql](https://dev.mysql.com) - the official website
+* [MySql](https://dev.mysql.com/) - the official website
 * [How to install MySql on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04) - a complete tutorial provided by Digital Ocean

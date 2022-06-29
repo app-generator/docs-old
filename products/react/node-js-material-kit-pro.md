@@ -9,7 +9,7 @@ description: >-
 Full-stack version of **React Material UI Kit**, a premium design crafted by **Creative-Tim** powered by a Node JS API backend server. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: **Node JS**, Flask, Django (FASTapi coming soon).&#x20;
 
 * [React Node Material Kit PRO](https://appseed.us/product/react-node-js-material-kit-pro) - product page
-* [React Node Material Kit PRO](https://react-node-js-material-kit-pro.appseed-srv1.com) - LIVE Demo
+* [React Node Material Kit PRO](https://react-node-js-material-kit-pro.appseed-srv1.com/) - LIVE Demo
 
 ![React Node JS - Material Kit PRO](../../.gitbook/assets/react-node-js-material-kit-pro-xs.jpg)
 

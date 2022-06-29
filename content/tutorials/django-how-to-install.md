@@ -21,7 +21,7 @@ Django is a popular framework written in Python used to code modern and secure w
 
 For newcomers, Django is a popular framework built by experienced developers, actively supported by an impressive open-source community.  Django comes with _batteries included_ concept and provides modules to handle the **database**, **authentication**, **built-in security**, plus a powerful command-line interface to interact with our app. To start learning Django feel free to access:
 
-* [Django](https://www.djangoproject.com) - the official website and [documentation](https://docs.djangoproject.com)
+* [Django](https://www.djangoproject.com/) - the official website and [documentation](https://docs.djangoproject.com/)
 * [Django Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction) - a nice tutorial provided by Mozilla Docs
 * [What is Django](../what-is/django.md) - a short introduction provided by AppSeed
 
@@ -127,6 +127,6 @@ $ # no environment prefix
 
 To learn more about Python, **Virtual environments,** or get support, please access:
 
-* [Python](https://www.python.org) - official website
+* [Python](https://www.python.org/) - official website
 * [Virtual Environments](https://docs.python.org/3/tutorial/venv.html) - official docs
-* Join [AppSeed](https://appseed.us) and ask for [support](https://appseed.us/support) - for **registered users**&#x20;
+* Join [AppSeed](https://appseed.us/) and ask for [support](https://appseed.us/support) - for **registered users**&#x20;

@@ -21,8 +21,8 @@ Full-stack version of **React Purity PRO**, a premium design crafted by **Creati
 To successfully compile and use the product, please make sure your workstation has the right tools installed and accessible in the terminal window:
 
 * [Node JS](https://nodejs.org/en/) 12.x version (or above) - used to build both parts (frontend & backend)
-* [GIT](https://git-scm.com) versioning command-line tool - used to clone the sources from Github
-* A code editor: [VsCode](https://code.visualstudio.com) or [Atom](https://atom.io)
+* [GIT](https://git-scm.com/) versioning command-line tool - used to clone the sources from Github
+* A code editor: [VsCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 * Ability to work in the terminal window  &#x20;
 
 ### Product Features
