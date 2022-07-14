@@ -106,6 +106,7 @@
   * [Django Star Admin](products/django-dashboards/star-admin.md)
   * [Django Soft Dashboard](products/django-dashboards/soft-ui-dashboard.md)
   * [Django Soft Dashboard PRO](products/django-dashboards/soft-ui-dashboard-pro.md)
+  * [Django Soft Dashboard Enhanced](products/django-dashboards/soft-ui-dashboard-enh.md)  
   * [Django Shards Dashboard](products/django-dashboards/shards-dashboard.md)
   * [Django SB Admin](products/django-dashboards/sb-admin.md)
   * [Django Volt](products/django-dashboards/volt.md)
