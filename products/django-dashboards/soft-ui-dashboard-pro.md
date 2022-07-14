@@ -20,8 +20,8 @@ Made of hundred of elements, designed blocks, and fully coded pages, [**Soft UI 
 
 > Links&#x20;
 
-* [Soft Dashboard PRO Django](https://appseed.us/product/django-soft-ui-dashboard-pro) - Product Page
-* [Soft Dashboard PRO Django](https://django-soft-ui-dashboard-pro.appseed-srv1.com/) - LIVE Demo&#x20;
+* [Soft Dashboard PRO Django](https://appseed.us/product/soft-ui-dashboard-pro/django/) - Product Page
+* [Soft Dashboard PRO Django](https://django-soft-ui-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 
 
 
