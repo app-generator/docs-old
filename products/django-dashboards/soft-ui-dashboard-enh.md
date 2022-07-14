@@ -12,7 +12,7 @@ This product is manualy coded on top of the generated version [Soft Dashboard PR
 * UI Kit: **Soft Dashboard PRO** (Premium version)
 * Bootstrap 5 Design (no jQuery dependency)
   * `Light/Dark Mode`
-  * 190 pages: `Charts`, Dashboards, `Multiple Layouts`
+  * 50+ pages: `Charts`, Dashboards, `Multiple Layouts`
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx
