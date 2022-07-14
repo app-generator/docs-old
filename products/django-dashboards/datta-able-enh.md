@@ -37,15 +37,47 @@ Django Datta Able PRO - Presentation\
 
 ## Improved Authentication 
 
-@Todo
+The codebase has been update to support some new features: 
+
+- Automatic user suspension on consecutive failed logins
+  - Limit saved in `configuration` 
+  - `Password strength` indicator (registration page)
+
+
+
+## FTP Storage
+
+The feature is activated via the `.env` settings. Sample configuration: 
+
+```env
+FTP_UPLOAD=True
+upload_cloud_type=storages.backends.ftp.FTPStorage
+ftp_username   = <FTP_USER>
+ftp_password   = <FTP_PASS>
+ftp_server_url = <FTP_SERVER_IP>
+ftp_port       = <FTP_SERVER_PORT>
+upload_url     = <WWW_ROOT_FOR_IMAGES>
+```  
+
+
 
 ## Extended User Profile
 
-@Todo
+- Users are able to edit their profile:
+  - Full Name, address, phone number and ZIP Code
+- Upload their profile image
+  - If the `FTP_UPLOAD` feature is active
+
+
 
 ## Users Management
 
-@Todo
+> Note: Feature reserved for `superusers`
+
+- List all users
+- Edit the information
+- Suspend/unsuspend the users
+
 
 ## 🚀 Where to go from here
 
