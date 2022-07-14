@@ -42,7 +42,7 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 * [Python3](https://www.python.org) - the programming language used to code the app
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * Basic development tools used by Python to compile the app dependencies in your environment.
-* (Optional) `Docker` - a popular virtualization software \
+* (Optional) `Docker` - a popular virtualization software 
 
 
 ## ✨ Start the app in Docker
@@ -61,7 +61,7 @@ $ cd django-datta-able-pro
 $ docker-compose up --build 
 ```
 
-Visit `http://localhost:5085` in your browser. The app should be up & running.\
+Visit `http://localhost:5085` in your browser. The app should be up & running.
 
 
 ## ✨ Manual Build

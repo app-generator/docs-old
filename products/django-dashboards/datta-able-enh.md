@@ -31,7 +31,7 @@ This product is manualy coded on top of the generated version [Datta Able PRO](.
 * 👉 [Support](https://appseed.us/support) (Email and LIVE on Discord) for `registered users`.
 
 {% embed url="https://www.youtube.com/watch?v=d8OqLGCzOuE" %}
-Django Datta Able PRO - Presentation\
+Django Datta Able PRO - Presentation
 
 {% endembed %}
 
