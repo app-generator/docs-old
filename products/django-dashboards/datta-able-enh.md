@@ -18,7 +18,7 @@ This product is manualy coded on top of the generated version [Datta Able PRO](.
 * Deployment scripts: Docker, Gunicorn/Nginx
 - Improved Authentication
   - Visual password strength indicator (registration)
-  - Suspend user after 3 failed login attempts
+  
 - New Feature: `User Profiles`
   - Extended User profile
   - Added Superusers
