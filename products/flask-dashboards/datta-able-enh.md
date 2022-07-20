@@ -38,6 +38,7 @@ This product is manualy coded on top of the generated version [Datta Able PRO](.
 * 👉 [Support](https://appseed.us/support): Email and LIVE on [Discord](https://discord.gg/fZC6hup)
 
 
+
 ## ✨ Environment
 
 To use the starter, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is installed, please open a terminal and type `python --version`. Here is the full list with dependencies and tools required to build the app:
@@ -46,6 +47,7 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * (Optional) `Docker` - a popular virtualization software
+
 
 
 ## ✨ Start the app in Docker
@@ -66,6 +68,8 @@ $ docker-compose up --build
 
 Visit `http://localhost:5085` in your browser. The app should be up & running
 
+
+
 ## ✨ Manual Build
 
 > Download the code - access the [product page](https://appseed.us/product/datta-able-pro/flask/) and download the ZIP (requires a purchase)
@@ -76,7 +80,6 @@ $ unzip flask-datta-able-enh.zip
 $ cd flask-datta-able-enh
 ```
 
-\
 
 ### 👉 Set Up for `Unix`, `MacOS`
 
@@ -102,7 +105,6 @@ $ export FLASK_ENV=development
 $ flask db init # to be executed only once         
 ```
 
-\
 
 ```bash
 $ flask db migrate # Generate migration SQL
@@ -127,7 +129,6 @@ $ flask run
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
 
-\
 
 ### 👉 Set Up for `Windows`
 
@@ -158,7 +159,6 @@ $ $env:FLASK_ENV = "development"
 $ flask db init # to be executed only once         
 ```
 
-\
 
 ```bash
 $ flask db migrate # Generate migration SQL
@@ -183,7 +183,7 @@ $ flask run
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
 
-\
+
 
 ## APP Configuration via `.env` file
 
@@ -237,8 +237,6 @@ When credentials are defined, the app enables the `LOGIN with Twitter` button on
 - `TWITTER_ID`=YOUR_GITHUB_ID
 - `TWITTER_SECRET`=YOUR_GITHUB_SECRET 
 
-\
-
 ## ✨ Application Bootstrap Flow
 
 The entry point of the project is the `run.py` file where the project configuration is bundled. The `most important files` that make the project functional are listed below:
@@ -253,7 +251,7 @@ The entry point of the project is the `run.py` file where the project configurat
 * Configuration
   * is defined in `apps/config.py`
 
-\
+
 
 ## 👉 Static Assets
 
@@ -289,7 +287,6 @@ At runtime, the `href` property is resolved to `/static/assets/css/style.css` ba
 ASSETS_ROOT=/static/assets
 ```
 
-\
 
 ## 🚀 Where to go from here
 
