@@ -57,6 +57,7 @@
   * [Flask CoreUI](products/flask-dashboards/coreui.md)
   * [Flask Datta Able](products/flask-dashboards/datta-able.md)
   * [Flask Datta Able PRO](products/flask-dashboards/datta-able-pro.md)
+  * [Flask Datta Able ENH](products/flask-dashboards/datta-able-enh.md)
   * [Flask Gradient Able](products/flask-dashboards/gradient-able.md)
   * [Flask Light Bootstrap](products/flask-dashboards/light-bootstrap-dashboard.md)
   * [Flask Light Blue](products/flask-dashboards/light-blue.md)
