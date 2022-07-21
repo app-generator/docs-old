@@ -22,6 +22,7 @@
 ## Developer Tools
 
 * [Django Dynamic API](developer-tools/django-dynamic-api.md)
+* [Django Dynamic API](developer-tools/django-dynamic-datatables.md)
 
 ## PRODUCTS
 
