@@ -19,6 +19,10 @@
 * [Django Templates](boilerplate-code/django-templates/README.md)
   * [Django Template Volt](boilerplate-code/django-templates/volt-dashboard.md)
 
+## Developer Tools
+
+* [Django Dynamic API](developer-tools/django-dynamic-api.md)
+
 ## PRODUCTS
 
 * [Full-stack](products/full-stack/README.md)
