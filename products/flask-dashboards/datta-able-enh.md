@@ -252,6 +252,38 @@ The entry point of the project is the `run.py` file where the project configurat
   * is defined in `apps/config.py`
 
 
+## ✨ API via Flask-RestX
+
+@Todo - Short Intro over the API concept
+
+### `Flask-RestX` Intro
+
+@Todo
+
+### Exposed models
+
+- `products`
+- `sales`
+
+@Todo - How to use the API
+
+
+## ✨ OAuth for `Github` and `Twitter`
+
+@Todo - What is OAuth and social login
+
+### `Flask-Dance` Intro
+
+@Todo
+
+### OAuth via Github
+
+@Todo
+
+### OAuth via Twitter
+
+@Todo
+
 
 ## 👉 Static Assets
 
