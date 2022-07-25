@@ -1,7 +1,7 @@
 ---
-description: Developer Tool - Dynamic Data Tables via Djang
+description: Developer Tool - Dynamic DataTables via Django
 ---
 
-# Django Dynamic Data Tables
+# Django Dynamic DataTables
 
 @Todo
