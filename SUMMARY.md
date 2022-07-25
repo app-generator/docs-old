@@ -25,6 +25,7 @@
 * [Django Dynamic DataTables](developer-tools/django-dynamic-datatables.md)
 * [Flask Dynamic API](developer-tools/flask-dynamic-api.md)
 * [Flask Dynamic DataTables](developer-tools/flask-dynamic-datatables.md)
+* [DB Introspection Tool](developer-tools/database-introspection.md)
 
 ## PRODUCTS
 
