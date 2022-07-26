@@ -35,8 +35,6 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * (Optional) `Docker` - a popular virtualization software
 
-\
-
 
 ## ✨ Start the app in Docker
 
@@ -56,7 +54,6 @@ $ docker-compose up --build
 
 Visit `http://localhost:5085` in your browser. The app should be up & running.
 
-\
 
 
 ## ✨ Manual Build
@@ -68,8 +65,6 @@ $ # Get the code
 $ git clone https://github.com/app-generator/flask-datta-able.git
 $ cd flask-datta-able
 ```
-
-\
 
 
 ### 👉 Set Up for `Unix`, `MacOS`
@@ -96,8 +91,6 @@ $ flask run
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
-
-\
 
 
 ### 👉 Set Up for `Windows`
@@ -129,8 +122,6 @@ $ flask run
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
-
-\
 
 
 ## ✨ Manage App `Users`
@@ -199,8 +190,6 @@ The project is coded using a simple and intuitive structure presented below:
    |-- ************************************************************************
 ```
 
-\
-
 
 ## ✨ Application Bootstrap Flow
 
@@ -215,8 +204,6 @@ The entry point of the project is the `run.py` file where the project configurat
   * If `Debug=False` - MySql is used (production mode)
 * Configuration
   * is defined in `apps/config.py`
-
-\
 
 
 ## ✨ How the `Flask App` object is constructed
@@ -236,8 +223,6 @@ The file that constructs the core features of our application is `apps/__init__.
     * `home` - serve all the pages saved in the `apps/templates/home` folder
   * initialize the database
     * `db.create_all()` - create all tables
-
-\
 
 
 ## ✨ Application Blueprints
@@ -260,8 +245,6 @@ The codebase is built using a modular design that uses `blueprints`. By default,
 ### 👉 Home Blueprint
 
 This module returns all pages saved in the `templates/home` directory to authenticated users. In case a page is not found, a generic page is returned using a `404` HTTP error status.
-
-\
 
 
 ## ✨ UI Assets and Templates
@@ -309,8 +292,6 @@ All pages and components are saved inside the `apps/templates` directory. Here a
    |-- ************************************************************************
 ```
 
-\
-
 
 ### 👉 Static Assets
 
@@ -346,8 +327,6 @@ At runtime, the `href` property is resolved to `/static/assets/css/style.css` ba
 ASSETS_ROOT=/static/assets
 ```
 
-\
-
 
 ## ✨ Customisation
 
@@ -375,8 +354,6 @@ $ pip install flask_mysqldb
 * `DB_USERNAME`: default value = `appseed_db_usr`
 * `DB_PASS` : default value = `pass`
 
-\
-
 
 Here is a sample:
 
@@ -395,7 +372,6 @@ DB_PORT=3306                # MySql port, default = 3306
 
 At this point, the app should use `MySql` for the persistence layer.
 
-\
 
 
 ### 👉 Static Assets for `production`

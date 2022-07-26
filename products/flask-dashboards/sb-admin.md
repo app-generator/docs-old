@@ -6,26 +6,25 @@ description: >-
 
 # Flask SB Admin
 
-**SB Admin** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. For newcomers, **Flask** is a lightweight web application framework written in Python that can be easily extended to become an API, a simple one-page project, or complex eCommerce solutions.&#x20;
+**SB Admin** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. For newcomers, **Flask** is a lightweight web application framework written in Python that can be easily extended to become an API, a simple one-page project, or complex eCommerce solutions.
 
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: **SB Admin** (free version)&#x20;
+* UI Kit: **SB Admin** (free version)
 * DBMS: SQLite, PostgreSQL (production)
 * DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
 * Session-Based authentication (via **flask\_login**), Forms validation
-* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU&#x20;
+* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
 
 > Links
 
 * [SB Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-sb-admin) - product page
-* [SB Admin Flask](https://github.com/app-generator/flask-dashboard-sb-admin) - source code&#x20;
-* [SB Admin Flask](https://flask-sb-admin.appseed-srv1.com/) - LIVE Demo&#x20;
+* [SB Admin Flask](https://github.com/app-generator/flask-dashboard-sb-admin) - source code
+* [SB Admin Flask](https://flask-sb-admin.appseed-srv1.com/) - LIVE Demo
 
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
-
 
 
 ### What is Flask
@@ -35,7 +34,6 @@ description: >-
 > Read more about [Flask Framework](../../content/what-is/flask.md)
 
 
-
 ### How to use the App
 
 * [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
@@ -43,7 +41,6 @@ description: >-
 * [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
 * [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
-###
 
 ### SB Admin UI
 

@@ -6,24 +6,24 @@ description: >-
 
 # Flask MaterialPRO
 
-WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material design template that comes packed with new, fresh, and attractive designs and ready-to-use components.&#x20;
+WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material design template that comes packed with new, fresh, and attractive designs and ready-to-use components.
 
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [MaterialPro](../../content/bootstrap-template/materialpro-wpx.md) (premium version) &#x20;
+* UI Kit: [MaterialPro](../../content/bootstrap-template/materialpro-wpx.md) (premium version) 
 * DBMS: SQLite, PostgreSQL (production)
 * DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
 * Session-Based authentication (via **flask\_login**), Forms validation
-* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU&#x20;
+* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
 
-> Links&#x20;
+> Links
 
 * [MaterialPro Flask](https://appseed.us/admin-dashboards/flask-material-dashboard-wpx-pro) - product page
-* [MaterialPro Flask](https://github.com/app-generator/flask-material-wpx-pro) - public repository used for tracking issues &#x20;
+* [MaterialPro Flask](https://github.com/app-generator/flask-material-wpx-pro) - public repository used for tracking issues 
 * [MaterialPro Flask](https://flask-material-wpx-pro.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
+* [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.
 
 
 
@@ -49,6 +49,6 @@ WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material de
 **Material Pro** Bootstrap Admin dashboard is versatile, user-friendly, and has a clean code structure that optimizes the development cost and time. The smoothness and efficiency in using a customizable admin dashboard are felt with the reliable design inspiration by Google’s material design.
 
 * [MaterialPro Wpx](../../content/bootstrap-template/materialpro-wpx.md) - information provided by AppSeed
-* [MaterialPro Wpx](https://bit.ly/2NRHoFb) - product page hosted by [WrapPixel](../../content/partners/wrappixel.md).&#x20;
+* [MaterialPro Wpx](https://bit.ly/2NRHoFb) - product page hosted by [WrapPixel](../../content/partners/wrappixel.md).
 
 ![MaterialPro - Premium Bootstrap Template.](../../.gitbook/assets/docs-cover-materialpro-wpx.jpg)

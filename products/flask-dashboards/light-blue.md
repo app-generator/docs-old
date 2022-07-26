@@ -15,12 +15,7 @@ Light Blue Dashboard is a world-first transparent admin template built with Boot
 * Session-Based authentication (via **flask\_login**), Forms validation
 * Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
 
-\
-
-
 > Sources: https://github.com/app-generator/flask-dashboard-light-blue
-
-\
 
 
 ## 🚀 Where to go from here

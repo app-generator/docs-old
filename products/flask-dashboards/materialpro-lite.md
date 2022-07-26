@@ -6,26 +6,25 @@ description: >-
 
 # Flask MaterialPro Lite
 
-WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspired by Google Material design principles integrated with the essential Bootstrap components and UI elements.&#x20;
+WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspired by Google Material design principles integrated with the essential Bootstrap components and UI elements.
 
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)
-* UI Kit: [MaterialPro Lite](../../content/bootstrap-template/materialpro-lite.md) (free version)&#x20;
+* UI Kit: [MaterialPro Lite](../../content/bootstrap-template/materialpro-lite.md) (free version)
 * DBMS: SQLite, PostgreSQL (production)
 * DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
 * Session-Based authentication (via **flask\_login**), Forms validation
-* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU&#x20;
+* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
 
 > Links
 
 * [MaterialPro Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-lite) - product page
-* [MaterialPro Lite Flask](https://github.com/app-generator/flask-material-pro-lite) - source code&#x20;
-* [MaterialPro Lite Flask](https://flask-dashboard-material-lite.appseed.us/) - LIVE Demo&#x20;
+* [MaterialPro Lite Flask](https://github.com/app-generator/flask-material-pro-lite) - source code
+* [MaterialPro Lite Flask](https://flask-dashboard-material-lite.appseed.us/) - LIVE Demo
 
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
-
 
 
 ### What is Flask
@@ -33,7 +32,6 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 **Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 > Read more about [Flask Framework](../../content/what-is/flask.md)
-
 
 
 ### How to use the App
@@ -44,10 +42,9 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 * [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
-
 ### MaterialPro Lite UI Kit
 
-Material Pro Bootstrap is simplicity personified, the elegant user interface makes developing apps and websites a breeze. There are a host of options to tweak the layout as per your choice and create a fluid user interface that's exceptionally easy to use. Since it is designed as per Material principles, you can be assured that the template is lightning fast to load, cross-browser compatible, and renders well on screens of all sizes.&#x20;
+Material Pro Bootstrap is simplicity personified, the elegant user interface makes developing apps and websites a breeze. There are a host of options to tweak the layout as per your choice and create a fluid user interface that's exceptionally easy to use. Since it is designed as per Material principles, you can be assured that the template is lightning fast to load, cross-browser compatible, and renders well on screens of all sizes.
 
 * [MaterialPro Lite](https://bit.ly/2ZJuiMR) - product page hosted by [WrapPixel](../../content/partners/wrappixel.md)
 

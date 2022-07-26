@@ -36,8 +36,6 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * (Optional) `Docker` - a popular virtualization software
 
-\
-
 
 ## ✨ Start the app in Docker
 
@@ -57,8 +55,6 @@ $ docker-compose up --build
 
 Visit `http://localhost:5085` in your browser. The app should be up & running.
 
-\
-
 
 ## ✨ Manual Build
 
@@ -69,8 +65,6 @@ $ # Get the code
 $ git clone https://github.com/app-generator/flask-soft-ui-dashboard.git
 $ cd flask-soft-ui-dashboard
 ```
-
-\
 
 
 ### 👉 Set Up for `Unix`, `MacOS`
@@ -97,8 +91,6 @@ $ flask run
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
-
-\
 
 
 ### 👉 Set Up for `Windows`
@@ -131,8 +123,6 @@ $ flask run
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
 
-\
-
 
 ## ✨ Manage App `Users`
 
@@ -146,7 +136,7 @@ By default, the app redirects guest users to authenticate. In order to access th
 * Access the `registration` page and create a new user:
   * `http://127.0.0.1:5000/register`
 * Access the `sign in` page and authenticate
-  * `http://127.0.0.1:5000/login`\
+  * `http://127.0.0.1:5000/login`
 
 
 ## ✨ Codebase structure
@@ -200,7 +190,6 @@ The project is coded using a simple and intuitive structure presented below:
    |-- ************************************************************************
 ```
 
-\
 
 
 ## ✨ Application Bootstrap Flow
@@ -216,8 +205,6 @@ The entry point of the project is the `run.py` file where the project configurat
   * If `Debug=False` - SQLite is used (production mode)
 * Configuration
   * is defined in `apps/config.py`
-
-\
 
 
 ## ✨ How the `Flask App` object is constructed
@@ -237,8 +224,6 @@ The file that constructs the core features of our application is `apps/__init__.
     * `home` - serve all the pages saved in the `apps/templates/home` folder
   * initialize the database
     * `db.create_all()` - create all tables
-
-\
 
 
 ## ✨ Application Blueprints
@@ -261,8 +246,6 @@ The codebase is built using a modular design that uses `blueprints`. By default,
 ### 👉 Home Blueprint
 
 This module returns all pages saved in the `templates/home` directory to authenticated users. In case a page is not found, a generic page is returned using a `404` HTTP error status.
-
-\
 
 
 ## ✨ UI Assets and Templates
@@ -310,8 +293,6 @@ All pages and components are saved inside the `apps/templates` directory. Here a
    |-- ************************************************************************
 ```
 
-\
-
 
 ### 👉 Static Assets
 
@@ -346,8 +327,6 @@ At runtime, the `href` property is resolved to `/static/assets/css/style.css` ba
 # No Slash at the end
 ASSETS_ROOT=/static/assets
 ```
-
-\
 
 
 ## ✨ Customisation
@@ -395,8 +374,6 @@ DB_PORT=3306               # MySql port, default = 3306
 ```
 
 At this point, the app should use `MySql` for the persistence layer.
-
-\
 
 
 ### 👉 Static Assets for `production`

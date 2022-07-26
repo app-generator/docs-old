@@ -16,24 +16,22 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 * DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
 * Session-Based authentication (via **flask\_login**), Forms validation
-* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU&#x20;
+* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
 
 > Links
 
 * [Shards Flask](https://appseed.us/admin-dashboards/flask-dashboard-shards) - product page
 * [Shards Flask](https://github.com/app-generator/flask-dashboard-shards) - source code
-* [Shards Flask](https://flask-dashboard-shards.appseed.us/) - LIVE Demo&#x20;
+* [Shards Flask](https://flask-dashboard-shards.appseed.us/) - LIVE Demo
 
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
-###
 
 ### What is Flask
 
 **Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
-> Read more about [Flask Framework](../../content/what-is/flask.md)
-
+> Read more about [Flask Framework](../../content/what-is/flask.md
 
 
 ### How to use the App
@@ -42,7 +40,6 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 * [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
 * [App Codebase](../../boilerplate-code/flask-dashboard.md#app-codebase) - how the project files are organized
 * [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
-
 
 
 ### Shards Dashboard UI

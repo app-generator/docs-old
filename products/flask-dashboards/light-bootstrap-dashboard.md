@@ -27,16 +27,14 @@ description: >-
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
 
-
-### What is Flask
+## What is Flask
 
 **Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 > Read more about [Flask Framework](../../content/what-is/flask.md)
 
 
-
-### How to use the App
+## How to use the App
 
 * [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for **Flask**
 * [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app-1) - start this **Flask** app in the local environment
@@ -44,8 +42,7 @@ description: >-
 * [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this **Flask** application
 
 
-
-### Light Bootstrap UI Kit
+## Light Bootstrap UI Kit
 
 **Light Bootstrap Dashboard** contains multiple handpicked and optimized plugins. Everything is designed to fit with one another. It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs.
 
