@@ -8,20 +8,18 @@ description: A comprehensive introduction to FastAPI
 
 * [FastAPI](https://fastapi.tiangolo.com/) - official website
 * [FastAPI](https://github.com/tiangolo/fastapi) - source code (published on Github)
-* [Learn FastAPI by coding](https://github.com/app-generator/fastapi-learn-by-coding) - sample project&#x20;
-
+* [Learn FastAPI by coding](https://github.com/app-generator/fastapi-learn-by-coding) - sample project
 
 
 As posted on the official website, FastAPI key features are listed below:
 
 * **Very high performance** - thanks to [Starlette](https://www.starlette.io/) and [Pydantic](https://pydantic-docs.helpmanual.io/)
-* **Fast-to-code** and intuitive&#x20;
+* **Fast-to-code** and intuitive
 * **Robust** - provides interactive documentation `out-of-the-box`
 * **Standards-based** - fully compatible with `OpenAPI` and `JSON Schema`
 
 
-
-### Simple FastAPI Project
+## Simple FastAPI Project
 
 FastAPI requires Python 3.6 (or above) to execute successfully. For most of the Unix environments, Python3 might be already installed. To check the version, open a terminal and type:
 
@@ -29,7 +27,7 @@ FastAPI requires Python 3.6 (or above) to execute successfully. For most of the 
 $ python3 --version
 ```
 
-If the version is 3.6 or above we can move forward and create a virtual environment for our first project powered by FastAPI.&#x20;
+If the version is 3.6 or above we can move forward and create a virtual environment for our first project powered by FastAPI.
 
 > Create/activate a Virtual Environment (Unix systems)
 
@@ -45,7 +43,7 @@ $ # virtualenv env
 $ # .\env\Scripts\activate
 ```
 
-> Install FastAPI&#x20;
+> Install FastAPI
 
 ```bash
 $ pip install fastapi
@@ -81,9 +79,8 @@ At this point we should be able to visit the API in the browser:
 ![FastAPI - Simple API Project](../../.gitbook/assets/fastapi-hello-world.jpg)
 
 
-
-### FastAPI Resources
+## FastAPI Resources
 
 * [The future of FastAPI and Pyndantic](https://tiangolo.medium.com/the-future-of-fastapi-and-pydantic-is-bright-2d1785a603a9)
 * [You should start using FastAPI](https://towardsdatascience.com/you-should-start-using-fastapi-now-7efb280fec02)
-* [Rise of Pydantic Stack](https://python.plainenglish.io/an-introduction-to-the-pydantic-stack-9e490d606c8d) &#x20;
+* [Rise of Pydantic Stack](https://python.plainenglish.io/an-introduction-to-the-pydantic-stack-9e490d606c8d) 

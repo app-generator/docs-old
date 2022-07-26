@@ -14,28 +14,21 @@ In December 2021 [Django Version 4](https://docs.djangoproject.com/en/4.0/releas
 
 In this version the default `pytz` time zone has been migrated to `zoneinfo`
 
-\
-
 
 > Template-based form rendering
 
 `Forms`, `Formsets`, and `ErrorList` are now rendered using the template engine to enhance customization.
-
-\
 
 
 > RedisCache backend
 
 Django v4 provides built-in support for caching with Redis via `redis-py` library
 
-\
-
 
 > scrypt password hasher
 
 This new `password hasher` is more secure compared to PBKDF2 (the default hashing algorithm before v4)
 
-***
 
 ## Deprecated Features
 
@@ -43,14 +36,11 @@ This new `password hasher` is more secure compared to PBKDF2 (the default hashin
 
 PostgreSQL v9.6 and earlier are not supported by Django v4.0. Django v4.0 will only support PostgreSQL ≥v10.
 
-\
-
 
 > Oracle v12.2 and 18c `support dropped`
 
 Starting with Django 4, the Oracle version should be at least v19 or above. The Django team has officially removed support for Oracle versions 18c and earlier.
 
-***
 
 ## Breaking Changes
 
@@ -65,8 +55,6 @@ ALLOWED_HOSTS        = ['localhost', 'localhost:85', '127.0.0.1']
 CSRF_TRUSTED_ORIGINS = ['http://localhost:85', 'http://127.0.0.1']
 ...
 ```
-
-\
 
 
 ## Free Starters upgraded to Django 4.x

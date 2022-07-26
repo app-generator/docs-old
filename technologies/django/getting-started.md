@@ -9,4 +9,5 @@ description: Getting Started with Django, a leading web framework written in Pyt
 * [Django](https://www.djangoproject.com/) - official website
 * [Django](https://docs.djangoproject.com/en/4.0/) - official documentation
 
-\[incomplete]
+@Todo
+
