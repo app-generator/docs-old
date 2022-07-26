@@ -4,7 +4,7 @@ description: Open-source Django sample provided by AppSeed on top of Argon Dashb
 
 # Django Sales Charts
 
-&#x20;Open-source Sample provided on top of [**Argon Dashboard Django**](https://bit.ly/3si4e7q) (free product). **Django Argon Charts** sample provides functional code that shows different metrics regarding a 12mo timeframe: total sales, total orders, best sale, and best month (in sales value). Information is provided using charts, widgets and a paginated data table that allows editing/adding new sales - **App Features:**&#x20;
+Open-source Sample provided on top of [**Argon Dashboard Django**](https://bit.ly/3si4e7q) (free product). **Django Argon Charts** sample provides functional code that shows different metrics regarding a 12mo timeframe: total sales, total orders, best sale, and best month (in sales value). Information is provided using charts, widgets and a paginated data table that allows editing/adding new sales - **App Features:**
 
 * Manage orders and display the information visually using charts and widgets
 * Table `Orders` store the information - properties:
@@ -26,15 +26,12 @@ description: Open-source Django sample provided by AppSeed on top of Argon Dashb
 ![Django Charts Argon - Free Sample.](../../.gitbook/assets/docs-sample-django-charts-argon.jpg)
 
 
+## How to use the app
 
-### How to use the app
+To compile and execute the project in a local environment the workstation must have a few software tools already installed:
 
-To compile and execute the project in a local environment the workstation must have a few software tools already installed:&#x20;
-
-* [GIT](https://git-scm.com/) - command line versioning tool used to clone the sources&#x20;
-* [Python3](https://www.python.org/) - the language used to code the project &#x20;
-
-&#x20;
+* [GIT](https://git-scm.com/) - command line versioning tool used to clone the sources
+* [Python3](https://www.python.org/) - the language used to code the project 
 
 **Step #1 - Clone the sources**
 
@@ -74,8 +71,7 @@ $ python manage.py createsuperuser
 > Note: make sure your are connected with an `admin` account.
 
 
-
-### Codebase Structure
+## Codebase Structure
 
 ```
 < PROJECT ROOT >
@@ -123,8 +119,7 @@ $ python manage.py createsuperuser
 ```
 
 
-
-### Charts Feature
+## Charts Feature
 
 This section describes the coding process for this feature that allows authenticated users to update their orders and sales.
 
@@ -153,8 +148,7 @@ The application that manages and implements all features:
   * Bar Chart shows the sales for a 12mo timeframe
 
 
-
-**Links & Resources**:
+## Links & Resources
 
 * [Django](https://www.djangoproject.com/) - official website
 * More [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed

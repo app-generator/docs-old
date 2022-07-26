@@ -4,14 +4,15 @@ description: Open-source Django API server that explains how to extend an existi
 
 # Django API Server
 
-This sample explains how to extend an existing Django API Starter and add another model managed via a new API node.&#x20;
+This sample explains how to extend an existing Django API Starter and add another model managed via a new API node.
 
 * [Django API Server](../../boilerplate-code/api-server/django.md) - original project
-* [Django API Server Sample](https://github.com/app-generator/api-server-django-sample) - the source code with new enhancements&#x20;
+* [Django API Server Sample](https://github.com/app-generator/api-server-django-sample) - the source code with new enhancements
 
 ![Django API Server - Cover Image.](../../.gitbook/assets/api-cover-django-xs.jpg)
 
-### Codebase structure
+
+## Codebase structure
 
 ```
 PROJECT ROOT
@@ -56,23 +57,25 @@ PROJECT ROOT
 └── requirements.txt             # Contains development packages
 ```
 
-### Used Patterns
+
+## Used Patterns
 
 Working with Django Rest Framework, the most common design pattern is the **Template Method Pattern**.
 
 It mostly consists of providing base/skeleton for some features with the possibility to override/extends these skeletons.
 
-For example, you can check the code in `api/user/viewsets.py`. The `UserViewSet` inherits of `viewsets.GenericsViewSet` and `CreateModelMixin` and `UpdateModelMixin`.&#x20;
+For example, you can check the code in `api/user/viewsets.py`. The `UserViewSet` inherits of `viewsets.GenericsViewSet` and `CreateModelMixin` and `UpdateModelMixin`.
 
-The `UpdateModelMixin` provides the logic to update an object using `PUT`.&#x20;
+The `UpdateModelMixin` provides the logic to update an object using `PUT`.
 
 We only need to rewrite the method which handles the `updating` and provides the `serializer_class` and the `permission_classes`.
 
-### How to use the API
+
+## How to use the API
 
 > POSTMAN usage
 
-The API is actually built around these endpoints :&#x20;
+The API is actually built around these endpoints :
 
 * `api/users/signup`
 * `api/users/login`
@@ -109,7 +112,7 @@ Content-Type: application/json
 cd api && django-admin startapp transactions
 ```
 
-Once it's done, rewrite the `apps.py` file with the following content.&#x20;
+Once it's done, rewrite the `apps.py` file with the following content.
 
 ```
 ```
@@ -124,7 +127,7 @@ Content-Type: application/json
 }
 ```
 
-**Response :**&#x20;
+**Response :**
 
 ```javascript
 {
@@ -150,7 +153,7 @@ authorization: JWT_TOKEN (returned by Login request)
 }
 ```
 
-**Response :**&#x20;
+**Response :**
 
 ```javascript
 {
@@ -161,7 +164,7 @@ authorization: JWT_TOKEN (returned by Login request)
 
 > cURL usage
 
-Let's edit information about the user and check a session using cURL.&#x20;
+Let's edit information about the user and check a session using cURL.
 
 > **Check Session**- `api/users/checkSession`
 
@@ -172,7 +175,7 @@ curl --request POST \
   --header 'Content-Type: application/json'
 ```
 
-**Response :**&#x20;
+**Response :**
 
 ```javascript
 {
@@ -194,7 +197,7 @@ curl --request POST \
 }'
 ```
 
-**Response :**&#x20;
+**Response :**
 
 ```javascript
 {
@@ -202,11 +205,12 @@ curl --request POST \
 }
 ```
 
-### How to extend API
+
+## How to extend API
 
 > Add a new model - transactions
 
-To add a model for `transaction` in the project, let's create a new application in the `api` directory.&#x20;
+To add a model for `transaction` in the project, let's create a new application in the `api` directory.
 
 * Creating the app using `django-admin` command in the `api` directory.
 * Then modify the name and the label of the app in `apps.py`
@@ -216,7 +220,7 @@ To add a model for `transaction` in the project, let's create a new application 
 cd api && django-admin startapp transaction
 ```
 
-Then modify the `apps.py` file.&#x20;
+Then modify the `apps.py` file.
 
 ```python
 # api/transaction/apps.py
@@ -238,7 +242,7 @@ And don't forget to add the `default_app_config` in the `__init__.py` file the `
 default_app_config = "api.transaction.apps.TransactionConfig"
 ```
 
-We can now register the application in `settings.py` file.&#x20;
+We can now register the application in `settings.py` file.
 
 ```python
 # core/settings.py
@@ -252,16 +256,16 @@ INSTALLED_APPS = [
 
 > Add API interface to manage transactions
 
-Creating an API interface to manage transactions usually go this way :&#x20;
+Creating an API interface to manage transactions usually go this way :
 
 * Creating the model
 * Creating the serializer
 * Write the views or the viewsets
 * Register the viewsets by creating routes
 
-We've already created the model for `transaction`.&#x20;
+We've already created the model for `transaction`.
 
-Let's create the [serializer](https://www.django-rest-framework.org/api-guide/serializers/). &#x20;
+Let's create the [serializer](https://www.django-rest-framework.org/api-guide/serializers/). 
 
 A [serializer](https://www.django-rest-framework.org/api-guide/serializers/) allows us to convert complex Django complex data structures such as `querysets` or model instances in Python native objects that can be easily converted JSON/XML format, but a serializer also serializes JSON/XML to naive Python.
 
@@ -282,17 +286,17 @@ class TransactionSerializer(serializers.ModelSerializer):
         read_only_field = ["id", "created"]
 ```
 
-And now the [viewsets](https://www.django-rest-framework.org/api-guide/viewsets/).&#x20;
+And now the [viewsets](https://www.django-rest-framework.org/api-guide/viewsets/).
 
-The routes for the transaction interface API should look like this :&#x20;
+The routes for the transaction interface API should look like this :
 
 * `api/transactions/create` -> create transaction
 * `api/transactions/edit/id`-> edit transaction
 * `api/transactions/delete/id` -> delete transaction
-* `api/transactions/get/id` -> get specific transaction&#x20;
-* `api/transactions/get` -> get all transactions&#x20;
+* `api/transactions/get/id` -> get specific transaction
+* `api/transactions/get` -> get all transactions
 
-The [ViewSet](https://www.django-rest-framework.org/api-guide/viewsets/#viewset) class comes with built-in [actions](https://www.django-rest-framework.org/api-guide/viewsets/#viewset-actions) :&#x20;
+The [ViewSet](https://www.django-rest-framework.org/api-guide/viewsets/#viewset) class comes with built-in [actions](https://www.django-rest-framework.org/api-guide/viewsets/#viewset-actions) :
 
 * list
 * retrieve
@@ -301,9 +305,9 @@ The [ViewSet](https://www.django-rest-framework.org/api-guide/viewsets/#viewset)
 * partial\_update
 * destroy
 
-And to make sure the names of the URLs match what we need, we'll be using [actions](https://www.django-rest-framework.org/api-guide/viewsets/#marking-extra-actions-for-routing).&#x20;
+And to make sure the names of the URLs match what we need, we'll be using [actions](https://www.django-rest-framework.org/api-guide/viewsets/#marking-extra-actions-for-routing).
 
-First of all, create a file name `viewsets` in the `transactions` directory.&#x20;
+First of all, create a file name `viewsets` in the `transactions` directory.
 
 And add the following code.
 
@@ -341,7 +345,7 @@ class TransactionViewSet(viewsets.ModelViewSet):
         return Transaction.objects.all()
 ```
 
-Great. Now, let's make sure DRF will exactly match the URLs we want. First of all, we have to block the default routes.&#x20;
+Great. Now, let's make sure DRF will exactly match the URLs we want. First of all, we have to block the default routes.
 
 ```python
 class TransactionViewSet(viewsets.ModelViewSet):
@@ -363,9 +367,9 @@ class TransactionViewSet(viewsets.ModelViewSet):
         raise MethodNotAllowed('GET')
 ```
 
-And we can write our own actions now.&#x20;
+And we can write our own actions now.
 
-Let's start with `api/transactions/create`.&#x20;
+Let's start with `api/transactions/create`.
 
 ```python
 class TransactionViewSet(viewsets.ModelViewSet):
@@ -384,7 +388,7 @@ class TransactionViewSet(viewsets.ModelViewSet):
         }, status.HTTP_201_CREATED)
 ```
 
-To avoid name collision with the default built-in method `create` , we are naming the method `create_transaction`. Hopefully, DRF provides the option to specify the `url_path` of the method.&#x20;
+To avoid name collision with the default built-in method `create` , we are naming the method `create_transaction`. Hopefully, DRF provides the option to specify the `url_path` of the method.
 
 Let's write the actions for `api/transactions/get` and `api/transactions/get/id`
 
@@ -431,7 +435,7 @@ class TransactionViewSet(viewsets.ModelViewSet):
 
 Notice that for the  `get/id` (`get_transaction`), we are writing the `url_path` using **regex expression**.
 
-And finally, the actions for `api/transactions/delete/id` and `api/transactions/edit`.&#x20;
+And finally, the actions for `api/transactions/delete/id` and `api/transactions/edit`.
 
 ```python
 class TransactionViewSet(viewsets.ModelViewSet):
@@ -476,7 +480,7 @@ class TransactionViewSet(viewsets.ModelViewSet):
         }, status.HTTP_200_OK)
 ```
 
-Now, we can register the viewset.&#x20;
+Now, we can register the viewset.
 
 There is already a `routers.py` file which contains the routes for `api/users`.
 
@@ -502,7 +506,7 @@ urlpatterns = [
 ]
 ```
 
-And the last step, open the urls.py file in the core directory and add the transaction router.&#x20;
+And the last step, open the urls.py file in the core directory and add the transaction router.
 
 ```python
 # core/urls.py
@@ -515,9 +519,9 @@ urlpatterns = [
 ]
 ```
 
-And that's it. You can start testing the API with Postman.&#x20;
+And that's it. You can start testing the API with Postman.
 
-Congratulations. You just learned :&#x20;
+Congratulations. You just learned :
 
 * How to add a new model;
 * How to add a serializer for this model;

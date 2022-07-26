@@ -4,20 +4,19 @@ description: Learn how to manage a new model in Django - free sample included.
 
 # Django Create Model
 
-This page explains **how to create and USE a model in Django**. All commands used to code the project and also the relevant updates are listed below. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel.&#x20;
+This page explains **how to create and USE a model in Django**. All commands used to code the project and also the relevant updates are listed below. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel.
 
 > Resources
 
 * [Django Create Model](https://github.com/app-generator/django-create-model) - the source code (Github/MIT License)
 * More [Django Samples](https://appseed.us/admin-dashboards/django) provided with authentication, basic modules
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.
 
 
+## How to code this sample
 
-### How to code this sample
-
-This sample can be coded from scratch by following the steps below. &#x20;
+This sample can be coded from scratch by following the steps below. 
 
 > Check [Python](../../content/what-is/python.md) Version
 
@@ -26,7 +25,7 @@ $ python --version
 Python 3.8.4 <-- All good
 ```
 
-> &#x20;Create/activate a virtual environment - Unix-based system
+> Create/activate a virtual environment - Unix-based system
 
 ```
 $ # Virtualenv modules installation
@@ -41,20 +40,20 @@ $ # virtualenv env
 $ # .\env\Scripts\activate
 ```
 
-> &#x20;Install Django (the latest stable version)
+> Install Django (the latest stable version)
 
 ```
 $ pip install django
 ```
 
-> &#x20;Create a new Django Project
+> Create a new Django Project
 
 ```
 $ mkdir django-sample-urls
 $ cd django-sample-urls
 ```
 
-&#x20;Inside the new directory, we will invoke `startproject` subcommand
+Inside the new directory, we will invoke `startproject` subcommand
 
 ```
 $ django-admin startproject config .
@@ -77,17 +76,17 @@ $
 $ # Access the web app in browser: http://127.0.0.1:8000/
 ```
 
-At this point we should see the default Django page in the browser:&#x20;
+At this point we should see the default Django page in the browser:
 
 ![Django - Default Project Page.](../../.gitbook/assets/django-framework-cover.jpg)
 
-> &#x20;Create a new Django app
+> Create a new Django app
 
 ```
 $ python manage.py startapp sample
 ```
 
-> &#x20;**Visualize the default SQL settings** - `config/settings.py`
+> **Visualize the default SQL settings** - `config/settings.py`
 
 ```python
 # File: config/settings.py (partial content)
@@ -115,14 +114,14 @@ class Book(models.Model):                                 # <- NEW
 
 ```
 
-&#x20;**Tip** - for a quick check over the latest changes we can run `check` subcommand.
+**Tip** - for a quick check over the latest changes we can run `check` subcommand.
 
 ```
 $ python manage.py check
 System check identified no issues (0 silenced).  
 ```
 
-&#x20;**Generate the SQL code** (`migrate` the database).
+**Generate the SQL code** (`migrate` the database).
 
 ```
 $ python manage.py makemigrations  # generate the SQL code
@@ -156,7 +155,7 @@ $ python manage.py shell
 
 ```
 
-&#x20;**List all books** (using the CLI)
+**List all books** (using the CLI)
 
 ```python
 $ python manage.py shell
@@ -213,7 +212,7 @@ Password (again):
 Superuser created successfully. 
 ```
 
-> &#x20;Register `Book` model to be visible in the `admin` section - Edit `sample/admin.py` as below:
+> Register `Book` model to be visible in the `admin` section - Edit `sample/admin.py` as below:
 
 ```python
 # File: sample/admin.py
@@ -236,8 +235,7 @@ At this point, we should see the `Books` model in the UI and able to execute CRU
 ![Django Create Model - Edit Model Item](<../../.gitbook/assets/image (8).png>)
 
 
-
-### Resources
+## Resources
 
 * Read more about [Django](https://www.djangoproject.com/) (official docs)
-* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)&#x20;
+* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)

@@ -6,7 +6,7 @@ description: >-
 
 # Django User Profile
 
-Django Sample project that allows registered users to edit their profile outside of the admin module. Django User Profile is provided on top of [Django Volt](https://github.com/app-generator/django-dashboard-volt) -  Features:&#x20;
+Django Sample project that allows registered users to edit their profile outside of the admin module. Django User Profile is provided on top of [Django Volt](https://github.com/app-generator/django-dashboard-volt) -  Features:
 
 * UI Kit: [Volt Bootstrap 5](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) by **Themesberg**
 * UI-Ready App, SQLite Database, Django Native ORM
@@ -23,13 +23,12 @@ Django Sample project that allows registered users to edit their profile outside
 ![Django User Profile - Free Sample.](../../.gitbook/assets/docs-sample-django-user-profile.jpg)
 
 
+## How to use the app
 
-### How to use the app
+To compile and execute the project in a local environment the workstation must have a few software tools already installed:
 
-To compile and execute the project in a local environment the workstation must have a few software tools already installed:&#x20;
-
-* [GIT](https://git-scm.com/) - command line versioning tool used to clone the sources&#x20;
-* [Python3](https://www.python.org/) - the language used to code the project &#x20;
+* [GIT](https://git-scm.com/) - command line versioning tool used to clone the sources
+* [Python3](https://www.python.org/) - the language used to code the project 
 
 **Check GIT is installed**
 
@@ -71,8 +70,7 @@ $ python manage.py migrate
 ```
 
 
-
-### Codebase Structure
+## Codebase Structure
 
 ```
 < PROJECT ROOT >
@@ -109,7 +107,6 @@ $ python manage.py migrate
 ```
 
 
-
 > The bootstrap flow
 
 * Django bootstrapper `manage.py` uses `core/settings.py` as the main configuration file
@@ -117,7 +114,8 @@ $ python manage.py migrate
 * Redirect the guest users to Login page
 * Unlock the pages served by _app_ node for authenticated users
 
-### User Profile Feature
+
+## User Profile Feature
 
 This section describes the coding process for this feature that allows authenticated users to update their profiles. By accessing the `settings.html` page, registered users can update their own profile: name, surname, phone number, city name, ZIP code, ..etc.
 
@@ -127,7 +125,7 @@ This module will manage the user profile information by defining a new model, fo
 
 **The `Profile` model:**
 
-`customers/models.py`: &#x20;
+`customers/models.py`: 
 
 ```python
 class Profile(models.Model):
@@ -144,7 +142,8 @@ class Profile(models.Model):
     zip      = models.CharField(max_length=30, null=True, blank=True)
 ```
 
-#### The `Profile` form
+
+### The `Profile` form
 
 Create a related form to show inputs & store data. The `ProfileForm` will be defined in the `customers/forms.py` using a definition as below:
 
@@ -163,7 +162,7 @@ class ProfileForm(forms.ModelForm):
         exclude = ['user']
 ```
 
-#### The `Profile` routing
+### The `Profile` routing
 
 Activate the routing for `customers` app by edit the `customers/urls.py` file with the following code:
 
@@ -176,7 +175,7 @@ urlpatterns = [
 ]
 ```
 
-&#x20;**Update `core/urls`** to include `customers` urls:
+**Update `core/urls`** to include `customers` urls:
 
 ```python
 from django.conf import settings
@@ -197,8 +196,7 @@ if settings.DEVEL:
 ```
 
 
-
-**Links & Resources**:
+## Links & Resources
 
 * [Django](https://www.djangoproject.com/) - official website
 * More [Django Dashboards](https://appseed.us/admin-dashboards/django) provided by AppSeed

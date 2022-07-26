@@ -11,21 +11,19 @@ This sample might be useful to beginners to understand **how the routing system 
 * [Django Routing Sample](https://github.com/app-generator/django-routing-sample) - the source code (Github/MIT License)
 * More [Django Samples](https://appseed.us/admin-dashboards/django) provided with authentication, basic modules
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.&#x20;
+> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.
 
 
-
-### What is Django
+## What is Django
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
 
-> Read more about [Django Framework](../../content/what-is/django.md) - quick introduction&#x20;
+> Read more about [Django Framework](../../content/what-is/django.md) - quick introduction
 
 
+## How to code this sample
 
-### How to code this sample
-
-This sample can be coded from scratch by following the steps below.&#x20;
+This sample can be coded from scratch by following the steps below.
 
 > Check [Python](../../content/what-is/python.md) Version
 
@@ -34,7 +32,7 @@ $ python --version
 Python 3.8.4 <-- All good
 ```
 
-> &#x20;Create/activate a virtual environment - Unix-based system
+> Create/activate a virtual environment - Unix-based system
 
 ```
 $ # Virtualenv modules installation
@@ -49,20 +47,20 @@ $ # virtualenv env
 $ # .\env\Scripts\activate
 ```
 
-> &#x20;Install Django
+> Install Django
 
 ```
 $ pip install django
 ```
 
-> &#x20;Create a new Django Project
+> Create a new Django Project
 
 ```
 $ mkdir django-sample-urls
 $ cd django-sample-urls
 ```
 
-&#x20;Inside the new directory, we will invoke `startproject` subcommand
+Inside the new directory, we will invoke `startproject` subcommand
 
 ```
 $ django-admin startproject config .
@@ -85,19 +83,17 @@ $
 $ # Access the web app in browser: http://127.0.0.1:8000/
 ```
 
-At this point we should see the default Django page in the browser:&#x20;
+At this point we should see the default Django page in the browser:
 
 ![Django - Default Project Page.](../../.gitbook/assets/django-framework-cover.jpg)
 
-> &#x20;Create a new Django app
+> Create a new Django app
 
 ```
 $ python manage.py startapp sample
 ```
 
-####
-
-#### **Add a simple route**&#x20;
+## **Add a simple route**
 
 Let's edit `sample/views.py` as shown below:
 
@@ -106,7 +102,7 @@ def hello(request):
     return HttpResponse("Hello Django") 
 ```
 
-&#x20;**Configure Django** to use the new route -  update `config/urls.py` as below:
+**Configure Django** to use the new route -  update `config/urls.py` as below:
 
 ```python
 from django.contrib import admin
@@ -120,11 +116,10 @@ urlpatterns = [
 ]
 ```
 
-&#x20;In other words, the default route is served by `hello` method defined in `sample/views.py.`
+In other words, the default route is served by `hello` method defined in `sample/views.py.`
 
-####
 
-#### New Route - Dynamic content&#x20;
+## New Route - Dynamic content
 
 Let's create a new route that shows a random number - `sample/views.py`.
 
@@ -141,12 +136,11 @@ The new method invoke `random()` from Python core library, converts the result t
 ![Django Routing - Dynamic Content Route.](<../../.gitbook/assets/image (4).png>)
 
 
+## New Route - Random Images
 
-#### New Route - Random Images
+This route will pull a random image from a public (and free) service and inject the returned content into the browser response. To achieve this goal, we need a new Python library called `requests` to pull the random image with ease.
 
-This route will pull a random image from a public (and free) service and inject the returned content into the browser response. To achieve this goal, we need a new Python library called `requests` to pull the random image with ease.&#x20;
-
-&#x20;The controller code should be defined in `sample/views.py`. &#x20;
+The controller code should be defined in `sample/views.py`. 
 
 ```python
 ...
@@ -172,13 +166,12 @@ urlpatterns = [
 ]
 ```
 
-The browser sample output returned by a local iteration: &#x20;
+The browser sample output returned by a local iteration: 
 
-![](<../../.gitbook/assets/image (5).png>)
+![Django Routing Sample - Browser output](<../../.gitbook/assets/image (5).png>)
 
 
-
-### Resources
+## Resources
 
 * Read more about [Django](https://www.djangoproject.com/) (official docs)
-* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)&#x20;
+* Start fast a new project using _development-ready_ [Django Starters](https://appseed.us/admin-dashboards/django)
