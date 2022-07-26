@@ -29,6 +29,7 @@ Open-source full-stack seed project coded in **React** and **Node JS** on top of
 
 ![React Node JS - Berry Dashboard.](../../.gitbook/assets/react-node-js-berry-dashboard.png)
 
+
 ## How to use the App
 
 The product expects a running API backend that exposes an interface for `login`/`logout` and `register` actions. By default, the guest users are redirected to the login page. Once the user is authenticated all private pages are accessible. Here are the steps to compile the product.
@@ -121,6 +122,7 @@ The API server will start using the `PORT` specified in `.env` file, default val
 From this point, the React Product should be able to authenticate and register new users.
 
 ![React Node JS Berry - Login Page.](../../.gitbook/assets/react-dashboard-berry-login.jpg)
+
 
 ## Resources
 

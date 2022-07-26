@@ -13,15 +13,16 @@ Open-source full-stack seed project coded in [**React** and **Django**](https://
 
 ![Django React - datta Able PRO.](../../.gitbook/assets/django-react-datta-pro-xs.jpg)
 
-### Product features
 
-The product expects a running API backend that exposes an interface for login/logout and register actions. By default, the guest users are redirected to the login page. Once the user is authenticated using an existing account or the new one, all private pages are accessible. Here are the steps to compile the product.&#x20;
+## Product features
+
+The product expects a running API backend that exposes an interface for login/logout and register actions. By default, the guest users are redirected to the login page. Once the user is authenticated using an existing account or the new one, all private pages are accessible. Here are the steps to compile the product.
 
 > Dependencies
 
 To use the product, **Python3** is required, and **GIT** command-line tool to clone/download the project from the public repository.
 
-> &#x20;**Step #1** - Clone the project
+> **Step #1** - Clone the project
 
 ```bash
 $ git clone https://github.com/app-generator/priv-react-datta-able-dashboard-pro.git
@@ -36,7 +37,7 @@ $ npm i
 $ yarn 
 ```
 
-> &#x20;**Step #3** - Start in development mode
+> **Step #3** - Start in development mode
 
 ```bash
 $ npm run start 
@@ -53,9 +54,8 @@ const config = {
 }; 
 ```
 
-###
 
-### Django API Server
+## Django API Server
 
 To use the product and see all features in action an API server should be up and running. This can be done in two ways:
 
@@ -66,7 +66,7 @@ To use the product and see all features in action an API server should be up and
 
 Here we will use the first option and build a real API server coded in **Django Framework** on top of [DRF](https://www.django-rest-framework.org/) Library with SQLite persistence.
 
-> &#x20;**Step #1** - Clone the API Server from Github
+> **Step #1** - Clone the API Server from Github
 
 ```
 $ git clone https://github.com/app-generator/api-server-django.git
@@ -91,6 +91,6 @@ $ python manage.py runserver 5000
 
 The API server will start using the default port `5000`.
 
-With backend and frontend up & running, we can start using the product, register. and authenticate. The React UI will reveal the private pages once the users are authenticated.&#x20;
+With backend and frontend up & running, we can start using the product, register. and authenticate. The React UI will reveal the private pages once the users are authenticated.
 
 ![Django React Datta PRO - Login Page.](../../.gitbook/assets/django-react-datta-pro-login-xs.jpg)

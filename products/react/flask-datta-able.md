@@ -13,15 +13,16 @@ Open-source full-stack seed project coded in **React** and **Flask** on top of a
 
 ![Flask React Datta Able - Fullstack Product.](../../.gitbook/assets/docs-flask-react-datta.jpg)
 
-### Product features
 
-The product expects a running API backend that exposes an interface for login/logout and register actions. By default, the guest users are redirected to the login page. Once the user is authenticated using an existing account or the new one, all private pages are accessible. Here are the steps to compile the product.&#x20;
+## Product features
+
+The product expects a running API backend that exposes an interface for login/logout and register actions. By default, the guest users are redirected to the login page. Once the user is authenticated using an existing account or the new one, all private pages are accessible. Here are the steps to compile the product.
 
 > Dependencies
 
 To use the product, **Python3** is required, and **GIT** command-line tool to clone/download the project from the public repository.
 
-> &#x20;**Step #1** - Clone the project
+> **Step #1** - Clone the project
 
 ```bash
 $ git clone https://github.com/app-generator/react-datta-able-dashboard.git
@@ -36,7 +37,7 @@ $ npm i
 $ yarn 
 ```
 
-> &#x20;**Step #3** - Start in development mode
+> **Step #3** - Start in development mode
 
 ```bash
 $ npm run start 
@@ -54,8 +55,7 @@ const config = {
 ```
 
 
-
-### Flask API Server
+## Flask API Server
 
 To use the product and see all features in action an API server should be up and running. This can be done in two ways:
 
@@ -66,8 +66,6 @@ To use the product and see all features in action an API server should be up and
 
 Here we will use the first option and build a real API server coded in **Flask Framework** on top of Flask-RestX Library with SQLite persistence.
 
-
-
 > **Step #1** - clone the project using GIT
 
 ```
@@ -75,7 +73,7 @@ $ git clone https://github.com/app-generator/api-server-flask.git
 $ cd api-server-flask
 ```
 
-> **Step #2** - Install dependencies (using a virtual environment)&#x20;
+> **Step #2** - Install dependencies (using a virtual environment)
 
 ```
 $ # Virtualenv modules installation (Unix based systems)
@@ -93,7 +91,7 @@ Install dependencies in once the `virtualenv`  is activated
 $ pip install -r requirements.txt
 ```
 
-> **Step #3** - Prepare the environment&#x20;
+> **Step #3** - Prepare the environment
 
 ```
 $ export FLASK_APP=run.py
@@ -128,6 +126,6 @@ $ flask run
 
 Visit `http://localhost:5000` in your browser. The API server will be running.
 
-With backend and frontend up & running, we can start using the product, register. and authenticate. The React UI will reveal the private pages once the users are authenticated.&#x20;
+With backend and frontend up & running, we can start using the product, register. and authenticate. The React UI will reveal the private pages once the users are authenticated.
 
 ![Flask React Datta Able - Login Page.](<../../.gitbook/assets/image (11).png>)

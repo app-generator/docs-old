@@ -14,8 +14,7 @@ Full-stack seed project coded in **React** and **Firebase** on top of a modern d
 ![React Firebase - Datta Able PRO. ](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1).jpg>)
 
 
-
-### Product features
+## Product features
 
 The product expects a configured **Firebase backend** that exposes the required configuration. By default, the guest users are redirected to the login page. Once the user is authenticated using an existing account or Google social login, all private pages are accessible.
 
@@ -23,7 +22,7 @@ The product expects a configured **Firebase backend** that exposes the required 
 
 To use the product, a decent version of **Node JS** (>= 12.x) is required, and **GIT** command-line tool to clone/download the project from the public repository.
 
-> &#x20;**Step #1** - Clone the project (private repository). To get access you need an active LICENSE.
+> **Step #1** - Clone the project (private repository). To get access you need an active LICENSE.
 
 ```bash
 $ git clone https://github.com/app-generator/priv-react-firebase-datta-able-pro.git
@@ -38,7 +37,7 @@ $ npm i
 $ yarn 
 ```
 
-> &#x20;**Step #3** - Configure Firebase Credeintials - `src/config/constant.js` &#x20;
+> **Step #3** - Configure Firebase Credeintials - `src/config/constant.js` 
 
 ```javascript
 const config = {
@@ -66,5 +65,4 @@ $ yarn start
 All above settings are provided by the **Firebase** platform. For more information, feel free to access [Firebase official](https://firebase.google.com/docs) help:
 
 * [Firebase Fundamentals](https://firebase.google.com/docs/guides) - Learn how to get started fast
-* [Manage Projects in Firebase](https://firebase.google.com/docs/projects/learn-more) - the basics&#x20;
-
+* [Manage Projects in Firebase](https://firebase.google.com/docs/projects/learn-more) - the basics

@@ -6,22 +6,23 @@ description: >-
 
 # React Node Material Kit PRO
 
-Full-stack version of **React Material UI Kit**, a premium design crafted by **Creative-Tim** powered by a Node JS API backend server. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: **Node JS**, Flask, Django (FASTapi coming soon).&#x20;
+Full-stack version of **React Material UI Kit**, a premium design crafted by **Creative-Tim** powered by a Node JS API backend server. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: **Node JS**, Flask, Django (FASTapi coming soon).
 
 * [React Node Material Kit PRO](https://appseed.us/product/react-node-js-material-kit-pro) - product page
 * [React Node Material Kit PRO](https://react-node-js-material-kit-pro.appseed-srv1.com/) - LIVE Demo
 
 ![React Node JS - Material Kit PRO](../../.gitbook/assets/react-node-js-material-kit-pro-xs.jpg)
 
-### Product features
 
-The product expects a **running API backend** that exposes an interface for login/logout and register actions. By default, the guest users are redirected to the login page. Once the user is authenticated using an existing account or the new one, all private pages are accessible. Here are the steps to compile the product.&#x20;
+## Product features
+
+The product expects a **running API backend** that exposes an interface for login/logout and register actions. By default, the guest users are redirected to the login page. Once the user is authenticated using an existing account or the new one, all private pages are accessible. Here are the steps to compile the product.
 
 > Dependencies
 
 To use the product, a decent version of **Node JS** (>= 12.x) is required, and **GIT** command-line tool to clone/download the project from the public repository.
 
-> &#x20;**Step #1** - Clone the project (private repository)
+> **Step #1** - Clone the project (private repository)
 
 ```bash
 $ git clone https://github.com/app-generator/priv-react-material-kit-pro.git
@@ -36,7 +37,7 @@ $ npm i
 $ yarn 
 ```
 
-> &#x20;**Step #3** - Start in development mode
+> **Step #3** - Start in development mode
 
 ```bash
 $ npm run start 
@@ -44,17 +45,16 @@ $ npm run start
 $ yarn start 
 ```
 
-> **Step #4** - Configure the backend - `src/config/constant.js`&#x20;
+> **Step #4** - Configure the backend - `src/config/constant.js`
 
 ```javascript
 export const API_SERVER = "http://localhost:5000/api/";
 ```
 
 
+## Build API Server
 
-### Build API Server
-
-The product is shipped with a premium Node JS API built with Express, JWT authentication, and SQLite or MongoDB persistence. Authentication Flow uses `json web tokens` powered by Passport library - `passport-jwt`.&#x20;
+The product is shipped with a premium Node JS API built with Express, JWT authentication, and SQLite or MongoDB persistence. Authentication Flow uses `json web tokens` powered by Passport library - `passport-jwt`.
 
 > Features
 
@@ -116,7 +116,7 @@ The API server will start using the `PORT` specified in `.env` file (default 500
 
 
 
-Once both projects (frontend and backend) are up and running, we should see the login page prompted by the React UI. To pass the authentication and access the private page we need to create a new user via the registration page.&#x20;
+Once both projects (frontend and backend) are up and running, we should see the login page prompted by the React UI. To pass the authentication and access the private page we need to create a new user via the registration page.
 
 ![React Node JS Material Kit - Login. ](../../.gitbook/assets/react-node-js-material-kit-pro-login-xs.jpg)
 
