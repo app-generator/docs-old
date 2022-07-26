@@ -39,7 +39,6 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 
 \
 
-
 ## ✨ Start the app in Docker
 
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`)
