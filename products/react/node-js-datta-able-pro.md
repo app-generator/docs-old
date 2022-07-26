@@ -11,7 +11,7 @@ Full-stack seed project coded in **React** and **Node JS** on top of a modern de
 * [React Node JS Datta PRO](https://appseed.us/product/react-node-js-datta-able-pro) - product page
 * [React Node JS Datta PRO](https://react-node-js-datta-able-pro.appseed-srv1.com/) - LIVE demo
 
-![React Node JS - Datta Able PRO.](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1).jpg>)
+![React Node JS - Datta Able PRO.](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1).jpg>)
 
 ### Product features
 
