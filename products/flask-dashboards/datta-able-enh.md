@@ -10,33 +10,21 @@ This product is manualy coded on top of the generated version [Datta Able PRO](d
 
 > Version: **1.0.13** - release date `2022-07-20`
 
-* UI Kit: [Datta Able PRO](https://appseed.us/product/datta-able/) (Premium version)
-* Bootstrap 5 Design
-  * `Light/Dark Mode`
-  * 190 pages: `Charts`, Dashboards, `Multiple Layouts`
-* `Up-to-date dependencies`, active versioning
+* Bootstrap 5 Design, `Light/Dark Mode`, 190 pages, Multiple Layouts 
 * `DB Tools`: SQLAlchemy ORM, `Flask-Migrate` (schema migrations)
-* `Persistence`:
-  * `SQLite` for development - `DEBUG=True` in `.env`
-  * `MySql` for production - `DEBUG=False` in `.env`
-* `Authentication`
-  * Session Based (via **flask\_login**)
-  * Social Login (optional) for Github & Twitter
-  * Automatic suspension on failed logins
+* `Persistence`: SQLite, MySql 
+* `Authentication`: Session Based, Social Login via Github & Twitter
 * `Users Management`
   * `Extended user profile`
   * Complete Users management (for `Admins`)
 * `API` via Flask-RestX
-  * Path: `/api/`
-  * `Products`, `Sales` Models
-* `Deployment`
-  * `Docker`
-  * Page Compression via `Flask-Minify` (for production)
+* `Deployment`: Docker, Flask-Minify (page compression)
 
 > Links
 
-* 👉 [Datta Able Django PRO](https://appseed.us/product/datta-able-pro/django/) - product page
+* 👉 [Datta Able Flask PRO](https://appseed.us/product/datta-able-pro/flask/) - product page
 * 👉 [Support](https://appseed.us/support): Email and LIVE on [Discord](https://discord.gg/fZC6hup)
+
 
 ## ✨ Environment
 
@@ -46,6 +34,7 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * (Optional) `Docker` - a popular virtualization software
+
 
 ## ✨ Start the app in Docker
 
@@ -64,6 +53,8 @@ $ docker-compose up --build
 ```
 
 Visit `http://localhost:5085` in your browser. The app should be up & running
+
+
 
 ## ✨ Manual Build
 

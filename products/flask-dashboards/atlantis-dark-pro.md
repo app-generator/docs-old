@@ -6,7 +6,7 @@ description: >-
 
 # Flask Atlantis Dark PRO
 
-Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to manage and visualize data about your business. Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.&#x20;
+Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to manage and visualize data about your business. Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
 
 > Features
 
@@ -16,14 +16,14 @@ Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to mana
 * DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 * Modular design with **Blueprints**
 * Session-Based authentication (via **flask\_login**), Forms validation
-* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU&#x20;
+* Deployment scripts: Docker, Gunicorn / Nginx, HEROKU
 
-> Links&#x20;
+> Links
 
 * [Atlantis Dark PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark-pro) - product page
-* [Atlantis Dark PRO Flask](https://github.com/app-generator/flask-dashboard-atlantis-dark-pro) - public repository used for tracking issues&#x20;
+* [Atlantis Dark PRO Flask](https://github.com/app-generator/flask-dashboard-atlantis-dark-pro) - public repository used for tracking issues
 * [Atlantis Dark PRO Flask](https://flask-atlantis-dark-pro.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
+* [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.
 
 
 
@@ -52,4 +52,4 @@ Atlantis PRO has 9 layouts, 26 plugins and many UI components to help developers
 
 ![Atlantis Dark - Premium Bootstrap template.](../../.gitbook/assets/docs-atlantis-pro-screen.jpg)
 
-&#x20;
+
