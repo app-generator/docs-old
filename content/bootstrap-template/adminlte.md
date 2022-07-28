@@ -4,7 +4,7 @@ description: Iconic Open-source Dashboard Template crafted by ColorLib
 
 # AdminLTE
 
-**AdminLTE** is a popular open-source template for admin dashboards and control panels. It is a responsive HTML template that is based on the Bootstrap CSS framework.&#x20;
+**AdminLTE** is a popular open-source template for admin dashboards and control panels. It is a responsive HTML template that is based on the Bootstrap CSS framework.
 
 * [AdminLTE](https://adminlte.io/) - official website
 * [AdminLTE](https://github.com/ColorlibHQ/AdminLTE/tree/v2) - legacy version v2
@@ -14,8 +14,7 @@ It utilizes all of the Bootstrap components in its design and re-styles many com
 ![AdminLTE - Open-source Bootstrap Dashboard.](../../.gitbook/assets/adminlte-bootstrap-dashboard.jpg)
 
 
-
-### How to compile AdminLTE&#x20;
+## How to compile AdminLTE
 
 To compile and run locally AdminLTE [Nodejs](https://nodejs.org/en/) (>= 10.x) should be installed and optionally [GIT](https://git-scm.com/), the command line versioning tool.
 
@@ -44,4 +43,4 @@ $ npm run start
 $ npm run production 
 ```
 
-If all goes well, we should see AdminLTE running in the browser.&#x20;
+If all goes well, we should see AdminLTE running in the browser.

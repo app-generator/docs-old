@@ -13,14 +13,12 @@ description: Open-source Bootstrap 4 dashboard template crafted by Creative-Tim
 
 ![Paper Dashboard - Open-source Dashboard.](../../.gitbook/assets/paper-dashboard.jpg)
 
-
-
-### How to compile the project
+## How to compile the project
 
 To use this modern design and compile in a local environment a [minimal development](../tutorials/minimal-programming-kit.md) kit is required:
 
 * A modern editor - [VSCode](https://code.visualstudio.com/)
-* [Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools&#x20;
+* [Nodejs](https://nodejs.org/en/) - used in [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)-based products and tools
 * [GIT](https://git-scm.com/) - a command-line tool used to download sources from [Github](https://github.com/)
 
 Once we have all these tools accessible we can start compiling the product:
@@ -32,7 +30,7 @@ $ git clone https://github.com/creativetimofficial/paper-dashboard.git
 $ cd paper-dashboard
 ```
 
-> **Step #2** - Compile SCSS files&#x20;
+> **Step #2** - Compile SCSS files
 
 ```
 $ gulp compile-scss

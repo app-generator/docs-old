@@ -4,7 +4,7 @@ description: Open-source material-based design crafted by WrapPixel.
 
 # MaterialPro Lite
 
-&#x20;WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspired by Google Material design principles integrated with the essential Bootstrap components and UI elements. The project comes with pre-built pages and a permissive MIT License that allows free usage for personal and commercial projects.&#x20;
+WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspired by Google Material design principles integrated with the essential Bootstrap components and UI elements. The project comes with pre-built pages and a permissive MIT License that allows free usage for personal and commercial projects.
 
 * [MaterialPro Lite](https://bit.ly/2ZJuiMR) - product page hosted by [WrapPixel](../partners/wrappixel.md)
 

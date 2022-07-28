@@ -4,7 +4,7 @@ description: Premium Bootstrap Dashboard template crafted by Creative-Tim
 
 # Black Dashboard PRO
 
-&#x20;**Black Dashboard PRO** is a beautiful Bootstrap 4 Admin Dashboard that comes in 2 versions: Dark and Light Mode. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
+**Black Dashboard PRO** is a beautiful Bootstrap 4 Admin Dashboard that comes in 2 versions: Dark and Light Mode. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
 
 * [Black Dashboard PRO](https://bit.ly/3h5oRBI) - LIVE deployment
 * [Black Dashboard PRO](https://bit.ly/3eq8HkR) - product documentation

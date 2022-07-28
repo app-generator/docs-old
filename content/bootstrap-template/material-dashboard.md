@@ -8,7 +8,7 @@ Material Dashboard is a free Material Bootstrap 4 Admin with a fresh, new design
 
 * [Material Dashboard](https://bit.ly/3fSPqaK) - product page hosted by [Creative-Tim](../partners/creative-tim.md)
 * [Material Dashboard](https://bit.ly/3tmuqOt) - LIVE demo
-* [Material Dashboard](https://bit.ly/2Rp9NUA) - product documentation&#x20;
+* [Material Dashboard](https://bit.ly/2Rp9NUA) - product documentation
 
 **Material Dashboard** makes use of light, surface, and movement. The general layout resembles sheets of paper following multiple different layers so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
 

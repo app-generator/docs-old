@@ -11,9 +11,9 @@ Tabler is a UI kit that speeds up the development process and makes it easier th
 
 **Coded by Developers -** Clear and telling code that you won't get lost in. It was made with care and loves so that you don't have to spend hours on making it work.
 
-**Open-Source Code -** You can see the code of Tabler on its GitHub account. If you miss any feature feel free to create a pull request there, we'll definitely check it.&#x20;
+**Open-Source Code -** You can see the code of Tabler on its GitHub account. If you miss any feature feel free to create a pull request there, we'll definitely check it.
 
-&#x20;**Build with Bootstrap -** Tabler used Bootstrap, the most popular HTML, CSS, and JS framework. Thanks to this developers without experience can modify code without any problems.
+**Build with Bootstrap -** Tabler used Bootstrap, the most popular HTML, CSS, and JS framework. Thanks to this developers without experience can modify code without any problems.
 
 ![Tabler - Open-Source Bootstrap Template. ](../../.gitbook/assets/docs-cover-tabler.jpg)
 
