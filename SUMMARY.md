@@ -156,19 +156,25 @@
 
 ## Technologies
 
-* [Python](technologies/python/README.md)
-  * [Getting Started](technologies/python/getting-started.md)
 * [Django](technologies/django/README.md)
   * [Getting Started](technologies/django/getting-started.md)
   * [Django v4 Release](technologies/django/release-v4.md)
+* [FastAPI](technologies/fastapi/README.md)
+  * [Getting Started](technologies/fastapi/getting-started.md)  
 * [Flask](technologies/flask/README.md)
   * [Getting Started](technologies/flask/getting-started.md)
   * [Flask v2.0 Release](technologies/flask/release-v2.md)
 * [MySql](technologies/mysql/README.md)
   * [Install MySql on Windows](technologies/mysql/install-on-windows.md)
   * [Install MySql on Ubuntu](technologies/mysql/install-on-ubuntu.md)
-* [FastAPI](technologies/fastapi/README.md)
-  * [Getting Started](technologies/fastapi/getting-started.md)
+* [Material UI](technologies/material-ui/README.md)
+  * [Getting Started](technologies/material-ui/getting-started.md)
+* [Next JS](technologies/next-js/README.md)
+  * [Getting Started](technologies/next-js/getting-started.md)
+* [Python](technologies/python/README.md)
+  * [Getting Started](technologies/python/getting-started.md)
+* [Supabase](technologies/supabase/README.md)
+  * [Getting Started](technologies/supabase/getting-started.md)
 
 ## Content
 
