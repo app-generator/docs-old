@@ -92,17 +92,32 @@ At this point we should be able to visit the API in the browser:
 
 ![FastAPI - Simple API Project](../../.gitbook/assets/fastapi-hello-world.jpg)
 
-## 5 Open-Source FastAPI Starters
+## Open-Source FastAPI Starters
 
-GitHub has several FastApi starters/boilerplates that almost provide a non-code experience. These templates can be used as starting points for most FastAPI-based projects.&#x20;
+GitHub has several FastApi starters/boilerplates that almost provide a non-code experience. These templates can be used as starting points for most FastAPI-based projects.
+Here is a list with a few activey supported FastAPI starters:
 
-Here are the top 5 FastAPI starters on GitHub
+### [FastApi Template](https://github.com/s3rius/FastAPI-template) 
 
-* [FastApi Template](https://github.com/s3rius/FastAPI-template) by Pavel Kirilin.
-* [FastApi Boilerplate](https://github.com/teamhide/fastapi-boilerplate) by Hide.
-* [Cookiecutter FastAPI](https://github.com/arthurhenrique/cookiecutter-fastapi) by Arthur Henrique.
-* [FastApi MVC](https://github.com/rszamszur/fastapi-mvc) by Radosław Szamszur.
-* [FastAPI Starter](https://github.com/gaganpreet/fastapi-starter) by Gaganpreet
+@ToDo - Keypoints of the product
+
+### [FastApi Boilerplate](https://github.com/teamhide/fastapi-boilerplate)
+
+@ToDo - Keypoints of the product
+
+### [Cookiecutter FastAPI](https://github.com/arthurhenrique/cookiecutter-fastapi) 
+
+@ToDo - Keypoints of the product
+
+### [FastApi MVC](https://github.com/rszamszur/fastapi-mvc) 
+
+@ToDo - Keypoints of the product
+
+### [FastAPI Starter](https://github.com/gaganpreet/fastapi-starter) 
+
+@ToDo - Keypoints of the product
+
+<br />
 
 ## FastAPI Resources
 
