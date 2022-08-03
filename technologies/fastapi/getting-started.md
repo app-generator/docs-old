@@ -94,30 +94,55 @@ At this point we should be able to visit the API in the browser:
 
 ## Open-Source FastAPI Starters
 
-GitHub has several FastApi starters/boilerplates that almost provide a non-code experience. These templates can be used as starting points for most FastAPI-based projects.
-Here is a list with a few activey supported FastAPI starters:
+GitHub has several FastApi starters/boilerplates that almost provide a non-code experience. These templates can be used as starting points for most FastAPI-based projects. Here is a list with a few actively supported FastAPI starters:
 
-### [FastApi Template](https://github.com/s3rius/FastAPI-template) 
+### [FastApi Template](https://github.com/s3rius/FastAPI-template)
 
-@ToDo - Keypoints of the product
+This is a flexible general-purpose FastAPI template that allows you to choose between databases and ORMs. Supported databases include SQLAlchemy1.4, TortoiseORM, Piccolo, and Ormar.
+
+Generator features include;
+
+1. Different database support.
+2. Different ORM support.
+3. Optional Redis support.
 
 ### [FastApi Boilerplate](https://github.com/teamhide/fastapi-boilerplate)
 
-@ToDo - Keypoints of the product
+This template employs the SQLAlchemy toolkit that provides threadsafe pool implementation. You won't be needing an ORM with this one. Here are some of its cool features;
 
-### [Cookiecutter FastAPI](https://github.com/arthurhenrique/cookiecutter-fastapi) 
+1. Custom user class.
+2. Top-level dependency.
+3. Event dispatcher.
 
-@ToDo - Keypoints of the product
+### [Cookiecutter FastAPI](https://github.com/arthurhenrique/cookiecutter-fastapi)
 
-### [FastApi MVC](https://github.com/rszamszur/fastapi-mvc) 
+This is a user-friendly project since you do not need to fork it. All you need is the cookiecutter CLI. To generate the FastApi project, run;
 
-@ToDo - Keypoints of the product
+```
+cookiecutter gh:arthurhenrique/cookiecutter-fastapi
+```
 
-### [FastAPI Starter](https://github.com/gaganpreet/fastapi-starter) 
+### [FastApi MVC](https://github.com/rszamszur/fastapi-mvc)
 
-@ToDo - Keypoints of the product
+This is a developer productivity tool that makes it easier to create a FastAPI web framework by making assumptions on what we need to get started. Some core features include;
 
-<br />
+1. The project is based on MVC architectural pattern.
+2. WSGI + ASGI production server.
+3. Sphinx documentation and 100% unit test coverage.
+
+### [FastAPI Starter](https://github.com/gaganpreet/fastapi-starter)
+
+This is an easy-to-use project that relies on existing frameworks to provide an almost non-code experience. You will need Cookiecutter installed. To generate the project, run;
+
+```
+cookiecutter https://github.com/gaganpreet/fastapi-starter
+```
+
+Some core features include;
+
+1. Modern admin interface using React-Admin
+2. Integration tests with Cypress
+3. Docker images for frontend and backend
 
 ## FastAPI Resources
 

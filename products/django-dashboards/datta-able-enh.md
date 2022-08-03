@@ -46,6 +46,71 @@ To start with **Datta able ENH ,** [Python3](https://www.python.org/) should be 
 
 ## ✨ Codebase structure
 
+The project structure is simple to understand and intuitive enough as presented below:
+
+
+
+```bash
+< PROJECT ROOT >
+   |
+   |-- core/                           # Implements app configuration
+   |    |-- settings.py                # Defines Global Settings
+   |    |-- wsgi.py                    # Start the app in production
+   |    |-- urls.py                    # Define URLs served by all apps/nodes
+   |    |-- asgi.py                    # Asynchronous processing of the request
+   |    |-- staticfiles                # Collects static resources to be served in production
+   |
+   |-- apps/
+   |    |
+   |    |-- home/                      # A simple app that serve HTML files
+   |    |    |-- views.py              # Serve HTML pages for authenticated users
+   |    |    |-- urls.py               # Define some super simple routes
+   |    |    |-- tests.py              # Class-based unit tests
+   |    |    |-- models.py             # Classes that map to the database table
+   |    |    |-- config.py             # App configuration
+   |    |    |-- admin.py              # Customization of Admin panel
+   |    |
+   |    |-- authentication/            # Handles auth routes (login and register)
+   |    |    |-- urls.py               # Define authentication routes  
+   |    |    |-- views.py              # Handles login and registration  
+   |    |    |-- forms.py              # Define auth forms (login and register) 
+   |    |    |-- tests.py              # Class-based authentication unit tests
+   |    |    |-- models.py             # Classes that map to the database table
+   |    |    |-- config.py             # authentication App configuration
+   |    |    |-- apps.py               # authentication App configuration
+   |    |    |-- admin.py              # Customization of Admin panel
+   |    |
+   |    |-- accounts/                  # Manages a User profile
+   |    |    |-- admin.py              # Registration of models in admin and 
+   |    |    |                         # customizations in Admin panel 
+   |    |    |-- apps.py               # accounts App configuration
+   |    |    |-- forms.py              # Define profile editing form 
+   |    |    |-- models.py             # Classes that map to the database table
+   |    |    |-- tests.py              # Class-based unit tests for accounts app
+   |    |    |-- urls.py               # Define accounts routes  
+   |    |    |-- views.py              # Handles users listing, profile edits, and deleting of accounts  
+   |    |
+   |    |-- static/
+   |    |    |-- assets/
+   |    |    |   |-- <css, JS, images> # Various static resource files.
+   |    |
+   |    |-- templates/                 # HTML templates for various apps
+   |    |    |-- account/              # Login, registration and profile templates 
+   |    |    |-- home/                 # Chart and dashboard related templates
+   |    |    |-- includes/             # Common templates for various apps
+   |    |    |-- layouts/              # Base templates for other templates
+   |    |
+   |    |-- nginx/                     # Implements Nginx configuration 
+   |         |-- appseed-app.conf      # Various Nginx  configuration directives
+   |
+   |-- requirements.txt                # Development modules - SQLite storage
+   |
+   |-- .env                            # Inject Configuration via Environment
+   |-- manage.py                       # Start the app - Django default start script
+   |
+   |-- ************************************************************************
+```
+
 
 
 ## Improved Authentication
