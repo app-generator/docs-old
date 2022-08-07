@@ -6,13 +6,12 @@ description: >-
 
 # Full-Stack React Datta Able
 
-Full-stack version of **Datta Able PRO**, a premium design crafted by **CodedThemes** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django (FASTapi coming soon). 
+Full-stack version of **Datta Able PRO**, a premium design crafted by **CodedThemes** now usable with multiple API Backend Servers: **Node JS**, Flask, Django. The UI comes with pre-configured **JWT authentication** powered by a [Unified API Interface](../../boilerplate-code/api-server/api-unified-definition.md) that makes this product compatible with more than one backend: Node JS, Flask, Django (FASTapi coming soon).
 
 * [Full-stack React Datta Able](https://appseed.us/full-stack/react-datta-able) - product page
 * [Full-stack React Datta Able](https://fullstack-react-datta-able.appseed-srv1.com/) - LIVE Demo
 
-![React Datta Able - Full-stack Version](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1) (1).jpg>)
-
+![React Datta Able - Full-stack Version](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1) (1) (1) (1) (2).jpg>)
 
 ## Product Dependencies
 
@@ -21,14 +20,13 @@ To successfully compile and use the product, please make sure your workstation h
 * [Node JS](https://nodejs.org/en/) 12.x version (or above) - used to build both parts (frontend & backend)
 * [GIT](https://git-scm.com/) versioning command-line tool - used to clone the sources from Github
 * A code editor: [VsCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)
-* Ability to work in the terminal window  
-
+* Ability to work in the terminal window
 
 ## Product Features
 
 The product aims to help developers skip over the basics and start faster a new full-stack product already enhanced with authentication, a pixel-perfect UI powered by production-ready backends. The fact that makes this full-stack product unique is the **JSON-API** compliance over multiple servers:
 
-* ****[Node JS API](../../boilerplate-code/api-server/node-js.md): Typescript, Flexible persistence (SQLite, Mongo), TypeORM, Validation
+* \*\*\*\*[Node JS API](../../boilerplate-code/api-server/node-js.md): Typescript, Flexible persistence (SQLite, Mongo), TypeORM, Validation
 * [Django API](../../boilerplate-code/api-server/django.md): JWT Authentication over DRF, SQLite, Docker
 * [Flask API](../../boilerplate-code/api-server/flask.md): powered by Flask-JWT-extended, SQL-Alchemy, Docker
 * Coming soon APIs: **FASTapi**, **Laravel API**
@@ -37,8 +35,7 @@ By default, the UI redirects the guest users to the login page. Once the user is
 
 > Implemented JWT Authentication Flow: Login, Logout, Register.
 
-![Full-Stack React Datta Able - Login. ](<../../.gitbook/assets/django-react-datta-able-login-xs (1) (1).jpg>)
-
+![Full-Stack React Datta Able - Login.](<../../.gitbook/assets/django-react-datta-able-login-xs (1) (1).jpg>)
 
 ## **How to use the product**
 
@@ -49,7 +46,6 @@ Full-stack React Material Dashboard is built using a two-tier architecture where
 * Create a new user via the registration page
 * Authenticate and access the private pages
 * Add your magic on top of the existing codebase.
-
 
 ## Start the backend server
 
@@ -95,8 +91,7 @@ The API interface used by the API is a simple JWT authentication layer that expo
   * `/api/users/checkSession`: check an existing JWT Token for validity
   * `/api/users/edit` - edit the information associated with a registered user
 
-At this point, the backend API should be & and running on address: `http://localhost:5000`  and we can move on with the setup and build the React UI.
-
+At this point, the backend API should be & and running on address: `http://localhost:5000` and we can move on with the setup and build the React UI.
 
 ## Start the React UI
 
@@ -125,7 +120,6 @@ $ npm run start
 $ yarn start
 ```
 
-
 ## Backend Integration
 
 > The backend API server address is saved in `src/config.js`.
@@ -137,9 +131,8 @@ const config = {
 }; 
 ```
 
-
 ## **React Datta Able** - UI
 
-_Official Product Information_ **-** Datta Able React is the **most stylized** React **Admin Template**, around all other admin templates **in the market**. It comes with high feature-rich pages and components with **fully developer-**centric code.
+_Official Product Information_ **-** Datta Able React is the **most stylized** React **Admin Template**, around all other admin templates **in the market**. It comes with high feature-rich pages and components with \*\*fully developer-\*\*centric code.
 
 ![Full-Stack React Datta Able - Charts Page.](../../.gitbook/assets/django-react-datta-able-widgets-xs.jpg)
