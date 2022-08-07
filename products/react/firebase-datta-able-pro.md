@@ -11,7 +11,8 @@ Full-stack seed project coded in **React** and **Firebase** on top of a modern d
 * [React Firebase Datta PRO](https://appseed.us/product/react-firebase-datta-able-pro) - product page
 * [React Firebase Datta PRO](https://react-firebase-datta-able-pro.appseed-srv1.com/) - LIVE demo
 
-![React Firebase - Datta Able PRO.](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1) (1) (1) (1).jpg>)
+![React Firebase - Datta Able PRO. ](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1).jpg>)
+
 
 ## Product features
 
@@ -36,7 +37,7 @@ $ npm i
 $ yarn 
 ```
 
-> **Step #3** - Configure Firebase Credeintials - `src/config/constant.js`
+> **Step #3** - Configure Firebase Credeintials - `src/config/constant.js` 
 
 ```javascript
 const config = {

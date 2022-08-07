@@ -6,12 +6,13 @@ description: >-
 
 # React Node JS Datta PRO
 
-Full-stack seed project coded in **React** and **Node JS** on top of a modern design from CodedThemes\*\*: React Datta Abe PRO\*\*. The React / NodeJS codebase is already configured with a Mongo database, API, and authentication flow.
+Full-stack seed project coded in **React** and **Node JS** on top of a modern design from CodedThemes**: React Datta Abe PRO**. The React / NodeJS codebase is already configured with a Mongo database, API, and authentication flow.
 
 * [React Node JS Datta PRO](https://appseed.us/product/react-node-js-datta-able-pro) - product page
 * [React Node JS Datta PRO](https://react-node-js-datta-able-pro.appseed-srv1.com/) - LIVE demo
 
-![React Node JS - Datta Able PRO.](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1) (1) (1) (1) (3).jpg>)
+![React Node JS - Datta Able PRO.](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1).jpg>)
+
 
 ## Product features
 
@@ -52,6 +53,7 @@ const config = {
     API_SERVER: 'http://localhost:5000/api/'  // <-- The magic line
 }; 
 ```
+
 
 ## API Server
 
@@ -99,6 +101,7 @@ The API server will start using the `PORT` specified in `.env` file, default val
 From this point, the React Product should be able to authenticate and register new users.
 
 ![React Node JS Datta PRO - Login Page.](../../.gitbook/assets/react-node-js-datta-able-pro-login-xs.jpg)
+
 
 ## Resources
 
