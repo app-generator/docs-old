@@ -52,6 +52,6 @@ With the basics of a Next.js project understood, we can move now to a simple pro
 
 In case this framework makes you curious to start a new project on top, here is a list of free starters powered by Next.js&#x20;
 
-* 👉 [Next JS Argon Dashboard](https://bit.ly/3tS6d3U) - Bootstrap 4, React and Reactstrap
-* 👉 [Notus Next JS](https://bit.ly/3dRqHny) - open-source template styled with Tailwind
+* 👉 [Next JS Argon Dashboard](https://www.creative-tim.com/product/nextjs-argon-dashboard?AFFILIATE=128200) - Bootstrap 4, React and Reactstrap
+* 👉 [Notus Next JS](https://www.creative-tim.com/product/notus-nextjs?AFFILIATE=128200) - open-source template styled with Tailwind
 * 👉 [Xtreme Next Js Free Admin](https://www.wrappixel.com/templates/xtreme-next-js-free-admin-template/?ref=157) - provided by WrapPixel&#x20;
