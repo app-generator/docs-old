@@ -12,6 +12,8 @@ In the profile menu (right top corner) access the settings option.
 
 ![OAuth Github - Settings Menu](https://user-images.githubusercontent.com/51070104/185069914-6d2dc762-6d8f-4209-84c5-2d43bc6f3940.png)
 
+---
+
 > 👉 **Step #2** - Access `Developer Settings` (from the sidebar)
 
 ![OAuth Github - Developers Menu](https://user-images.githubusercontent.com/51070104/185070192-385da38f-4844-49ae-8caa-7bccb7cf4130.png)
