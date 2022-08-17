@@ -210,6 +210,8 @@
   * [Getting Started with Flask](content/getting-started-with/flask.md)
   * [Getting Started with Next JS](content/getting-started-with/next-js.md)
 * [How To](content/how-to/README.md)
+  * [OAUth - Get Github Secrets](content/how-to/oauth-github-secrets.md)
+  * [OAUth - Get Twitter Secrets](content/how-to/oauth-twitter-secrets.md)
   * [Crawl Website in Python](content/how-to/python-crawl-website.md)
   * [Setup CentOS for coding](content/how-to/setup-centos-for-development.md)
   * [Setup Ubuntu for coding](content/how-to/setup-ubuntu-for-development.md)
