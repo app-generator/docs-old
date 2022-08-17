@@ -238,51 +238,43 @@ API stands for Application Programming Interface and it is used by various progr
 
 Flask-RestX is an extension for Flask that allows us to build REST APIs faster. It has a collection of tools and decorators to help you describe and expose your API to the Swagger documentation.
 
+> The Swagger UI: `http://localhost:5000/api/`
+
 ### Exposed models
 
-* `products`
-* `sales`
+> `Products` API
+  - Definition: `apps/models/`: **Product Class** 
+  - `Definition`: id, name, information, description, price, currency
+  - URI: `http://localhost:5000/api/products/`
 
-#### How to use the API
+> `Sales` API
+  - Definition: `apps/models/`: **Sale Class** 
+  - `Definition`: id, product, state, value, fee, currency, client, payment_type, purchase_date
+  - URI: `http://localhost:5000/api/products/`
 
-To start the API in docker;
 
-```
-$ docker-compose up --build
-```
+### How to use the API
 
-The API server will start using the PORT `5000`.
+The API is secured via an `api_token` generated during the registration process. The value is saved in the `Users` table. 
+Once the user is authenticated, the `API_TOKEN` is listed on the dashboard.
 
-For a manual build;
+- GET requests can be used without the API_TOKEN
+- All mutating requests (PUT, DELETE, POST) requires the presence of the API_TOKEN in the header: `Authorization` field
 
-* Install Modules via `venv` (windows)
+> Swagger UI 
 
-```
-$ virtualenv env
-$ .\env\Scripts\activate
-$ pip3 install -r requirements.txt
-```
+- This visual tool is exposed at address `http://localhost:5000/api/` and provides a fast access to the API
 
-* Set Up Flask Environment
+> POSTMAN (3rd party tools) 
 
-```
-$ # CMD 
-$ set FLASK_APP=run.py
-$ set FLASK_ENV=development
-$
-$ # Powershell
-$ $env:FLASK_APP = ".\run.py"
-$ $env:FLASK_ENV = "development"
-```
+- Import the sample [POSTMAN collection](https://github.com/app-generator/flask-datta-able-pro/blob/master/media/api-sample.postman_collection) (saved on Github)
+- Replace the `Authorization` value with the `API KEY` listed on your dashboard  
+- Query the PRODUCTS API
+  - `create`, `update` and `delete` products
+- Query the SALES API
+  - `create`, `update` and `delete` sales
 
-* Start the API
-
-```
-$ flask run
-```
-
-The API will run at `localhost:5000`
-
+<br />
 
 ## ✨ OAuth for `Github` and `Twitter`
 
