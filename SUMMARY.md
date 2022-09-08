@@ -172,6 +172,8 @@
 * [Next JS](technologies/next-js/README.md)
   * [Getting Started](technologies/next-js/getting-started.md)
   * [Sample Next.js Project](technologies/next-js/sample-next.js-project.md)
+  * [Deploy a Next.js application on Netlify](technologies/next-js/deploy-a-next.js-application-on-netlify.md)
+  * [Page 1](technologies/next-js/page-1.md)
 * [Python](technologies/python/README.md)
   * [Getting Started](technologies/python/getting-started.md)
 * [Supabase](technologies/supabase/README.md)
