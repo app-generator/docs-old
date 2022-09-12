@@ -10,9 +10,9 @@ This product is manualy coded on top of the generated version [Datta Able PRO](d
 
 > Version: **1.0.13** - release date `2022-07-20`
 
-* Bootstrap 5 Design, `Light/Dark Mode`, 190 pages, Multiple Layouts 
+* Bootstrap 5 Design, `Light/Dark Mode`, 190 pages, Multiple Layouts
 * `DB Tools`: SQLAlchemy ORM, `Flask-Migrate` (schema migrations)
-* `Persistence`: SQLite, MySql 
+* `Persistence`: SQLite, MySql
 * `Authentication`: Session Based, Social Login via Github & Twitter
 * `Users Management`
   * `Extended user profile`
@@ -25,7 +25,6 @@ This product is manualy coded on top of the generated version [Datta Able PRO](d
 * 👉 [Datta Able Flask PRO](https://appseed.us/product/datta-able-pro/flask/) - product page
 * 👉 [Support](https://appseed.us/support): Email and LIVE on [Discord](https://discord.gg/fZC6hup)
 
-
 ## ✨ Environment
 
 To use the starter, [Python3](https://www.python.org) should be installed properly in the workstation. If you are not sure if Python is installed, please open a terminal and type `python --version`. Here is the full list with dependencies and tools required to build the app:
@@ -34,7 +33,6 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * (Optional) `Docker` - a popular virtualization software
-
 
 ## ✨ Start the app in Docker
 
@@ -53,8 +51,6 @@ $ docker-compose up --build
 ```
 
 Visit `http://localhost:5085` in your browser. The app should be up & running
-
-
 
 ## ✨ Manual Build
 
@@ -109,8 +105,6 @@ $ flask run
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
 
-
-
 ### 👉 Set Up for `Windows`
 
 > Install modules via `VENV` (windows)
@@ -145,13 +139,11 @@ $ flask db migrate # Generate migration SQL
 $ flask db upgrade # Apply changes
 ```
 
-
 > Create super admin (the superuser account)
 
 ```bash
 $ flask create_admin
 ```
-
 
 > Start the app
 
@@ -160,7 +152,6 @@ $ flask run
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
-
 
 ## APP Configuration via `.env` file
 
@@ -214,7 +205,6 @@ When credentials are defined, the app enables the `LOGIN with Twitter` button on
 * `TWITTER_ID`=YOUR\_GITHUB\_ID
 * `TWITTER_SECRET`=YOUR\_GITHUB\_SECRET
 
-
 ## ✨ Application Bootstrap Flow
 
 The entry point of the project is the `run.py` file where the project configuration is bundled. The `most important files` that make the project functional are listed below:
@@ -229,7 +219,6 @@ The entry point of the project is the `run.py` file where the project configurat
 * Configuration
   * is defined in `apps/config.py`
 
-
 ## ✨ API via `Flask-RestX`
 
 API stands for Application Programming Interface and it is used by various programs to communicate. When browsing the internet, you are using an API. The API takes your request, sends it to the service provider, fetches the response, and sends it back to you.
@@ -243,38 +232,39 @@ Flask-RestX is an extension for Flask that allows us to build REST APIs faster. 
 ### Exposed models
 
 > `Products` API
-  - Definition: `apps/models/`: **Product Class** 
-  - `Definition`: id, name, information, description, price, currency
-  - URI: `http://localhost:5000/api/products/`
+
+* Definition: `apps/models/`: **Product Class**
+* `Definition`: id, name, information, description, price, currency
+* URI: `http://localhost:5000/api/products/`
 
 > `Sales` API
-  - Definition: `apps/models/`: **Sale Class** 
-  - `Definition`: id, product, state, value, fee, currency, client, payment_type, purchase_date
-  - URI: `http://localhost:5000/api/products/`
 
+* Definition: `apps/models/`: **Sale Class**
+* `Definition`: id, product, state, value, fee, currency, client, payment\_type, purchase\_date
+* URI: `http://localhost:5000/api/products/`
 
 ### How to use the API
 
-The API is secured via an `api_token` generated during the registration process. The value is saved in the `Users` table. 
-Once the user is authenticated, the `API_TOKEN` is listed on the dashboard.
+The API is secured via an `api_token` generated during the registration process. The value is saved in the `Users` table. Once the user is authenticated, the `API_TOKEN` is listed on the dashboard.
 
-- GET requests can be used without the API_TOKEN
-- All mutating requests (PUT, DELETE, POST) requires the presence of the API_TOKEN in the header: `Authorization` field
+* GET requests can be used without the API\_TOKEN
+* All mutating requests (PUT, DELETE, POST) requires the presence of the API\_TOKEN in the header: `Authorization` field
 
-> Swagger UI 
+> Swagger UI
 
-- This visual tool is exposed at address `http://localhost:5000/api/` and provides a fast access to the API
+* This visual tool is exposed at address `http://localhost:5000/api/` and provides a fast access to the API
 
-> POSTMAN (3rd party tools) 
+> POSTMAN (3rd party tools)
 
-- Import the sample [POSTMAN collection](https://github.com/app-generator/flask-datta-able-pro/blob/master/media/api-sample.postman_collection) (saved on Github)
-- Replace the `Authorization` value with the `API KEY` listed on your dashboard  
-- Query the PRODUCTS API
-  - `create`, `update` and `delete` products
-- Query the SALES API
-  - `create`, `update` and `delete` sales
+* Import the sample [POSTMAN collection](https://github.com/app-generator/flask-datta-able-pro/blob/master/media/api-sample.postman\_collection) (saved on Github)
+* Replace the `Authorization` value with the `API KEY` listed on your dashboard
+* Query the PRODUCTS API
+  * `create`, `update` and `delete` products
+* Query the SALES API
+  * `create`, `update` and `delete` sales
 
-<br />
+\
+
 
 ## ✨ OAuth for `Github` and `Twitter`
 
@@ -318,7 +308,7 @@ To authenticate via Twitter, we must define our credentials in the `.env` file.
 * Sign IN to `Twitter`
 * Go to the `Developer Section`
 * Create a new APP
-* Edit  settings
+* Edit settings
 * Check `OAuth` version: v1 or v2 (recommended)
 * Callback URL: `https://localhost:5000/login/twitter/authorized`
 
