@@ -20,4 +20,3 @@ Nginx (pronounced "engine X", /ˌɛndʒɪnˈɛks/ EN-jin-EKS) (stylized as NGINX
 
 * [Nginx](https://www.nginx.com/) - the official website
 * [Nginx](https://en.wikipedia.org/wiki/Nginx) - the Wikipedia page
-* [Apache HTTP Server](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/apache/README.md) - the well-known Apache webserver

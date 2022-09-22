@@ -24,7 +24,7 @@ After the installation, we need to configure the project for the data we will us
 
 This file will contain a list of product objects with data we’ll display to the user using `Next.js` and Material UI. You can have an example of this file [here](https://github.com/app-generator/sample-next-js-getting-started/blob/main/public/products.json).
 
-We need to create the product.json file in the `public` directory, so it can be served from the server and we’ll be able to fetch the data using the fetch API. After adding the `products.json` file, create a new file named `product.js` in `pages/api/` directory. This file will contain a function we’ll write to fetch data from the server at [http://localhost:3000/products.json](http://localhost:3000/products.json).
+We need to create the product.json file in the `public` directory, so it can be served from the server and we’ll be able to fetch the data using the fetch API. After adding the `products.json` file, create a new file named `product.js` in `pages/api/` directory. This file will contain a function we’ll write to fetch data from the server at `http://localhost:3000/products.json`.
 
 ```jsx
 const getProducts = () => {

@@ -40,15 +40,13 @@ $ yarn start # start the app for development
 $ yarn build # build for production
 ```
 
-If all goes well, the app can be visited on [http://localhost:8000](http://localhost:8000) As we can see, building an app in JAMstack architecture is quite an easy job.&#x20;
-
+If all goes well, the app can be visited on `http://localhost:8000` As we can see, building an app in JAMstack architecture is quite an easy job.
 
 
 ### Related Resources
 
-* [JAMstack](https://jamstack.org/) - the website&#x20;
-* [WTF is JAMstack](https://jamstack.wtf/) - an well-known resource fpr JAMstack developers&#x20;
-* A Curated List of [Apps coded in JAMstack](https://blog.appseed.us/what-is-jamstack/)
+* [JAMstack](https://jamstack.org/) - the website
+* [WTF is JAMstack](https://jamstack.wtf/) - an well-known resource fpr JAMstack developers
 * [Apps built in JAMstack](https://appseed.us/apps/jamstack) - index provided by AppSeed
 * Open-Source [JAMstack Apps](https://github.com/app-generator/jamstack) published on [Github](https://github.com/search?q=jamstack)
 * [Landed](https://appseed.us/apps/jamstack/html5up-landed) a very popular open-source app designed by **Html5 Up** and coded in JAMstack architecture

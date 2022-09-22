@@ -12,7 +12,7 @@ description: >-
 
 ### What is WSGI
 
-In a single sentence, _WSGI is just an interface specification by which the server and application communicate._ This interface used by many popular frameworks like [Flask](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) and [Django](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/django/README.md) is defined in the [PEP 3333](https://www.python.org/dev/peps/pep-3333) specification for both parties: server and WSGI application.
+In a single sentence, _WSGI is just an interface specification by which the server and application communicate._ This interface used by many popular frameworks like Flas and Django is defined in the [PEP 3333](https://www.python.org/dev/peps/pep-3333) specification for both parties: server and WSGI application.
 
 Python 2.5 and later comes with a WSGI server which will be used in this tutorial. In 2.4 and earlier it can be installed.
 

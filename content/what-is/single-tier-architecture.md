@@ -10,9 +10,8 @@ Or, One-tier architecture involves putting all of the required components for a 
 
 ### Sample Apps
 
-* [JAMstack](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/jamstack/README.md) apps where all the code is executed on the client side, in browser: [Fractal](https://appseed.us/apps/jamstack/html5up-fractal), [Landed](https://appseed.us/apps/jamstack/html5up-landed)
+* [JAMstack](https://docs.appseed.us/content/what-is/jamstack) apps where all the code is executed on the client side, in browser: [Fractal](https://appseed.us/apps/jamstack/html5up-fractal), [Landed](https://appseed.us/apps/jamstack/html5up-landed)
 * [Single page application](https://en.wikipedia.org/wiki/Single-page\_application) (without a backend server)
-
 
 
 ### Resources

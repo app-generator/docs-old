@@ -4,7 +4,7 @@ description: Open-source VueJs Admin Template crafted by Creative-Tim.
 
 # Vuetify Material Dashboard
 
-Vuetify Material Dashboard is a beautiful resource built over [Vuetify](https://vuetifyjs.com/en/), [Vuex](https://vuex.vuejs.org/) and [Vuejs](https://vuejs.org/v2/guide/). It will help you get started developing dashboards in no time. Using the Dashboard is pretty simple but requires basic knowledge of Javascript, [Vuejs](https://vuejs.org/v2/guide/) and [Vue Router](https://router.vuejs.org/en/).
+Vuetify Material Dashboard is a beautiful resource built over [Vuetify](https://vuetifyjs.com/en/), [Vuex](https://vuex.vuejs.org/) and [Vuejs](https://vuejs.org/v2/guide/). It will help you get started developing dashboards in no time. Using the Dashboard is pretty simple but requires basic knowledge of Javascript, [Vuejs](https://vuejs.org/v2/guide/) and Vue Router.
 
 * [Vuetify Material Dashboard](https://bit.ly/39TwqHU) - product page hosted by Creative-Tim
 * [Vuetify Material Dashboard](https://bit.ly/33ssGZQ) - LIVE deployment&#x20;

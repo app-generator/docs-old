@@ -4,7 +4,7 @@ description: Setup Ubuntu for Developers
 
 # Setup Ubuntu for coding
 
-[Ubuntu](https://github.com/app-generator/docs/tree/a268ebbde6808cc5c9f8fafc0fee2146d93dc220/what-is/ubuntu/README.md) is a complete Linux operating system, freely available with both community and professional support. Ubuntu is suitable for both desktop and server use. The current Ubuntu release supports many architectures: Intel x86 (IBM-compatible PC), AMD64 (x86-64), ARMv7, ARMv8.
+Ubuntu is a complete Linux operating system, freely available with both community and professional support. Ubuntu is suitable for both desktop and server use. The current Ubuntu release supports many architectures: Intel x86 (IBM-compatible PC), AMD64 (x86-64), ARMv7, ARMv8.
 
 Ubuntu includes thousands of pieces of software, starting with the Linux kernel version 4.15 and GNOME 3.28, and covering every standard desktop application from word processing and spreadsheet applications to internet access applications, web server software, email software, programming languages and tools and of course several games. For more information please access the official website: [Ubuntu.com](https://ubuntu.com/)
 
@@ -29,11 +29,9 @@ $ sudo apt install build-essential
 $ sudo apt install install git
 ```
 
-###
-
 ### Install Python3
 
-Ubuntu comes with both Python 2.7 and Python 3.5 by default. You can install Python 3.6 along with them via a [third-party PPA](https://launchpad.net/\~jonathonf/+archive/ubuntu/python-3.6) by doing the following steps:
+Ubuntu comes with both Python 2.7 and Python 3.5 by default. You can install Python 3.6 along with them via a `third-party PPA` by doing the following steps:
 
 ```bash
 $ sudo add-apt-repository ppa:jonathonf/python-3.6
@@ -46,8 +44,6 @@ $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
 
-###
-
 ### Installing [Node.js](https://nodejs.org/)
 
 Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
@@ -58,8 +54,6 @@ $
 $ # check the version
 $ node --version
 ```
-
-###
 
 ### Installing [Yarn](https://yarnpkg.com/)
 

@@ -21,7 +21,7 @@ description: Short introduction to Python
 
 
 
-### [Install Python](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/how-to/install-python/README.md)
+### Install Python
 
 The **Python** can be downloaded from the [official website](https://www.python.org/). Choose the installer for your operating system, download, and click a few times. By typing python --version in a terminal window, you should see something like this:
 
@@ -106,15 +106,11 @@ Once the libraries are installed succesfully, we can write code in the Python co
 <title>Google</title>
 ```
 
-###
-
 ### [Python Web Frameworks](https://hackr.io/blog/python-frameworks)
 
-* [Flask](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) - Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 library and Werkzeug WSGI toolkit.
-* [Django](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/flask/README.md) - Full-stack framework Django is one of the most beloved web development frameworks for developing Python applications.
+* [Flask](https://flask.palletsprojects.com/) - Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 library and Werkzeug WSGI toolkit.
+* [Django](https://www.djangoproject.com/) - Full-stack framework Django is one of the most beloved web development frameworks for developing Python applications.
 * [FastAPI](https://fastapi.tiangolo.com/) - a high performance, easy to learn, ready for production framework
-
-
 
 ### Resources
 

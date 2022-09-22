@@ -35,13 +35,11 @@ $ heroku/7.42.13 win32-x64 node-v12.16.2
 $ # The sample output returned by HEROKU CLI on a Windows PC
 ```
 
-###
-
 ### HEROKU Sample Deployment
 
 We can see HEROKU in action by using two samples FREE apps provided by AppSeed - [Flask Black Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-black). This popular **Flask** starter is provided with all assets required by HEROKU to be deployed in seconds. The relevant files:
 
-> **Step #1** - Edit [runtime.txt](https://github.com/app-generator/flask-black-dashboard/blob/master/runtime.txt) and specify the Python version to be used
+> **Step #1** - Edit `runtime.txt` and specify the Python version to be used
 
 ```bash
 python-3.6.10

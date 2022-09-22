@@ -4,7 +4,7 @@ description: Setup CentOS for Developers
 
 # Setup CentOS for coding
 
-[CentOS](https://github.com/app-generator/docs/tree/a268ebbde6808cc5c9f8fafc0fee2146d93dc220/what-is/centos/README.md) is a Linux distribution that provides a free, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL). In January 2014, CentOS announced the official joining with Red Hat while staying independent from RHEL under a new CentOS governing board.
+CentOS is a Linux distribution that provides a free, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL). In January 2014, CentOS announced the official joining with Red Hat while staying independent from RHEL under a new CentOS governing board.
 
 ### Install basic development tools
 
@@ -42,9 +42,7 @@ $
 sudo yum install python3-devel
 ```
 
-###
-
-### Installing [Apache](https://github.com/app-generator/docs/tree/a268ebbde6808cc5c9f8fafc0fee2146d93dc220/what-is/apache/README.md)
+## Installing Apache
 
 Apache is available within CentOS’s default software repositories, which means you can install it with the `yum` package manager.
 

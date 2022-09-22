@@ -44,15 +44,15 @@ The majority of web apps requires a type of storage to save the relevant data:
 
 In web development the most used architectures are:
 
-### [Single Tier architecture](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/single-tier-architecture/README.md)
+### Single Tier architecture
 
-The web application is served only once by the server, and runs entirely on the client-side - read [more](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/single-tier-architecture/README.md)
+The web application is served only once by the server, and runs entirely on the client-side
 
 ![Single Tier architecture](https://raw.githubusercontent.com/app-generator/static/master/docs/single-tier-architecture-sm.jpg)
 
-### [Two Tier architecture](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/two-tier-architecture/README.md)
+### Two Tier architecture
 
-Sometimes named Full-Stack architecture - read [more](https://github.com/app-generator/docs/tree/a7c2441bf81cb9d2ad47b81b25204d5fc21897d9/what-is/two-tier-architecture/README.md)
+Sometimes named Full-Stack architecture
 
 ![Two Tier architecture](https://raw.githubusercontent.com/app-generator/static/master/docs/two-tier-architecture-sm.jpg)
 

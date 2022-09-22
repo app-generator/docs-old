@@ -9,22 +9,20 @@ description: >-
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 * Basic programming knowledge in [Python](https://www.python.org/)
-* Basic Flask knowledge and [WSGI](https://docs-old.appseed.us/what-is/wsgi/) concept
+* Basic Flask knowledge and WSGI concept
 * Comfortable using a terminal
 * Already familiar with [GIT](https://git-scm.com/) - command-line versioning tool
 
 
+## What is Flask
 
-### What is Flask
-
-&#x20;[Flask](https://docs-old.appseed.us/how-to/flask-deploy-on-heroku/\(https://palletsprojects.com/p/flask/\)) is a lightweight [WSGI](https://docs-old.appseed.us/what-is/wsgi/) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 * [Flask](https://palletsprojects.com/p/flask/) - official website
 * [Flask](https://flask.palletsprojects.com/) - official documentation
 
 
-
-### What is [HEROKU](https://www.heroku.com/)
+## What is [HEROKU](https://www.heroku.com/)
 
 Heroku's a _fully managed_ platform that helps developers to deploy apps with ease. Heroku is a cloud-based, fully-managed platform as a service (Paas) for building, running, and managing apps - features:
 
@@ -36,20 +34,19 @@ Heroku's a _fully managed_ platform that helps developers to deploy apps with ea
 To explain the process, we will use a simple Flask Boilerplate already enhanced for a Heroku deployment.
 
 
+## Sample Project
 
-### Sample Project
-
-_Flask Boilerplate_ is a template codebase used by the **AppSeed** platform to generate [Flask Apps](https://appseed.us/apps/flask-apps) enhanced with a basic set of features like authentication, database, ORM.&#x20;
+_Flask Boilerplate_ is a template codebase used by the **AppSeed** platform to generate [Flask Apps](https://appseed.us/apps/flask-apps) enhanced with a basic set of features like authentication, database, ORM.
 
 As mentioned, the project comes pre-configured for Heroku:
 
-* [runtime.txt](https://github.com/app-generator/boilerplate-code-flask/blob/master/runtime.txt) - specify the Python version used by Heroku during the build and deploy
+* `runtime.txt` - specify the Python version used by Heroku during the build and deploy
 * [Procfile](https://github.com/app-generator/boilerplate-code-flask/blob/master/Procfile) - configuration file that informs Heroku where to look for the [WSGI](https://docs-old.appseed.us/what-is/wsgi/) interface
 * [requirements.txt](https://github.com/app-generator/boilerplate-code-flask/blob/master/requirements.txt) - must contain the `gunicorn` module
 
 
 
-### [Gunicorn](https://docs.gunicorn.org/en/stable/) module
+## [Gunicorn](https://docs.gunicorn.org/en/stable/) module
 
 Gunicorn `Green Unicorn` is a Python WSGI HTTP Server for UNIX. It’s a pre-fork worker model ported from Ruby’s Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy.
 
@@ -57,7 +54,7 @@ For basic usage please access the [PyPi](https://pypi.org/project/gunicorn/) pag
 
 
 
-### File - [runtime.txt](https://github.com/app-generator/boilerplate-code-flask/blob/master/runtime.txt)
+## File  `runtime.txt`
 
 To build the deploy any python-based app, Heroku uses a default Python version or the one specified in the runtime.txt file. Supported environment, as per Heroku official documentation - [Specifying a Python version](https://devcenter.heroku.com/articles/python-support#specifying-a-python-version):
 

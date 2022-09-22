@@ -41,6 +41,3 @@ class PasswordResetView(PasswordContextMixin, FormView):
 
 Then inside the `registration` directory created recently, create a file named `password_reset_form.html`
 
-This will be used by the view now. Check an example of a template code [here](https://github.com/app-generator/boilerplate-code-django-dashboard/blob/master/apps/templates/registration/password\_reset\_form.html).
-
-This can be done for the rest of the routes as well. You can check the example of the modified templates [here](https://github.com/app-generator/boilerplate-code-django-dashboard/tree/master/apps/templates/registration).&#x20;
