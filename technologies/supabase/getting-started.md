@@ -132,7 +132,7 @@ The supabase client provides functions and methods to fetch data from a Table in
 import getProducts from "./api/products"; // remove
 ```
 
-Start the dev server and head to http://localhost:3000.
+Start the dev server and head to `http://localhost:3000`.
 
 ![Final result](https://cdn.hashnode.com/res/hashnode/image/upload/v1661552557611/MhwEDDe1M.png)
 

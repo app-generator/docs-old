@@ -41,9 +41,9 @@ $ yarn
 
 ```
 $ gulp dev
-$ 
-$ # Dashkit is now viewable at: http://localhost:3000
 ```
+
+Dashkit is now viewable at `http://localhost:3000`
 
 &#x20;If all goes well, we should see Dashkit PRO running in the browser.
 

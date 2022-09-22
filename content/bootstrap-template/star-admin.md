@@ -73,6 +73,6 @@ $ yarn
 $ gulp 
 ```
 
-At this point, we can visit the app in the browser [`http://localhost:3000`](http://localhost:3000).
+At this point, we can visit the app in the browser `http://localhost:3000`.
 
 ![Star Admin - Charts Page.](../../.gitbook/assets/docs-star-admin-charts.jpg)
