@@ -16,8 +16,7 @@ Most of the elements have been redesigned; but if you are using an element we ha
 ![Now UI Dashboard - Free Template.](../../.gitbook/assets/now-ui-dashboard.jpg)
 
 
-
-### How to compile the project
+## How to compile the project
 
 To use this modern design and compile in a local environment a [minimal development](../tutorials/minimal-programming-kit.md) kit is required:
 

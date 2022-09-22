@@ -12,6 +12,3 @@ CoreUI is an Open Source Bootstrap Admin Template. But CoreUI is not just anothe
 CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer the ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop.
 
 ![CoreUI - Open-source Bootstrap Template](../../.gitbook/assets/docs-coreui-screen.jpg)
-
-
-

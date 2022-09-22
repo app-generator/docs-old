@@ -6,10 +6,10 @@ description: >-
 
 # Getting Started with Next JS
 
-**Next JS** is a popular web framework built on top of React that provides _out-of-the-box_ many hot features used in modern web development: static and server rendering, smart bundling, Typescripts support without a complex configuration. &#x20;
+**Next JS** is a popular web framework built on top of React that provides _out-of-the-box_ many hot features used in modern web development: static and server rendering, smart bundling, Typescripts support without a complex configuration. 
 
 * [Next JS](https://nextjs.org/)  - official website
-* [Next JS](https://nextjs.org/docs) - documentation&#x20;
+* [Next JS](https://nextjs.org/docs) - documentation
 
 ![Next JS - Open-Source React Framework.](../../.gitbook/assets/next-js-react-framework.jpg)
 
@@ -31,10 +31,9 @@ $ yarn add react@latest react-dom@latest
 ```
 
 
+## Hello World in Next JS
 
-### Hello World in Next JS
-
-In this section, a simple **Hello World** project will be created using the console and a code editor.&#x20;
+In this section, a simple **Hello World** project will be created using the console and a code editor.
 
 > The source code can be downloaded from Github: [Next JS Hello](https://github.com/app-generator/hello-world-next-js)
 
@@ -63,9 +62,9 @@ npm install next react react-dom
 yarn add next react react-dom
 ```
 
-&#x20;**Step #4** - Create a simple page
+**Step #4** - Create a simple page
 
-**Next JS** expects the React content in the `pages` directory and our simple page is saved in this location.&#x20;
+**Next JS** expects the React content in the `pages` directory and our simple page is saved in this location.
 
 ```javascript
 // pages/index.js
@@ -112,7 +111,7 @@ By visiting the project in the browser, we should see our `Hello World` message:
 
 A Real Next JS Sample
 
-Obviously, the above sample is pretty simple and minimal, just to make curious the audience. In this section is mentioned a production-ready **Next JS** sample released by Creative-Tim as an open-source project.&#x20;
+Obviously, the above sample is pretty simple and minimal, just to make curious the audience. In this section is mentioned a production-ready **Next JS** sample released by Creative-Tim as an open-source project.
 
 > [Next JS Material Kit](https://bit.ly/37l2piJ) - is a modern UI Kit for Next JS
 
@@ -144,36 +143,36 @@ If all goes well, we should see the project running in the browser on port `3000
 
 ![Next JS - Material Kit Components.](../../.gitbook/assets/next-js-material-kit-components.jpg)
 
-### Special Pages
+
+## Special Pages
 
 Being a flexible framework, NextJS allows us to define special page handlers used globally across the project:
 
 > Custom "Document"  used to augment your application's `<html>` and `<body>` tags.
 
-&#x20;To override the default `Document`, and define properties like `lang` we need to create the file `./pages/_document.js`
+To override the default `Document`, and define properties like `lang` we need to create the file `./pages/_document.js`
 
-> `App.js` allows us to wrap ALL pages in a special wrapper and use a persistent layout across all pages.&#x20;
+> `App.js` allows us to wrap ALL pages in a special wrapper and use a persistent layout across all pages.
 
-Using this special page, we can achieve with ease a few useful things:&#x20;
+Using this special page, we can achieve with ease a few useful things:
 
 * Layout persistence between page changes
-* Use a global CSS&#x20;
+* Use a global CSS
 * Preserve the app state when navigating app pages
 
 > Custom error pages - 404/500 Error Handlers
 
-Next JS provides a 404 error page by default but in the same time allows us to overwrite it via   `pages/404.js` file. The same thing we can do to handle with a custom page the 500 Error case.&#x20;
+Next JS provides a 404 error page by default but in the same time allows us to overwrite it via   `pages/404.js` file. The same thing we can do to handle with a custom page the 500 Error case.
 
-For more information regarding the Next JS customization, please access:&#x20;
+For more information regarding the Next JS customization, please access:
 
 * Next JS - [Custom document](https://nextjs.org/docs/advanced-features/custom-document) section
 * Next JS - [Custom Error Pages](https://nextjs.org/docs/advanced-features/custom-error-page)
 * Next JS - [Custom App](https://nextjs.org/docs/advanced-features/custom-app)
 
-###
 
-### Resources
+## Resources
 
-* [Next JS Handbook](https://www.freecodecamp.org/news/the-next-js-handbook/) - a comprehensive tutorial | **Freecodecamp**&#x20;
-* More [Next JS Starters](https://bit.ly/3noTq5Q) - provided by Creative-Tim&#x20;
-* [Next JS Templates](https://dev.to/sm0ke/next-js-templates-a-curated-list-56fo) - a curated list | **Dev.to**&#x20;
+* [Next JS Handbook](https://www.freecodecamp.org/news/the-next-js-handbook/) - a comprehensive tutorial | **Freecodecamp**
+* More [Next JS Starters](https://bit.ly/3noTq5Q) - provided by Creative-Tim
+* [Next JS Templates](https://dev.to/sm0ke/next-js-templates-a-curated-list-56fo) - a curated list | **Dev.to**

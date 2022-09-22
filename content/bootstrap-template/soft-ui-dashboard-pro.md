@@ -13,7 +13,8 @@ description: >-
 
 ![Soft UI Dashboard PRO - Bootstrap 5 Template.](../../.gitbook/assets/soft-ui-dashboard-pro-cover.jpg)
 
-### Official Product Description
+
+## Official Product Description
 
 Designed for those who like bold elements and beautiful websites, Soft UI Dashboard PRO is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
 

@@ -14,6 +14,3 @@ WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material de
 This premium material admin dashboard has a stupendous look and vibrancy with its ready-to-use components. Interestingly, this admin template can be used to create CRM admin panels, Sales dashboards, Analytical Admin dashboards, Performance-based admin dashboards, marketing dashboards, and many.
 
 ![MaterialPro Admin - Premium Bootstrap Template.](../../.gitbook/assets/docs-cover-materialpro-wpx.jpg)
-
-
-

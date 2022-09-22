@@ -12,7 +12,8 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 
 ![Shards Dashboard - Free Bootstrap Template.](../../.gitbook/assets/shards-dashboard.jpg)
 
-### Shards Features
+
+## Shards Features
 
 **Fully Responsive** - Based on Bootstrap 4, Shards Dashboard Lite is fully responsive and capable to adapt its layout to any viewport size.
 

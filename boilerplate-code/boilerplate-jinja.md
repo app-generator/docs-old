@@ -20,9 +20,7 @@ description: >-
 * [Product page](https://appseed.us/boilerplate-code/flask-boilerplate/) - Hosted on AppSeed
 * Samples: [Flask Apps](https://appseed.us/apps/flask/) section on AppSeed
 
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for `registered users`.
-
-\
+> [Support](https://appseed.us/support/) (Email and LIVE on Discord) for `registered users`.
 
 
 ## ✨ Environment
@@ -33,8 +31,6 @@ To use the starter, [Python3](https://www.python.org) should be installed proper
 * [GIT](https://git-scm.com) - used to clone the source code from the Github repository
 * Basic development tools (g++ compiler, python development libraries ..etc) used by Python to compile the app dependencies in your environment.
 * (Optional) `Docker` - a popular virtualization software
-
-\
 
 
 ## ✨ Start the app in Docker
@@ -55,8 +51,6 @@ $ docker-compose up --build
 
 Visit `http://localhost:5085` in your browser. The app should be up & running.
 
-\
-
 
 ## ✨ Manual Build
 
@@ -67,8 +61,6 @@ $ # Get the code
 $ git clone https://github.com/app-generator/boilerplate-code-jinja.git
 $ cd boilerplate-code-jinja
 ```
-
-\
 
 
 ### 👉 Set Up for `Unix`, `MacOS`
@@ -95,8 +87,6 @@ $ flask run
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
-
-\
 
 
 ### 👉 Set Up for `Windows`
@@ -128,8 +118,6 @@ $ flask run
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`.
-
-\
 
 
 ## ✨ Codebase structure
@@ -175,8 +163,6 @@ The project is coded using a simple and intuitive structure presented below:
    |-- ************************************************************************
 ```
 
-\
-
 
 ## ✨ UI Assets and Templates
 
@@ -220,8 +206,6 @@ All pages and components are saved inside the `apps/templates` directory. Here a
    |-- ************************************************************************
 ```
 
-\
-
 
 ### 👉 Static Assets
 
@@ -257,8 +241,6 @@ At runtime, the `href` property is resolved to `/static/assets/css/style.css` ba
 ASSETS_ROOT=/static/assets
 ```
 
-\
-
 
 ## 👉 Static Assets for `production`
 
@@ -275,6 +257,7 @@ For instance, if the `static` files are copied to `https://cdn.your-server.com/d
 # No Slash at the end
 ASSETS_ROOT=https://cdn.your-server.com/datta-able-assets
 ```
+
 
 ## 🚀 Where to go from here
 

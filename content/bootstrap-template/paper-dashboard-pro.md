@@ -16,4 +16,3 @@ description: Premium Bootstrap Template crafted by Creative Tim
 > **Paper Dashboard PRO** - Charts
 
 ![Paper Dashboard PRO - Charts.](../../.gitbook/assets/paper-dashboard-pro-charts.jpg)
-

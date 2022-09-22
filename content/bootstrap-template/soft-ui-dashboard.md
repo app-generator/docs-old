@@ -18,7 +18,8 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 ![Soft UI Dashboard - Bootstrap 5 Template.](../../.gitbook/assets/soft-ui-dashboard-page-dashboard.jpg)
 
-### How to use the code
+
+## How to use the code
 
 To compile and start the project in a local environment a [minimum programming kit](../tutorials/minimal-programming-kit.md) must be installed and accessible via the terminal:
 

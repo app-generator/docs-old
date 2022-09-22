@@ -14,4 +14,3 @@ description: >-
 Material Dashboard PRO makes use of light, surface, and movement. The general layout resembles sheets of paper following multiple layers so that the depth and order is obvious. The product is a powerful dashboard that can easily help you build admin panels, CRMs or content management systems.
 
 ![Material Dashboard PRO - Premium Bootstrap Template.](../../.gitbook/assets/docs-cover-material-pro.jpg)
-

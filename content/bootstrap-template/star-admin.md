@@ -12,7 +12,8 @@ Star Admin is packed with all the features that fit your needs but not cramped w
 
 ![Star Admin - Bootstrap Dashboard Template.](../../.gitbook/assets/docs-star-admin-screen.jpg)
 
-### How to build the template
+
+## How to build the template
 
 To build Star Admin in a local environment, NodeJs, Yarn and Gulp must be properly installed and accessible in the terminal:
 

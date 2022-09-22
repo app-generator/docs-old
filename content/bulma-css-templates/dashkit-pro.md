@@ -17,7 +17,8 @@ description: Premium dashboard styled with Bulma CSS crafted by CssNinja agency.
 
 ![Dashkit - Premium Bulma Dashboard.](../../.gitbook/assets/dashkit-bulma-css.jpg)
 
-### Product Features
+
+## Product Features
 
 **Handcrafted UI** - Dashkit is not another generic template. It has a strong personality and is built with the Bulma CSS framework.
 
@@ -25,7 +26,8 @@ description: Premium dashboard styled with Bulma CSS crafted by CssNinja agency.
 
 **Solid Layouts** -Multiple and different layouts are available to kickstart your app, like Chat, CRM and analytics products.   &#x20;
 
-### How to compile DashKit
+
+## How to compile DashKit
 
 Being a commercial product to get access to the source code please access the official page and purchase a license. Once you have the source code downloaded a [minimal programming kit](../tutorials/minimal-programming-kit.md) should be properly installed and accessible in the terminal. &#x20;
 
@@ -56,6 +58,6 @@ $ npm run dev
 $ yarn dev
 ```
 
-&#x20;If all goes well, we should see Dashkit PRO running in the browser.
+If all goes well, we should see Dashkit PRO running in the browser.
 
 ![Dashkit - Bulma Dashboard Charts.](../../.gitbook/assets/dashkit-bulma-css-charts.jpg)

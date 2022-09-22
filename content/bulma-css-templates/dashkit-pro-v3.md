@@ -45,6 +45,6 @@ $ gulp dev
 
 Dashkit is now viewable at `http://localhost:3000`
 
-&#x20;If all goes well, we should see Dashkit PRO running in the browser.
+If all goes well, we should see Dashkit PRO running in the browser.
 
 ![Dashkit v3 - Bulma Charts. ](../../.gitbook/assets/dashkit-v3-bulma-css-charts.jpg)

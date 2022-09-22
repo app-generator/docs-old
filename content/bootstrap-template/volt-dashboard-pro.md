@@ -16,5 +16,3 @@ Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components,
 **Lightweight Plugins** - There are at least 10 lightweight Vanilla JS plugin libraries that we have customized and expanded in terms of features that you can use for your application. Some of these are a calendar, SVG maps, date pickers, notifications, drag and drop file uploads.
 
 ![Volt PRO - Premium Bootstrap Template.](../../.gitbook/assets/docs-volt-pro-screen.jpg)
-
-

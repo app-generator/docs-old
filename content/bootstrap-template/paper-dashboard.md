@@ -13,6 +13,7 @@ description: Open-source Bootstrap 4 dashboard template crafted by Creative-Tim
 
 ![Paper Dashboard - Open-source Dashboard.](../../.gitbook/assets/paper-dashboard.jpg)
 
+
 ## How to compile the project
 
 To use this modern design and compile in a local environment a [minimal development](../tutorials/minimal-programming-kit.md) kit is required:
