@@ -114,9 +114,9 @@ api-server-flask/
 
 ## ✨ Compatible Fullstack Products
 
-The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/react-node-js-datta-able)**,** an open-source React Dashboard.
+The product can be used as a standalone server but also as an authentication server for React, Vue products. Such a product already configured with Django API Server is [**React Datta Able**](https://appseed.us/product/datta-able/api-server-nodejs/react/)**,** an open-source React Dashboard.
 
-* 👉 ​[React Datta Able](https://appseed.us/product/react-node-js-datta-able) - product page
+* [React Datta Able](https://appseed.us/product/datta-able/api-server-nodejs/react/) - product page
 * 👉 ​[React Datta Able](https://github.com/app-generator/react-datta-able-dashboard) - source code
 
 ![React Datta Able - Open-Source Dashboard.](https://gblobscdn.gitbook.com/assets%2F-MYVW6MKCi9iujNc3SK\_%2F-Memyr3wdOIsonokJPUQ%2F-Men-RiulajMsyVGTEgy%2Freact-datta-able-cover.jpg?alt=media\&token=c87fbe5e-44b0-4d3d-9bb3-c41495fbb567)
