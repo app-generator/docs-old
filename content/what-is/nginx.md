@@ -18,5 +18,4 @@ Nginx (pronounced "engine X", /ˌɛndʒɪnˈɛks/ EN-jin-EKS) (stylized as NGINX
 
 ### Links
 
-* [Nginx](https://www.nginx.com/) - the official website
 * [Nginx](https://en.wikipedia.org/wiki/Nginx) - the Wikipedia page

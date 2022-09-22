@@ -41,9 +41,8 @@ _Flask Boilerplate_ is a template codebase used by the **AppSeed** platform to g
 As mentioned, the project comes pre-configured for Heroku:
 
 * `runtime.txt` - specify the Python version used by Heroku during the build and deploy
-* [Procfile](https://github.com/app-generator/boilerplate-code-flask/blob/master/Procfile) - configuration file that informs Heroku where to look for the [WSGI](https://docs-old.appseed.us/what-is/wsgi/) interface
-* [requirements.txt](https://github.com/app-generator/boilerplate-code-flask/blob/master/requirements.txt) - must contain the `gunicorn` module
-
+* `Procfile` - configuration file that informs Heroku where to look for the [WSGI](https://docs-old.appseed.us/what-is/wsgi/) interface
+* `requirements.txt` - must contain the `gunicorn` module
 
 
 ## [Gunicorn](https://docs.gunicorn.org/en/stable/) module

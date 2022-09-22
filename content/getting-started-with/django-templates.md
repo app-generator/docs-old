@@ -256,10 +256,7 @@ All the above concepts can be seen in action by accessing a simple Django seed p
 
 ![Pixel Lite - Open-Source Django Template](../../.gitbook/assets/pixel-bootstrap-5-freelancer-page.png)
 
-
-
 ### Resources
 
-* [Django Templates](https://djangobook.com/mdj2-django-templates/) **-** a **** free chapter from `The Django Book` ****&#x20;
 * [Django Templates](https://www.geeksforgeeks.org/django-templates/) - a really nice article provided by GeeksForGeeks platform
 * [Django Templates](https://bit.ly/3aStaNb) - provided by Creative-Tim and AppSeed&#x20;

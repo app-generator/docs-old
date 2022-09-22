@@ -131,6 +131,6 @@ return (
 ...
 ```
 
-Open the page at [http://localhost:3000/](http://localhost:3000/), and you will see the result. And voilà, we have successfully created a simple project with `Next.js`.
+Open the page at `http://localhost:3000/`, and you will see the result. And voilà, we have successfully created a simple project with `Next.js`.
 
 The next documentation will concern how to deploy a `Next.js` application on [Netlify](https://netlify.com/). In the meantime, you can find the code for this sample project [here](https://github.com/app-generator/sample-next-js-getting-started).

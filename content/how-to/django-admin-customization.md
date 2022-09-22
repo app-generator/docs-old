@@ -325,10 +325,7 @@ admin_black/
 
 This way you can override the Django admin template and import your own template.
 
-
-
 #### Links & Resource
 
-* Page editor and `Django Admin Black` author - [**Iman Karimi**](https://www.linkedin.com/in/iman-karimi/)
 * [Django Black Dashboard](https://appseed.us/admin-dashboards/django-dashboard-black) - free Django product that uses the same UI Kit
 * Access the [AppSeed](https://appseed.us/) platform for support and more [Django Templates](https://appseed.us/admin-dashboards/django)
