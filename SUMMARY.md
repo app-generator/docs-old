@@ -181,10 +181,14 @@
 
 ## Deployment
 
-* [GCP - Deploy Django](deployment/google-cloud-platform/django.md)
-* [App Platform - Deploy Django](deployment/app-platform-do/django.md)
-* [AWS - Deploy Django](deployment/aws/django.md)
-* [AWS - Deploy Django](deployment/render/django.md)
+* [Google Cloud Platform](deployment/google-cloud-platform/README.md)
+  * [Deploy Django on GCP](deployment/google-cloud-platform/django.md)
+* [App Platform by DO](deployment/app-platform-do/README.md)
+  * [App Platform - Deploy Django](deployment/app-platform-do/django.md)
+* [AWS - Amazon Services](deployment/aws/README.md)
+  * [Deploy Django on AWS](deployment/aws/django.md)
+* [Render Deployment Platform](deployment/render/README.md)
+  * [Deploy Django to Render](deployment/render/django.md)
 
 ## Content
 
