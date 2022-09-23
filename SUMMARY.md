@@ -179,6 +179,13 @@
 * [Supabase](technologies/supabase/README.md)
   * [Getting Started](technologies/supabase/getting-started.md)
 
+## Deployment
+
+* [GCP - Deploy Django](deployment/google-cloud-platform/django.md)
+* [App Platform - Deploy Django](deployment/app-platform-do/django.md)
+* [AWS - Deploy Django](deployment/aws/django.md)
+* [AWS - Deploy Django](deployment/render/django.md)
+
 ## Content
 
 * [What IS](content/what-is/README.md)
