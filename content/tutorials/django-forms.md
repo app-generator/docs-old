@@ -156,7 +156,7 @@ TEMPLATES = [
 ```markup
 
 <form action="" method="post"> 
-    {\% csrf_token \%}
+    {\% csrf_token \%} <!-- NOTE: remove the Back Slash character -->
 
     <table> 
         {{ form.as_table }} 
