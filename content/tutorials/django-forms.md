@@ -179,7 +179,7 @@ TEMPLATES = [
 
 <br />
 
-> HTML page - defined in `forms/templates` folder
+> HTML page - defined in `forms/templates` folder:
 
 ```markup
 <!-- Forms/templates/hello.html: partial content -->
