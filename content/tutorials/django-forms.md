@@ -154,10 +154,9 @@ TEMPLATES = [
 > HTML page - defined in `forms/templates` folder:
 
 ```markup
-<!-- Forms/templates/hello.html: partial content -->
 
 <form action="" method="post"> 
-    {% csrf_token %}
+    {\% csrf_token \%}
 
     <table> 
         {{ form.as_table }} 
