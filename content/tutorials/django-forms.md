@@ -1,24 +1,28 @@
 ---
-description: >-
-  Learn how to manage forms in Django - For beginners
+description: Learn how to manage forms in Django - For beginners
 ---
 
 # Django Forms
 
 This page explains how to **manage and validate a form in Django** Framework. We assume the audience has already a Django project up and running. For those that start from nothing, feel free to access the resources mentioned below and come back here once the content is understood:
 
-* [How to install Django](django-how-to-install.md) - simple, tested steps to install Django
-* [Django for beginners](django-for-beginners.md) - a comprehensive tutorial that covers the basics
+* 👉 [How to install Django](django-how-to-install.md) - simple, tested steps to install Django
+* 👉 [Django for beginners](django-for-beginners.md) - a comprehensive tutorial that covers the basics
 
 > Topics covered by this tutorial
 
-* Create a new Django app
-* Define a new route
-* Update the configuration to include the new application
-* Code a simple form
-* Visualize the form using **Django shell**
-* Integrate the Form into a real page
-* Update the controller to check the form is validated
+* ✅ Create a new Django app
+* ✅ Define a new route
+* ✅ Update the configuration to include the new application
+* ✅ Code a simple form&#x20;
+* ✅ Integrate the Form into a real page
+* ✅ Update the controller to check the form is validated
+
+The video presentation of this tutorial can be found on Github:
+
+{% embed url="https://www.youtube.com/watch?v=te350w1WwfQ" %}
+Django For Beginners - How to add a new form
+{% endembed %}
 
 ## Create a new Application
 
@@ -41,7 +45,7 @@ def index(request):
     return HttpResponse("Hello Django - Forms")
 ```
 
-> Define the routing for our new app - `forms/urls.py` 
+> Define the routing for our new app - `forms/urls.py`
 
 ```python
 from django.urls import path, re_path
@@ -86,7 +90,8 @@ Once we restart the project, the new route `/forms` should be visible:
 
 ![Django Forms -  A Hello-World type route](../../.gitbook/assets/django-forms-simple-route.jpg)
 
-<br />
+\
+
 
 ## Define a new form
 
@@ -104,7 +109,8 @@ class HelloForm(forms.Form):
     email   = forms.EmailField(required=False) 
 ```
 
-<br />
+\
+
 
 > Controller code - `forms/views.py`, the `index()` method
 
@@ -124,7 +130,8 @@ def index(request):
     return render(request, 'hello.html', {'form': form}) 
 ```
 
-<br />
+\
+
 
 > Update App configuration to include the new `Templates` folder, `core/settings.py` for AppSeed projects.
 
@@ -149,12 +156,12 @@ TEMPLATES = [
 ] 
 ```
 
-<br />
+\
+
 
 > HTML page - defined in `forms/templates` folder:
 
 ```markup
-
 <form action="" method="post"> 
     {\% csrf_token \%} <!-- NOTE: remove the Back Slash character -->
 
@@ -168,9 +175,10 @@ TEMPLATES = [
 
 ![Django Forms - Completed with user Data](../../.gitbook/assets/django-forms-with-data.jpg)
 
-If all fields are provided, on submit, we should see the `Form is valid` message. 
+If all fields are provided, on submit, we should see the `Form is valid` message.
 
-<br />
+\
+
 
 > Update the form with a new field `ID` (numeric type):
 
