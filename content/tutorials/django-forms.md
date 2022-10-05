@@ -104,34 +104,6 @@ class HelloForm(forms.Form):
     email   = forms.EmailField(required=False) 
 ```
 
-After the file is saved, we can play with it using **Django CLI.**
-
-```python
-$ python .\manage.py shell
->>> 
->>> from forms.forms import HelloForm
->>> 
->>> my_form = HelloForm()
->>> 
->>> print( my_form.as_ul() )
-<li><label for="id_title">Title:</label> <input type="text" name="title" required id="id_title"></li>
-<li><label for="id_message">Message:</label> <input type="text" name="message" required id="id_message"></li>
-<li><label for="id_email">Email:</label> <input type="email" name="email" id="id_email"></li>
-```
-
-Using the CLI we can visualize how the form will be expended and presented to the users. Another helper provided by Django is `form.as_p()` - the `paragraph` view of a form.
-
-```python
->>> 
->>> print( my_form.as_p() )  
-<p><label for="id_title">Title:</label> <input type="text" name="title" required id="id_title"></p>
-<p><label for="id_message">Message:</label> <input type="text" name="message" required id="id_message"></p>
-<p><label for="id_email">Email:</label> <input type="email" name="email" id="id_email"></p>
->>> 
-```
-
-The next step is to add the necessary code to display the form on a page and manage the information submitted by users in a controller.
-
 <br />
 
 > Controller code - `forms/views.py`, the `index()` method
