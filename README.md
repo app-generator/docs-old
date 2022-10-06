@@ -16,18 +16,17 @@ Such projects can be used in many contexts by developers and designers:
 
 Starters are provided in different patterns and technologies under permissive (MIT, LGPL) or commercial licenses:
 
-* 👉 [Open-source dashboards](https://appseed.us/admin-dashboards/open-source/) generated in [Flask](https://appseed.us/admin-dashboards/flask/) and [Django](https://appseed.us/admin-dashboards/django/)
-* 👉 [Web Apps](https://appseed.us/apps/) powered by [Flask](https://appseed.us/apps/flask/), and [Django](https://appseed.us/apps/django/)
-* 👉 Full-Stack applications that use [React](https://appseed.us/apps/react/) as frontend engine
-* 👉 API Servers for [NodeJS](boilerplate-code/api-server/node-js.md), [Flask](boilerplate-code/api-server/flask.md) and [Django](boilerplate-code/api-server/django.md).
-* 👉 [Tools for Developers](broken-reference): API Generators, Dynamic Datatables, UI Tester&#x20;
+* [Open-source dashboards](https://appseed.us/admin-dashboards/open-source/) generated in [Flask](https://appseed.us/admin-dashboards/flask/) and [Django](https://appseed.us/admin-dashboards/django/)
+* [Web Apps](https://appseed.us/apps/) powered by [Flask](https://appseed.us/apps/flask/), and [Django](https://appseed.us/apps/django/)
+* Full-Stack applications that use [React](https://appseed.us/apps/react/) as frontend engine 
+* API Servers for [NodeJS](boilerplate-code/api-server/node-js.md), [Flask](boilerplate-code/api-server/flask.md) and [Django](boilerplate-code/api-server/django.md).  
 
 ## ✨ [Support](https://appseed.us/support/)
 
 Support is an important part of our business model. A good product, in order to be useful, should have good support.
 
 * **Email Support** <_support @ appseed.us>_ - 6h (or less) response time
-* **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup)
+* **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup) 
 
 ## ✨ Latest Products
 
@@ -47,13 +46,14 @@ Support is an important part of our business model. A good product, in order to 
 * [Django Request Object](content/tutorials/django-request-object.md) - learn how to manage request parameters with ease
 * [Django Authentication System](content/tutorials/django-authentication-system.md) - learn how to create users with ease
 * [Getting started with Flask](content/getting-started-with/flask.md) - code a simple web app in a few minutes
-* [Getting started with Next JS](content/getting-started-with/next-js.md) - learn how to code a simple, one-page project
+* [Getting started with Next JS](content/getting-started-with/next-js.md) - learn how to code a simple, one-page project  
 * Tutorials and Free Samples published on Github, actively supported by our team:
   * [How to set up Ubuntu for coding](content/how-to/setup-ubuntu-for-development.md)
   * [How to Install Python](content/how-to/install-python.md)
   * [How to Install Django](content/tutorials/django-how-to-install.md)
-  * [Showcase charts in Django](samples/django/django-sales-charts.md)
+  * [Showcase charts in Django](samples/django/django-sales-charts.md) 
 * Ask for support in [Discord](https://discord.gg/fZC6hup) - for registered [AppSeed](https://appseed.us) users.
+
 
 ## 🚀 **Where to go from here**
 
