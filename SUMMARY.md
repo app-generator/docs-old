@@ -21,6 +21,7 @@
 
 ## Developer Tools
 
+* [Django API Generator](developer-tools/django-api-generator.md)
 * [Django Dynamic API](developer-tools/django-dynamic-api.md)
 * [Django Dynamic DataTables](developer-tools/django-dynamic-datatables.md)
 * [Flask Dynamic API](developer-tools/flask-dynamic-api.md)
