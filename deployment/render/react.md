@@ -1,8 +1,8 @@
 ---
-description: How to deploy Django to Render Deployment Platform
+description: How to deploy React to Render Deployment Platform
 ---
 
-# Deploy Django to Render Deployment Platform
+# Deploy React to Render Deployment Platform
 
 @Todo - General information Render Platform
 
@@ -11,7 +11,6 @@ description: How to deploy Django to Render Deployment Platform
 - `Render` Account Creation 
 - `Render` Account Settings 
 - The project to be deployed
-- `Render` Environment set up
 - `Render` Domain settings
 - `Render` SSL certificates
 - `Render` LIVE Service monitoring
@@ -40,32 +39,25 @@ Source project: https://github.com/app-generator/django-react-soft-dashboard
 
 <br /> 
 
-- To deploy Django app on render you required to choose Web service option on dashboard
-![Render account settings](/.gitbook/assets/render_dashboard_web_service.png)
+- To deploy Django app on render you required to choose Static Sites option on dashboard
+![Render account settings](/.gitbook/assets/render_dashboard_static_sites.png)
 
-- After selection web service, required to connect github project repository.
+- After selection Static Sites, required to connect github project repository.
 - there are two options, First you can choose private repository from your linked github account. Or second you can connect with github public project repository
-![Render web service](/.gitbook/assets/render_web_service.png)
+![Render Static Sites](/.gitbook/assets/render_static_site.png)
 
 - Next required to setup project's setting's
-    - Name:- In this section you required to enter a unique name for your web service.
+    - Name:- In this section you required to enter a unique name for your static site.
     - Root Directory:- By default, the root directory is set to the top-level directory in your repository. if your project github repository follow mono repo structure then you required to enter sub directory of project
-    - Environment:- You required to choose Python3 option because this project and used used library is build based on Python3 language.
-    - Region:- The region where your web service runs, not required to update by default is `Oregon (US West)`
     - Branch:- The repository branch used for your web service.
     - Build Command:- created shell script file named `build.sh` to build project. to refer this file as a build command enter `./build.sh`
-    - Start Command:- to start project with gunicorn python web server enter command `gunicorn core.wsgi:application`
+    - Publish directory:- The relative path of the directory containing built assets to publish Examples: `./`, `./build`, `dist` and `frontend/build`.
 
     - To set environment variable there is option `Add Environment Variable` in `Advanced` section.
-    - Python version is specify by environment variable named `PYTHON_VERSION` = `3.10.4`
-    - other variable to set
-        - `GUNICORN_CMD_ARGS` = `--preload --bind=0.0.0.0:2000`
-        - `PORT` = `2000`
-        - `DJANGO_ALLOWED_HOSTS` = `.onrender.com`
     - Auto-Deploy:- Render provide Automatic deploy on every push to your repository or changes to your service? Select "No" to handle your deploys manually.
-    - once you done with all above setting's, at last click on `Create Web Service`
+    - once you done with all above setting's, at last click on `Create Static Site`
 
-![Render django_web_service_settings](/.gitbook/assets/render_django_deployment_settings.png)
+![Render django_web_service_settings](/.gitbook/assets/render_react_deployment_settings.png)
 
 <br />
 
@@ -92,8 +84,6 @@ Source project: https://github.com/app-generator/django-react-soft-dashboard
 
 ## Links & Resources
 
-* [Render Django deployment](https://render.com/docs/deploy-django) - Official Guide to deploy Django app on render
+* [Render Django deployment](https://render.com/docs/deploy-vue-js) - Official Guide to deploy React app on render
 * [custom domains on render](https://render.com/docs/custom-domains) - Official Guide to setup custom domain
 * [Shell Script](https://www.shellscript.sh/) - Official Guide to shell script
-* [Django](https://www.djangoproject.com/) - Official Guide to Django Framework
-* [Gunicorn](https://gunicorn.org/) - Official Guide to Gunicorn
