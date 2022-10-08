@@ -2,104 +2,103 @@
 description: How to deploy Django to Render Deployment Platform
 ---
 
-# Deploy Django to Render Deployment Platform
+# Deploy Django to Render
 
 @Todo - General information Render Platform
 
 > Topics covered
 
-- `Render` Account Creation 
-- `Render` Account Settings 
-- The project to be deployed
-- `Render` Environment set up
-- `Render` Domain settings
-- `Render` SSL certificates
-- `Render` LIVE Service monitoring
+* `Render` Account Creation
+* `Render` Account Settings
+* The project to be deployed
+* `Render` Environment set up
+* `Render` Domain settings
+* `Render` SSL certificates
+* `Render` LIVE Service monitoring \
 
-<br />
 
-## `Render` Account Creation
+### `Render` Account Creation
 
-- Render provide Social auth and email auth, based on your preference you can sign up with render 
+Render provide Social auth and email auth, based on your preference you can sign up with Render
 
-![Render Sign up](/.gitbook/assets/render_signup.png)
+**IMG\_render\_signup**
 
-- Once successfully sign up and login, you will be redirect to Render dashboard and see the screen like bellow 
 
-![Render dashboard](/.gitbook/assets/render_dashboard.png)
 
-<br />
+Once successfully signed up, the user is redirected Render dashboard and sees the screen like below:
 
-## `Render` Account Settings 
+**IMG\_render\_dashboard**
 
-- Next step is connect Render account with github account, If you sign up with github then this step is automatically done.
 
-![Render account settings](/.gitbook/assets/render_account_settings.png)
 
-<br /> 
+## `Render` Account Settings
+
+The Next step is to connect the Render account with the GitHub account, If you sign up with GitHub then this step is automatically done.&#x20;
+
+**IMG\_render\_account\_settings** \
+
 
 ## The project to be deployed
 
-Source project: https://github.com/app-generator/django-react-soft-dashboard
+Source project: https://github.com/app-generator/django-react-soft-dashboard\
 
-<br /> 
 
-- To deploy Django app on render you required to choose Web service option on dashboard
+To deploy the Django app on Render we need to choose the **Web Service** option from the Dashboard as shown below:&#x20;
 
-![Render account settings](/.gitbook/assets/render_dashboard_web_service.png)
+**IMG\_render\_dashboard\_web\_service**
 
-- After selection web service, required to connect github project repository.
-- there are two options, First you can choose private repository from your linked github account. Or second you can connect with github public project repository
+****
 
-![Render web service](/.gitbook/assets/render_web_service.png)
+After selecting the web service option, the next step is to connect the GitHub project repository.  On the next page, we can select the project from the linked account, with private or public visibility.
 
-- Next required to setup project's setting's
-    - Name:- In this section you required to enter a unique name for your web service.
-    - Root Directory:- By default, the root directory is set to the top-level directory in your repository. if your project github repository follow mono repo structure then you required to enter sub directory of project
-    - Environment:- You required to choose Python3 option because this project and used used library is build based on Python3 language.
-    - Region:- The region where your web service runs, not required to update by default is `Oregon (US West)`
-    - Branch:- The repository branch used for your web service.
-    - Build Command:- created shell script file named `build.sh` to build project. to refer this file as a build command enter `./build.sh`
-    - Start Command:- to start project with gunicorn python web server enter command `gunicorn core.wsgi:application`
+**IMG\_render\_web\_service**&#x20;
 
-    - To set environment variable there is option `Add Environment Variable` in `Advanced` section.
-    - Python version is specify by environment variable named `PYTHON_VERSION` = `3.10.4`
-    - other variable to set
-        - `GUNICORN_CMD_ARGS` = `--preload --bind=0.0.0.0:2000`
-        - `PORT` = `2000`
-        - `DJANGO_ALLOWED_HOSTS` = `.onrender.com`
-    - Auto-Deploy:- Render provide Automatic deploy on every push to your repository or changes to your service? Select "No" to handle your deploys manually.
-    - once you done with all above setting's, at last click on `Create Web Service`
+****
 
-![Render django_web_service_settings](/.gitbook/assets/render_django_deployment_settings.png)
+The next step is to edit deployment details. Here are the sections that need editing:&#x20;
 
-<br />
+* **Name**: In this section, we should use a unique name for the web service.
+* **Root Directory**:  By default, the root directory is set to the top-level directory in your repository. We have also the possibility to select subfolders in case the project structure is modular and for instance, the backend and the frontend use different directories&#x20;
+* **Environment**: In this section, we should select the language used to code the product, Python in our case.&#x20;
+* **Region**:- The region where your web service runs, not required to update by default is `Oregon (US West)`
+* **Branch**:- The repository branch used for your web service.
+* **Build Command**: The shell script that executes all the steps to build the project
+* **Start Command**: This section informs Gunicorn where to locate the entry point in our Django starter: `gunicorn core.wsgi:application`
+* **Add Environment Variables** required by the starter in `Advanced` section.
+  * Python Version: `PYTHON_VERSION` = `3.10.4`&#x20;
+  * `GUNICORN_CMD_ARGS` = `--preload --bind=0.0.0.0:2000`
+  * `PORT` = `2000`
+  * `DJANGO_ALLOWED_HOSTS` = `.onrender.com`&#x20;
+* **Auto-Deploy**: Render provide this option to trigger a new deployment on every push to the repository. In case this feature is not useful, set this option to "NO" for manually managed deployments&#x20;
+
+With all the above settings specified as per project requirements, we can confirm the action and actually Create the new Service. &#x20;
+
+**IMG\_render\_django\_deployment\_settings** \
+
 
 ## `Render` Domain settings
 
-- Render by default provide domain it self, if required you can setup custom domain based on requirement.
-* [custom domains](https://render.com/docs/custom-domains) - Official Guide to setup custom domain
+Render by default provides the domain itself, but the user can set up a custom domain based as well. For more information feel free to access the official documentation regarding [custom domains](https://render.com/docs/custom-domains). \
 
-<br />
 
 ## `Render` SSL certificates
 
-- Render by default manage SSL certificates, if required you can customize certificates. 
+Render Platform provides valid SSL certificates for all managed services, and also offers the possibility to customize the certificates. \
 
-<br />
 
 ## `Render` LIVE Service monitoring
 
-- once project is deployed, you can setup Health & Alerts in project setting's section.
-- first required to enter `Health Check Path` url of your project that return 200 status code.
-- second setup Service Failure Notifications to `Email`
+Once the project is deployed, the users have the possibility to set up alerts in Health & Alerts section (Project Settings).
 
-<br />
+The `Health Check Path`  is the public URL of the project that should return a 200 status code on access.
+
+Another option is to get notified via Email in case of Service failure. \
+
 
 ## Links & Resources
 
-* [Render Django deployment](https://render.com/docs/deploy-django) - Official Guide to deploy Django app on render
-* [custom domains on render](https://render.com/docs/custom-domains) - Official Guide to setup custom domain
+* [Render Django deployment](https://render.com/docs/deploy-django) - Official Guide to deploy Django app on Render
+* [Custom domains on render](https://render.com/docs/custom-domains) - Official Guide to setup custom domain
 * [Shell Script](https://www.shellscript.sh/) - Official Guide to shell script
 * [Django](https://www.djangoproject.com/) - Official Guide to Django Framework
 * [Gunicorn](https://gunicorn.org/) - Official Guide to Gunicorn

@@ -9,7 +9,7 @@ This page explains how to override Django admin and import a custom template to 
 **Links & Resources**
 
 * [Django Black Dashboard](https://appseed.us/admin-dashboards/django-dashboard-black) - the product page
-* [Django Admin Black](https://github.com/app-generator/django-admin-black) - admin section customized using Black Design&#x20;
+* [Django Admin Black](https://github.com/app-generator/django-admin-black) - admin section customized using Black Design
 
 ## The Basics
 
@@ -60,14 +60,14 @@ The admin templates come in two directories:
 
 To customize the `404` page, you need to override the right file. The relative path leading to the file has to be the same as the one being overridden. The file you’re interested in is `404.html`.
 
-&#x20;**Step #1 - Create template directory**
+**Step #1 - Create template directory**
 
 ```bash
 # Django Root Project <-- you are here
 mkdir -p templates/
 ```
 
-&#x20;**Step #2 - Update Django Settings**
+**Step #2 - Update Django Settings**
 
 To use the new templates the project settings file should be updated as bellow to use it.
 
@@ -96,7 +96,7 @@ TEMPLATES = [
 
 As mentioned before, Django will try to resolve a template file by scanning the directories defined by the user in the settings file. If nothing is found, the default version will be used from `site-packages/django/contrib/admin/templates/` directory.
 
-&#x20;**Step #3 - Customize 404 page**
+**Step #3 - Customize 404 page**
 
 The custom version of our 404 page can be easily done by copying the default version from `admin/templates/` directory and save it in the directory created in **Step #2**
 
@@ -107,6 +107,7 @@ vi templates/404.html
 
 ```markup
 <!-- templates/404.html --> 
+
 
 {% raw %}
 {% extends "admin/base_site.html" %}
@@ -125,8 +126,6 @@ vi templates/404.html
 ```
 
 Once we save the file, Django will use it when a 404 error case occur when users interacts with our application.
-
-
 
 ### A complete example
 
@@ -242,7 +241,8 @@ admin_black/
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="{% raw %}
+    <link rel="apple-touch-icon" sizes="76x76" href="
+{% raw %}
 {% static "admin_black/assets/img/apple-icon.png" %}">
     <link rel="icon" type="image/png" href="{% static "admin_black/assets/img/favicon.png" %}">
 
@@ -266,6 +266,7 @@ admin_black/
         <meta name="robots" content="NONE,NOARCHIVE">
     {% endblock %}
 {% endraw %}
+
 </head>
 ```
 
@@ -273,7 +274,8 @@ admin_black/
 
 ```markup
 ...
-<script src="{% raw %}
+<script src="
+{% raw %}
 {% static "admin_black/assets/js/core/jquery.min.js" %}"></script>
 <script src="{% static "admin_black/assets/js/core/popper.min.js" %}"></script>
 <script src="{% static "admin_black/assets/js/core/bootstrap.min.js" %}"></script>
@@ -287,6 +289,7 @@ admin_black/
 
 {% block extrascript %}{% endblock %}
 {% endraw %}
+
 </body>
 </html>
 ```
@@ -306,6 +309,7 @@ admin_black/
 
 ```markup
 <!-- sidebar.html -->
+
 
 {% raw %}
 {% load admin_black %}

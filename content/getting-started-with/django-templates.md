@@ -8,7 +8,7 @@ This page is a comprehensive introduction to [**Django Template**](https://dev.t
 
 ![Django Framework - Cover Image.](../../.gitbook/assets/django-framework-cover-xs.png)
 
-Before start using Django Template System, we need to install Python, the language used to code Django, and of course, the Django framework. 
+Before start using Django Template System, we need to install Python, the language used to code Django, and of course, the Django framework.
 
 > Install Python
 
@@ -52,7 +52,6 @@ $ python manage.py runserver
 
 By default, Django embedded server starts on port `8000`.
 
-
 ## Django Templates Layer
 
 The default configuration generated can be found in the `settings.py` file and should look quite similar to this code chunk:
@@ -77,7 +76,7 @@ TEMPLATES = [
 
 To enhance this default configuration with a template folder, we need to create the directory somewhere inside the project and update the configuration to inform Django about it.
 
-> For simplicity,  the`templates` folder will be created in the root of the project
+> For simplicity, the`templates` folder will be created in the root of the project
 
 ```
 $ mkdir templates
@@ -107,18 +106,17 @@ TEMPLATES = [
 
 From this point, we should be able to load the files defined in the `templates` directory.
 
-
 ## Django Templates Language
 
 Once the basic configuration is done, we can move forward and see how this template language can help us to build faster web projects. Here is a short list with features offered by the Django template system:
 
 * Inject variables, Lists, classes into templates
 * Filters to transform the information directly in the template in many ways
-* Conditionals (test variable presence or value) `{% if %}...{% endif %}`
-* Loops (iterate on lists) - `{% for x in y %}...{% endfor %}`
-* Imports (components reuse) `{% include "header.html" %}`
-* Inheritance (extend page templates) `{% extends "base.html" %}`
-* Block Declaration `{% block content %}...{% endblock %}`
+* Conditionals (test variable presence or value) `<div data-gb-custom-block data-tag="if">...</div>`
+* Loops (iterate on lists) - `<div data-gb-custom-block data-tag="for">...</div>`
+* Imports (components reuse) `<div data-gb-custom-block data-tag="include" data-0='header.html'></div>`
+* Inheritance (extend page templates) `<div data-gb-custom-block data-tag="extends" data-0='base.html'></div>`
+* Block Declaration `<div data-gb-custom-block data-tag="block">...</div>`
 
 Let's iterate on each feature and check out the sample code:
 
@@ -151,7 +149,7 @@ Another useful feature might be to use more than one filter over a variable:
 
 > **Comments** in Django templates
 
-Django template system will ignore everything between `{% comment %}` and `{% endcomment %}`
+Django template system will ignore everything between `<div data-gb-custom-block data-tag="comment">` and `</div>`
 
 ```python
 {% raw %}
@@ -176,24 +174,27 @@ Here can be a long story    <-- Ignored by Django
     <span>Regular Price {{ price }}
 
 {% endif %}
-{% endraw %}    
+{% endraw %}
+    
 ```
 
 > **Loops** - how to iterate on lists
 
 ```python
 <ul>
-    {% raw %}
+    
+{% raw %}
 {% for i in list %}
         <li>{{ i }}</li>
     {% endfor %}
 {% endraw %}
+
 </ul>
 ```
 
 > Imports - components reuse
 
-This feature is useful when we code large projects where parts of the UI are common to many pages, like the footer, top navigation, ..etc.  
+This feature is useful when we code large projects where parts of the UI are common to many pages, like the footer, top navigation, ..etc.
 
 ```markup
 <h1>Django Templates</h1>
@@ -201,9 +202,11 @@ This feature is useful when we code large projects where parts of the UI are com
     This is just a simple file served from the "templates" directory.
 </p>
 
+
 {% raw %}
 {% include "includes/footer.html" %}
-{% endraw %} <-- Import directive
+{% endraw %}
+ <-- Import directive
 ```
 
 > **Template Inheritance** - allows to `extend` template with specific information
@@ -215,7 +218,8 @@ Template inheritance empowers the developer to build a base template that contai
 ```python
 <html>
   <head>
-    <title>My Django {% raw %}
+    <title>My Django 
+{% raw %}
 {% block title %}{% endblock %}
 {% endraw %} </title>
   </head>
@@ -247,7 +251,6 @@ When Django loads `child.html`, the `{ extends }` block informs the engine to me
 * `{ block title }` becomes **MySample**
 * `{ block content }` becomes **Cool content here**
 
-
 ## Django Template Sample
 
 All the above concepts can be seen in action by accessing a simple Django seed project built on top of the latest Bootstrap version: [Pixel UI Django](https://appseed.us/django/django-pixel-bootstrap-uikit). This simple Django template can be downloaded and used for hobby and commercial products - for more information, please access:
@@ -256,7 +259,6 @@ All the above concepts can be seen in action by accessing a simple Django seed p
 * [Pixel Lite Django](https://django-pixel-lite.appseed-srv1.com/) - LIVE demo
 
 ![Pixel Lite - Open-Source Django Template](../../.gitbook/assets/pixel-bootstrap-5-freelancer-page.png)
-
 
 ## Resources
 

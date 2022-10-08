@@ -8,7 +8,6 @@ description: Short introduction to Jinja
 
 For those who have not been exposed to a templating language before, such languages essentially contain variables as well as some programming logic, which when evaluated (or rendered into HTML) are replaced with actual values.
 
-
 ### Why do we need [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)?
 
 **Sandboxed Execution** - It provides a protected framework for automation of testing programs, whose behavior is unknown and must be investigated.
@@ -16,7 +15,6 @@ For those who have not been exposed to a templating language before, such langua
 **HTML Escaping** - Jinja has a powerful automatic HTML Escaping, which helps to prevent Cross-site Scripting (XSS Attack). There are special characters like >,<,&, etc. which carry special meanings in the templates. So, if you want to use them as regular text in your documents then, replace them with entities. Not doing so might lead to XSS-Attack.
 
 **Template Inheritance** - This feature helps us to generate new pages starting from a base template that we inherit a common structure.
-
 
 ### [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) Environment
 
@@ -63,11 +61,13 @@ In Jinja, we can iterate with ease, using a for block:
 ```markup
 ...
       <ul>
-        {% raw %}
+        
+{% raw %}
 {% for n in my_list %}
         <li>{{n}}</li>
         {% endfor %}
 {% endraw %}
+
       </ul>
 ...
 ```
@@ -83,7 +83,8 @@ Let's take a look at a real sample:
 ```markup
 <html>
   <head>
-    <title>My Jinja {% raw %}
+    <title>My Jinja 
+{% raw %}
 {% block title %}{% endblock %}
 {% endraw %} </title>
   </head>

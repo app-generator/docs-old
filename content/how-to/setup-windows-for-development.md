@@ -74,7 +74,7 @@ Node.js is a run-time environment that includes everything you need to execute a
 
 In a web browser, navigate to [https://nodejs.org/en/download/](https://nodejs.org/en/download/). Click the Windows Installer button to download the latest default version. At the time this article was written, version 10.16.0-x64 was the latest version. The Node.js installer includes the NPM package manager.
 
-![NodeJs - Donwload Page.](../../.gitbook/assets/programming-kit-nodejs.jpg)
+![NodeJs - Donwload Page.](<../../.gitbook/assets/programming-kit-nodejs (1).jpg>)
 
 Execute the installer, and choosing the default options should be enough to have a successfull installation:
 

@@ -11,7 +11,7 @@ Full-stack version of **Datta Able PRO**, a premium design crafted by **CodedThe
 * [Full-stack React Datta Able](https://appseed.us/full-stack/react-datta-able) - product page
 * [Full-stack React Datta Able](https://fullstack-react-datta-able.appseed-srv1.com/) - LIVE Demo
 
-![React Datta Able - Full-stack Version](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).jpg>)
+![React Datta Able - Full-stack Version](<../../.gitbook/assets/react-firebase-datta-able-pro-screen-xs (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).jpg>)
 
 ## Product Dependencies
 
@@ -35,7 +35,7 @@ By default, the UI redirects the guest users to the login page. Once the user is
 
 > Implemented JWT Authentication Flow: Login, Logout, Register.
 
-![Full-Stack React Datta Able - Login.](<../../.gitbook/assets/django-react-datta-able-login-xs (1) (1).jpg>)
+![Full-Stack React Datta Able - Login.](<../../.gitbook/assets/django-react-datta-able-login-xs (1).jpg>)
 
 ## **How to use the product**
 

@@ -10,7 +10,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 
 * [Django Template Volt](https://pypi.org/project/django-admin-volt/) - PyPi Page
 * [Django Volt Dashboard](https://appseed.us/product/volt-dashboard/django/) - Open-source starter that uses the same UI Kit
-* [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) - LIVE Demo&#x20;
+* [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) - LIVE Demo
 
 ## Why Django Admin Volt?
 
@@ -21,8 +21,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 * Minimal template overriding
 * Easy integration
 
-![Django Template Volt - Open-Source Admin Theme ](../../.gitbook/assets/django-admin-volt.png)
-
+![Django Template Volt - Open-Source Admin Theme](<../../.gitbook/assets/image (12).png>)
 
 ## Installation
 
@@ -42,24 +41,21 @@ Add `admin_volt` application to the `INSTALLED_APPS` settings of your Django pro
     ) 
 ```
 
-> The name respects the convention `APP_NAME.apps.APP_NAMEConfig` required by all apps defined in the  **INSTALLED\_APPS** section.
+> The name respects the convention `APP_NAME.apps.APP_NAMEConfig` required by all apps defined in the **INSTALLED\_APPS** section.
 
 In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class. You can go [**here**](https://fontawesome.com/v4.7/icons/) to use more icons.
 
 ```
-
     from django.apps import AppConfig
 
     class APP_NAMEConfig(AppConfig):
         name = 'APP_NAME'
         icon = 'ICON_CLASS'  # for example: icon = 'fa fa-users'
-
 ```
 
 > Make sure `django.template.context_processors.request` context processor is enabled in `settings.py` (Django 1.8+ way):
 
 ```python
-
     TEMPLATES = [
         {
             'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -74,7 +70,6 @@ In this feature, we considered that each App can have its own icon, so we ask us
             },
         },
     ]
-
 ```
 
 > Start the application and connect to the `admin` section using a `superuser` account:
@@ -93,4 +88,4 @@ $ python manage.py runserver # default port 8000
 
 At this point, we should be able to access the `admin` section using the new Django Template:
 
-![Django Template Volt - Edit Users Page](<../../.gitbook/assets/django-admin-volt-charts.png>)
+![Django Template Volt - Edit Users Page](<../../.gitbook/assets/image (13).png>)
