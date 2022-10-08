@@ -20,15 +20,19 @@ description: How to deploy React to Render Deployment Platform
 ## `Render` Account Creation
 
 - Render provide Social auth and email auth, based on your preference you can sign up with render 
+
 ![Render Sign up](/.gitbook/assets/render_signup.png)
 
 - Once successfully sign up and login, you will be redirect to Render dashboard and see the screen like bellow 
+
 ![Render dashboard](/.gitbook/assets/render_dashboard.png)
+
 <br />
 
 ## `Render` Account Settings 
 
 - Next step is connect Render account with github account, If you sign up with github then this step is automatically done.
+
 ![Render account settings](/.gitbook/assets/render_account_settings.png)
 
 <br /> 
@@ -40,6 +44,7 @@ Source project: https://github.com/app-generator/django-react-soft-dashboard
 <br /> 
 
 - To deploy Django app on render you required to choose Static Sites option on dashboard
+
 ![Render account settings](/.gitbook/assets/render_dashboard_static_sites.png)
 
 - After selection Static Sites, required to connect github project repository.

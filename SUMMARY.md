@@ -190,6 +190,7 @@
   * [Deploy Django on AWS](deployment/aws/django.md)
 * [Render Deployment Platform](deployment/render/README.md)
   * [Deploy Django to Render](deployment/render/django.md)
+  * [Deploy React to Render](deployment/render/react.md)  
   * [Deploy Django & React to Render](deployment/render/django-react.md)  
 
 ## Content
