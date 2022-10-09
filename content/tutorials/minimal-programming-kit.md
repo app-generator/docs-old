@@ -64,7 +64,7 @@ To get started with Node please access the official website and download a versi
 * &#x20;[NodeJS](https://nodejs.org/en/) - official website
 * [NodeJS ](https://nodejs.org/en/download/)- download page
 
-![Programming Kit - NodeJS.](<../../.gitbook/assets/programming-kit-nodejs (1).jpg>)
+![Programming Kit - NodeJS.](../../.gitbook/assets/programming-kit-nodejs.jpg)
 
 ###
 

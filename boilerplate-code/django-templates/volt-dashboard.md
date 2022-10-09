@@ -21,7 +21,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 * Minimal template overriding
 * Easy integration
 
-![Django Template Volt - Open-Source Admin Theme](<../../.gitbook/assets/image (12).png>)
+![Django Template Volt - Open-Source Admin Theme](../../.gitbook/assets/django-admin-volt.png)
 
 ## Installation
 
@@ -88,4 +88,4 @@ $ python manage.py runserver # default port 8000
 
 At this point, we should be able to access the `admin` section using the new Django Template:
 
-![Django Template Volt - Edit Users Page](<../../.gitbook/assets/image (13).png>)
+![Django Template Volt - Edit Users Page](../../.gitbook/assets/django-admin-volt-charts.png)

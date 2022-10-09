@@ -147,4 +147,4 @@ _Official Product Information_ **-** Designed for those who like modern UI eleme
 
 If you want to get inspiration or just show something directly to your clients, you can jump-start your development with our pre-built example pages. Every page is spaced well, with attractive layouts and pleasing shapes. From specially designed dashboards for smart homes, virtual reality, and automotives to CRM admins, Purity UI Dashboard PRO has everything you need to quickly set up an amazing project.
 
-![React Purity PRO - Styled with Chakra UI](../../.gitbook/assets/fs-react-purity-pro-dashboard.png)
+![React Purity PRO - Styled with Chakra UI](<../../.gitbook/assets/fs-react-purity-pro-dashboard (1).png>)

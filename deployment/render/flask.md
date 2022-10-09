@@ -1,96 +1,94 @@
 ---
-description: How to deploy Flask to Render Deployment Platform
+description: How to go LIVE with a Flask project using Render Deployment Platform
 ---
 
-# Deploy Flask to Render Deployment Platform
+# Deploy Flask to Render
 
-This page explains how to go live with a Flask project on Render, a popular deployment platform. 
-For newcomers, [Render](https://render.com/) supports the deployment for all major languages, Free Certificats, DDoS protection and auto deploys from GIT.
-Let's take a look at all the topics covered in this material: 
+This page explains how to go live with a **Flask** project on **Render**, a popular deployment platform. For newcomers, [Render](https://render.com/) supports the deployment for all major languages, Free Certificates, DDoS protection, and auto deploys from GIT.&#x20;
 
-- `Render` Account Creation 
-- The project to be deployed
-- `Render` Environment set up
-- `Render` Domain settings
-- `Render` SSL certificates
-- `Render` LIVE Service monitoring
+### `Render` Account Creation
 
-<br />
+Render provide basic Email and Social Authentication and the registration process takes a few minutes. Once the sign-up process is finished, the user is redirected to the dashboard.
 
-## `Render` Account Creation
+<figure><img src="../../.gitbook/assets/render-01-sign-up-page-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Sign UP page</p></figcaption></figure>
 
-Render provide Social auth and email auth, based on your preference you can sign up with Render.
+### Create a new project
 
+All projects that use a dynamic language during runtime (Python, NodeJs) should be created as web services. This option can be found in the navigation bar, as shown below:
 
-Once successfully signed up, the user is redirected Render dashboard and sees the screen like below:
+<figure><img src="../../.gitbook/assets/render-02-create-web-service-menu-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Creat Web Service</p></figcaption></figure>
 
+### Link GitHub Repository
 
-## `Render` Account Settings
+The next step is to associate a Flask project with the newly created web service. Render support account linkage with external platforms like GitHub, GitLab, and BitBucket. In our demonstration, an open-source repository is used as a working sample.&#x20;
 
-The Next step is to connect the Render account with the GitHub account, If you sign up with GitHub then this step is automatically done.
+> 👉 [Flask & Stripe - Mini eCommerce](https://github.com/app-generator/sample-flask-stripe) (MIT License)  &#x20;
 
-## The project to be deployed
+<figure><img src="../../.gitbook/assets/render-02-create-web-service-sshot-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Target Project</p></figcaption></figure>
 
-Source project: https://github.com/app-generator/django-react-soft-dashboard
+> 👉 Here is the **Render** UI that allows the project association with the web service&#x20;
 
+<figure><img src="../../.gitbook/assets/render-03-create-web-service-link-repo-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Associate Repository</p></figcaption></figure>
 
-To deploy the Django app on Render we need to choose the **Web Service** option from the Dashboard as shown below:
+### The project settings
 
-**IMG\_render\_dashboard\_web\_service**
+Before going LIVE, we need to configure the future web service. Here is the information required by Render:&#x20;
 
-****
+* ✅ The **name of the project** (mandatory)
+* ✅ The **root** of the project (leave it blank)
+* ✅ **Environment**: for a Flask project, we should select Python
+* ✅ **Region**: only if the location of the server is relevant
+* ✅ **Source Branch**: the main branch is used&#x20;
+* ✅ **Build Command**: a simple [BASH script](https://github.com/app-generator/sample-flask-stripe/blob/master/build.sh) is used
+* ✅ **Start Command**: the entry point, usually managed by [Gunicorn](https://gunicorn.org/)
 
-After selecting the web service option, the next step is to connect the GitHub project repository.  
-On the next page, we can select the project from the linked account, with private or public visibility.
+A visual representation of the above settings used to deploy the project can be found below:
 
-**IMG\_render\_web\_service**
+<figure><img src="../../.gitbook/assets/render-04-create-web-service-basic-options-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Project Settings</p></figcaption></figure>
 
-****
+**The next step** is to specify the billing plan for the project. **Render** platform, at the moment this material is edited, provides a free plan only for static sites built with **React**, **Vue**, **Next**, and all other frameworks. &#x20;
 
-The next step is to edit deployment details. Here are the sections that need editing:
+<figure><img src="../../.gitbook/assets/render-05-create-web-service-plans-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Paid Pricing Plan</p></figcaption></figure>
 
-* **Name**: In this section, we should use a unique name for the web service.
-* **Root Directory**:  By default, the root directory is set to the top-level directory in your repository. We have also the possibility to select subfolders in case the project structure is modular and for instance, the backend and the frontend use different directories
-* **Environment**: In this section, we should select the language used to code the product, Python in our case.
-* **Region**:- The region where your web service runs, not required to update by default is `Oregon (US West)`
-* **Branch**:- The repository branch used for your web service.
-* **Build Command**: The shell script that executes all the steps to build the project
-* **Start Command**: This section informs Gunicorn where to locate the entry point in our Django starter: `gunicorn core.wsgi:application`
-* **Add Environment Variables** required by the starter in `Advanced` section.
-  * Python Version: `PYTHON_VERSION` = `3.10.4`
-  * `GUNICORN_CMD_ARGS` = `--preload --bind=0.0.0.0:2000`
-  * `PORT` = `2000`
-  * `DJANGO_ALLOWED_HOSTS` = `.onrender.com`
-* **Auto-Deploy**: Render provide this option to trigger a new deployment on every push to the repository. In case this feature is not useful, set this option to "NO" for manually managed deployments
+The last step in this tutorial is to expand the "Advanced" section and provide a few **Environment variables** required by **Flask** and the Stripe feature.&#x20;
 
-With all the above settings specified as per project requirements, we can confirm the action and actually Create the new Service. 
+* ✅ **Debug** Flag: False (the recommended value in production)
+* ✅ [SECRET\_KEY](https://flask.palletsprojects.com/en/2.2.x/config/#SECRET\_KEY) variable: used to sign session secrets&#x20;
+* ✅ **SERVER\_ADDRESS**: Used by Stripe to redirect after a payment
+* ✅ **Stripe Secrets:** PRIVATE and PUBLIC keys (provided by Stripe)
 
-**IMG\_render\_django\_deployment\_settings** \
+<figure><img src="../../.gitbook/assets/render-06-create-web-service-env-variables-min.jpg" alt=""><figcaption><p>Flask Render Deployment - App Environment Variables</p></figcaption></figure>
 
+&#x20;An important aspect of the build is the **automatic deployment** that is enabled by default. In this sample, a manual build is used, just to have full control over the deployment flow.&#x20;
 
-## `Render` Domain settings
+<figure><img src="../../.gitbook/assets/render-07-create-web-service-confirm-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Auto-Deploy Option</p></figcaption></figure>
 
-Render by default provides the domain itself, but the user can set up a custom domain based as well. For more information feel free to access the official documentation regarding [custom domains](https://render.com/docs/custom-domains). \
+***
 
+<figure><img src="../../.gitbook/assets/render-08-create-web-service-deploy-console-min.jpg" alt=""><figcaption><p>Flask Render Deployment - First Deployment</p></figcaption></figure>
 
-## `Render` SSL certificates
+### Trigger Manual Deployment
 
-Render Platform provides valid SSL certificates for all managed services, and also offers the possibility to customize the certificates. \
+The LIVE version of the project can be updated and even rollbacked anytime with ease via the UI. Here are the steps required by the LIVE update:&#x20;
 
+* ✅ Access **Manual Deploy** Option
+* ✅ Select Deploy a specific commit
+* ✅ Add the commit HASH to be used (provided by Github)&#x20;
+* ✅ Confirm/select the commit&#x20;
+* ✅ Confirm the action and trigger the deploy
 
-## `Render` LIVE Service monitoring
+> 👉 **Step #1 -** Select Specific Deployment Option
 
-Once the project is deployed, the users have the possibility to set up alerts in Health & Alerts section (Project Settings).
+<figure><img src="../../.gitbook/assets/render-09-create-web-service-trigger-manual-build-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Manual Deploy (Step 1)</p></figcaption></figure>
 
-The `Health Check Path`  is the public URL of the project that should return a 200 status code on access.
+> 👉 **Step #2** - Select the GitHub commit to deploy
 
-Another option is to get notified via Email in case of Service failure. \
+<figure><img src="../../.gitbook/assets/render-10-create-web-service-trigger-build-commit-id-min (1).jpg" alt=""><figcaption><p>Flask Render Deployment - Manual Deploy, Select Commit</p></figcaption></figure>
 
+Once the **Render** platform starts the build, the state of the web service is flagged as "**IN Progress**" and soon the updated version should be LIVE. &#x20;
 
-## Links & Resources
+### &#x20;Links & Resources
 
-* [Render Django deployment](https://render.com/docs/deploy-django) - Official Guide to deploy Django app on Render
-* [Custom domains on render](https://render.com/docs/custom-domains) - Official Guide to setup custom domain
-* [Shell Script](https://www.shellscript.sh/) - Official Guide to shell script
-* [Django](https://www.djangoproject.com/) - Official Guide to Django Framework
-* [Gunicorn](https://gunicorn.org/) - Official Guide to Gunicorn
+* 👉 Deployment [support](https://appseed.us/support/) provided by [AppSeed](https://appseed.us/)
+* 👉 [Render](https://render.com/) - the official platform documentation&#x20;
+* 👉 [Flask Stripe Sample](https://github.com/app-generator/sample-flask-stripe) - the project used in this material&#x20;
