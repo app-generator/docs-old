@@ -6,9 +6,9 @@ description: How to go LIVE with a Flask project using Render Deployment Platfor
 
 This page explains how to go live with a **Flask** project on **Render**, a popular deployment platform. For newcomers, [Render](https://render.com/) supports the deployment for all major languages, Free Certificates, DDoS protection, and auto deploys from GIT.&#x20;
 
-### `Render` Account Creation
+### Render Account Creation
 
-Render provide basic Email and Social Authentication and the registration process takes a few minutes. Once the sign-up process is finished, the user is redirected to the dashboard.
+The Sign UP is provided via classic Email and Social Authentication for well-known providers like GitHub, GitLab, or Google. Once the sign-up process is finished, the user is redirected to the dashboard.&#x20;
 
 <figure><img src="../../.gitbook/assets/render-01-sign-up-page-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Sign UP page</p></figcaption></figure>
 
@@ -16,7 +16,7 @@ Render provide basic Email and Social Authentication and the registration proces
 
 All projects that use a dynamic language during runtime (Python, NodeJs) should be created as web services. This option can be found in the navigation bar, as shown below:
 
-<figure><img src="../../.gitbook/assets/render-02-create-web-service-menu-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Creat Web Service</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/render-02-create-web-service-menu-min (1).jpg" alt=""><figcaption><p>Flask Render Deployment - Creat Web Service</p></figcaption></figure>
 
 ### Link GitHub Repository
 
@@ -83,7 +83,7 @@ The LIVE version of the project can be updated and even rollbacked anytime with 
 
 > 👉 **Step #2** - Select the GitHub commit to deploy
 
-<figure><img src="../../.gitbook/assets/render-10-create-web-service-trigger-build-commit-id-min (1).jpg" alt=""><figcaption><p>Flask Render Deployment - Manual Deploy, Select Commit</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/render-10-create-web-service-trigger-build-commit-id-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Manual Deploy, Select Commit</p></figcaption></figure>
 
 Once the **Render** platform starts the build, the state of the web service is flagged as "**IN Progress**" and soon the updated version should be LIVE. &#x20;
 
