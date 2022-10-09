@@ -17,7 +17,7 @@ description: How to deploy Django to Render Deployment Platform
 * `Render` LIVE Service monitoring \
 
 
-### `Render` Account Creation
+## `Render` Account Creation
 
 Render provide Social auth and email auth, based on your preference you can sign up with Render
 
@@ -33,7 +33,7 @@ Once successfully signed up, the user is redirected Render dashboard and sees th
 
 ## `Render` Account Settings
 
-The Next step is to connect the Render account with the GitHub account, If you sign up with GitHub then this step is automatically done.&#x20;
+The Next step is to connect the Render account with the GitHub account, If you sign up with GitHub then this step is automatically done.
 
 **IMG\_render\_account\_settings** \
 
@@ -43,7 +43,7 @@ The Next step is to connect the Render account with the GitHub account, If you s
 Source project: https://github.com/app-generator/django-react-soft-dashboard\
 
 
-To deploy the Django app on Render we need to choose the **Web Service** option from the Dashboard as shown below:&#x20;
+To deploy the Django app on Render we need to choose the **Web Service** option from the Dashboard as shown below:
 
 **IMG\_render\_dashboard\_web\_service**
 
@@ -51,27 +51,27 @@ To deploy the Django app on Render we need to choose the **Web Service** option 
 
 After selecting the web service option, the next step is to connect the GitHub project repository.  On the next page, we can select the project from the linked account, with private or public visibility.
 
-**IMG\_render\_web\_service**&#x20;
+**IMG\_render\_web\_service**
 
 ****
 
-The next step is to edit deployment details. Here are the sections that need editing:&#x20;
+The next step is to edit deployment details. Here are the sections that need editing:
 
 * **Name**: In this section, we should use a unique name for the web service.
-* **Root Directory**:  By default, the root directory is set to the top-level directory in your repository. We have also the possibility to select subfolders in case the project structure is modular and for instance, the backend and the frontend use different directories&#x20;
-* **Environment**: In this section, we should select the language used to code the product, Python in our case.&#x20;
+* **Root Directory**:  By default, the root directory is set to the top-level directory in your repository. We have also the possibility to select subfolders in case the project structure is modular and for instance, the backend and the frontend use different directories
+* **Environment**: In this section, we should select the language used to code the product, Python in our case.
 * **Region**:- The region where your web service runs, not required to update by default is `Oregon (US West)`
 * **Branch**:- The repository branch used for your web service.
 * **Build Command**: The shell script that executes all the steps to build the project
 * **Start Command**: This section informs Gunicorn where to locate the entry point in our Django starter: `gunicorn core.wsgi:application`
 * **Add Environment Variables** required by the starter in `Advanced` section.
-  * Python Version: `PYTHON_VERSION` = `3.10.4`&#x20;
+  * Python Version: `PYTHON_VERSION` = `3.10.4`
   * `GUNICORN_CMD_ARGS` = `--preload --bind=0.0.0.0:2000`
   * `PORT` = `2000`
-  * `DJANGO_ALLOWED_HOSTS` = `.onrender.com`&#x20;
-* **Auto-Deploy**: Render provide this option to trigger a new deployment on every push to the repository. In case this feature is not useful, set this option to "NO" for manually managed deployments&#x20;
+  * `DJANGO_ALLOWED_HOSTS` = `.onrender.com`
+* **Auto-Deploy**: Render provide this option to trigger a new deployment on every push to the repository. In case this feature is not useful, set this option to "NO" for manually managed deployments
 
-With all the above settings specified as per project requirements, we can confirm the action and actually Create the new Service. &#x20;
+With all the above settings specified as per project requirements, we can confirm the action and actually Create the new Service. 
 
 **IMG\_render\_django\_deployment\_settings** \
 
