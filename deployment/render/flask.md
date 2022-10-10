@@ -4,7 +4,7 @@ description: How to go LIVE with a Flask project using Render Deployment Platfor
 
 # Deploy Flask to Render
 
-This page explains how to go live with a **Flask** project on **Render**, a popular deployment platform. For newcomers, [Render](https://render.com/) supports the deployment for all major languages, Free Certificates, DDoS protection, and auto deploys from GIT.&#x20;
+This page explains how to go live with a **Flask** project on **Render**, a popular deployment platform. For newcomers, [Render](https://render.com/) supports the deployment for all major languages, Free Certificates, DDoS protection, and auto deploys from GitHub.
 
 > The VIDEO version - published on YouTube
 
