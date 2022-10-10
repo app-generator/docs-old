@@ -93,7 +93,7 @@ The LIVE version of the project can be updated and even rollbacked anytime with 
 
 Once the **Render** platform starts the build, the state of the web service is flagged as "**IN Progress**" and soon the updated version should be LIVE. 
 
-### Links & Resources
+## Links & Resources
 
 * 👉 Deployment [support](https://appseed.us/support/) provided by [AppSeed](https://appseed.us/)
 * 👉 [Render](https://render.com/) - the official platform documentation
