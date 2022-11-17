@@ -39,16 +39,6 @@ Add `admin_volt` application to the `INSTALLED_APPS` settings of your Django pro
     ) 
 ```
 
-> Add `admin_volt` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
-
-```python
-    INSTALLED_APPS = (
-        ...
-        'admin_volt.apps.AdminVoltConfig',
-        'django.contrib.admin',
-    )
-```
-
 > Collect static if you are in production environment:
 
 ```bash

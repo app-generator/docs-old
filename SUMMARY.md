@@ -18,6 +18,8 @@
 * [Boilerplate Jinja](boilerplate-code/boilerplate-jinja.md)
 * [Django Templates](boilerplate-code/django-templates/README.md)
   * [Django Template Volt](boilerplate-code/django-templates/volt-dashboard.md)
+  * [Django Argon Dashboard](boilerplate-code/django-templates/argon-dashboard.md)
+  * [Django Material Dashboard](boilerplate-code/django-templates/material-dashboard.md)    
 
 ## Developer Tools
 
