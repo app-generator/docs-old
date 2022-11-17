@@ -4,7 +4,7 @@ description: >-
   Design (free version)
 ---
 
-# Django Template Volt
+# [Django Admin Volt](https://github.com/app-generator/django-admin-volt)
 
 Modern template for **Django admin interface** coded on top of Volt Dashboard (free version) from **Themesberg**. Volt Dashboard is a free and open-source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages, and 3 plugins with Vanilla JS.
 
@@ -12,23 +12,25 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 * [Django Volt Dashboard](https://appseed.us/product/volt-dashboard/django/) - Open-source starter that uses the same UI Kit
 * [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) - LIVE Demo
 
-## Why Django Admin Volt?
+## Why `Django Admin Volt`
 
-* Bootstrap 5 Design: **Volt Dashboard** (Free version) provided by **Themesberg**
-* New fresh look
-* Responsive mobile interface
-* Useful admin home page
-* Minimal template overriding
-* Easy integration
+- Modern `Bootstrap 5` Design
+- `Responsive Interface`
+- `Minimal Template` overriding
+- `Easy integration`
 
-![Django Template Volt - Open-Source Admin Theme](../../.gitbook/assets/django-admin-volt.png)
+<br>
+
+![Django Admin Volt - Open-source Boostrap 5 Design (mobile view).](https://user-images.githubusercontent.com/51070104/196727476-d12f8ddc-4b41-412b-9b95-df3ee3c01ad4.png)
+
+<br>
 
 ## Installation
 
 ```
 $ pip install django-admin-volt
 // OR
-$ pip install git+https://github.com/app-generator/django-admin-volt.git 
+$ pip install git+https://github.com/app-generator/django-admin-volt.git
 ```
 
 Add `admin_volt` application to the `INSTALLED_APPS` settings of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
@@ -41,38 +43,29 @@ Add `admin_volt` application to the `INSTALLED_APPS` settings of your Django pro
     ) 
 ```
 
-> The name respects the convention `APP_NAME.apps.APP_NAMEConfig` required by all apps defined in the **INSTALLED\_APPS** section.
+<br>
 
-In this feature, we considered that each App can have its own icon, so we ask users to use this feature according to the method. Also in apps.py of each program according to the example add the icon field in the corresponding class. You can go [**here**](https://fontawesome.com/v4.7/icons/) to use more icons.
-
-```
-    from django.apps import AppConfig
-
-    class APP_NAMEConfig(AppConfig):
-        name = 'APP_NAME'
-        icon = 'ICON_CLASS'  # for example: icon = 'fa fa-users'
-```
-
-> Make sure `django.template.context_processors.request` context processor is enabled in `settings.py` (Django 1.8+ way):
+> Add `admin_volt` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
 ```python
-    TEMPLATES = [
-        {
-            'BACKEND': 'django.template.backends.django.DjangoTemplates',
-            'DIRS': [],
-            'APP_DIRS': True,
-            'OPTIONS': {
-                'context_processors': [
-                    ...
-                    'django.template.context_processors.request',
-                    ...
-                ],
-            },
-        },
-    ]
+    INSTALLED_APPS = (
+        ...
+        'admin_volt.apps.AdminVoltConfig',
+        'django.contrib.admin',
+    )
 ```
 
-> Start the application and connect to the `admin` section using a `superuser` account:
+<br />
+
+> Collect static if you are in production environment:
+
+```bash
+$ python manage.py collectstatic
+```
+
+<br />
+
+> Start the app
 
 ```bash
 $ # Set up the database
@@ -86,6 +79,23 @@ $ # Start the application (development mode)
 $ python manage.py runserver # default port 8000
 ```
 
-At this point, we should be able to access the `admin` section using the new Django Template:
+Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
-![Django Template Volt - Edit Users Page](../../.gitbook/assets/django-admin-volt-charts.png)
+<br />
+
+## Screenshots
+
+> **Volt Theme** - `Admin Section`  
+
+![Django Admin Volt - Main Django Dashboard screen.](https://user-images.githubusercontent.com/51070104/136143245-85cd8af7-43ea-4956-8fcd-45e307171943.png) 
+
+<br />
+
+> **Volt Theme** - `Dashboard`
+
+![Django Admin Volt - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/132288100-0c65159f-71a6-41f0-9f55-9544916385ae.jpg)
+
+<br />
+
+---
+**[Django Admin Volt](https://github.com/app-generator/django-admin-volt)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
