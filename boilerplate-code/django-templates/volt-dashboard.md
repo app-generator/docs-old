@@ -19,11 +19,7 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 - `Minimal Template` overriding
 - `Easy integration`
 
-<br>
-
 ![Django Admin Volt - Open-source Boostrap 5 Design (mobile view).](https://user-images.githubusercontent.com/51070104/196727476-d12f8ddc-4b41-412b-9b95-df3ee3c01ad4.png)
-
-<br>
 
 ## Installation
 
@@ -43,8 +39,6 @@ Add `admin_volt` application to the `INSTALLED_APPS` settings of your Django pro
     ) 
 ```
 
-<br>
-
 > Add `admin_volt` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
 ```python
@@ -55,15 +49,11 @@ Add `admin_volt` application to the `INSTALLED_APPS` settings of your Django pro
     )
 ```
 
-<br />
-
 > Collect static if you are in production environment:
 
 ```bash
 $ python manage.py collectstatic
 ```
-
-<br />
 
 > Start the app
 
@@ -89,13 +79,9 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ![Django Admin Volt - Main Django Dashboard screen.](https://user-images.githubusercontent.com/51070104/136143245-85cd8af7-43ea-4956-8fcd-45e307171943.png) 
 
-<br />
-
 > **Volt Theme** - `Dashboard`
 
 ![Django Admin Volt - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/132288100-0c65159f-71a6-41f0-9f55-9544916385ae.jpg)
-
-<br />
 
 ---
 **[Django Admin Volt](https://github.com/app-generator/django-admin-volt)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
