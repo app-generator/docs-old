@@ -4,9 +4,17 @@ description: >-
   Lite (free version).
 ---
 
-# Flask Shards Dashboard
+# [Shards Flask](https://appseed.us/product/shards/flask/)
 
 A high-quality & free Bootstrap admin dashboard template pack that comes with lots of templates and components. Based on Bootstrap 4, **Shards Dashboard Lite** is fully responsive and capable to adapt its layout to any viewport size.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 
 > Links
 
-* [Shards Flask](https://appseed.us/admin-dashboards/flask-dashboard-shards) - product page
+* [Shards Flask](https://appseed.us/product/shards/flask/) - product page
 * [Shards Flask](https://github.com/app-generator/flask-dashboard-shards) - source code
 * [Shards Flask](https://flask-dashboard-shards.appseed.us/) - LIVE Demo
 

@@ -8,6 +8,14 @@ description: >-
 
 **Sleek Dashboard** - Free Bootstrap 4 Admin Dashboard Template and UI Kit. It is s very powerful _bootstrap_ admin dashboard, which allows you to build products like admin panels, content management systems, and CRMs.
 
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
+
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)

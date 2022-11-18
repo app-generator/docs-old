@@ -19,8 +19,6 @@ from wtforms import TextField
 
 The above error occurs when the `TextField` property is used with [WTForms](https://pypi.org/project/WTForms/) version 3.0 or above because the `wtforms.TextField` deprecated in favor of `wtforms.StringField`.
 
-
-
 ### How to Fix
 
 > Solution 1 - Replace `TextField` type with `StringField`&#x20;
@@ -41,6 +39,12 @@ pip install WTForms==2.3.3
 
 Using an older version provides a quick fix for your codebase but is not recommended in the long run.&#x20;
 
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
 
 ### Resources

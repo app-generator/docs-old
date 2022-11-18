@@ -4,9 +4,17 @@ description: >-
   (Lite version).
 ---
 
-# Flask MaterialPro Lite
+# [MaterialPro Lite Flask](https://appseed.us/product/material-wpx/flask/)
 
 WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspired by Google Material design principles integrated with the essential Bootstrap components and UI elements.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 
 > Links
 
-* [MaterialPro Lite Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-lite) - product page
+* [MaterialPro Lite Flask](https://appseed.us/product/material-wpx/flask/) - product page
 * [MaterialPro Lite Flask](https://github.com/app-generator/flask-material-pro-lite) - source code
 * [MaterialPro Lite Flask](https://flask-dashboard-material-lite.appseed.us/) - LIVE Demo
 

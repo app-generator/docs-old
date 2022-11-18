@@ -4,9 +4,17 @@ description: >-
   version).
 ---
 
-# Flask Light Bootstrap
+# [Light Bootstrap Dashboard Flask](https://appseed.us/product/light-bootstrap-dashboard/flask/)
 
 **Light Bootstrap Dashboard** is a Bootstrap 4 admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 4 and it is fully responsive. It can be used to create admin panels, project management systems, web applications backend, CMS, or CRM.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ description: >-
 
 > Links
 
-* [Light Bootstrap Dashboard Flask](https://appseed.us/admin-dashboards/flask-dashboard-light-bootstrap) - product page
+* [Light Bootstrap Dashboard Flask](https://appseed.us/product/light-bootstrap-dashboard/flask/) - product page
 * [Light Bootstrap Dashboard Flask](https://github.com/app-generator/flask-dashboard-light-bootstrap) - source code&#x20;
 * [Light Bootstrap Dashboard Flask](https://flask-light-bootstrap.appseed-srv1.com/) - LIVE Demo&#x20;
 

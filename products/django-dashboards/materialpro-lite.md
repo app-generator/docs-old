@@ -4,9 +4,17 @@ description: >-
   (Lite version).
 ---
 
-# Django MaterialPro Lite
+# [MaterialPro Lite Django](https://appseed.us/product/material-wpx/django/) 
 
 WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspired by Google Material design principles integrated with the essential Bootstrap components and UI elements. &#x20;
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -18,7 +26,7 @@ WrapPixel's **MaterialPro Bootstrap Lite** is a modern Bootstrap template inspir
 
 > Links
 
-* [MaterialPro Lite Django](https://appseed.us/admin-dashboards/django-dashboard-material-lite) - product page
+* [MaterialPro Lite Django](https://appseed.us/product/material-wpx/django/) - product page
 * [MaterialPro Lite Django](https://github.com/app-generator/django-dashboard-material-lite) - source code&#x20;
 * [MaterialPro Lite Django](https://django-dashboard-material-lite.appseed.us/) - LIVE Demo&#x20;
 

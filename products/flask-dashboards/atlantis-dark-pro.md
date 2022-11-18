@@ -4,9 +4,17 @@ description: >-
   design
 ---
 
-# Flask Atlantis Dark PRO
+# [Atlantis Dark PRO Flask](https://appseed.us/product/atlantis-dark-pro/flask/)
 
 Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to manage and visualize data about your business. Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to mana
 
 > Links
 
-* [Atlantis Dark PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-atlantis-dark-pro) - product page
+* [Atlantis Dark PRO Flask](https://appseed.us/product/atlantis-dark-pro/flask/) - product page
 * [Atlantis Dark PRO Flask](https://github.com/app-generator/flask-dashboard-atlantis-dark-pro) - public repository used for tracking issues
 * [Atlantis Dark PRO Flask](https://flask-atlantis-dark-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.

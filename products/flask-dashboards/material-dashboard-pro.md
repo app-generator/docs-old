@@ -4,9 +4,17 @@ description: >-
   design (PRO version).
 ---
 
-# Flask Material PRO
+# [Material PRO Flask](https://appseed.us/product/material-dashboard-pro/flask/)
 
 **Material Dashboard PRO** is a Premium Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. It is based on the popular Bootstrap 4 framework and comes packed with multiple third-party plugins. All components are built to fit perfectly with each other while aligning with the material concepts.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ description: >-
 
 > Links
 
-* [Material PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) - product page
+* [Material PRO Flask](https://appseed.us/product/material-dashboard-pro/flask/) - product page
 * [Material PRO Flask](https://github.com/app-generator/flask-dashboard-material-pro) - public repository used for bug tracking
 * [Material PRO Flask](https://flask-material-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.

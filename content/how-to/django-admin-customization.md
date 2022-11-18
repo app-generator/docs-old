@@ -11,6 +11,14 @@ This page explains how to override Django admin and import a custom template to 
 * [Django Black Dashboard](https://appseed.us/admin-dashboards/django-dashboard-black) - the product page
 * [Django Admin Black](https://github.com/app-generator/django-admin-black) - admin section customized using Black Design
 
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
+
 ## The Basics
 
 Django provides default pages for login, registration, 404 and 500 pages (etc) the full list can be found in the `site-packages/django` folder:

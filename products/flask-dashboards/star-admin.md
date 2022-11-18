@@ -4,9 +4,17 @@ description: >-
   version).
 ---
 
-# Flask Star Admin
+# [Star Admin Flask](https://appseed.us/product/star-admin/flask/)
 
 **Star Admin** is a free responsive admin template built with Bootstrap 4. The template has a colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ description: >-
 
 > Links
 
-* [Star Admin Flask](https://appseed.us/admin-dashboards/flask-star-admin) - product page
+* [Star Admin Flask](https://appseed.us/product/star-admin/flask/) - product page
 * [Star Admin Flask](https://github.com/app-generator/flask-star-admin) - source code
 * [Star Admin Flask](https://flask-star-admin.appseed-srv1.com/) - LIVE Demo
 

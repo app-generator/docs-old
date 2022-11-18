@@ -9,7 +9,12 @@ This sample explains how to extend an existing Django API Starter and add anothe
 * [Django API Server](../../boilerplate-code/api-server/django.md) - original project
 * [Django API Server Sample](https://github.com/app-generator/api-server-django-sample) - the source code with new enhancements
 
-![Django API Server - Cover Image.](../../.gitbook/assets/api-cover-django-xs.jpg)
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
 
 ## Codebase structure

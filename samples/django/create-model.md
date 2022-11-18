@@ -6,12 +6,18 @@ description: Learn how to manage a new model in Django - free sample included.
 
 This page explains **how to create and USE a model in Django**. All commands used to code the project and also the relevant updates are listed below. For newcomers, **Django** is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel.
 
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
+
 > Resources
 
 * [Django Create Model](https://github.com/app-generator/django-create-model) - the source code (Github/MIT License)
 * More [Django Samples](https://appseed.us/admin-dashboards/django) provided with authentication, basic modules
-
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.
 
 
 ## How to code this sample

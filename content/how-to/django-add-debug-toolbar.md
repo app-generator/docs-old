@@ -2,11 +2,17 @@
 description: Steps to add Debug Toolbar to a Django project
 ---
 
-# Django - Add Debug Toolbar
+# [Django Debug Toolbar](https://github.com/app-generator/django-add-debug-toolbar)
 
 This page explains how to add [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/index.html) to an existing Django project. For newcomers, the **Django Debug Toolbar** is a configurable set of panels that bumps various information about the current request/response when clicked.
 
-* [Django Debug Toolbar](https://github.com/app-generator/django-add-debug-toolbar) - open-source sample published on Github&#x20;
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 ### How to install
 

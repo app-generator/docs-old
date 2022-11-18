@@ -3,9 +3,17 @@ description: >-
   Dashboard built by AppSeed in Django on top of Soft Dashboard PRO - Manual Coded Version.
 ---
 
-# Django Datta Enhanced
+# [Django Soft Dashboard ENH](https://appseed.us/product/soft-ui-dashboard-pro/django/)
 
 This product is manualy coded on top of the generated version [Soft Dashboard PRO](./soft-ui-dashboard-pro.md)
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Version: **v1.0.5** - release date `2022-07-14`
 

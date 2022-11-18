@@ -4,23 +4,31 @@ description: >-
   (free version)
 ---
 
-# Django SB Admin
+# [SB Admin Django](https://appseed.us/product/sb-admin/django/)
 
-**SB Admin** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.&#x20;
+**SB Admin** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: **SB Admin** (free version) &#x20;
+* UI Kit: **SB Admin** (free version) 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
-* Deployment scripts: Docker, Gunicorn/Nginx&#x20;
+* Deployment scripts: Docker, Gunicorn/Nginx
 
 > Links
 
-* [SB Admin Django](https://appseed.us/admin-dashboards/django-dashboard-sb-admin) - product page
+* [SB Admin Django](https://appseed.us/product/sb-admin/django/) - product page
 * [SB Admin Django](https://github.com/app-generator/django-dashboard-sb-admin) - source code
-* [SB Admin Django](https://django-sb-admin.appseed-srv1.com/) - LIVE Demo&#x20;
+* [SB Admin Django](https://django-sb-admin.appseed-srv1.com/) - LIVE Demo
 
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 

@@ -4,9 +4,17 @@ description: >-
   (Premium version).
 ---
 
-# Django MaterialPro
+# [MaterialPro Django](https://appseed.us/product/material-wpx-pro/django/)
 
 WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material design template that comes packed with new, fresh, and attractive designs and ready-to-use components.&#x20;
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -18,14 +26,13 @@ WrapPixel’s **MaterialPro Bootstrap Admin** is a premium bootstrap material de
 
 > Links
 
-* [MaterialPro Django](https://appseed.us/admin-dashboards/django-material-dashboard-wpx-pro) - product page
+* [MaterialPro Django](https://appseed.us/product/material-wpx-pro/django/) - product page
 * [MaterialPro Django](https://github.com/app-generator/django-material-wpx-pro) - public repository used for tracking issues &#x20;
 * [MaterialPro Django](https://django-material-wpx-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
 
-###
 
-### What is Django
+## What is Django
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
 
@@ -33,7 +40,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### How to use the App
+## How to use the App
 
 * [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
 * [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
@@ -41,8 +48,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 * [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
 
 
-
-### MaterialPro WrapPixel - UI Kit
+## MaterialPro WrapPixel - UI Kit
 
 **Material Pro** Bootstrap Admin dashboard is versatile, user-friendly and has a clean code structure that optimizes the development cost and time. The smoothness and efficiency in using a customizable admin dashboard are felt with the reliable design inspiration by Google’s material design.
 

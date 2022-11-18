@@ -8,9 +8,17 @@ description: >-
 
 Eleventy Soft is an Eleventy adaptation of Soft UI Design System (a user-friendly and beautiful design system based on Bootstrap 5), including a Blog system that uses Prismic CMS for content management.
 
-> Soft UI Design System is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using SASS files and classes.
->
-> You will save a lot of time going from prototyping to full-functional code because all elements are implemented. This Freebie Bootstrap 5 UI Kit is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+Soft UI Design System is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using SASS files and classes.
+
+You will save a lot of time going from prototyping to full-functional code because all elements are implemented. This Freebie Bootstrap 5 UI Kit is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 ### Quick Start
 

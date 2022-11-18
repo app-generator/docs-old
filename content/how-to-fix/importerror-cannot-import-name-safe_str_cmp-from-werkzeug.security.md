@@ -23,6 +23,12 @@ description: >-
 Freeze the `Werkzeug`  to the latest stable version prior to v2.1.0. The recommended version is **Werkzeug==2.0.3.**&#x20;
 
 
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 ### Sample Project
 

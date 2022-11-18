@@ -6,12 +6,18 @@ description: Open-source sample provided by AppSeed to explain Django routing me
 
 This sample might be useful to beginners to understand **how the routing system works in Django** Web Framework. In the end, the sample will route three things: a default route that shows a simple _Hello World,_ a 2nd route that displays a random number at each page refresh, and the last route that shows a random image pulled from the internet.
 
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
+
 > Resources
 
 * [Django Routing Sample](https://github.com/app-generator/django-routing-sample) - the source code (Github/MIT License)
 * More [Django Samples](https://appseed.us/admin-dashboards/django) provided with authentication, basic modules
-
-> [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [AppSeed](https://appseed.us/) **users**.
 
 
 ## What is Django

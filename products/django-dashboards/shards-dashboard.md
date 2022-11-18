@@ -6,21 +6,29 @@ description: >-
 
 # Django Shards Dashboard
 
-A high-quality & free Bootstrap admin dashboard template pack that comes with lots of templates and components. Based on Bootstrap 4, **Shards Dashboard Lite** is fully responsive and capable to adapt its layout to any viewport size.&#x20;
+A high-quality & free Bootstrap admin dashboard template pack that comes with lots of templates and components. Based on Bootstrap 4, **Shards Dashboard Lite** is fully responsive and capable to adapt its layout to any viewport size.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: Shards Dashboard (free version) provided by DesignRevision &#x20;
+* UI Kit: Shards Dashboard (free version) provided by DesignRevision 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
-* Deployment scripts: Docker, Gunicorn/Nginx&#x20;
+* Deployment scripts: Docker, Gunicorn/Nginx
 
-> Links&#x20;
+> Links
 
 * [Shards Django](https://appseed.us/admin-dashboards/django-dashboard-shards) - product page
 * [Shards Django](https://github.com/app-generator/django-dashboard-shards) - source code
-* [Shards Django](https://django-dashboard-shards.appseed.us/) - LIVE Demo&#x20;
+* [Shards Django](https://django-dashboard-shards.appseed.us/) - LIVE Demo
 
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 

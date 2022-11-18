@@ -4,9 +4,17 @@ description: >-
   (PRO version).
 ---
 
-# Flask Black PRO
+# [Black PRO Flask](https://appseed.us/product/black-dashboard-pro/flask/)
 
 **Black Dashboard PRO** is a beautiful Bootstrap 4 Admin Dashboard that comes in 2 versions: Dark and Light Mode. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ description: >-
 
 > Links
 
-* [Black PRO Flask](https://appseed.us/admin-dashboards/flask-dashboard-black-pro) - product page
+* [Black PRO Flask](https://appseed.us/product/black-dashboard-pro/flask/) - product page
 * [Black PRO Flask](https://github.com/app-generator/flask-dashboard-black-pro) - public repository used for bug tracking
 * [Black PRO Flask](https://flask-black-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 * [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;

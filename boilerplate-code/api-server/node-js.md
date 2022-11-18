@@ -8,16 +8,12 @@ description: >-
 
 Free API Server coded on top of Express / Node JS with **SQLite** persistence and JWT authentication via Passport library - `passport-jwt` strategy.
 
-\
-
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
-> The campaign is active until `30.NOV` and applies to all products and licenses.
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
 
-[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
-
-\
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
 
 > Version: [**v1.0.1**](https://github.com/app-generator/api-server-nodejs/releases), release date `2022-06-02`

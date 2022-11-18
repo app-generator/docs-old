@@ -4,9 +4,17 @@ description: >-
   version).
 ---
 
-# Flask Material Admin
+# [Material Admin Flask](https://appseed.us/product/material-dashboard/flask/)
 
 **Material Admid** is an open-source dashboard template Based on Bootstrap 4.4 framework and also the JS/jQuery plugin. It comes with a big collection of elements that will offer you multiple possibilities to create the app that best fits your needs.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ description: >-
 
 > Links
 
-* [Material Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - product page
+* [Material Admin Flask](https://appseed.us/product/material-dashboard/flask/) - product page
 * [Material Admin Flask](https://github.com/app-generator/flask-dashboard-material-admin) - source code
 * [Material Admin Flask](https://flask-dashboard-material-admin.appseed.us/) - LIVE Deployment
 

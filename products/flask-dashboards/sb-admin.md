@@ -4,9 +4,17 @@ description: >-
   (free version)
 ---
 
-# Flask SB Admin
+# [SB Admin Flask](https://appseed.us/product/sb-admin/flask/)
 
 **SB Admin** is a beautifully designed admin template featuring a fine selection of useful Bootstrap components and elements. For newcomers, **Flask** is a lightweight web application framework written in Python that can be easily extended to become an API, a simple one-page project, or complex eCommerce solutions.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -20,7 +28,7 @@ description: >-
 
 > Links
 
-* [SB Admin Flask](https://appseed.us/admin-dashboards/flask-dashboard-sb-admin) - product page
+* [SB Admin Flask](https://appseed.us/product/sb-admin/flask/) - product page
 * [SB Admin Flask](https://github.com/app-generator/flask-dashboard-sb-admin) - source code
 * [SB Admin Flask](https://flask-sb-admin.appseed-srv1.com/) - LIVE Demo
 

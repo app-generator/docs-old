@@ -2,9 +2,17 @@
 description: Premium seed project built in Flask on top of Soft UI Dashboard (PRO version).
 ---
 
-# Flask Soft Dashboard Pro
+# [Soft UI Dashboard Flask PRO](https://appseed.us/product/soft-ui-dashboard-pro/flask/)
 
 Made of hundred of elements, designed blocks, and fully coded pages, [**Soft UI Dashboard PRO**](https://appseed.us/product/flask-soft-ui-dashboard-pro) is ready to help you create stunning websites and web apps. `Soft UI Dashboard PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
@@ -18,20 +26,18 @@ Made of hundred of elements, designed blocks, and fully coded pages, [**Soft UI 
 
 > Links
 
-* [Soft UI Dashboard Flask PRO](https://appseed.us/product/flask-soft-ui-dashboard-pro) - Product page
+* [Soft UI Dashboard Flask PRO](https://appseed.us/product/soft-ui-dashboard-pro/flask/) - Product page
 * [Soft UI Dashboard Flask PRO](https://flask-soft-ui-dashboard-pro.appseed-srv1.com/) - LIVE Demo
 
-> [Support](https://appseed.us/support) via Email and LIVE on [Discord](https://discord.gg/fZC6hup)
 
-
-### What is Flask
+## What is Flask
 
 **Flask** is a lightweight [WSGI](../../content/what-is/wsgi.md) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Classified as a microframework, Flask is written in Python and it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 > Read more about [Flask Framework](../../content/what-is/flask.md)
 
 
-### How to use the App
+## How to use the App
 
 * [Set up the environment](../../boilerplate-code/flask-dashboard.md#environment) - prepare your workstation for Flask
 * [Compile the sources](../../boilerplate-code/flask-dashboard.md#build-the-app) - start this Flask app in the local environment
@@ -39,7 +45,7 @@ Made of hundred of elements, designed blocks, and fully coded pages, [**Soft UI 
 * [App Configuration](../../boilerplate-code/flask-dashboard.md#app-configuration) - how to configure this Flask application
 
 
-### Soft Dashboard UI PRO
+## Soft Dashboard UI PRO
 
 Premium Bootstrap 5 dashboard designed by `Creative-Tim`.  This Premium Bootstrap 5 Dashboard is coming with prebuilt design blocks, so the development process is seamless, switching from our pages to the real website is very easy to be done.
 

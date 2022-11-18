@@ -4,23 +4,31 @@ description: >-
   version).
 ---
 
-# Django Star Admin
+# [Star Admin Django](https://appseed.us/product/star-admin/django/)
 
-**Star Admin** is a free responsive admin template built with Bootstrap 4. The template has a colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template.&#x20;
+**Star Admin** is a free responsive admin template built with Bootstrap 4. The template has a colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template.
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [Star Admin](../../content/bootstrap-template/star-admin.md) (free version) &#x20;
+* UI Kit: [Star Admin](../../content/bootstrap-template/star-admin.md) (free version) 
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
-* Deployment scripts: Docker, Gunicorn/Nginx&#x20;
+* Deployment scripts: Docker, Gunicorn/Nginx
 
-> Links&#x20;
+> Links
 
-* [Star Admin Django](https://appseed.us/admin-dashboards/django-star-admin) - product page
-* [Star Admin Django](https://github.com/app-generator/django-star-admin) - source code&#x20;
-* [Star Admin Django](https://django-star-admin.appseed-srv1.com/) - LIVE Demo&#x20;
+* [Star Admin Django](https://appseed.us/product/star-admin/django/) - product page
+* [Star Admin Django](https://github.com/app-generator/django-star-admin) - source code
+* [Star Admin Django](https://django-star-admin.appseed-srv1.com/) - LIVE Demo
 
 > [Support](https://appseed.us/support) (Email and LIVE on Discord) for **registered** [**AppSeed**](https://appseed.us/) **users**.
 
@@ -43,7 +51,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### Star Admin - UI Kit&#x20;
+### Star Admin - UI Kit
 
 Star Admin is packed with all the features that fit your needs but not cramped with components you would not even use. It is an excellent fit to build admin panels, e-commerce systems, project management systems, CMS or CRM.
 

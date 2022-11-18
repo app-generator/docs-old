@@ -4,28 +4,27 @@ description: >-
   design (PRO version).
 ---
 
-# Django Argon PRO
+# [Argon PRO Django](https://appseed.us/product/argon-dashboard-pro/django/)
 
-**Argon Dashboard** is built with over 200 individual components, giving you the freedom of choosing and combining. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.&#x20;
+**Argon Dashboard** is built with over 200 individual components, giving you the freedom of choosing and combining. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
 
 > Features
 
 * Codebase - [Django Dashboard Boilerplate](../../boilerplate-code/django-dashboard.md)
-* UI Kit: [Argon Dashboard PRO](../../content/bootstrap-template/argon-dashboard-pro.md) (premium version) &#x20;
+* UI Kit: [Argon Dashboard PRO](../../content/bootstrap-template/argon-dashboard-pro.md) (premium version)
 * SQLite Database, Django Native ORM
 * Session-Based Authentication, Forms validation
-* Deployment scripts: Docker, Gunicorn/Nginx&#x20;
+* Deployment scripts: Docker, Gunicorn/Nginx
 
-> Links&#x20;
 
-* [Argon PRO Django](https://appseed.us/admin-dashboards/django-dashboard-argon-pro) - product page
-* [Argon PRO Django](https://github.com/app-generator/django-dashboard-argon-pro) - public repository used for bug tracking
-* [Argon PRO Django](https://django-argon-dashboard-pro.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
-###
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
 
-### What is Django
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
+
+## What is Django
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
 
@@ -33,7 +32,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### How to use the App
+## How to use the App
 
 * [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
 * [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
@@ -42,11 +41,11 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 
 
-### [Argon PRO](../../content/bootstrap-template/argon-dashboard-pro.md) - UI Kit
+## [Argon PRO](../../content/bootstrap-template/argon-dashboard-pro.md) - UI Kit
 
 Argon is a completely new product built on our newest re-built from scratch framework structure that is meant to make our products more intuitive, more adaptive, and needless to say, so much easier to customize. Let Argon amaze you with its cool features and build tools and get your project to a whole new level.
 
-* [Argon PRO](../../content/bootstrap-template/argon-dashboard-pro.md) - information provided by AppSeed&#x20;
+* [Argon PRO](../../content/bootstrap-template/argon-dashboard-pro.md) - information provided by AppSeed
 * [Argon Dashboard PRO](https://bit.ly/39D2BLX) - product page hosted by [Creative-Tim](../../content/partners/creative-tim.md)
 
 ![Argon Dashboard - Premium Bootstrap Template](../../.gitbook/assets/docs-cover-argon-pro.jpg)

@@ -16,12 +16,12 @@ description: >-
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx
 
-\
 
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
-> Sources: https://github.com/app-generator/django-dashboard-light-blue
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
 
-\
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
 
 ## 🚀 Where to go from here

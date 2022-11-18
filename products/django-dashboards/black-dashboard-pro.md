@@ -4,7 +4,7 @@ description: >-
   design (PRO version).
 ---
 
-# Django Black PRO
+# [Black PRO Django](https://appseed.us/product/black-dashboard-pro/django/)
 
 **Black Dashboard PRO** is a beautiful Bootstrap 4 Admin Dashboard that comes in 2 versions: Dark and Light Mode. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.&#x20;
 
@@ -16,30 +16,27 @@ description: >-
 * Session-Based Authentication, Forms validation
 * Deployment scripts: Docker, Gunicorn/Nginx&#x20;
 
-> Links&#x20;
 
-* [Black PRO Django](https://appseed.us/admin-dashboards/django-dashboard-black-pro) - product page
-* [Black PRO Django](https://github.com/app-generator/django-dashboard-black-pro) - public repository used for bug tracking
-* [Black PRO Django](https://django-black-dashboard-pro.appseed-srv1.com/) - LIVE Demo
-* [Support](https://appseed.us/support):  via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Assistance.&#x20;
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
-###
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
 
-### What is Django
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
+
+## What is Django
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
 
 > Read more about [Django Framework](../../content/what-is/django.md)
 
 
-
-### How to use the App
+## How to use the App
 
 * [Set up the environment](../../boilerplate-code/django-dashboard.md#environment-1) - prepare your workstation for **Django**
 * [Compile the sources](../../boilerplate-code/django-dashboard.md#build-the-app-1) - start this **Django** app in the local environment
 * [App Codebase](../../boilerplate-code/django-dashboard.md#app-codebase) - how the project files are organized
 * [App Configuration](../../boilerplate-code/django-dashboard.md#app-configuration) - how to configure this **Django** application
-
 
 
 ### Black Dashboard PRO - UI Kit

@@ -8,7 +8,14 @@ This tool aims to provide a secure, `production-ready API via DRF` (Django REST 
 
 * 👉 [Django Dynamic API](https://appseed.us/developer-tools/django-dynamic-api/) - product page
 * 👉 [Django Dynamic API](https://www.youtube.com/watch?v=TrTI2jG2LCw) - video presentation
-* 🚀 More [Developer Tools](https://appseed.us/developer-tools/) - provided by AppSeed
+
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
+
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+
 
 ### Tool Specs & Status
 
