@@ -10,7 +10,7 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 
 > The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
 
-<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
 
 > Version: [**v1.0.2**](https://github.com/app-generator/api-server-django/releases), release date `2022-06-07`
