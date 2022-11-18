@@ -6,6 +6,16 @@ description: Open-source API Server crafted in Flask using JWT Authentication an
 
 Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boilerplate) enhanced with JWT authentication, SqlAlchemy, **SQLite** persistence and deployment scripts via Docker. It has all the ready-to-use bare minimum essentials.
 
+<br />
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The campaign is active until `30.NOV` and applies to all products and licenses.
+
+[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+
+<br />
+
 > Version: **[v1.0.2](https://github.com/app-generator/api-server-flask/releases)**, release date `2022-06-07` 
 
 * [API Definition](api-unified-definition.md) - the unified API structure implemented by this server

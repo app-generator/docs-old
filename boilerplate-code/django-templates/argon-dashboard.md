@@ -12,6 +12,15 @@ Modern template for **Django Admin Interface** coded on top of **Argon Dashboard
 - [Django Argon Dashboard](https://django-argon-dashboard.appseed-srv1.com/) - LIVE Demo
 - [Django Argon Dashboard](https://github.com/app-generator/django-argon-theme-playground) - `playground project` 
 
+<br />
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The campaign is active until `30.NOV` and applies to all products and licenses.
+
+[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+
+<br />
 
 ## Why `Django Argon Design`
 

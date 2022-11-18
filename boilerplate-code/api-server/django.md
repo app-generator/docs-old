@@ -6,6 +6,16 @@ description: Open-source API Server crafted in Django using DRF (Django REST Fra
 
 Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authentication flow is based on **json web tokens**. The product comes with a simple, intuitive codebase, DRF integration, SQLite for persistence JWT Authentication API, Docker, and unitary tests.
 
+<br />
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The campaign is active until `30.NOV` and applies to all products and licenses.
+
+[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+
+<br />
+
 > Version: **[v1.0.2](https://github.com/app-generator/api-server-django/releases)**, release date `2022-06-07` 
 
 * [API Definition](api-unified-definition.md) - the unified API structure implemented by this server

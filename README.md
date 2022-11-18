@@ -8,6 +8,16 @@ description: App Generator - the official documentation.
 
 AppSeed is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim/), [CodedThemes](https://appseed.us/agency/codedthemes/), [Themesberg](https://appseed.us/agency/themesberg/), and other well-known [agencies](https://appseed.us/agency/).
 
+<br />
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The campaign is active until `30.NOV` and applies to all products and licenses.
+
+[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+
+<br />
+
 Such projects can be used in many contexts by developers and designers:
 
 * Start a new project and code specific features on top of the existing codebase

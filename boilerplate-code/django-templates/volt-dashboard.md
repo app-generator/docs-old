@@ -12,6 +12,16 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 * [Django Volt Dashboard](https://appseed.us/product/volt-dashboard/django/) - Open-source starter that uses the same UI Kit
 * [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) - LIVE Demo
 
+<br />
+
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The campaign is active until `30.NOV` and applies to all products and licenses.
+
+[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+
+<br />
+
 ## Why `Django Admin Volt`
 
 - Modern `Bootstrap 5` Design
