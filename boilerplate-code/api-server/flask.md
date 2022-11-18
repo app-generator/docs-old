@@ -6,7 +6,8 @@ description: Open-source API Server crafted in Flask using JWT Authentication an
 
 Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boilerplate) enhanced with JWT authentication, SqlAlchemy, **SQLite** persistence and deployment scripts via Docker. It has all the ready-to-use bare minimum essentials.
 
-<br />
+\
+
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
@@ -14,9 +15,10 @@ Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boi
 
 [![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
 
-<br />
+\
 
-> Version: **[v1.0.2](https://github.com/app-generator/api-server-flask/releases)**, release date `2022-06-07` 
+
+> Version: [**v1.0.2**](https://github.com/app-generator/api-server-flask/releases), release date `2022-06-07`
 
 * [API Definition](api-unified-definition.md) - the unified API structure implemented by this server
 * [Flask API Server](https://github.com/app-generator/api-server-flask) - source code
@@ -31,10 +33,9 @@ Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boi
   * `/api/users/login`: authenticate an existing user
   * `/api/users/logout`: delete the associated JWT token
   * `/api/users/checkSession`: check an existing JWT Token for validity
-  * `/api/users/edit` - edit the information associated with a registered user 
+  * `/api/users/edit` - edit the information associated with a registered user
 
 ![Flask API Server - Open-source Product.](../../.gitbook/assets/api-cover-flask-xs.jpg)
-
 
 ## ✨ Requirements
 
@@ -43,7 +44,6 @@ Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boi
 * **flask-restx**==0.5.1
 * **Flask-JWT-Extended**==4.4.1
 * pytest
-
 
 ## ✨ Getting Started
 
@@ -61,7 +61,7 @@ $ python3 -m venv /path/to/your/virtual/environment
 $ source <path/to/venv>/bin/activate
 ```
 
-Install dependencies in once the `virtualenv`  is activated
+Install dependencies in once the `virtualenv` is activated
 
 ```
 $ pip install -r requirements.txt
@@ -102,10 +102,9 @@ $ flask run
 
 Visit `http://localhost:5000` in your browser. The API server will be running.
 
-
 ## ✨ Project Structure
 
-The codebase has a simple, intuitive structure where `run.py` is responsible to bundle and start the API Server using the setup coded by the `api` folder:   
+The codebase has a simple, intuitive structure where `run.py` is responsible to bundle and start the API Server using the setup coded by the `api` folder:
 
 ```
 api-server-flask/
@@ -120,7 +119,6 @@ api-server-flask/
 ├── run.py
 └── tests.py
 ```
-
 
 ## ✨ Compatible Fullstack Products
 

@@ -6,7 +6,8 @@ description: Open-source API Server crafted in Django using DRF (Django REST Fra
 
 Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authentication flow is based on **json web tokens**. The product comes with a simple, intuitive codebase, DRF integration, SQLite for persistence JWT Authentication API, Docker, and unitary tests.
 
-<br />
+\
+
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
@@ -14,9 +15,10 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 
 [![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
 
-<br />
+\
 
-> Version: **[v1.0.2](https://github.com/app-generator/api-server-django/releases)**, release date `2022-06-07` 
+
+> Version: [**v1.0.2**](https://github.com/app-generator/api-server-django/releases), release date `2022-06-07`
 
 * [API Definition](api-unified-definition.md) - the unified API structure implemented by this server
 * [Django API Server](https://github.com/app-generator/api-server-django) - source code
@@ -35,7 +37,6 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 
 ![Django API Server - Open-source Product.](../../.gitbook/assets/api-cover-django-xs.jpg)
 
-
 ## ✨ Requirements
 
 * **Python3** (Python2 is not supported)
@@ -44,7 +45,6 @@ Simple starter built with Python / Django Rest / Sqlite3 and JWT Auth. The authe
 * **PyJWT**==2.4.0
 * **django-cors-headers**==3.13.0
 * **gunicorn**==20.1.0 (used by the Docker set up)
-
 
 ## ✨ How to use the code
 
@@ -77,7 +77,6 @@ $ python manage.py runserver
 
 The API server will start using the default port `8000`.
 
-
 ## ✨ **Docker execution**
 
 > 👉 **Step 1** - Get the code
@@ -94,7 +93,6 @@ $ docker-compose up -d --build
 ```
 
 Visit `http://localhost:5000` in your browser. The API server will be running
-
 
 ## ✨ Compatible Fullstack Products
 

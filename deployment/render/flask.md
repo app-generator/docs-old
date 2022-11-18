@@ -22,15 +22,15 @@ The Sign UP is provided via classic Email and Social Authentication for well-kno
 
 All projects that use a dynamic language during runtime (Python, NodeJs) should be created as web services. This option can be found in the navigation bar, as shown below:
 
-<figure><img src="../../.gitbook/assets/render-02-create-web-service-menu-min (1).jpg" alt=""><figcaption><p>Flask Render Deployment - Creat Web Service</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/render-02-create-web-service-menu-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Creat Web Service</p></figcaption></figure>
 
 ### Link GitHub Repository
 
 The next step is to associate a Flask project with the newly created web service. Render support account linkage with external platforms like GitHub, GitLab, and BitBucket. In our demonstration, an open-source repository is used as a working sample.
 
-> 👉 [Flask & Stripe - Mini eCommerce](https://github.com/app-generator/sample-flask-stripe) (MIT License)  
+> 👉 [Flask & Stripe - Mini eCommerce](https://github.com/app-generator/sample-flask-stripe) (MIT License)
 
-<figure><img src="../../.gitbook/assets/render-02-create-web-service-sshot-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Target Project</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/render-12-create-web-service-sshot-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Target Project</p></figcaption></figure>
 
 > 👉 Here is the **Render** UI that allows the project association with the web service
 
@@ -52,7 +52,7 @@ A visual representation of the above settings used to deploy the project can be 
 
 <figure><img src="../../.gitbook/assets/render-04-create-web-service-basic-options-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Project Settings</p></figcaption></figure>
 
-**The next step** is to specify the billing plan for the project. **Render** platform, at the moment this material is edited, provides a free plan only for static sites built with **React**, **Vue**, **Next**, and all other frameworks. 
+**The next step** is to specify the billing plan for the project. **Render** platform, at the moment this material is edited, provides a free plan only for static sites built with **React**, **Vue**, **Next**, and all other frameworks.
 
 <figure><img src="../../.gitbook/assets/render-05-create-web-service-plans-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Paid Pricing Plan</p></figcaption></figure>
 
@@ -89,9 +89,9 @@ The LIVE version of the project can be updated and even rollbacked anytime with 
 
 > 👉 **Step #2** - Select the GitHub commit to deploy
 
-<figure><img src="../../.gitbook/assets/render-10-create-web-service-trigger-build-commit-id-min.jpg" alt=""><figcaption><p>Flask Render Deployment - Manual Deploy, Select Commit</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/render-10-create-web-service-trigger-build-commit-id-min (1).jpg" alt=""><figcaption><p>Flask Render Deployment - Manual Deploy, Select Commit</p></figcaption></figure>
 
-Once the **Render** platform starts the build, the state of the web service is flagged as "**IN Progress**" and soon the updated version should be LIVE. 
+Once the **Render** platform starts the build, the state of the web service is flagged as "**IN Progress**" and soon the updated version should be LIVE.
 
 ## Links & Resources
 

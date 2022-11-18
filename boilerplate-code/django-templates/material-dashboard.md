@@ -4,15 +4,16 @@ description: >-
   Design (free version)
 ---
 
-# [Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)
+# Django Material Dashboard
 
 Modern template for **Django Admin Interface** coded on top of **Material Dashboard**, an open-source `Boostrap 5` design from `Creative-Tim`.
 
 * [Django Template Material](https://pypi.org/project/django-admin-material-dashboard/) - PyPi Page
-- [Django Material Dashboard](https://appseed.us/product/material-dashboard/django/) - free starter with the same design
-- [Django Material Dashboard](https://django-material-dashboard.appseed-srv1.com/) - LIVE Demo
+* [Django Material Dashboard](https://appseed.us/product/material-dashboard/django/) - free starter with the same design
+* [Django Material Dashboard](https://django-material-dashboard.appseed-srv1.com/) - LIVE Demo
 
-<br />
+\
+
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
@@ -20,14 +21,15 @@ Modern template for **Django Admin Interface** coded on top of **Material Dashbo
 
 [![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
 
-<br />
+\
+
 
 ## Why `Django Admin Material`
 
-- Modern `Bootstrap 5` Design
-- `Responsive Interface`
-- `Minimal Template` overriding
-- `Easy integration`
+* Modern `Bootstrap 5` Design
+* `Responsive Interface`
+* `Minimal Template` overriding
+* `Easy integration`
 
 ![Django Admin Material Dashboard - Edit users page.](https://user-images.githubusercontent.com/51070104/169301658-6cf27993-c451-4cd4-9ffa-2968b8981167.png)
 
@@ -71,10 +73,9 @@ $ python manage.py runserver # default port 8000
 
 Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
-
 ## Screenshots
 
-> **Material Dashboard Theme** - `Admin Section` 
+> **Material Dashboard Theme** - `Admin Section`
 
 ![Django Admin Material Dashboard - Admin dashboard page.](https://user-images.githubusercontent.com/51070104/196743760-6e0e1930-8233-421c-ac53-d65c273b00dc.png)
 
@@ -82,5 +83,6 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ![Django Admin Material Dashboard - New User Page.](https://user-images.githubusercontent.com/51070104/196743821-2e140dd8-fe15-4615-9e9f-0467900b1a1b.png)
 
----
-**[Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+***
+
+[**Django Admin Material**](https://github.com/app-generator/django-admin-material-dashboard) - Modern Admin Interface provided by [**AppSeed**](https://appseed.us/)

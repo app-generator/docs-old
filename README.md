@@ -6,17 +6,16 @@ description: App Generator - the official documentation.
 
 ## ✨ What is [AppSeed](https://appseed.us)
 
-AppSeed is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim/), [CodedThemes](https://appseed.us/agency/codedthemes/), [Themesberg](https://appseed.us/agency/themesberg/), and other well-known [agencies](https://appseed.us/agency/).
+AppSeed is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim/), [CodedThemes](https://appseed.us/agency/codedthemes/), [Themesberg](https://appseed.us/agency/themesberg/), and other well-known [agencies](https://appseed.us/agency/). \
 
-<br />
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
 > The campaign is active until `30.NOV` and applies to all products and licenses.
 
-[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
-<br />
+
 
 Such projects can be used in many contexts by developers and designers:
 
@@ -28,9 +27,9 @@ Starters are provided in different patterns and technologies under permissive (M
 
 * 👉 [Open-source dashboards](https://appseed.us/admin-dashboards/open-source/) generated in [Flask](https://appseed.us/admin-dashboards/flask/) and [Django](https://appseed.us/admin-dashboards/django/)
 * 👉 [Web Apps](https://appseed.us/apps/) powered by [Flask](https://appseed.us/apps/flask/), and [Django](https://appseed.us/apps/django/)
-* 👉 Full-Stack applications that use [React](https://appseed.us/apps/react/) as frontend engine
+* 👉 Full-Stack applications that use [React](https://appseed.us/apps/react/) as a frontend engine
 * 👉 API Servers for [NodeJS](boilerplate-code/api-server/node-js.md), [Flask](boilerplate-code/api-server/flask.md) and [Django](boilerplate-code/api-server/django.md).
-* 👉 [Tools for Developers](broken-reference): API Generators, Dynamic Datatables, UI Tester&#x20;
+* 👉 [Tools for Developers](broken-reference/): API Generators, Dynamic Datatables, UI Tester
 
 ## ✨ [Support](https://appseed.us/support/)
 

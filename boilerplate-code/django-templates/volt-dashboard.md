@@ -4,7 +4,7 @@ description: >-
   Design (free version)
 ---
 
-# [Django Admin Volt](https://github.com/app-generator/django-admin-volt)
+# Django Template Volt
 
 Modern template for **Django admin interface** coded on top of Volt Dashboard (free version) from **Themesberg**. Volt Dashboard is a free and open-source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages, and 3 plugins with Vanilla JS.
 
@@ -12,7 +12,8 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 * [Django Volt Dashboard](https://appseed.us/product/volt-dashboard/django/) - Open-source starter that uses the same UI Kit
 * [Django Volt Dashboard](https://django-volt-dashboard.appseed-srv1.com) - LIVE Demo
 
-<br />
+\
+
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
@@ -20,14 +21,15 @@ Modern template for **Django admin interface** coded on top of Volt Dashboard (f
 
 [![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
 
-<br />
+\
+
 
 ## Why `Django Admin Volt`
 
-- Modern `Bootstrap 5` Design
-- `Responsive Interface`
-- `Minimal Template` overriding
-- `Easy integration`
+* Modern `Bootstrap 5` Design
+* `Responsive Interface`
+* `Minimal Template` overriding
+* `Easy integration`
 
 ![Django Admin Volt - Open-source Boostrap 5 Design (mobile view).](https://user-images.githubusercontent.com/51070104/196727476-d12f8ddc-4b41-412b-9b95-df3ee3c01ad4.png)
 
@@ -71,17 +73,19 @@ $ python manage.py runserver # default port 8000
 
 Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
-<br />
+\
+
 
 ## Screenshots
 
-> **Volt Theme** - `Admin Section`  
+> **Volt Theme** - `Admin Section`
 
-![Django Admin Volt - Main Django Dashboard screen.](https://user-images.githubusercontent.com/51070104/136143245-85cd8af7-43ea-4956-8fcd-45e307171943.png) 
+![Django Admin Volt - Main Django Dashboard screen.](https://user-images.githubusercontent.com/51070104/136143245-85cd8af7-43ea-4956-8fcd-45e307171943.png)
 
 > **Volt Theme** - `Dashboard`
 
 ![Django Admin Volt - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/132288100-0c65159f-71a6-41f0-9f55-9544916385ae.jpg)
 
----
-**[Django Admin Volt](https://github.com/app-generator/django-admin-volt)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+***
+
+[**Django Admin Volt**](https://github.com/app-generator/django-admin-volt) - Modern Admin Interface provided by [**AppSeed**](https://appseed.us/)

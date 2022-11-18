@@ -8,7 +8,8 @@ description: >-
 
 Free API Server coded on top of Express / Node JS with **SQLite** persistence and JWT authentication via Passport library - `passport-jwt` strategy.
 
-<br />
+\
+
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
@@ -16,9 +17,10 @@ Free API Server coded on top of Express / Node JS with **SQLite** persistence an
 
 [![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
 
-<br />
+\
 
-> Version: **[v1.0.1](https://github.com/app-generator/api-server-nodejs/releases)**, release date `2022-06-02` 
+
+> Version: [**v1.0.1**](https://github.com/app-generator/api-server-nodejs/releases), release date `2022-06-02`
 
 * [API Definition](api-unified-definition.md) - the unified API structure implemented by this server
 * [Node JS API Server](https://github.com/app-generator/api-server-nodejs) - source code
@@ -37,15 +39,13 @@ Free API Server coded on top of Express / Node JS with **SQLite** persistence an
 
 ![Node JS API Server - Open-source Product.](../../.gitbook/assets/api-cover-nodejs-xs.jpg)
 
-
 ## ✨ Tests Matrix
 
-| NodeJS | NPM | YARN | Status | 
-| --- | --- | --- | --- | 
-| `v17.0.0`  | `v8.11.0`  | `v1.22.18` | ✔️ |
-| `v16.15.1` | `v8.11.0`  | `v1.22.18` | ✔️ | 
-| `v16.13.0` | `v8.1.0`   | `v1.22.5`  | ✔️ | 
-
+| NodeJS     | NPM       | YARN       | Status |
+| ---------- | --------- | ---------- | ------ |
+| `v17.0.0`  | `v8.11.0` | `v1.22.18` | ✔️     |
+| `v16.15.1` | `v8.11.0` | `v1.22.18` | ✔️     |
+| `v16.13.0` | `v8.1.0`  | `v1.22.5`  | ✔️     |
 
 ## ✨ How to use the code
 
@@ -64,13 +64,13 @@ $ npm i
 $ yarn
 ```
 
-> 👉 **Step 3** -  Run the `SQLite` migration
+> 👉 **Step 3** - Run the `SQLite` migration
 
 ```
 $ yarn typeorm migration:run
 ```
 
-> 👉 **Step 4** -  Start the API server (development mode)
+> 👉 **Step 4** - Start the API server (development mode)
 
 ```
 $ npm dev
@@ -78,7 +78,7 @@ $ npm dev
 $ yarn dev
 ```
 
-> 👉 **Step 5** -  Production Build (files generated in `build` directory)
+> 👉 **Step 5** - Production Build (files generated in `build` directory)
 
 ```
 $ npm build
@@ -86,7 +86,7 @@ $ npm build
 $ yarn build
 ```
 
-> 👉 **Step 6** -  Start the API server (production mode)
+> 👉 **Step 6** - Start the API server (production mode)
 
 ```
 $ npm start
@@ -94,8 +94,7 @@ $ npm start
 $ yarn start
 ```
 
-The API server will start using the `PORT` specified in `.env` file (default 5000)\
-
+The API server will start using the `PORT` specified in `.env` file (default 5000)\\
 
 ## ✨ Codebase Structure
 
@@ -140,7 +139,6 @@ $ yarn typeorm migration:generate -n your_migration_name
 ```
 $ yarn typeorm migration:run
 ```
-
 
 ## ✨ Compatible Fullstack Products
 
