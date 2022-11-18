@@ -11,7 +11,7 @@ Simple [Flask API Boilerplate](https://appseed.us/boilerplate-code/flask-api-boi
 
 > The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
 
-<figure><img src="https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
 
 > Version: [**v1.0.2**](https://github.com/app-generator/api-server-flask/releases), release date `2022-06-07`
