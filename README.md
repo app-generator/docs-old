@@ -6,14 +6,14 @@ description: App Generator - the official documentation.
 
 ## ✨ What is [AppSeed](https://appseed.us)
 
-AppSeed is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim/), [CodedThemes](https://appseed.us/agency/codedthemes/), [Themesberg](https://appseed.us/agency/themesberg/), and other well-known [agencies](https://appseed.us/agency/). \
+AppSeed is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim/), [CodedThemes](https://appseed.us/agency/codedthemes/), [Themesberg](https://appseed.us/agency/themesberg/), and other well-known [agencies](https://appseed.us/agency/).
 
 
 ## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
 
 > The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
 
-[<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>](https://appseed.us/discounts/)
+<figure><img src=".gitbook/assets/bf2022-banner-800px.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
 
 
 Such projects can be used in many contexts by developers and designers:
