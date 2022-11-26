@@ -2,68 +2,41 @@
 description: App Generator - the official documentation.
 ---
 
-# Home
+# [AppSeed](https://appseed.us/)
 
-## ✨ What is [AppSeed](https://appseed.us)
-
-AppSeed is a platform that uses automation tools to generate _production-ready seed projects_ enhanced with basic modules, authentication, database, and deployment scripts on top of modern UI kits provided by our amazing partners: [Creative-Tim](https://appseed.us/agency/creative-tim/), [CodedThemes](https://appseed.us/agency/codedthemes/), [Themesberg](https://appseed.us/agency/themesberg/), and other well-known [agencies](https://appseed.us/agency/).
+> **Research and Innovation-oriented StartUp** for developers - `Read more` about the [team](https://appseed.us/about/) and service [terms](https://appseed.us/terms/). 
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
+![AppSeed - Automation platform for developers.](https://user-images.githubusercontent.com/51070104/204030603-db09a5f3-41ef-4cc4-8564-07abb9a64f53.png)
 
 
-Such projects can be used in many contexts by developers and designers:
+## [About](https://appseed.us/about/) 
 
-* Start a new project and code specific features on top of the existing codebase
-* Extract and integrate the UI files into a legacy project
-* Beginners can use the codebase for learning purposes
+**AppSeed** is a platform that uses in-house developed automation tools to cut the manual work usually involved in web development. 
 
-Starters are provided in different patterns and technologies under permissive (MIT, LGPL) or commercial licenses:
+The **[App Generator](https://appseed.us)** is an automated workflow that consumes flat, lifeless UI Kits and builds starters in different patterns and languages: MVC, two-tier architecture, full-stack,SPA ..etc. 
 
-* 👉 [Open-source dashboards](https://appseed.us/admin-dashboards/open-source/) generated in [Flask](https://appseed.us/admin-dashboards/flask/) and [Django](https://appseed.us/admin-dashboards/django/)
-* 👉 [Web Apps](https://appseed.us/apps/) powered by [Flask](https://appseed.us/apps/flask/), and [Django](https://appseed.us/apps/django/)
-* 👉 Full-Stack applications that use [React](https://appseed.us/apps/react/) as a frontend engine
-* 👉 API Servers for [NodeJS](boilerplate-code/api-server/node-js.md), [Flask](boilerplate-code/api-server/flask.md) and [Django](boilerplate-code/api-server/django.md).
-* 👉 [Tools for Developers](broken-reference/): API Generators, Dynamic Datatables, UI Tester
+> 👉 Read the [full story](https://medium.com/@appseed.us/appseed-2019-status-and-further-steps-7517dab886d4) published on `Medium`
 
-## ✨ [Support](https://appseed.us/support/)
+The product is `self-funded`, mainly `driven` by **open-source** and **comunity members** connected to the service via diferrent funnels (`Email`, `Newletter`) and [Discord](https://discord.gg/fZC6hup) (1k+ members).  
 
-Support is an important part of our business model. A good product, in order to be useful, should have good support.
 
-* **Email Support** <_support @ appseed.us>_ - 6h (or less) response time
-* **24/7 LIVE Support** via [Discord](https://discord.com/invite/fZC6hup)
+ ## `Services` and [Products](https://appseed.us/admin-dashboards/open-source/)
 
-## ✨ Latest Products
+- 🚀 **[PRO Accounts](https://appseed.us/terms/)** via `$49/yr` (annual subscription)
+  - **40%OFF** applicable to `all products` & licenses
+  - **24/7** fast support via Email and `Discord`
+  - **Private Access** to all internal [tools](https://appseed.us/developer-tools/): [OpenAPI Editor](https://appseed.us/generator/openapi/), parsers and `generators`.
+- 🎁 Permanent [Discounts](https://appseed.us/discounts/): `Black PRO`, `Argon BS4 PRO`, `Gradient Able`
+- ✅ [App Generator](https://appseed.us/generator/) - build full-stack apps (`free service`)
+- ✅ [OpenApi](https://appseed.us/generator/openapi/) - in-browser editor (`free service`)
+- ✅ [Developer tools](https://appseed.us/developer-tools/): `Dynamic Services` and [API generators](https://appseed.us/developer-tools/django-dynamic-api/)
+- ✅ Pre-Built [admin dashboards](https://appseed.us/admin-dashboards/open-source/) - `free` & `paid` 
+- ✅ [Free Apps](https://appseed.us/apps/free/) of `Flask`, `Django`, [React](https://appseed.us/apps/react/) and `FastAPI` 
+- ⚙️ [Support](https://appseed.us/support/), available in `two layers`: 
+  - `Free`: monday-friday, Email & Discord, 10-18 EET
+  - `PRO`: **24/7** fast support 🚀, [PRO accounts](https://appseed.us/terms/) ONLY  
 
-* [Django Template Volt](boilerplate-code/django-templates/volt-dashboard.md) - open-source admin template styled with Bootstrap5
-* [React Node JS Berry](products/react/node-js-berry-dashboard.md) - Open-source full-stack product
-* [React Node JS Datta Able](products/react/node-js-datta-able.md) - Open-source full-stack product
-* [React Node JS Datta PRO](products/react/node-js-datta-able-pro.md) - Premium seed project
-* [Full-Stack Berry PRO](products/full-stack/react-berry-dashboard.md) - premium Material-UI design powered by multiple API Backends
 
-![Berry Dashboard - Premium Full-stack Starter](.gitbook/assets/fullstack-berry-dashboard-charts-xs.jpg)
+![Web Apps & Dashboards generated by AppSeed.](https://user-images.githubusercontent.com/51070104/204031133-d8825143-c061-4e44-b2b5-2a5ce36c0db1.png)
 
-## ✨ AppSeed for Beginners
-
-* This [Minimal Programming Kit](content/tutorials/minimal-programming-kit.md) includes a few essential libraries and tools
-* [Django for Beginners](content/tutorials/django-for-beginners.md) - a nice tutorial that covers the basics
-* [Django Forms](content/tutorials/django-forms.md) - explains how to define and use forms in Django
-* [Django Request Object](content/tutorials/django-request-object.md) - learn how to manage request parameters with ease
-* [Django Authentication System](content/tutorials/django-authentication-system.md) - learn how to create users with ease
-* [Getting started with Flask](content/getting-started-with/flask.md) - code a simple web app in a few minutes
-* [Getting started with Next JS](content/getting-started-with/next-js.md) - learn how to code a simple, one-page project
-* Tutorials and Free Samples published on Github, actively supported by our team:
-  * [How to set up Ubuntu for coding](content/how-to/setup-ubuntu-for-development.md)
-  * [How to Install Python](content/how-to/install-python.md)
-  * [How to Install Django](content/tutorials/django-how-to-install.md)
-  * [Showcase charts in Django](samples/django/django-sales-charts.md)
-* Ask for support in [Discord](https://discord.gg/fZC6hup) - for registered [AppSeed](https://appseed.us) users.
-
-## 🚀 **Where to go from here**
-
-* Browse [AppSeed](https://appseed.us) and find a starter for your next project
-* Access the [support](https://appseed.us/support/) page in case you need help
