@@ -1,5 +1,5 @@
 ---
-description: App Generator - the official documentation.
+description: The official documentation of the service.
 ---
 
 # [AppSeed](https://appseed.us/)
