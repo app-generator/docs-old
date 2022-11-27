@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.3] 2022-11-27
+### Changes
+
+- Update [Support](./support.md) page. New tiers added: 
+  - ✅ `Free`: Monday-Friday, `Email` & `Discord`, 10-18 EET (East European Time)
+  - 🚀 `PRO`: **24/7** `fast support`, [PRO accounts](https://appseed.us/terms/) ONLY  
+
 ## [1.0.2] 2022-11-27
 ### Changes
 
