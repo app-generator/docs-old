@@ -7,13 +7,6 @@ description: Premium seed project built in Flask on top of Soft UI Dashboard (PR
 Made of hundred of elements, designed blocks, and fully coded pages, [**Soft UI Dashboard PRO**](https://appseed.us/product/flask-soft-ui-dashboard-pro) is ready to help you create stunning websites and web apps. `Soft UI Dashboard PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
-
-
 > Features
 
 * `Up-to-date dependencies`: **Flask 2.0.1**

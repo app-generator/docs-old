@@ -7,13 +7,6 @@ description: How To showcase information in Django
 To display data on a chart, you must extract data from your model or anywhere else and send it to the JS function as JSON. For example, I did this through the following work flow:
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
-
-
 > **Step #1 -** Make a Model
 
 I want to show my product sales report on the Chart. To do this, I created a model with the following structure in `models.py`:

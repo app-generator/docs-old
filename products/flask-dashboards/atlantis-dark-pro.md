@@ -9,13 +9,6 @@ description: >-
 Atlantis is a beautiful and elegant Bootstrap 4 admin dashboard designed to manage and visualize data about your business. Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
-
-
 > Features
 
 * Codebase - [Flask Dashboard Boilerplate](../../boilerplate-code/flask-dashboard.md)

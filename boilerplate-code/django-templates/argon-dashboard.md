@@ -13,13 +13,6 @@ Modern template for **Django Admin Interface** coded on top of **Argon Dashboard
 * [Django Argon Dashboard](https://github.com/app-generator/django-argon-theme-playground) - `playground project`
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
-
-
 ## Why `Django Argon Design`
 
 * Modern `Bootstrap 5` Design

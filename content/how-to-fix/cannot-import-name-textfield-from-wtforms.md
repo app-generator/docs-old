@@ -40,13 +40,6 @@ pip install WTForms==2.3.3
 Using an older version provides a quick fix for your codebase but is not recommended in the long run.&#x20;
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
-
-
 ### Resources
 
 * [WTForms](https://wtforms.readthedocs.io/en/3.0.x/) - official documentation

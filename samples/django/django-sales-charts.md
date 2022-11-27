@@ -7,13 +7,6 @@ description: Open-source Django sample provided by AppSeed on top of Argon Dashb
 Open-source Sample provided on top of [**Argon Dashboard Django**](https://bit.ly/3si4e7q) (free product). **Django Argon Charts** sample provides functional code that shows different metrics regarding a 12mo timeframe: total sales, total orders, best sale, and best month (in sales value). Information is provided using charts, widgets and a paginated data table that allows editing/adding new sales.
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
-
-
 > Features:
 
 * Manage orders and display the information visually using charts and widgets

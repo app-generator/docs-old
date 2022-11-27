@@ -7,13 +7,6 @@ description: How to setup a Django project to run in Docker
 This page explains how to Dockerize a Django application with ease. For newcomers, Django is a leading web framework crafted in Python and Docker is a virtualization software used to isolate the execution of a  service or product using virtual containers.&#x20;
 
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
-
-> The [campaign](https://appseed.us/discounts/)  is active until `30.NOV` and applies to all products and licenses.
-
-<figure><img src="https://user-images.githubusercontent.com/51070104/202682043-511f672d-76a2-404c-9601-ce4b77825454.jpg" alt="Discounts - 75% OFF (Black Friday Offer)"><figcaption><p>Black Friday - 75%OFF </p></figcaption></figure>
-
-
 ### Adding Docker
 
 First of all, make sure you have Docker installed and running on your machine. Refer to the official [documentation](https://docs.docker.com/engine/install/) and follow the steps.
