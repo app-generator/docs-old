@@ -22,7 +22,7 @@ The product is `self-funded`, mainly `driven` by **open-source** and **comunity 
  ## `Services` and [Products](https://appseed.us/admin-dashboards/open-source/)
 
 - 🚀 **[PRO Accounts](https://appseed.us/terms/)** via `$49/yr` (annual subscription)
-  - **40%OFF** applicable to `all products` & licenses
+  - **30%OFF** applicable to `all products` & licenses
   - **24/7** fast support via Email and `Discord`
   - **Private Access** to all internal [tools](https://appseed.us/developer-tools/): [OpenAPI Editor](https://appseed.us/generator/openapi/), parsers and `generators`.
 - 🎁 Permanent [Discounts](https://appseed.us/discounts/): `Black PRO`, `Argon BS4 PRO`, `Gradient Able`
