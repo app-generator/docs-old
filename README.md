@@ -1,14 +1,12 @@
----
-description: The official documentation of the service.
----
-
 # [AppSeed](https://appseed.us/)
 
 > **Research and Innovation-oriented StartUp** for developers - `Read more` about the [team](https://appseed.us/about/) and service [terms](https://appseed.us/terms/). 
 
+<br />
 
-![AppSeed - Automation platform for developers.](https://user-images.githubusercontent.com/51070104/204030603-db09a5f3-41ef-4cc4-8564-07abb9a64f53.png)
+> This REPO is obsolete. The [official documentation](https://docs.appseed.us/) is managed by `Docusaurus`.   
 
+<br />
 
 ## [About](https://appseed.us/about/) 
 
